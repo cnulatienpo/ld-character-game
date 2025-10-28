@@ -1,0 +1,861 @@
+[
+  {
+    "id": "f991274a-cd06-4dcb-9d1a-864dbbed82b4",
+    "key": "mentor_bundle_header",
+    "title": "The Mentor — Bundle Header",
+    "type": "bundle:header",
+    "concept": "mentor",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro",
+        "conflict_intro",
+        "stakes_intro",
+        "theme_intro",
+        "voice_intro"
+      ]
+    },
+    "compat_index": {
+      "expects_prior_keys": [
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ],
+      "notes": "Mentor references conflict/stakes/theme/voice; surface only when those terms unlock."
+    }
+  },
+  {
+    "id": "02207e8e-49e8-45bb-ae40-00fac678e905",
+    "key": "mentor_intro",
+    "title": "The Mentor — what it is",
+    "concept": "mentor",
+    "type": "lesson:intro",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "archetypal_character_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Defines the Mentor as guidance pressure: a force that clarifies, challenges, and then exits. Not always a person — can be a rule, a place, a ritual, a message, or a brief collision that leaves a mark."
+  },
+  {
+    "id": "010de441-e710-48de-b276-63612a61bc45",
+    "key": "mentor_why_matters",
+    "title": "Why the Mentor matters",
+    "concept": "mentor",
+    "type": "lesson:why",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Without mentoring pressure, growth drifts. Mentors frame risks, name the work, and aim the change — so choices mean something."
+  },
+  {
+    "id": "ef37cdd2-614f-4d47-a474-dd45283ed4d6",
+    "key": "mentor_misunderstood",
+    "title": "How the Mentor is misunderstood",
+    "concept": "mentor",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_why_matters",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Clichés: wise old wizard, perfect teacher, forever sidekick. Reframe mentorship as temporary leverage that can be kind, cruel, chaotic, or accidental — and leaves when it’s no longer needed."
+  },
+  {
+    "id": "fe9c6331-9127-4cd7-8071-d753984bb473",
+    "key": "mentor_powers_everything",
+    "title": "How the Mentor powers the story",
+    "concept": "mentor",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_misunderstood",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Mentor influence interacts with conflict, stakes, theme, and voice: it sharpens what hurts, what matters, what the story believes, and how it sounds. Terms are gated and defined when unlocked.",
+    "crossrefs_gate_later": [
+      "conflict",
+      "stakes",
+      "theme",
+      "voice"
+    ]
+  },
+  {
+    "id": "2034d120-1154-4b87-b9e0-1fae0f83c580",
+    "key": "mentor_examples_index",
+    "title": "Mentor examples (reference)",
+    "concept": "mentor",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "examples": [
+      "Yoda (Star Wars)",
+      "Morpheus (The Matrix)",
+      "Haymitch (Hunger Games)",
+      "Giles (Buffy)",
+      "Alfred (Batman)",
+      "Mr. Miyagi (Karate Kid)",
+      "Tio Nacho (Coco)",
+      "The Fleabag Priest",
+      "Splinter (TMNT)",
+      "Iroh (ATLA)",
+      "Coach Taylor (Friday Night Lights)",
+      "Furiosa-as-mentor (Fury Road)",
+      "Talia Shire/Adrian moments (Rocky)",
+      "Doctor in 'Station Eleven' (to Kirsten)"
+    ]
+  },
+  {
+    "id": "56bd64b2-4484-4b3a-8c9e-c2ca96598313",
+    "key": "mentor_behavior_force_growth",
+    "title": "How to spot the Mentor — they force growth",
+    "concept": "mentor",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "behavior_controls": [
+      "force_growth"
+    ],
+    "summary": "Applies pressure, sets tests, or removes comfort so change becomes necessary.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Set a timed test",
+          "Remove a safety net",
+          "Expose a blind spot",
+          "Hand over a tool with a cost"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral maneuvers to express force without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "Moment is concrete and observable.",
+        "pressure": "Guidance increases decision pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "One clear instance of force.",
+        "2": "FORCE links to a decision with visible cost.",
+        "3": "FORCE reshapes the next moment or world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "force_growth",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a scene fragment where this mentorship behavior appears once. No length cap. Don’t explain it; let the guidance create pressure.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "76227431-1b50-4a2a-b7cc-b773ab527ca5",
+    "key": "mentor_behavior_clarify_stakes",
+    "title": "How to spot the Mentor — they clarify stakes",
+    "concept": "mentor",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "behavior_controls": [
+      "clarify_stakes"
+    ],
+    "summary": "Names the true risk/cost so choices sharpen and urgency rises.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Speak the unsaid risk",
+          "Demonstrate cost in action",
+          "Reframe win/loss condition",
+          "Reveal who gets hurt"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral maneuvers to express clarify without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "Moment is concrete and observable.",
+        "pressure": "Guidance increases decision pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "One clear instance of clarify.",
+        "2": "CLARIFY links to a decision with visible cost.",
+        "3": "CLARIFY reshapes the next moment or world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "clarify_stakes",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a scene fragment where this mentorship behavior appears once. No length cap. Don’t explain it; let the guidance create pressure.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "86c335ce-ce92-4676-826f-450c0b2dd69a",
+    "key": "mentor_behavior_dont_stay",
+    "title": "How to spot the Mentor — they don’t stay",
+    "concept": "mentor",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "behavior_controls": [
+      "dont_stay"
+    ],
+    "summary": "Exits, fades, dies, or becomes obsolete — forcing independence.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Leave at midpoint",
+          "Refuse to answer",
+          "Die or depart with purpose",
+          "Become irrelevant on purpose"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral maneuvers to express don’t without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "Moment is concrete and observable.",
+        "pressure": "Guidance increases decision pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "One clear instance of don’t.",
+        "2": "DON’T links to a decision with visible cost.",
+        "3": "DON’T reshapes the next moment or world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "dont_stay",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a scene fragment where this mentorship behavior appears once. No length cap. Don’t explain it; let the guidance create pressure.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "f3586ce7-83a2-47fd-8bd5-5ce7df0e63a7",
+    "key": "mentor_strength_low",
+    "title": "Mentor strength — The gentle guide",
+    "concept": "mentor",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_behavior_force_growth",
+        "mentor_behavior_clarify_stakes",
+        "mentor_behavior_dont_stay",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "strength_controls": [
+      "low"
+    ],
+    "summary": "Small nudge or reframe; a line, look, or tiny challenge that tilts the next choice.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible in consequence, scope, or permanence.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency correctly identified.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "force_growth",
+        "clarify_stakes",
+        "dont_stay"
+      ],
+      "strength": "low"
+    },
+    "assignment": {
+      "prompt": "Rewrite any prior fragment at this strength. Use action or environment to make guidance potency legible — no labels.",
+      "expectations": [
+        "Strength reads without naming it.",
+        "The next beat feels altered."
+      ]
+    }
+  },
+  {
+    "id": "1e37723e-8661-487c-ab4c-8b2f67644cc2",
+    "key": "mentor_strength_medium",
+    "title": "Mentor strength — The real guide",
+    "concept": "mentor",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_behavior_force_growth",
+        "mentor_behavior_clarify_stakes",
+        "mentor_behavior_dont_stay",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "strength_controls": [
+      "medium"
+    ],
+    "summary": "Shapes choices and behavior; mid-arc pivot is visible; independence is approaching.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible in consequence, scope, or permanence.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency correctly identified.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "force_growth",
+        "clarify_stakes",
+        "dont_stay"
+      ],
+      "strength": "medium"
+    },
+    "assignment": {
+      "prompt": "Rewrite any prior fragment at this strength. Use action or environment to make guidance potency legible — no labels.",
+      "expectations": [
+        "Strength reads without naming it.",
+        "The next beat feels altered."
+      ]
+    }
+  },
+  {
+    "id": "8cb74f52-577f-4779-a912-b935fb2badd4",
+    "key": "mentor_strength_high",
+    "title": "Mentor strength — The world-shaping force",
+    "concept": "mentor",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_behavior_force_growth",
+        "mentor_behavior_clarify_stakes",
+        "mentor_behavior_dont_stay",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "strength_controls": [
+      "high"
+    ],
+    "summary": "Redefines destiny or ideology; the world or role changes after this guidance.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible in consequence, scope, or permanence.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency correctly identified.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "force_growth",
+        "clarify_stakes",
+        "dont_stay"
+      ],
+      "strength": "high"
+    },
+    "assignment": {
+      "prompt": "Rewrite any prior fragment at this strength. Use action or environment to make guidance potency legible — no labels.",
+      "expectations": [
+        "Strength reads without naming it.",
+        "The next beat feels altered."
+      ]
+    }
+  },
+  {
+    "id": "30affef9-71bc-4ad9-9e15-badaf0dfa8db",
+    "key": "mentor_toolkit",
+    "title": "Mentor dials — scale and shape guidance",
+    "concept": "mentor",
+    "type": "toolkit",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_strength_low",
+        "mentor_strength_medium",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "tools": [
+      {
+        "dial": "Scale guidance",
+        "direction": "+/-",
+        "note": "From private nudge to public doctrine."
+      },
+      {
+        "dial": "Shift nature",
+        "direction": "+/-",
+        "note": "Person ↔ place ↔ ritual ↔ message ↔ memory."
+      },
+      {
+        "dial": "Timing",
+        "direction": "+/-",
+        "note": "Early lesson vs late rescue vs final withdrawal."
+      },
+      {
+        "dial": "Intentionality",
+        "direction": "+/-",
+        "note": "Conscious teacher vs accidental mentor."
+      },
+      {
+        "dial": "Multiplicity",
+        "direction": "+/-",
+        "note": "One mentor vs rotating chorus."
+      },
+      {
+        "dial": "Visibility",
+        "direction": "+/-",
+        "note": "Explicit advice vs silent example."
+      }
+    ],
+    "assignment": {
+      "prompt": "Take any mentorship scene you wrote. Create two alternates by moving one dial + and another −. Focus on how pressure changes, not plot.",
+      "expectations": [
+        "Two distinct versions exist.",
+        "Guidance quality changes without changing premise."
+      ]
+    }
+  },
+  {
+    "id": "2dc8b22e-27b7-4c5c-86bc-161f044327bb",
+    "key": "mentor_for_writers",
+    "title": "For writers — diagnosing your guidance engine",
+    "concept": "mentor",
+    "type": "lesson:reflection",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "mentor_toolkit",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "villain_intro"
+      ]
+    },
+    "summary": "Quick self-diagnosis: What guidance made you different? What would it cost your character to receive — or refuse — that kind of guidance?",
+    "assignment": {
+      "prompt": "Free-write a rant from the mentor’s POV explaining why departure is necessary. Don’t make it noble — make it inevitable.",
+      "expectations": [
+        "A coherent mentoring logic emerges.",
+        "The mentee’s independence becomes necessary."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  }
+]

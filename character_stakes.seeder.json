@@ -1,0 +1,721 @@
+[
+  {
+    "id": "2111a8bd-010c-4e3b-9677-8cb3fe52d0ab",
+    "key": "stakes_bundle_header",
+    "title": "Character Stakes — Bundle Header",
+    "type": "bundle:header",
+    "concept": "stakes",
+    "scope": "character",
+    "cross_reference": [
+      "character",
+      "world",
+      "story",
+      "systemic",
+      "situational"
+    ],
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "motivation_intro",
+        "decision_intro",
+        "change_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "ui_axes": {
+      "axes": [
+        {
+          "key": "personal",
+          "label": "Personal Stakes",
+          "description": "What the character stands to lose or gain internally (identity, love, pride, belonging)."
+        },
+        {
+          "key": "external",
+          "label": "External Stakes",
+          "description": "What the character stands to lose or gain in the world (job, freedom, safety, mission)."
+        }
+      ]
+    }
+  },
+  {
+    "id": "bf6ca7ef-f1db-4379-b2c1-0e9fdbfbfcc7",
+    "key": "stakes_intro",
+    "title": "Stakes — what it is",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:intro",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "51df746b-7a5c-4dff-9955-0a9ef6d42116",
+    "key": "stakes_makes",
+    "title": "What makes stakes (personal vs external)",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "0d7093d6-8b82-4132-81b8-943fc3fd9a69",
+    "key": "stakes_you",
+    "title": "You know what it's like to have something at stake",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:reflection",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "27671443-4ccb-4db4-a6cb-907fd6c13d3c",
+    "key": "stakes_matters",
+    "title": "Why stakes matter",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:why",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "6a38332a-6231-4bc3-851e-647d6baa1105",
+    "key": "stakes_fail",
+    "title": "Why stories fail without stakes",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:why_not",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_matters"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "6e1ee2f4-f7af-49aa-91b5-3844fad88520",
+    "key": "stakes_misunderstood",
+    "title": "How stakes are misunderstood",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_matters"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "d3ae3047-9cf1-4c23-809a-10cdb41da6ca",
+    "key": "stakes_powers",
+    "title": "How stakes power everything (gated refs)",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_misunderstood"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "desire",
+        "conflict",
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "action",
+        "symbol"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "20e5ea62-36c1-4b62-aa34-d17b2a45c24b",
+    "key": "stakes_examples",
+    "title": "Stakes — pop culture index",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_intro"
+      ]
+    },
+    "source_md": ""
+  },
+  {
+    "id": "dd133eee-0ce7-4a32-8189-218f2c477fee",
+    "key": "stakes_behavior_say",
+    "title": "Character stakes — They SAY what's at stake",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "say"
+    ],
+    "source_md": "They SAY What’s at Stake\n\nSometimes, the stakes of a story walk right in the front door and announce themselves. A character, narrator, or even the world itself makes it clear—this is what could be lost, won, broken, saved, or destroyed. When a story is honest about what matters, everyone (characters, readers, viewers) knows what the risk is. This is the simplest, loudest version of stakes: they get spoken out loud, written into dialogue, tattooed across the plot. There’s no need for subtext or detective work; the story just tells you, straight up, what’s on the line.\n\nWhat Does It Look Like?\n\nA character says exactly what will happen if they fail: “If we lose this game, we’re done.”\n\nSomeone makes a vow or a threat: “If you tell anyone, I’ll never forgive you.”\n\nThe terms of a challenge or quest get spelled out: “Bring me the heart of the dragon, and I’ll let your family go.”\n\nA warning is issued: “You mess this up, you’re fired.”\n\nThe “rules” are explained, so you know what happens if they’re broken: “If the sun rises and we’re still here, we die.”\n\nEven a moment of honesty or vulnerability can make the stakes explicit: “If you leave, I don’t know how I’ll go on.”\n\nOr, it’s a big-picture risk: “If this mission fails, the whole world burns.”\n\nAny time someone lays out what’s at risk—loss, gain, humiliation, love, life, reputation, happiness, safety, the fate of the world—they’re saying what’s at stake. This makes the tension real, the goal visible, and the consequences sharp.\n\nWhy Writers Use It\nSaying the stakes out loud does a few essential things. First, it gives the audience a reason to care—now you know what’s on the line, what could break, what needs protecting. It draws a border around the possible outcomes and tells you what matters most in the story. It also gives weight to every action, because you know what’s at risk if it all goes wrong (or right).\n\nMaking stakes explicit is a way of focusing the reader’s attention. There’s no confusion about why this matters, or why the character is willing to fight, run, risk, or confess. It sets the tone for the whole story: this isn’t just about what happens, but about what it costs.\n\nWhat to Listen For\n\n“If I don’t get this job, I can’t pay my rent.”\n\n“If you leave now, you’ll never see me again.”\n\n“If the serum isn’t ready by midnight, my sister dies.”\n\n“I have to win. I have to prove I’m not a failure.”\n\n“We only have one shot at this.”\n\n“If I mess this up, everyone will know I’m a fraud.”\n\n“Promise me you’ll come back.”\n\n“If this secret gets out, it could ruin everything.”\n\nLook for direct statements of what’s on the line—consequences, threats, warnings, hopes, and the moment someone admits what they’re really risking. When you see or hear these, the story has just told you where to focus.\n\nWhy It Matters\nWhen the stakes are stated, everything in the story suddenly gets sharper. Every obstacle, every setback, every victory or loss is measured against what was said. The reader knows what to root for, what to fear, and what could break if things go wrong. It lets you track the emotional current of the story and invest in what happens next.\n\nExplicit stakes also make characters vulnerable. If you say what matters, you open the door to loss, pain, and disappointment. But you also open the possibility of hope, triumph, and real connection. It’s honest, risky, and sometimes dangerous to admit what’s truly at stake.\n\nWhere You’ll See It: Pop Culture Examples\n\nThe Lord of the Rings: “If we fail, Sauron will cover all the lands in a second darkness.” (Everyone knows what’s at risk.)\n\nArmageddon: “If we don’t destroy the asteroid, life on Earth ends.” (No bigger stakes.)\n\nThe Hunger Games: “If you die, I’ll never forgive myself.” (Katniss, Rue—personal and immediate stakes.)\n\nHamilton: “I am not throwing away my shot.” (Hamilton states his ambition and what it’ll cost.)\n\nFinding Nemo: “If I lose you, I’ll never forgive myself.” (Marlin’s fear is the core stake.)\n\nHarry Potter and the Sorcerer’s Stone: “There is no good and evil, there is only power, and those too weak to seek it.” (Voldemort’s line spells out the moral stakes.)\n\nSpeed: “If the bus drops below 50 miles an hour, it explodes.” (The stakes literally tick down every second.)\n\nHow It Changes the Story\nWhen the stakes are out in the open, there’s no hiding, no ambiguity. Every character’s choices can be weighed against what’s on the line. Tension ramps up, because now the audience knows exactly what’s at risk. Every delay, every failure, every success carries meaning. Even if the story twists and the stakes evolve, you always have a baseline for why everything matters.\n\nStated stakes can also be used to mislead or challenge expectations—the character might think they know what’s at stake, but the story could reveal something deeper later on. Either way, the moment the risk is spoken, the story’s engine gets a jolt.\n\nFor Writers\nDon’t be afraid to let your characters say what’s at risk. Let them be honest about what matters, what could break, what they stand to lose or win. If you ever feel your story stalling, try letting someone say what’s really at stake—and watch everything sharpen up.\n\nHow to Spot Stakes in the Wild\n2. They SHOW What’s at Stake\n\nStakes aren’t always declared in speeches or threats—they’re often revealed in the choices characters make, the things they protect, the lines they won’t cross, and the costs they’re willing to pay. This is the heartbeat of story tension: you see what matters by what people do, risk, hide, or fight for. Sometimes nobody ever names the real risk out loud. Instead, the audience feels it in every action, sacrifice, or near-miss.\n\nWhat Does It Look Like?\n\nA character breaks the law or betrays a friend to save someone they love—what they’re willing to lose or risk is the stake.\n\nSomeone stays up all night watching over a sick relative, even if it means losing their job the next day.\n\nThe hero gives up the winning move in a game to spare a rival’s feelings, revealing that friendship or empathy matters more than victory.\n\nA secret is kept, even at great personal cost, because exposure would destroy a family, a job, or a reputation.\n\nA parent quietly skips meals so their kid can eat—the audience sees what’s at stake in the smallest actions.\n\nA character refuses to confess to a crime, enduring jail time or worse, to protect someone else.\n\nIn horror or thrillers, the way people panic, hide, or sacrifice themselves shows exactly how high the stakes are, even when they can’t say it out loud.\n\nTwo friends grow distant, and the awkward silences, missed calls, or changed routines tell you what’s at risk long before anyone admits it.\n\nAny time a character puts something on the line—safety, pride, love, health, time, dignity, even life itself—without having to spell it out, you’re seeing the stakes in motion.\n\nWhy Writers Use It\nShowing the stakes rather than saying them draws the audience deeper. It lets readers or viewers feel clever, trusted, and involved—piecing together the risk from clues, tension, and consequences. Action is honest; people can lie about what’s at risk, but what they do almost always tells the truth.\n\nThis approach also creates emotional weight. If a character quietly sacrifices something precious, or risks it all for a tiny chance, you feel the heat of what matters. Stakes become visceral: you worry, hope, fear, and root for them in a way that’s deeper than any line of dialogue could conjure.\n\nWhat to Watch For\n\nSacrifice: Giving up comfort, safety, money, love, or reputation, often without explanation.\n\nRepeated action: Returning to a risky place, habit, or person, because walking away costs too much.\n\nBody language: Shaking hands, tears, lingering at a door, pacing, all show inner risk and value.\n\nAvoidance: Refusing to act or speak, because doing so would risk everything.\n\nRecklessness: Taking wild chances—because the alternative is even worse.\n\nPrivate rituals: Saving a letter, hiding a photograph, clinging to a memento. The audience senses what could be lost.\n\nPatterns of protection: A character is always watching, guarding, or circling back to someone or something—they don’t need to say why.\n\nSilence: Sometimes, what isn’t done or said shows the most.\n\nWhy It Matters\nWhen stakes are shown, the audience invests on a gut level. You don’t just know what matters; you feel it. This makes tension more real, the risks more immediate, and the payoff more satisfying (or devastating). You’re not just told what’s at risk—you witness it in every look, gesture, mistake, and sacrifice.\n\nThis also gives stories depth. Sometimes the most moving stakes are never spoken at all—the unsent letter, the photo hidden in a drawer, the time someone stands outside a loved one’s door and doesn’t knock. The more important something is, the less likely a character may be to name it outright.\n\nWhere You’ll See It: Pop Culture Examples\n\nThe Road (Cormac McCarthy): A father and son’s silent rituals—sharing food, carrying a gun with one bullet, never saying what would happen if one of them dies. Every step is a silent scream of what’s at stake.\n\nBuffy the Vampire Slayer: Buffy sneaks out at night, endures isolation, and risks her life over and over. She rarely names her fear of losing friends or her need for a normal life, but her actions say it all.\n\nSpider-Man 2: Peter Parker gives up Mary Jane and his powers, quietly sacrificing happiness to keep others safe. The cost is visible in every missed moment, every hurt expression.\n\nEternal Sunshine of the Spotless Mind: Joel and Clementine don’t say what they’ll lose if they erase each other from memory. You see it in every flashback, every desperate attempt to hold onto love.\n\nBreaking Bad: Skyler laundering money, Walt lying to his family, Jesse relapsing—every action is a dance around the terrifying risk of discovery and ruin.\n\nFargo: Marge Gunderson’s kindness, calm, and relentless pursuit of truth say more about what’s at stake than any speech.\n\nHow It Changes the Story\nShowing stakes makes a story breathe and ache. It invites the audience into the space between words, letting them participate in the tension and meaning. The story feels truer—because in real life, we rarely name our risks, but our choices show what matters.\n\nIt also multiplies the power of reversals, victories, or losses. When the audience has seen what’s at risk, every outcome lands harder. Sometimes, a silent sacrifice or failed attempt at connection hits deeper than any confession.\n\nFor Writers\nLet your characters show what’s at risk. Make them act out their priorities, make choices that cost, and let the losses or dangers leak out in what they do, not just what they say. If you can show the stakes in motion, your story will always have tension, even when the room is silent.\n\nHow to Spot Stakes in the Wild\n3. They HIDE What’s at Stake\n\nSometimes the most important things in a story aren’t said or shown directly—they’re hidden, denied, or buried so deep the character can’t (or won’t) face them. Stakes that stay underground make stories sharp, tense, and sometimes heartbreaking. This is where the reader or audience senses risk without being told what it is—picking up on avoidance, self-sabotage, secrets, and contradictions.\n\nWhat Does It Look Like?\n\nA character cracks jokes or changes the subject every time someone brings up what matters.\n\nSomeone sabotages a relationship, project, or dream before it can fail—better to wreck it themselves than risk the loss.\n\nA person overworks, gets lost in distractions, or creates drama to keep from facing what’s really at risk.\n\nDenial: Insisting, “It’s not a big deal,” “I don’t care,” or “Nothing’s wrong”—even when everything is on the line.\n\nRage, withdrawal, or cruelty that seems out of proportion—masking fear of loss or humiliation.\n\nNever naming the true cost: a parent pushes their kid away so they won’t have to feel abandoned if the kid leaves.\n\nPerfectionism or endless “preparing”—so they never have to risk the thing that actually matters.\n\nSilence, coldness, or detachment when things get serious—if you don’t name it, maybe you won’t lose it.\n\nSometimes the character themselves doesn’t know what’s at stake, or can’t admit it. Sometimes the reader sees the risk before anyone on the page does. The tension is in what’s not said—the secret reason, the unspoken cost, the thing that could break everything if it came into the light.\n\nWhy Writers Use It\nHidden stakes create complexity, realism, and tension. People rarely admit what really matters, even to themselves. Hiding the stakes forces the audience to read between the lines, heightens the risk of every scene, and makes every choice feel loaded with meaning. It keeps the story alive beneath the surface.\n\nLetting stakes hide for a while also gives you somewhere to go—when the truth finally comes out, the impact is bigger, the fallout harsher, and the catharsis more powerful.\n\nWhat to Watch For\n\nAvoidance: Changing the subject, refusing to act, running from responsibility.\n\nDisplacement: Pouring energy into “safe” goals so they don’t have to risk the real one.\n\nOverreaction: Exploding over small stuff because the real risk is too scary to face.\n\nPassive-aggression: Sabotaging others or themselves rather than risking open failure.\n\nRituals and obsessions: Clinging to small routines when the big risks are too much.\n\nDistance: Keeping people, dreams, or vulnerability at arm’s length.\n\nBlame: Picking fights or blaming others to avoid feeling how much they have to lose.\n\nSecret-keeping: Hiding information, feelings, or history, even when honesty would help.\n\nWhy It Matters\nHidden stakes keep tension simmering. The audience can sense the landmines under every conversation or choice, even if the character pretends nothing’s wrong. This makes every scene crackle, because what’s unsaid is often the most dangerous.\n\nHidden stakes also make characters more human—flawed, scared, vulnerable. Everybody hides what matters sometimes. When readers recognize themselves in a character’s denial or fear, the story cuts deeper.\n\nWhere You’ll See It: Pop Culture Examples\n\nMad Men (Don Draper): Hides the risk of losing his secret life, love, or sense of self—his stakes are rarely named but drive every drink, affair, and meltdown.\n\nFleabag: Jokes, sexual bravado, and chaos hide a terror of real intimacy and grief. The audience knows the cost even when she can’t say it.\n\nThe Godfather (Michael Corleone): Denies caring about the family business, but every cold choice masks the real risk—losing himself and his family.\n\nBoJack Horseman: Sabotages relationships and happiness so he never has to risk being truly seen (and rejected).\n\nEternal Sunshine of the Spotless Mind: Both leads erase memories to avoid facing the pain of real loss, but the risk leaks through in every half-remembered image.\n\nFrozen (Elsa): Hides from everyone to avoid risking harm to those she loves—but her silence and isolation create bigger risks.\n\nSuccession: Characters lie, scheme, and hurt each other to avoid facing what they might lose if they’re honest (power, love, self-worth).\n\nThe Sopranos: Tony’s therapy, violence, and affairs cover the real terror—losing control, losing his family, losing himself.\n\nHow It Changes the Story\nHidden stakes are dynamite under the floorboards. Every line, silence, or joke could be a cover for what might explode if the truth gets out. When the stakes finally break the surface—whether in a confession, betrayal, or breakdown—the result is explosive. But even if they never do, the threat hums through the whole story.\n\nHidden stakes also invite the reader to become a detective—searching for clues, testing theories, caring more because they’re part of the process. The payoff is bigger because you worked for it.\n\nFor Writers\nLet your characters hide what matters. Make them run, fight, or self-destruct before they ever say what’s truly at risk. Trust your readers to feel the tension, sense the danger, and dig for meaning. When the truth finally comes out—if it does—it’ll land like a bomb. If it never does, the ache lingers, and sometimes that’s the real point.\n\nAlright, here’s the **Strength Levels** section for **Stakes**, mirroring the depth and style of Desire and Conflict. If you want each strength level split into separate messages for easier copy/paste, just say so.\n\n---",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "State the risk plainly",
+          "Name the price of failure",
+          "Voice a vow with consequence"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers that raise, lower, reveal, or conceal stakes without inventing plot specifics.",
+      "axes": [
+        {
+          "key": "personal",
+          "label": "Personal Stakes",
+          "description": "What the character stands to lose or gain internally (identity, love, pride, belonging)."
+        },
+        {
+          "key": "external",
+          "label": "External Stakes",
+          "description": "What the character stands to lose or gain in the world (job, freedom, safety, mission)."
+        }
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "What is at stake is legible (even if hidden from other characters).",
+        "trace": "We can trace the stakes to a choice or pressure in the moment."
+      },
+      "strength_tiers": {
+        "1": "A clear signal of stakes appears (personal or external).",
+        "2": "Stakes connect causally to the next beat.",
+        "3": "Stakes reshape behavior or social weather going forward."
+      }
+    },
+    "ui_controls": {
+      "behavior": "say",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "axes": [
+        "personal",
+        "external"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where the stakes (personal or external) are legible via this behavior. Don’t label them—let the moment prove it.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "c746c2dc-8695-47d4-8fb2-f0958e2508c4",
+    "key": "stakes_behavior_show",
+    "title": "Character stakes — They SHOW what's at stake",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "show"
+    ],
+    "source_md": "They SHOW What’s at Stake\n\nStakes aren’t always declared in speeches or threats—they’re often revealed in the choices characters make, the things they protect, the lines they won’t cross, and the costs they’re willing to pay. This is the heartbeat of story tension: you see what matters by what people do, risk, hide, or fight for. Sometimes nobody ever names the real risk out loud. Instead, the audience feels it in every action, sacrifice, or near-miss.\n\nWhat Does It Look Like?\n\nA character breaks the law or betrays a friend to save someone they love—what they’re willing to lose or risk is the stake.\n\nSomeone stays up all night watching over a sick relative, even if it means losing their job the next day.\n\nThe hero gives up the winning move in a game to spare a rival’s feelings, revealing that friendship or empathy matters more than victory.\n\nA secret is kept, even at great personal cost, because exposure would destroy a family, a job, or a reputation.\n\nA parent quietly skips meals so their kid can eat—the audience sees what’s at stake in the smallest actions.\n\nA character refuses to confess to a crime, enduring jail time or worse, to protect someone else.\n\nIn horror or thrillers, the way people panic, hide, or sacrifice themselves shows exactly how high the stakes are, even when they can’t say it out loud.\n\nTwo friends grow distant, and the awkward silences, missed calls, or changed routines tell you what’s at risk long before anyone admits it.\n\nAny time a character puts something on the line—safety, pride, love, health, time, dignity, even life itself—without having to spell it out, you’re seeing the stakes in motion.\n\nWhy Writers Use It\nShowing the stakes rather than saying them draws the audience deeper. It lets readers or viewers feel clever, trusted, and involved—piecing together the risk from clues, tension, and consequences. Action is honest; people can lie about what’s at risk, but what they do almost always tells the truth.\n\nThis approach also creates emotional weight. If a character quietly sacrifices something precious, or risks it all for a tiny chance, you feel the heat of what matters. Stakes become visceral: you worry, hope, fear, and root for them in a way that’s deeper than any line of dialogue could conjure.\n\nWhat to Watch For\n\nSacrifice: Giving up comfort, safety, money, love, or reputation, often without explanation.\n\nRepeated action: Returning to a risky place, habit, or person, because walking away costs too much.\n\nBody language: Shaking hands, tears, lingering at a door, pacing, all show inner risk and value.\n\nAvoidance: Refusing to act or speak, because doing so would risk everything.\n\nRecklessness: Taking wild chances—because the alternative is even worse.\n\nPrivate rituals: Saving a letter, hiding a photograph, clinging to a memento. The audience senses what could be lost.\n\nPatterns of protection: A character is always watching, guarding, or circling back to someone or something—they don’t need to say why.\n\nSilence: Sometimes, what isn’t done or said shows the most.\n\nWhy It Matters\nWhen stakes are shown, the audience invests on a gut level. You don’t just know what matters; you feel it. This makes tension more real, the risks more immediate, and the payoff more satisfying (or devastating). You’re not just told what’s at risk—you witness it in every look, gesture, mistake, and sacrifice.\n\nThis also gives stories depth. Sometimes the most moving stakes are never spoken at all—the unsent letter, the photo hidden in a drawer, the time someone stands outside a loved one’s door and doesn’t knock. The more important something is, the less likely a character may be to name it outright.\n\nWhere You’ll See It: Pop Culture Examples\n\nThe Road (Cormac McCarthy): A father and son’s silent rituals—sharing food, carrying a gun with one bullet, never saying what would happen if one of them dies. Every step is a silent scream of what’s at stake.\n\nBuffy the Vampire Slayer: Buffy sneaks out at night, endures isolation, and risks her life over and over. She rarely names her fear of losing friends or her need for a normal life, but her actions say it all.\n\nSpider-Man 2: Peter Parker gives up Mary Jane and his powers, quietly sacrificing happiness to keep others safe. The cost is visible in every missed moment, every hurt expression.\n\nEternal Sunshine of the Spotless Mind: Joel and Clementine don’t say what they’ll lose if they erase each other from memory. You see it in every flashback, every desperate attempt to hold onto love.\n\nBreaking Bad: Skyler laundering money, Walt lying to his family, Jesse relapsing—every action is a dance around the terrifying risk of discovery and ruin.\n\nFargo: Marge Gunderson’s kindness, calm, and relentless pursuit of truth say more about what’s at stake than any speech.\n\nHow It Changes the Story\nShowing stakes makes a story breathe and ache. It invites the audience into the space between words, letting them participate in the tension and meaning. The story feels truer—because in real life, we rarely name our risks, but our choices show what matters.\n\nIt also multiplies the power of reversals, victories, or losses. When the audience has seen what’s at risk, every outcome lands harder. Sometimes, a silent sacrifice or failed attempt at connection hits deeper than any confession.\n\nFor Writers\nLet your characters show what’s at risk. Make them act out their priorities, make choices that cost, and let the losses or dangers leak out in what they do, not just what they say. If you can show the stakes in motion, your story will always have tension, even when the room is silent.\n\nHow to Spot Stakes in the Wild\n3. They HIDE What’s at Stake\n\nSometimes the most important things in a story aren’t said or shown directly—they’re hidden, denied, or buried so deep the character can’t (or won’t) face them. Stakes that stay underground make stories sharp, tense, and sometimes heartbreaking. This is where the reader or audience senses risk without being told what it is—picking up on avoidance, self-sabotage, secrets, and contradictions.\n\nWhat Does It Look Like?\n\nA character cracks jokes or changes the subject every time someone brings up what matters.\n\nSomeone sabotages a relationship, project, or dream before it can fail—better to wreck it themselves than risk the loss.\n\nA person overworks, gets lost in distractions, or creates drama to keep from facing what’s really at risk.\n\nDenial: Insisting, “It’s not a big deal,” “I don’t care,” or “Nothing’s wrong”—even when everything is on the line.\n\nRage, withdrawal, or cruelty that seems out of proportion—masking fear of loss or humiliation.\n\nNever naming the true cost: a parent pushes their kid away so they won’t have to feel abandoned if the kid leaves.\n\nPerfectionism or endless “preparing”—so they never have to risk the thing that actually matters.\n\nSilence, coldness, or detachment when things get serious—if you don’t name it, maybe you won’t lose it.\n\nSometimes the character themselves doesn’t know what’s at stake, or can’t admit it. Sometimes the reader sees the risk before anyone on the page does. The tension is in what’s not said—the secret reason, the unspoken cost, the thing that could break everything if it came into the light.\n\nWhy Writers Use It\nHidden stakes create complexity, realism, and tension. People rarely admit what really matters, even to themselves. Hiding the stakes forces the audience to read between the lines, heightens the risk of every scene, and makes every choice feel loaded with meaning. It keeps the story alive beneath the surface.\n\nLetting stakes hide for a while also gives you somewhere to go—when the truth finally comes out, the impact is bigger, the fallout harsher, and the catharsis more powerful.\n\nWhat to Watch For\n\nAvoidance: Changing the subject, refusing to act, running from responsibility.\n\nDisplacement: Pouring energy into “safe” goals so they don’t have to risk the real one.\n\nOverreaction: Exploding over small stuff because the real risk is too scary to face.\n\nPassive-aggression: Sabotaging others or themselves rather than risking open failure.\n\nRituals and obsessions: Clinging to small routines when the big risks are too much.\n\nDistance: Keeping people, dreams, or vulnerability at arm’s length.\n\nBlame: Picking fights or blaming others to avoid feeling how much they have to lose.\n\nSecret-keeping: Hiding information, feelings, or history, even when honesty would help.\n\nWhy It Matters\nHidden stakes keep tension simmering. The audience can sense the landmines under every conversation or choice, even if the character pretends nothing’s wrong. This makes every scene crackle, because what’s unsaid is often the most dangerous.\n\nHidden stakes also make characters more human—flawed, scared, vulnerable. Everybody hides what matters sometimes. When readers recognize themselves in a character’s denial or fear, the story cuts deeper.\n\nWhere You’ll See It: Pop Culture Examples\n\nMad Men (Don Draper): Hides the risk of losing his secret life, love, or sense of self—his stakes are rarely named but drive every drink, affair, and meltdown.\n\nFleabag: Jokes, sexual bravado, and chaos hide a terror of real intimacy and grief. The audience knows the cost even when she can’t say it.\n\nThe Godfather (Michael Corleone): Denies caring about the family business, but every cold choice masks the real risk—losing himself and his family.\n\nBoJack Horseman: Sabotages relationships and happiness so he never has to risk being truly seen (and rejected).\n\nEternal Sunshine of the Spotless Mind: Both leads erase memories to avoid facing the pain of real loss, but the risk leaks through in every half-remembered image.\n\nFrozen (Elsa): Hides from everyone to avoid risking harm to those she loves—but her silence and isolation create bigger risks.\n\nSuccession: Characters lie, scheme, and hurt each other to avoid facing what they might lose if they’re honest (power, love, self-worth).\n\nThe Sopranos: Tony’s therapy, violence, and affairs cover the real terror—losing control, losing his family, losing himself.\n\nHow It Changes the Story\nHidden stakes are dynamite under the floorboards. Every line, silence, or joke could be a cover for what might explode if the truth gets out. When the stakes finally break the surface—whether in a confession, betrayal, or breakdown—the result is explosive. But even if they never do, the threat hums through the whole story.\n\nHidden stakes also invite the reader to become a detective—searching for clues, testing theories, caring more because they’re part of the process. The payoff is bigger because you worked for it.\n\nFor Writers\nLet your characters hide what matters. Make them run, fight, or self-destruct before they ever say what’s truly at risk. Trust your readers to feel the tension, sense the danger, and dig for meaning. When the truth finally comes out—if it does—it’ll land like a bomb. If it never does, the ache lingers, and sometimes that’s the real point.\n\nAlright, here’s the **Strength Levels** section for **Stakes**, mirroring the depth and style of Desire and Conflict. If you want each strength level split into separate messages for easier copy/paste, just say so.\n\n---",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Take a costly risk",
+          "Choose pain over safety",
+          "Protect someone at a cost"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers that raise, lower, reveal, or conceal stakes without inventing plot specifics.",
+      "axes": [
+        {
+          "key": "personal",
+          "label": "Personal Stakes",
+          "description": "What the character stands to lose or gain internally (identity, love, pride, belonging)."
+        },
+        {
+          "key": "external",
+          "label": "External Stakes",
+          "description": "What the character stands to lose or gain in the world (job, freedom, safety, mission)."
+        }
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "What is at stake is legible (even if hidden from other characters).",
+        "trace": "We can trace the stakes to a choice or pressure in the moment."
+      },
+      "strength_tiers": {
+        "1": "A clear signal of stakes appears (personal or external).",
+        "2": "Stakes connect causally to the next beat.",
+        "3": "Stakes reshape behavior or social weather going forward."
+      }
+    },
+    "ui_controls": {
+      "behavior": "show",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "axes": [
+        "personal",
+        "external"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where the stakes (personal or external) are legible via this behavior. Don’t label them—let the moment prove it.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "c2f9a80c-959a-41b4-b904-e128aeb8ea9b",
+    "key": "stakes_behavior_hide",
+    "title": "Character stakes — They HIDE what's at stake",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "hide"
+    ],
+    "source_md": "They HIDE What’s at Stake\n\nSometimes the most important things in a story aren’t said or shown directly—they’re hidden, denied, or buried so deep the character can’t (or won’t) face them. Stakes that stay underground make stories sharp, tense, and sometimes heartbreaking. This is where the reader or audience senses risk without being told what it is—picking up on avoidance, self-sabotage, secrets, and contradictions.\n\nWhat Does It Look Like?\n\nA character cracks jokes or changes the subject every time someone brings up what matters.\n\nSomeone sabotages a relationship, project, or dream before it can fail—better to wreck it themselves than risk the loss.\n\nA person overworks, gets lost in distractions, or creates drama to keep from facing what’s really at risk.\n\nDenial: Insisting, “It’s not a big deal,” “I don’t care,” or “Nothing’s wrong”—even when everything is on the line.\n\nRage, withdrawal, or cruelty that seems out of proportion—masking fear of loss or humiliation.\n\nNever naming the true cost: a parent pushes their kid away so they won’t have to feel abandoned if the kid leaves.\n\nPerfectionism or endless “preparing”—so they never have to risk the thing that actually matters.\n\nSilence, coldness, or detachment when things get serious—if you don’t name it, maybe you won’t lose it.\n\nSometimes the character themselves doesn’t know what’s at stake, or can’t admit it. Sometimes the reader sees the risk before anyone on the page does. The tension is in what’s not said—the secret reason, the unspoken cost, the thing that could break everything if it came into the light.\n\nWhy Writers Use It\nHidden stakes create complexity, realism, and tension. People rarely admit what really matters, even to themselves. Hiding the stakes forces the audience to read between the lines, heightens the risk of every scene, and makes every choice feel loaded with meaning. It keeps the story alive beneath the surface.\n\nLetting stakes hide for a while also gives you somewhere to go—when the truth finally comes out, the impact is bigger, the fallout harsher, and the catharsis more powerful.\n\nWhat to Watch For\n\nAvoidance: Changing the subject, refusing to act, running from responsibility.\n\nDisplacement: Pouring energy into “safe” goals so they don’t have to risk the real one.\n\nOverreaction: Exploding over small stuff because the real risk is too scary to face.\n\nPassive-aggression: Sabotaging others or themselves rather than risking open failure.\n\nRituals and obsessions: Clinging to small routines when the big risks are too much.\n\nDistance: Keeping people, dreams, or vulnerability at arm’s length.\n\nBlame: Picking fights or blaming others to avoid feeling how much they have to lose.\n\nSecret-keeping: Hiding information, feelings, or history, even when honesty would help.\n\nWhy It Matters\nHidden stakes keep tension simmering. The audience can sense the landmines under every conversation or choice, even if the character pretends nothing’s wrong. This makes every scene crackle, because what’s unsaid is often the most dangerous.\n\nHidden stakes also make characters more human—flawed, scared, vulnerable. Everybody hides what matters sometimes. When readers recognize themselves in a character’s denial or fear, the story cuts deeper.\n\nWhere You’ll See It: Pop Culture Examples\n\nMad Men (Don Draper): Hides the risk of losing his secret life, love, or sense of self—his stakes are rarely named but drive every drink, affair, and meltdown.\n\nFleabag: Jokes, sexual bravado, and chaos hide a terror of real intimacy and grief. The audience knows the cost even when she can’t say it.\n\nThe Godfather (Michael Corleone): Denies caring about the family business, but every cold choice masks the real risk—losing himself and his family.\n\nBoJack Horseman: Sabotages relationships and happiness so he never has to risk being truly seen (and rejected).\n\nEternal Sunshine of the Spotless Mind: Both leads erase memories to avoid facing the pain of real loss, but the risk leaks through in every half-remembered image.\n\nFrozen (Elsa): Hides from everyone to avoid risking harm to those she loves—but her silence and isolation create bigger risks.\n\nSuccession: Characters lie, scheme, and hurt each other to avoid facing what they might lose if they’re honest (power, love, self-worth).\n\nThe Sopranos: Tony’s therapy, violence, and affairs cover the real terror—losing control, losing his family, losing himself.\n\nHow It Changes the Story\nHidden stakes are dynamite under the floorboards. Every line, silence, or joke could be a cover for what might explode if the truth gets out. When the stakes finally break the surface—whether in a confession, betrayal, or breakdown—the result is explosive. But even if they never do, the threat hums through the whole story.\n\nHidden stakes also invite the reader to become a detective—searching for clues, testing theories, caring more because they’re part of the process. The payoff is bigger because you worked for it.\n\nFor Writers\nLet your characters hide what matters. Make them run, fight, or self-destruct before they ever say what’s truly at risk. Trust your readers to feel the tension, sense the danger, and dig for meaning. When the truth finally comes out—if it does—it’ll land like a bomb. If it never does, the ache lingers, and sometimes that’s the real point.\n\nAlright, here’s the **Strength Levels** section for **Stakes**, mirroring the depth and style of Desire and Conflict. If you want each strength level split into separate messages for easier copy/paste, just say so.\n\n---",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Deflect with humor",
+          "Underplay the risk",
+          "Take a secret precaution"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers that raise, lower, reveal, or conceal stakes without inventing plot specifics.",
+      "axes": [
+        {
+          "key": "personal",
+          "label": "Personal Stakes",
+          "description": "What the character stands to lose or gain internally (identity, love, pride, belonging)."
+        },
+        {
+          "key": "external",
+          "label": "External Stakes",
+          "description": "What the character stands to lose or gain in the world (job, freedom, safety, mission)."
+        }
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "What is at stake is legible (even if hidden from other characters).",
+        "trace": "We can trace the stakes to a choice or pressure in the moment."
+      },
+      "strength_tiers": {
+        "1": "A clear signal of stakes appears (personal or external).",
+        "2": "Stakes connect causally to the next beat.",
+        "3": "Stakes reshape behavior or social weather going forward."
+      }
+    },
+    "ui_controls": {
+      "behavior": "hide",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "axes": [
+        "personal",
+        "external"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where the stakes (personal or external) are legible via this behavior. Don’t label them—let the moment prove it.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "6f2420b8-0c2e-48db-9e84-9711555fc019",
+    "key": "stakes_strength_low",
+    "title": "Stakes strength — Low",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_behavior_say",
+        "stakes_behavior_show",
+        "stakes_behavior_hide"
+      ]
+    },
+    "strength_controls": [
+      "low"
+    ],
+    "source_md": "**What Low-Strength Stakes Are**\nLow stakes are the everyday risks—nothing catastrophic, nothing life-or-death, just enough to make the story ripple. Think of the small fears, hopes, or consequences that hover around ordinary life: embarrassment, a missed opportunity, a minor loss, an awkward truth. Low stakes matter to the character, but they’re not earth-shattering. The world won’t end if things go wrong, but someone’s day might get a little worse, or a friendship might get a little bruised.\n\nIn this mode, the story is intimate, playful, or quietly tense. The pressure is gentle: the character could walk away, the cost is mild, and recovery is almost always possible. These are the stories of little bets, small dares, early practice rounds before the real test.\n\n**How It Shows Up in Characters**\n\n* Worrying about being late to work or missing the bus\n* Hoping a crush texts back, risking minor embarrassment with a joke or a reveal\n* Trying something new in a safe space, where failure means only a bruised ego\n* Lying about something unimportant, then sweating the tiny consequences\n* Competing in a game or contest with low reward, just for the fun or pride of it\n* Getting caught in a white lie, or dealing with the fallout of a small secret\n* Wanting to fit in, risking a little awkwardness or side-eye from the crowd\n\n**Story Effects of Low-Strength Stakes**\n\n* Sets a relaxed or comedic tone: the audience can enjoy the ride without anxiety\n* Makes stories accessible: everyone knows what these stakes feel like\n* Builds rapport and relatability: you root for the character, but you’re not afraid for them\n* Leaves space for humor, experimentation, or slice-of-life vibes\n* Can act as a prelude or contrast to bigger risks later\n\n**What It Feels Like to Write**\n\n* The tension is soft, never overwhelming\n* Scenes play out with a light touch—stakes color the action, but never dominate\n* Dialogue flirts with risk, but the fallout is gentle\n* Conflict is social, emotional, or even just internal—never catastrophic\n* There’s room for wandering, goofing off, or lingering in character quirks\n\n**Pop Culture Examples**\n\n* **Parks and Recreation:** Leslie wants to throw the perfect event—failure means some awkwardness or light disappointment, but nothing major\n* **The Office:** Jim’s pranks on Dwight—stakes are only a little workplace trouble or an eye-roll from the boss\n* **Amélie:** Her early kindnesses and secrets, where the “risk” is a minor awkwardness or missed connection\n* **School of Rock:** Dewey pretending to be a teacher—early stakes are just “will he get caught?” and “will the kids like him?”\n* **Brooklyn Nine-Nine:** Boyle’s social mishaps—risking embarrassment or unrequited feelings, but never disaster\n* **My Neighbor Totoro:** The girls exploring the woods—curiosity, not real danger\n* **10 Things I Hate About You:** Kat or Patrick risking embarrassment, teasing, or mild heartbreak\n\n**When to Use Low Stakes as a Writer**\n\n* When you want a story to feel safe, cozy, or comedic\n* For slice-of-life, early chapters, or gentle romances\n* When the story is about everyday risk—trying, failing, recovering\n* When you want to build up to higher stakes later, or use contrast\n* For character studies, coming-of-age moments, or ensemble comedy\n\n**What Keeps Stakes Low?**\n\n* Supportive environment: failure isn’t punished, and risks are safe\n* Small scale: the problem is personal, private, or minor\n* Emotional safety nets: friends, family, or mentors ready to catch them\n* Stakes are more about feelings than survival or consequence\n* No real threat to identity, security, or relationships\n\n**How Low Stakes Can Build or Shift**\nA little pressure (a new rival, a bigger secret, a twist in fortune) can push low stakes to medium. Sometimes they stay low, and the story becomes about growth through safe failure or the beauty of small risks. Sometimes, just naming the real cost beneath the small stuff opens a door to higher stakes.\n\nLow stakes are the sandbox—where characters (and writers) can play.\nWrite them with humor, honesty, and a light hand. Let every tiny risk matter, and let failure be just another story beat.\n\nHere’s the next section for **Stakes: Strength Levels — Medium** (as long and detailed as the others):\n\n---",
+    "assessment": {
+      "criteria": {
+        "visibility": "Readers can sense what could be lost or won.",
+        "cost": "There is cost or risk tied to choice."
+      },
+      "strength_tiers": {
+        "1": "Potency identified and present.",
+        "2": "Potency drives a next choice or pressure.",
+        "3": "Potency alters trajectory or relationship field."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "low",
+      "axes": [
+        "personal",
+        "external"
+      ]
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the stakes read in-scene without labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "18c790af-1d1c-4a0c-a691-fba15f3bc729",
+    "key": "stakes_strength_medium",
+    "title": "Stakes strength — Medium",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_behavior_say",
+        "stakes_behavior_show",
+        "stakes_behavior_hide"
+      ]
+    },
+    "strength_controls": [
+      "medium"
+    ],
+    "source_md": "**What Medium-Strength Stakes Are**\nMedium stakes are where things start to hurt. Now, if a character fails or risks it all, something truly important is on the line—reputation, friendship, safety, love, belonging, dreams, future plans. These aren’t the do-or-die stakes yet, but they matter. The cost is visible. The fear is real. The reader’s pulse is up, because the world of the story could actually change if things go wrong.\n\nAt this level, decisions are risky, consequences bite, and comfort zones break. The character knows: “If I screw this up, something I care about is gone, or I can’t go back to how things were.” Medium stakes are the engine of most stories—high enough to keep everyone hooked, low enough to still allow reversals, doubt, or growth.\n\n**How It Shows Up in Characters**\n\n* Speaking a dangerous truth that could cost a friendship or love\n* Risking their job, future, or safety to stand up for someone\n* Admitting a big secret, knowing it might change how others see them\n* Chasing a dream at the risk of failure or ridicule\n* Trying to protect someone (or something) and knowing it might go wrong\n* Defying family, friends, or authority—stakes are identity, home, or belonging\n* Leaving a relationship, a home, or a life, unsure if they’ll regret it\n* Entering a real contest, performance, or confrontation—stakes are pride, future, or self-respect\n* Betraying a promise or code, risking guilt or loss of self-trust\n\n**Story Effects of Medium-Strength Stakes**\n\n* Pushes the plot forward: every choice has real consequence\n* Builds suspense: the reader worries, hopes, dreads\n* Deepens character: true nature emerges under pressure\n* Connects emotionally: audience can see themselves in these risks\n* Creates chain reactions: one choice triggers another, and another\n\n**What It Feels Like to Write**\n\n* Scenes crackle with energy—every line, every move counts\n* Dialogue is loaded: characters plead, confess, threaten, hope\n* Action has weight—risk isn’t just a game, it changes relationships or fate\n* Emotion is close to the surface—fear, shame, hope, and courage are all in play\n* Failure and success both matter—neither is a shrug\n\n**Pop Culture Examples**\n\n* **Stranger Things:** Will’s disappearance—stakes are the kids’ safety, their families, the whole town\n* **The Hunger Games:** Katniss volunteering—stakes are her sister’s life, her own survival, her district’s hope\n* **Harry Potter:** Competing in the Triwizard Tournament—stakes are death, glory, and the wizarding world’s fate\n* **Mean Girls:** Cady’s social climb—stakes are her own identity, reputation, and friendships\n* **Inside Out:** Riley running away—stakes are her family, her sense of self, her childhood\n* **Spider-Man 2:** Peter Parker risking relationships, school, and reputation to keep being a hero\n* **Friday Night Lights:** The big game—stakes are pride, college futures, family expectations, small town dreams\n* **Pitch Perfect:** Beca risking her future and new friendships for the sake of music and self-expression\n\n**When to Use Medium Stakes as a Writer**\n\n* When you want the audience to care, but not panic—relatable, but intense\n* For stories about growth, decision, and facing real costs\n* When your character’s world can still be saved—or lost—but it’s all personal\n* For romances, sports stories, comedies, or adventures where the fallout is real but not world-ending\n* When you want reversals, comebacks, or character turns to matter\n\n**What Keeps Stakes Medium?**\n\n* The cost is real, but not ultimate—loss or pain, but not destruction\n* There’s room for recovery or repair\n* The character still has agency—choices can fix or worsen things\n* Support or safety nets still exist, but might fray\n* The consequences are deep, not fatal\n\n**How Medium Stakes Can Build or Collapse**\nA major betrayal, crisis, or attack can send the stakes sky-high. Or, support, luck, or retreat can lower the tension. Sometimes the whole story is a dance along the medium edge: will the next step be everything, or just another stumble?\n\nMedium stakes are the sweet spot—big enough to matter, small enough to survive.\nWrite them with nerve, clarity, and real consequences. Let your character (and reader) sweat, hope, and risk something worth losing.\n\nHere’s **Strength Levels: High — The No Way Back Risk** for *Stakes*, full-length and detailed to match the format:\n\n---",
+    "assessment": {
+      "criteria": {
+        "visibility": "Readers can sense what could be lost or won.",
+        "cost": "There is cost or risk tied to choice."
+      },
+      "strength_tiers": {
+        "1": "Potency identified and present.",
+        "2": "Potency drives a next choice or pressure.",
+        "3": "Potency alters trajectory or relationship field."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "medium",
+      "axes": [
+        "personal",
+        "external"
+      ]
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the stakes read in-scene without labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "6d92160d-61c0-4a18-9b23-4a4af2ce8302",
+    "key": "stakes_strength_high",
+    "title": "Stakes strength — High",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_behavior_say",
+        "stakes_behavior_show",
+        "stakes_behavior_hide"
+      ]
+    },
+    "strength_controls": [
+      "high"
+    ],
+    "source_md": "**What High-Strength Stakes Are**\nHigh stakes are where the floor drops out. This is do-or-die, all-in, no second chances. The character is up against loss, death, destruction, shame, exile, or the annihilation of everything that matters to them—family, love, purpose, even their own soul. There’s no easy fix, no safety net. If they fail, the fallout is permanent; if they succeed, the cost is huge. High-stakes stories are survival, war, betrayal, revolution, heartbreak, and redemption all rolled into one.\n\nAt this level, every move feels explosive. Tension pulses in every scene, because the outcome will define the rest of the character’s life—or end it. It’s where the reader feels like they’re on a ledge: whatever happens next, the story’s world is about to change forever. High stakes demand everything from a character and reveal everything about them—good, bad, desperate, heroic.\n\n**How It Shows Up in Characters**\n\n* Risking their own life or the life of someone they love\n* Betting everything (career, reputation, family, freedom) on a single, impossible plan\n* Going to war—literal or emotional, with the world or themselves\n* Confronting an enemy who can destroy them\n* Choosing between two impossible outcomes: save one person, doom another; tell the truth, lose everything\n* Sacrificing their safety, identity, or place in the world\n* Facing public disgrace, arrest, exile, or annihilation\n* Burn-it-all-down decisions: quitting, exposing, confessing, running, or fighting with nothing left to lose\n* Holding the fate of others in their hands—life, death, happiness, survival, or ruin\n\n**Story Effects of High-Strength Stakes**\n\n* Every page is electric—nothing is “just a scene,” every moment is life or death (sometimes literally)\n* Climax is unavoidable: the story rushes toward confrontation, revelation, explosion\n* Morality blurs: good people do terrible things, villains show their wounds\n* The world shifts: relationships, families, societies, even reality itself can break or be reborn\n* No resets—whatever happens, there’s no erasing the consequences\n* Victory and loss are both devastating\n\n**What It Feels Like to Write**\n\n* Every word feels heavy—dialogue is desperate, raw, no time for politeness\n* Scenes burn—characters cry, scream, beg, rage, shatter\n* The pace can be frantic or excruciatingly slow, but never calm\n* You feel the “end of the line” in every paragraph—there’s no easy out\n* Success and failure are final, and sometimes even winning feels like loss\n\n**Pop Culture Examples**\n\n* **Breaking Bad (finale):** Walt risks everything—family, life, and soul. If he fails, everyone he loves dies. If he wins, he loses himself.\n* **Avengers: Endgame:** The stakes are the universe. Characters sacrifice everything—lives, futures, even memory.\n* **The Lord of the Rings (Mount Doom):** Frodo faces soul-deep temptation and the fate of the world. Success means peace, failure means darkness for all.\n* **Hamilton:** The duel—stakes are honor, life, legacy, and love. One moment changes history.\n* **Game of Thrones (Red Wedding):** Survival or death for entire families, the fate of kingdoms, loyalty and betrayal at the highest cost.\n* **Harry Potter and the Deathly Hallows:** The final battle—lives, Hogwarts, the magical world, and Harry’s own life all on the line.\n* **Titanic:** Survival is the only goal—Jack and Rose risk everything for love, but the cost is final.\n* **Romeo and Juliet:** Love or death, peace or endless feud—stakes are as high as they get.\n* **The Hunger Games (finale):** Katniss must choose between personal revenge, public rebellion, and the survival of everyone she cares about.\n\n**When to Use High Stakes as a Writer**\n\n* For climaxes, finales, or stories about survival, revolution, or irreversible change\n* When you want the reader to *feel* the risk—hold their breath, sweat, maybe even cry\n* For stories about transformation, cost, or the moment everything shatters\n* When you’re ready to risk (and reveal) everything in your character’s world\n\n**What Pushes Stakes to High?**\n\n* Loss: Everything that mattered is threatened or already gone\n* Betrayal: The people or world they trusted turn against them\n* No escape: The character can’t back out—everything is in motion\n* Truth exposed: Lies collapse, secrets are revealed, there’s no hiding\n* Desperation: The character will do anything, pay any price\n* Ultimate goal: This is the last chance, the only shot, the fight for everything\n\n**How High Stakes Play Out**\nIf the character wins, it costs them—someone is lost, something breaks, the scars are real\nIf they lose, it’s ruin, death, or a new beginning built from the wreckage\nSometimes the only ending is transformation—someone new rises from the ashes, or nothing does\n\nHigh stakes are the edge of the world.\nWrite them with guts, honesty, and respect for the pain and power of risking everything.\nLet the story burn.\n\n\n**Tools for Actively Controlling Strength Levels: Quick Reference**\n\n---\n\n**1. Raise or Lower the Stakes**\n\n* *Raise*: Make the consequences bigger, more urgent, or more personal. What happens if they fail? Who else suffers? Is something irreplaceable at risk? Introduce a new threat, a tighter deadline, or make the cost of failure higher.\n\n  * Example: The bomb’s timer speeds up. The secret is about to go public. The rival gets closer.\n\n* *Lower*: Give the character a safety net, reduce the urgency, or shift the focus to a smaller risk. Sometimes letting the character breathe drops the stakes (and the tension).\n\n  * Example: The test is postponed. The rival drops out. A friend offers unexpected help.\n\n---\n\n**2. Shift Internal vs. External Stakes**\n\n* *Internal*: Move the focus to what’s at risk inside the character—identity, self-worth, dreams, emotional survival.\n\n  * Example: She’s risking her dignity by confessing her love.\n* *External*: Move the focus to the world—jobs, lives, public failure, legal or physical harm.\n\n  * Example: He’ll lose his job if he’s caught; the city will burn if they fail.\n\n---\n\n**3. Add or Remove Pressure**\n\n* *Add*: Tighten the screws with deadlines, rivals, or new obstacles. Show the risk of loss.\n\n  * Example: The antagonist finds their hiding place. The parent comes home early.\n* *Remove*: Allow a win, a breather, or let the character escape for a moment—lowering tension.\n\n  * Example: The search is called off. The test is easier than expected.\n\n---\n\n**4. Make the Stakes Visible (or Hidden)**\n\n* *Visible*: State or show exactly what’s at risk. Spell it out in dialogue or make the danger clear in action.\n\n  * Example: “If I don’t win this match, I’m out of the league.”\n* *Hidden*: Keep the real cost a secret (from character, audience, or both). Let tension simmer in what isn’t being said.\n\n  * Example: The hero doesn’t know someone’s life is in their hands; a friend keeps the true risk hidden.\n\n---\n\n**5. Involve More People**\n\n* Expand the risk beyond the main character—friends, family, the world. The more people at risk, the higher the tension.\n\n  * Example: The villain threatens the hero’s family, not just the hero.\n\n---\n\n**6. Use Symbolic Stakes**\n\n* Objects, places, or rituals can carry the weight of what’s at risk.\n\n  * Example: The ring in Lord of the Rings. The trophy in Karate Kid. The diary in Mean Girls.\n\n---\n\n**7. Escalate or De-escalate with Action**\n\n* Characters can *raise* stakes by doubling down, refusing to quit, or burning bridges.\n* They can *lower* them by walking away, compromising, or choosing to accept loss.\n\n---\n\n**8. Let Stakes Evolve Over Time**\n\n* What starts as a small risk can grow scene by scene.\n* What seemed huge at first can shrink as perspective changes.\n\n---\n\n**Questions to Tune the Stakes in Your Scene**\n\n* What’s really at risk here?\n* What will be lost if they fail—today, tomorrow, forever?\n* Who else is in danger if this goes wrong?\n* What’s the emotional cost? The public cost? The secret cost?\n* What could happen to make this risk even bigger—or smaller?\n\n---\n\n**“Dial” Examples**\n\n* *Low → Medium*: A kid is nervous to ask a question in class—then realizes the teacher is calling on them. Now, embarrassment is on the line.\n* *Medium → High*: A character is about to confess a secret to a friend—then the whole group shows up, and the secret could go public.\n* *High → Low*: After a huge fight, a character apologizes. The threat of losing the friendship fades.\n\n---\n\nStakes are never static. Every scene is a chance to turn the heat up or down—by what you put at risk, and by how much the character (and reader) feel it.\n\n.",
+    "assessment": {
+      "criteria": {
+        "visibility": "Readers can sense what could be lost or won.",
+        "cost": "There is cost or risk tied to choice."
+      },
+      "strength_tiers": {
+        "1": "Potency identified and present.",
+        "2": "Potency drives a next choice or pressure.",
+        "3": "Potency alters trajectory or relationship field."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "high",
+      "axes": [
+        "personal",
+        "external"
+      ]
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the stakes read in-scene without labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "0b77dca4-469b-4b4f-be40-ba598cf06a2c",
+    "key": "stakes_toolkit",
+    "title": "Stakes — tools, questions, and dial examples",
+    "concept": "stakes",
+    "scope": "character",
+    "type": "toolkit",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "stakes_strength_low",
+        "stakes_strength_medium"
+      ]
+    },
+    "tools_md": "",
+    "questions_md": "",
+    "dial_examples_md": "",
+    "quick_reference_md": "",
+    "xrefs": {
+      "world_stakes_parents": [
+        "conflict_intro",
+        "theme_intro",
+        "plot_intro",
+        "scene_intro"
+      ],
+      "systemic_stakes_parents": [
+        "status_transactions_intro",
+        "power_dynamics_intro"
+      ],
+      "situational_stakes_parents": [
+        "tension_intro",
+        "action_intro"
+      ]
+    }
+  }
+]

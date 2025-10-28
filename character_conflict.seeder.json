@@ -1,0 +1,865 @@
+[
+  {
+    "id": "a0f54342-f112-4f3d-836b-60960801a498",
+    "key": "conflict_bundle_header",
+    "title": "Character Conflict — Bundle Header",
+    "type": "bundle:header",
+    "concept": "conflict",
+    "scope": "character",
+    "cross_reference": [
+      "character",
+      "theme",
+      "plot",
+      "scene",
+      "voice",
+      "world",
+      "systemic"
+    ],
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "motivation_intro",
+        "decision_intro",
+        "identity_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "ui_axes": {
+      "axes": [
+        {
+          "key": "character",
+          "label": "Character vs. Character",
+          "description": "Two opposing desires collide in-scene."
+        },
+        {
+          "key": "society",
+          "label": "Character vs. Society",
+          "description": "Individual against culture, law, or crowd pressure."
+        },
+        {
+          "key": "nature",
+          "label": "Character vs. Nature/World",
+          "description": "Environment, fate, time, the impersonal world pushing back."
+        },
+        {
+          "key": "self",
+          "label": "Character vs. Self",
+          "description": "Inner contradiction, fear, guilt, trauma, unresolved want."
+        }
+      ]
+    }
+  },
+  {
+    "id": "0912fd37-d1e4-4cb3-a799-a11fdf93ab25",
+    "key": "conflict_intro",
+    "title": "Conflict — what it is",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:intro",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "ac5ed8a3-a250-48f2-9c89-163f00fff61f",
+    "key": "conflict_makes",
+    "title": "What makes conflict",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "5f36a48d-8190-40ed-a866-dcda46233ac8",
+    "key": "conflict_types",
+    "title": "Conflict types — CvC, CvSociety, CvNature, CvSelf",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_makes"
+      ]
+    },
+    "source_md": "",
+    "ui_axes": [
+      {
+        "key": "character",
+        "label": "Character vs. Character",
+        "description": "Two opposing desires collide in-scene."
+      },
+      {
+        "key": "society",
+        "label": "Character vs. Society",
+        "description": "Individual against culture, law, or crowd pressure."
+      },
+      {
+        "key": "nature",
+        "label": "Character vs. Nature/World",
+        "description": "Environment, fate, time, the impersonal world pushing back."
+      },
+      {
+        "key": "self",
+        "label": "Character vs. Self",
+        "description": "Inner contradiction, fear, guilt, trauma, unresolved want."
+      }
+    ]
+  },
+  {
+    "id": "5bc56122-633a-4217-a700-68ff20b0dcf4",
+    "key": "conflict_matters",
+    "title": "Why conflict matters",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:why",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "5ce11ed2-23d2-47fb-8bd4-6f3b8a99ca8f",
+    "key": "conflict_fail",
+    "title": "Why stories fail without conflict",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:why_not",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_matters"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "7356b19d-b366-4790-af89-40a32aa33a0a",
+    "key": "conflict_misunderstood",
+    "title": "How conflict is misunderstood",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_matters"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "e61316b7-30d2-4faf-8f57-d3d1481863eb",
+    "key": "conflict_powers",
+    "title": "How conflict powers everything (gated refs)",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_misunderstood"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "6252910d-a60c-4c4a-a55e-4a0f8f8720e4",
+    "key": "conflict_faces",
+    "title": "The many faces of conflict",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:catalog",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_makes"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "a4f79e9e-4c41-41fa-9800-3cf407cd11c0",
+    "key": "conflict_writer_job",
+    "title": "The writer’s job (conflict)",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:practice",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_faces"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "b908aa6f-9068-42ae-abb8-1d20091865ae",
+    "key": "conflict_you",
+    "title": "You know what it’s like to face conflict",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "lesson:reflection",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "stakes",
+        "pacing"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "a0b12ca8-4c83-4e24-b61f-9afb31af5b05",
+    "key": "conflict_examples",
+    "title": "Conflict — pop culture index",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_intro"
+      ]
+    },
+    "source_md": "**Breaking Bad (Walter vs. Jesse, final season):**\nAll loyalty is shattered, violence erupts, and the only way out is total destruction.\n\n**Avengers: Infinity War & Endgame:**\nFriendships, lives, and even the universe itself are on the line. Alliances break, heroes fall, and nobody walks away unchanged.\n\n**Macbeth (Shakespeare):**\nBloodshed, paranoia, madness. Everyone is either a casualty or a conspirator by the end.\n\n**Star Wars: Revenge of the Sith (Obi-Wan vs. Anakin):**\nMentor and student become mortal enemies—love turns to hatred, the world splits in two.\n\n**Game of Thrones (Red Wedding, Battle for King’s Landing):**\nEvery grudge, alliance, and secret explodes. Nobody is safe; nothing is sacred.\n\n**The Godfather, Part II:**\nMichael’s war with his enemies (and his own family) leaves him alone—he wins, but loses his soul.\n\n**Hamilton (Burr vs. Hamilton):**\nRivalry, ambition, and personal grievances erupt in a duel that ends one life and breaks another.\n\n**Scarface (final act):**\nTony Montana destroys everything around him in his quest for power—he can’t stop until it’s all gone.\n\n---"
+  },
+  {
+    "id": "8a9c6502-dac7-41e8-bd25-c9c4b9c30d0c",
+    "key": "conflict_behavior_say",
+    "title": "Character conflict — They SAY what the problem is",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "say"
+    ],
+    "source_md": "They SAY What the Problem Is\n\nSometimes, conflict walks right up and tells you its name. A character (or narrator) lays it out—what’s wrong, who’s in the way, what hurts, what’s broken, what they’re fighting for or against. This is the surface-level, no-bullshit version: the obstacle or opposition is spoken out loud, written into the dialogue, or even thrown in the reader’s face through narration. No subtext, no puzzle—just the problem, announced for all to see. You don’t have to guess where the tension is coming from; they hand it to you.\n\nWhat Does It Look Like?\nIt could be an argument where someone shouts, “You’re always trying to control me!” It might be a whispered confession (“I’m scared I’ll never be good enough”), or a battle speech (“We will not go quietly into the night!”). Sometimes it’s a complaint, sometimes a threat, sometimes a desperate plea. Maybe it’s someone admitting they hate their job, love the wrong person, or can’t stand the person next to them. When conflict is spoken, the air shifts—everyone knows what’s at stake, what the fight is, what has to be faced.\n\nWhy Writers Use It\nLetting a character say what the conflict is does a couple of things. First, it makes the stakes crystal clear for the audience—no guessing games, no ambiguity. You know who’s on what side, what the stakes are, and why everything matters. Spoken conflict draws a line in the sand. It raises the heat instantly because you know a confrontation is coming (or already here). Sometimes, having the characters admit what the fight is about forces everyone—including the audience—to stop pretending and actually deal with the mess.\n\nWhat to Listen For\nDirect accusations: “You lied to me.” / “This is all your fault.”\n\nUltimatums: “If you walk out that door, don’t come back.”\n\nStated fears: “I’m afraid you don’t love me anymore.”\n\nDeclarations of war: “I won’t let you win.” / “Over my dead body.”\n\nVulnerable admissions: “I can’t keep pretending everything’s okay.”\n\nAnnounced rivalries: “I’ve always wanted to beat you.”\n\nSimple, honest confession: “We can’t go on like this.”\n\nWhy It Matters\nSpoken conflict gives you a spotlight. You know exactly what the story is wrestling with—no hidden agendas (yet). Every action, every bit of tension, every side-eye or slammed door can be traced back to this moment. The plot now has direction: you know what’s at risk, who’s got something to lose, and who’s in the way. It makes characters vulnerable, too. Saying “this is what’s wrong” is a risk; it opens the door to being hurt, challenged, or changed. The fallout is instant—once you say the fight out loud, there’s no stuffing it back in the box.\n\nWhere You’ll See It\nPop Culture Examples:\n\nThe Lord of the Rings — Frodo to Sam: “I can’t do this, Sam.” (Says the conflict—overwhelmed, at the edge, naming the struggle directly.)\n\nBreaking Bad — Skyler to Walt: “I’m afraid of you.” (No more pretending; the fear is the conflict.)\n\nFrozen — Elsa: “You can’t marry a man you just met!” (Calling out the real tension, refusing to play along.)\n\nThe Hunger Games — Katniss: “If we burn, you burn with us!” (Declares open war, shifts the power.)\n\nThe Office — Jim to Michael: “You’re not my friend. You’re my boss.” (Honest conflict in the open, breaking all the subtext.)\n\nGame of Thrones — Cersei: “When you play the game of thrones, you win or you die.” (Announces the whole show’s conflict in a single line.)\n\nSpider-Man 2 — Peter Parker to Aunt May: “I’m Spider-Man. No more secrets.” (The conflict between truth and safety is spoken.)\n\nFleabag — Priest to Fleabag: “Why do you keep using sex to avoid real intimacy?” (Names the root conflict, making the next move unavoidable.)\n\nStar Wars — Luke to Vader: “I’ll never join you!” (Clear, stated opposition.)\n\nSuccession — Kendall Roy: “I’m better than you.” (Every episode is built on saying the quiet part loud.)\n\nHow It Changes the Story\nWhen the conflict is out in the open, the tension gets teeth. Everyone in the story (and the reader) knows the real terms. There’s no more playing nice. The path ahead is all about dealing with this declared war, hurt, or challenge. Sometimes, the moment a conflict is spoken is the moment everything else becomes possible—resolution, escalation, collapse.\n\nCharacters who say what the problem is can’t hide behind jokes or politeness anymore. They risk real change. The air is charged, and the fallout can be huge: relationships break, alliances shift, the truth is unavoidable.\n\nFor Writers\nDon’t be afraid to let your characters name the fight. Let them say what hurts, what scares them, what they want to destroy or protect. Direct conflict doesn’t make a story less deep—it makes it urgent and honest. And the sooner you get it out there, the sooner you can let the real chaos begin.\n\n\nHow conflict tends to show up in writing\n2. They SHOW What the Problem Is\n\nConflict doesn’t have to be shouted or spelled out. Most of the time, you’ll see it: in what characters do, what they refuse to do, the boundaries they set, the lines they cross, the ways they grind against each other (or the world). Sometimes no one ever says what’s wrong, but the actions—the friction, avoidance, sabotage, open defiance—shout it at full volume. The war is in the way they move, the choices they make, the trouble they invite or run from. Conflict leaks out, leaks in, changes the air around every character.\n\nWhat Does It Look Like?\nYou spot it in their reactions—tense shoulders, storming out, slamming doors, silent treatments, sharp glances. Conflict is in the patterns: two people who always argue, a hero who can’t stop breaking rules, a family who only shows up at holidays to fight about the past. It’s what people won’t do—refusing to apologize, refusing to ask for help, refusing to show up. Sometimes it’s in the sabotage: a character undermines their own success, burns bridges, pushes people away before they can be left. Maybe someone picks a fight just to feel alive. Maybe a group closes ranks when an outsider appears. The fight is everywhere except the dialogue.\n\nWhy Writers Use It\nShowing conflict, rather than saying it, pulls the reader into the world—no spoon-feeding, no neon signs, just tension you feel. The story gains depth and danger because the reader gets to piece it together, tracking the patterns, watching the fallout, knowing something’s going to break. This is where stories breathe: in what’s not said but what can’t be avoided. Showing conflict lets you layer subtext, complexity, and makes the audience do a little detective work (which is always more satisfying).\n\nWhat to Watch For\nPatterned resistance: Characters always saying no, dragging their feet, making everything harder than it needs to be.\n\nSilent stand-offs: Tense meals, awkward car rides, long pauses.\n\nSabotage: Doing things that make the problem worse, even (especially) when it doesn’t make sense.\n\nRepeated arguments: Fighting about little things when the big problem is left unsaid.\n\nPhysical actions: Slamming doors, walking away, breaking something valuable, refusing to leave or refusing to stay.\n\nThird-party conflict: Using someone else to fight your battles—gossip, triangulation, picking sides.\n\nRisky choices: Going behind someone’s back, defying orders, making bold moves that provoke opposition.\n\nSmall rebellions: Not answering calls, “forgetting” an important date, doing something out of spite or self-defense.\n\nWhy It Matters\nConflict shown through action is what makes a story feel real, alive, and full of stakes. You don’t need a speech to sense the heat in the room. Readers get to participate, connecting the dots, reading the air. This is how real life works: most fights aren’t announced, they’re acted out, lived through, felt in the gut. When a character shows their struggle, you can’t look away—you want to know what’s really going on, what the next explosion will be, whether anyone will make it out clean.\n\n\n2. They SHOW What the Problem Is\n\nConflict doesn’t have to be shouted or spelled out. Most of the time, you’ll see it: in what characters do, what they refuse to do, the boundaries they set, the lines they cross, the ways they grind against each other (or the world). Sometimes no one ever says what’s wrong, but the actions—the friction, avoidance, sabotage, open defiance—shout it at full volume. The war is in the way they move, the choices they make, the trouble they invite or run from. Conflict leaks out, leaks in, changes the air around every character.\n\nWhat Does It Look Like?\nYou spot it in their reactions—tense shoulders, storming out, slamming doors, silent treatments, sharp glances. Conflict is in the patterns: two people who always argue, a hero who can’t stop breaking rules, a family who only shows up at holidays to fight about the past. It’s what people won’t do—refusing to apologize, refusing to ask for help, refusing to show up. Sometimes it’s in the sabotage: a character undermines their own success, burns bridges, pushes people away before they can be left. Maybe someone picks a fight just to feel alive. Maybe a group closes ranks when an outsider appears. The fight is everywhere except the dialogue.\n\nWhy Writers Use It\nShowing conflict, rather than saying it, pulls the reader into the world—no spoon-feeding, no neon signs, just tension you feel. The story gains depth and danger because the reader gets to piece it together, tracking the patterns, watching the fallout, knowing something’s going to break. This is where stories breathe: in what’s not said but what can’t be avoided. Showing conflict lets you layer subtext, complexity, and makes the audience do a little detective work (which is always more satisfying).\n\nWhat to Watch For\nPatterned resistance: Characters always saying no, dragging their feet, making everything harder than it needs to be.\n\nSilent stand-offs: Tense meals, awkward car rides, long pauses.\n\nSabotage: Doing things that make the problem worse, even (especially) when it doesn’t make sense.\n\nRepeated arguments: Fighting about little things when the big problem is left unsaid.\n\nPhysical actions: Slamming doors, walking away, breaking something valuable, refusing to leave or refusing to stay.\n\nThird-party conflict: Using someone else to fight your battles—gossip, triangulation, picking sides.\n\nRisky choices: Going behind someone’s back, defying orders, making bold moves that provoke opposition.\n\nSmall rebellions: Not answering calls, “forgetting” an important date, doing something out of spite or self-defense.\n\nWhy It Matters\nConflict shown through action is what makes a story feel real, alive, and full of stakes. You don’t need a speech to sense the heat in the room. Readers get to participate, connecting the dots, reading the air. This is how real life works: most fights aren’t announced, they’re acted out, lived through, felt in the gut. When a character shows their struggle, you can’t look away—you want to know what’s really going on, what the next explosion will be, whether anyone will make it out clean.\n\nWhere You’ll See It\nPop Culture Examples:\n\nFargo — Jerry and his wife: Every scene is tense, even when nobody’s yelling. Jerry’s secrets show up in his lies, awkwardness, and desperation.\n\nThe Godfather — Michael Corleone: His choices—who he protects, who he hurts, who he refuses to become—show his conflict with his family and himself.\n\nMad Men — Don Draper: His constant cheating, working late, and avoiding honest conversations show an endless, internal war.\n\nThe Office — Angela and Dwight: Their secret, on-again-off-again relationship is a war of gestures, furtive glances, petty sabotage.\n\nFleabag: The protagonist’s actions—sabotaging relationships, chasing chaos—constantly show her inner turmoil, without needing to spell it out.\n\nBlack Panther — T’Challa and Killmonger: Most of their conflict is in what they do—choosing sides, making risky moves, breaking tradition.\n\nGet Out — Chris: The tension is all in the way people act around him—too nice, too invasive, too interested.\n\nThe Simpsons — Bart vs. Lisa: Their fights are more about pranks, sabotage, and silent wars than about what’s actually said.\n\nBoJack Horseman: Characters hurt each other through neglect, self-destruction, and distance.\n\nEuphoria — Rue and Jules: They never really say what’s wrong, but their decisions—staying, leaving, running, chasing—show all the fractures.\n\nThe Crown: Every episode is a masterclass in people refusing to say what’s wrong but living out the conflict anyway—through cold shoulders, missed events, or passive-aggressive tradition.\n\nHow It Changes the Story\nWhen conflict is shown, not told, the story fills with suspense and subtext. You don’t have the answers, but you know something’s coming. It’s more satisfying for the reader—they get to watch the storm build, feel the pressure rise, and wonder when (or if) anyone will finally snap. Sometimes this keeps the story simmering for ages; sometimes the slow-burn is the point. When someone finally says what the problem is, it lands with ten times the force, because you’ve felt it all along.\n\nFor Writers\nLet your characters act out the fight. Make them sabotage their own happiness, push away the people they love, pick fights with the world or themselves. Show the grind, the friction, the tiny rebellions and epic disasters. The best stories are built on what’s acted, not announced. If you can make the reader sense the conflict without a single speech, you’re halfway to a story that lives.\n\n\n3. They HIDE What the Problem Is\n\nNot all conflict comes out swinging. Sometimes it’s buried—denied, camouflaged, or kept under lock and key. This is the sneakiest, most human kind of conflict: knowing there’s a problem, but doing anything not to face it, not to let anyone else see it, maybe not even letting yourself know it’s there. The result? A story full of tension, odd silences, weird detours, and pressure that never quite releases. Hidden conflict is where real drama cooks.\n\nWhat Does It Look Like?\nHidden conflict lurks in the gaps—awkward pauses, the joke that lands flat, the way two people never quite look each other in the eye. You see it in characters who dodge questions, change the subject, over-explain simple things, or go out of their way to avoid someone. Maybe they attack a “safe” target instead of the real one, or lose their shit over nothing because they can’t name what’s really wrong. Sometimes they drown in distractions—work, habits, helping others, busy-ness—to keep from thinking about the problem. Maybe they start a pointless argument just to avoid the one that matters.\n\nThis is the fight that happens under the fight. No one ever says what the real issue is, but everyone feels it—the tension, the stakes, the threat that something could snap at any second.\n\nWhy Writers Use It\nHidden conflict is a goldmine for tension and realism. Real people rarely name their fights outright, especially the big, scary ones. We hide, we deflect, we use humor, we get mean, we sabotage, we freeze. Burying the fight keeps the story humming with subtext, suspense, and surprise—it forces the audience to read between the lines, wonder when the dam will break, and stay tuned for the truth underneath all the noise.\n\nWhat to Watch For\nAvoidance: Characters dodge each other, skip events, or change the subject whenever the real issue comes up.\n\nDeflection: Picking smaller, unrelated fights. (“Why are you always late?” instead of “I’m scared you’ll leave me.”)\n\nOvercompensation: Acting too nice, too cold, too busy, too perfect to cover up the mess.\n\nDistraction: Pouring energy into work, hobbies, caretaking—anything to keep from facing the conflict.\n\nPassive aggression: Snide remarks, the silent treatment, doing what’s asked—but badly.\n\nGuilt trips: Making someone else feel bad so you don’t have to talk about what’s actually wrong.\n\nSelf-sabotage: Messing things up “by accident” so the conflict never comes to a head.\n\nBreaking routines: Sudden changes—someone stops calling, skips dinner, starts new habits overnight.\n\nWhy It Matters\nHidden conflict is where stories get real, complicated, and dangerous. It’s not just what’s said, but what’s left unsaid that twists a relationship, keeps a family at war, or turns a workplace toxic. Every scene gets a charge, because everyone is on edge, waiting for the unspoken bomb to go off. The longer the fight stays hidden, the more power it has—when it finally breaks loose, the results are explosive, heartbreaking, or cathartic as hell.\n\nWhere You’ll See It\nPop Culture Examples:\n\nThe Sopranos — Tony and Carmela: Their fights are rarely about what’s on the surface—most arguments are stand-ins for deeper betrayal, resentment, and loneliness.\n\nBreaking Bad — Walt and Skyler: They dance around the truth for seasons—avoiding, lying, distracting, pretending nothing’s wrong even as everything falls apart.\n\nSuccession: Every character’s real fight is buried under sarcasm, jokes, and business talk; nobody says what they mean, but you can cut the tension with a knife.\n\nThe Royal Tenenbaums: The family’s weirdness, silence, and sabotage all mask a deep, shared wound nobody will name.\n\nThe Great Gatsby: The parties and drama are distractions; the real conflict—class, love, loss—simmers beneath the surface.\n\nLady Bird: The fights between Lady Bird and her mom are full of jokes, avoidance, and sudden blow-ups—never directly about the real pain underneath.\n\nTed Lasso (Rebecca and her ex-husband): She hides her anger and heartbreak behind professionalism and little power moves.\n\nThe West Wing — CJ and her dad: The conflict isn’t named—it’s all in what isn’t said, what’s avoided, and the rituals they use to cope.\n\nMoonlight: Chiron rarely speaks about what’s hurting him, but every scene shows what he’s running from.\n\nHow It Changes the Story\nHidden conflict is a pressure cooker. The story builds and builds, simmering with scenes where nothing seems to happen—except for everything underneath. When the truth finally comes out, everything changes: relationships break, heal, or transform. Even if it never surfaces, that unresolved tension shapes every moment, every choice, every regret.\n\nFor Writers\nWrite the silence. Build scenes where the real fight is always lurking just outside the frame. Let your characters distract, joke, freeze, lash out, retreat—anything but say what’s really going on. The more your story lives in the unsaid, the more it feels like real life. And when the truth finally cracks through, let it break something open.\n\n\nStrength Levels: Low — The Gentle Strain\nWhat Low Strength Conflict Is\nLow-strength conflict is the quiet tension that simmers beneath the surface. It’s not a fight, not a crisis—more like a pressure in the air, a vague sense that something’s off, or an unspoken difference that keeps people from fully connecting. Maybe it’s a disagreement left unaddressed, a feeling of not quite fitting in, or a clash of values that never erupts into argument. Most of the time, neither side would call it a conflict at all. It’s the weight of politeness, the itch of unsaid things, the hesitation before reaching out.\n\nIn low-strength mode, conflict doesn’t drive the plot forward—it colors the emotional world. It creates layers, moods, a hint of friction or melancholy, a subtle sense of distance between people. It isn’t nothing; it’s the thread that might snap, the question that might get asked, the silence before the storm.\n\nHow It Shows Up in Characters\nAwkward silences: Conversations stall or shift topic just before things get real.\n\nSubtle avoidance: Characters keep busy, dodge each other, or let messages go unanswered.\n\nMicroaggressions: Small jabs, jokes, or passive comments hint at underlying issues.\n\nWalking on eggshells: Characters act extra careful, checking themselves before they speak.\n\nMinor irritations: Sighing, eye-rolling, snark, or gentle teasing that never turns mean.\n\nWithdrawal: Someone pulls back—physically or emotionally—without explanation.\n\nRoutine over truth: The familiar is chosen over the honest, keeping everything running smoothly but a little off.\n\nStory Effects of Low-Strength Conflict\nSets a Mood: The story feels a little tense, uncertain, or bittersweet. Readers sense something unresolved, even when everyone acts “fine.”\n\nBuilds Relatability: It’s real—most of life is this, not screaming matches. We all know what it’s like to keep the peace while something festers.\n\nForeshadows Trouble or Change: This is often the canary in the coal mine. That subtle strain hints at bigger conflicts that could break through if the right pressure hits.\n\nDeepens Character: People with quiet struggles feel more honest. They aren’t just bouncing off plot points; their inner world matters. Their caution or frustration, even if muted, makes them more believable.\n\nWhat It Feels Like to Write\nYou linger: Scenes last a little longer, with pauses and unsaid things hanging in the air.\n\nDialogue skirts the issue: People hint, joke, or sidestep the real subject.\n\nAction is small-scale: Nobody flips a table—they just forget a birthday, or stand at the edge of a group.\n\nPacing is gentle: There’s room to breathe, to notice how a glance or sigh changes everything.\n\nPop Culture Examples\nPam Beesly (The Office):\nHer engagement to Roy is all low-grade conflict—quiet disappointment, unspoken doubts, halfhearted plans. Most of it shows up in silence, stolen glances, and what she doesn’t say.\n\nCharlotte (Lost in Translation):\nHer marriage feels strained, but there are almost no fights—just silences, distant phone calls, and missed connections. The conflict is all subtext.\n\nMy Neighbor Totoro (Mei & Satsuki’s family):\nThe sisters and their father navigate worry and longing with only minor flare-ups—the real strain is in missing their mother and trying to stay upbeat.\n\nJim Hopper (Stranger Things, early episodes):\nHis frustration with the town and his own grief comes out as mild irritation and avoidance, never open anger—at first.\n\nGilmore Girls (Lorelai and her parents):\nMost conflict is low-key—awkward dinners, comments left hanging, politeness barely masking deep difference.\n\nKiki (Kiki’s Delivery Service):\nKiki feels out of place in her new town. The conflict is all internal—doubt, loneliness, the quiet push to belong.\n\nSteven (Steven Universe, early on):\nHe senses the Gems are hiding things, but his struggle is gentle—hints, questions, soft tensions as he tries to find his place.\n\nWhen to Use Low Strength as a Writer\nWhen you want to build atmosphere and intimacy before things boil over.\n\nWhen your story is about relationships, coming-of-age, or the day-to-day struggles that shape people.\n\nWhen you want to show how conflict isn’t always loud—sometimes it’s the quiet strain that changes everything.\n\nWhen the story is about restraint, not eruption; about holding it together, not breaking apart.\n\nWhat Keeps Conflict Low?\nFear: Rocking the boat might cost too much.\n\nPoliteness: People don’t want to hurt each other, so they hold back.\n\nHabit: They’re used to avoiding problems.\n\nDenial: If you don’t talk about it, maybe it’ll go away.\n\nComplacency: “Good enough” feels safer than being honest.\n\nHow Low Conflict Can Change\nA new pressure—a guest, a secret, a mistake—can raise the stakes from gentle strain to open confrontation.\n\nSometimes it stays low, and the story becomes about living with tension, letting go, or finding quiet acceptance.\n\nSometimes, just one honest conversation is enough to change everything.\n\nLow conflict is the heartbeat under the words.\nWrite it with nuance, patience, and respect for the ways people tiptoe around each other.\nLet it simmer.\nIt’s how most stories start.\n\nHere’s the parallel entry for **Medium Strength Conflict: The Friction Point**—same word count, depth, and format:\n\n---",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Name the clash plainly",
+          "Voice the boundary crossed",
+          "State the line in the sand"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers that escalate, defuse, reveal, or mask conflict without inventing plot specifics.",
+      "axes": [
+        {
+          "key": "character",
+          "label": "Character vs. Character",
+          "description": "Two opposing desires collide in-scene."
+        },
+        {
+          "key": "society",
+          "label": "Character vs. Society",
+          "description": "Individual against culture, law, or crowd pressure."
+        },
+        {
+          "key": "nature",
+          "label": "Character vs. Nature/World",
+          "description": "Environment, fate, time, the impersonal world pushing back."
+        },
+        {
+          "key": "self",
+          "label": "Character vs. Self",
+          "description": "Inner contradiction, fear, guilt, trauma, unresolved want."
+        }
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "We can tell what the collision is about (even if hidden from other characters).",
+        "pressure": "There is tangible pressure or stake in the moment."
+      },
+      "strength_tiers": {
+        "1": "Clear conflict signal appears (any axis).",
+        "2": "Conflict is causally tied to a choice or pushback.",
+        "3": "Conflict alters trajectory or social weather."
+      }
+    },
+    "ui_controls": {
+      "behavior": "say",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "axes": [
+        "character",
+        "society",
+        "nature",
+        "self"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where conflict is legible via this behavior. Don’t label it—let the moment make the clash obvious.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "8c8d2df5-432f-4099-9873-3b851d3d7b46",
+    "key": "conflict_behavior_show",
+    "title": "Character conflict — They SHOW what the problem is",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "show"
+    ],
+    "source_md": "They SHOW What the Problem Is\n\nConflict doesn’t have to be shouted or spelled out. Most of the time, you’ll see it: in what characters do, what they refuse to do, the boundaries they set, the lines they cross, the ways they grind against each other (or the world). Sometimes no one ever says what’s wrong, but the actions—the friction, avoidance, sabotage, open defiance—shout it at full volume. The war is in the way they move, the choices they make, the trouble they invite or run from. Conflict leaks out, leaks in, changes the air around every character.\n\nWhat Does It Look Like?\nYou spot it in their reactions—tense shoulders, storming out, slamming doors, silent treatments, sharp glances. Conflict is in the patterns: two people who always argue, a hero who can’t stop breaking rules, a family who only shows up at holidays to fight about the past. It’s what people won’t do—refusing to apologize, refusing to ask for help, refusing to show up. Sometimes it’s in the sabotage: a character undermines their own success, burns bridges, pushes people away before they can be left. Maybe someone picks a fight just to feel alive. Maybe a group closes ranks when an outsider appears. The fight is everywhere except the dialogue.\n\nWhy Writers Use It\nShowing conflict, rather than saying it, pulls the reader into the world—no spoon-feeding, no neon signs, just tension you feel. The story gains depth and danger because the reader gets to piece it together, tracking the patterns, watching the fallout, knowing something’s going to break. This is where stories breathe: in what’s not said but what can’t be avoided. Showing conflict lets you layer subtext, complexity, and makes the audience do a little detective work (which is always more satisfying).\n\nWhat to Watch For\nPatterned resistance: Characters always saying no, dragging their feet, making everything harder than it needs to be.\n\nSilent stand-offs: Tense meals, awkward car rides, long pauses.\n\nSabotage: Doing things that make the problem worse, even (especially) when it doesn’t make sense.\n\nRepeated arguments: Fighting about little things when the big problem is left unsaid.\n\nPhysical actions: Slamming doors, walking away, breaking something valuable, refusing to leave or refusing to stay.\n\nThird-party conflict: Using someone else to fight your battles—gossip, triangulation, picking sides.\n\nRisky choices: Going behind someone’s back, defying orders, making bold moves that provoke opposition.\n\nSmall rebellions: Not answering calls, “forgetting” an important date, doing something out of spite or self-defense.\n\nWhy It Matters\nConflict shown through action is what makes a story feel real, alive, and full of stakes. You don’t need a speech to sense the heat in the room. Readers get to participate, connecting the dots, reading the air. This is how real life works: most fights aren’t announced, they’re acted out, lived through, felt in the gut. When a character shows their struggle, you can’t look away—you want to know what’s really going on, what the next explosion will be, whether anyone will make it out clean.\n\n\n2. They SHOW What the Problem Is\n\nConflict doesn’t have to be shouted or spelled out. Most of the time, you’ll see it: in what characters do, what they refuse to do, the boundaries they set, the lines they cross, the ways they grind against each other (or the world). Sometimes no one ever says what’s wrong, but the actions—the friction, avoidance, sabotage, open defiance—shout it at full volume. The war is in the way they move, the choices they make, the trouble they invite or run from. Conflict leaks out, leaks in, changes the air around every character.\n\nWhat Does It Look Like?\nYou spot it in their reactions—tense shoulders, storming out, slamming doors, silent treatments, sharp glances. Conflict is in the patterns: two people who always argue, a hero who can’t stop breaking rules, a family who only shows up at holidays to fight about the past. It’s what people won’t do—refusing to apologize, refusing to ask for help, refusing to show up. Sometimes it’s in the sabotage: a character undermines their own success, burns bridges, pushes people away before they can be left. Maybe someone picks a fight just to feel alive. Maybe a group closes ranks when an outsider appears. The fight is everywhere except the dialogue.\n\nWhy Writers Use It\nShowing conflict, rather than saying it, pulls the reader into the world—no spoon-feeding, no neon signs, just tension you feel. The story gains depth and danger because the reader gets to piece it together, tracking the patterns, watching the fallout, knowing something’s going to break. This is where stories breathe: in what’s not said but what can’t be avoided. Showing conflict lets you layer subtext, complexity, and makes the audience do a little detective work (which is always more satisfying).\n\nWhat to Watch For\nPatterned resistance: Characters always saying no, dragging their feet, making everything harder than it needs to be.\n\nSilent stand-offs: Tense meals, awkward car rides, long pauses.\n\nSabotage: Doing things that make the problem worse, even (especially) when it doesn’t make sense.\n\nRepeated arguments: Fighting about little things when the big problem is left unsaid.\n\nPhysical actions: Slamming doors, walking away, breaking something valuable, refusing to leave or refusing to stay.\n\nThird-party conflict: Using someone else to fight your battles—gossip, triangulation, picking sides.\n\nRisky choices: Going behind someone’s back, defying orders, making bold moves that provoke opposition.\n\nSmall rebellions: Not answering calls, “forgetting” an important date, doing something out of spite or self-defense.\n\nWhy It Matters\nConflict shown through action is what makes a story feel real, alive, and full of stakes. You don’t need a speech to sense the heat in the room. Readers get to participate, connecting the dots, reading the air. This is how real life works: most fights aren’t announced, they’re acted out, lived through, felt in the gut. When a character shows their struggle, you can’t look away—you want to know what’s really going on, what the next explosion will be, whether anyone will make it out clean.\n\nWhere You’ll See It\nPop Culture Examples:\n\nFargo — Jerry and his wife: Every scene is tense, even when nobody’s yelling. Jerry’s secrets show up in his lies, awkwardness, and desperation.\n\nThe Godfather — Michael Corleone: His choices—who he protects, who he hurts, who he refuses to become—show his conflict with his family and himself.\n\nMad Men — Don Draper: His constant cheating, working late, and avoiding honest conversations show an endless, internal war.\n\nThe Office — Angela and Dwight: Their secret, on-again-off-again relationship is a war of gestures, furtive glances, petty sabotage.\n\nFleabag: The protagonist’s actions—sabotaging relationships, chasing chaos—constantly show her inner turmoil, without needing to spell it out.\n\nBlack Panther — T’Challa and Killmonger: Most of their conflict is in what they do—choosing sides, making risky moves, breaking tradition.\n\nGet Out — Chris: The tension is all in the way people act around him—too nice, too invasive, too interested.\n\nThe Simpsons — Bart vs. Lisa: Their fights are more about pranks, sabotage, and silent wars than about what’s actually said.\n\nBoJack Horseman: Characters hurt each other through neglect, self-destruction, and distance.\n\nEuphoria — Rue and Jules: They never really say what’s wrong, but their decisions—staying, leaving, running, chasing—show all the fractures.\n\nThe Crown: Every episode is a masterclass in people refusing to say what’s wrong but living out the conflict anyway—through cold shoulders, missed events, or passive-aggressive tradition.\n\nHow It Changes the Story\nWhen conflict is shown, not told, the story fills with suspense and subtext. You don’t have the answers, but you know something’s coming. It’s more satisfying for the reader—they get to watch the storm build, feel the pressure rise, and wonder when (or if) anyone will finally snap. Sometimes this keeps the story simmering for ages; sometimes the slow-burn is the point. When someone finally says what the problem is, it lands with ten times the force, because you’ve felt it all along.\n\nFor Writers\nLet your characters act out the fight. Make them sabotage their own happiness, push away the people they love, pick fights with the world or themselves. Show the grind, the friction, the tiny rebellions and epic disasters. The best stories are built on what’s acted, not announced. If you can make the reader sense the conflict without a single speech, you’re halfway to a story that lives.\n\n\n3. They HIDE What the Problem Is\n\nNot all conflict comes out swinging. Sometimes it’s buried—denied, camouflaged, or kept under lock and key. This is the sneakiest, most human kind of conflict: knowing there’s a problem, but doing anything not to face it, not to let anyone else see it, maybe not even letting yourself know it’s there. The result? A story full of tension, odd silences, weird detours, and pressure that never quite releases. Hidden conflict is where real drama cooks.\n\nWhat Does It Look Like?\nHidden conflict lurks in the gaps—awkward pauses, the joke that lands flat, the way two people never quite look each other in the eye. You see it in characters who dodge questions, change the subject, over-explain simple things, or go out of their way to avoid someone. Maybe they attack a “safe” target instead of the real one, or lose their shit over nothing because they can’t name what’s really wrong. Sometimes they drown in distractions—work, habits, helping others, busy-ness—to keep from thinking about the problem. Maybe they start a pointless argument just to avoid the one that matters.\n\nThis is the fight that happens under the fight. No one ever says what the real issue is, but everyone feels it—the tension, the stakes, the threat that something could snap at any second.\n\nWhy Writers Use It\nHidden conflict is a goldmine for tension and realism. Real people rarely name their fights outright, especially the big, scary ones. We hide, we deflect, we use humor, we get mean, we sabotage, we freeze. Burying the fight keeps the story humming with subtext, suspense, and surprise—it forces the audience to read between the lines, wonder when the dam will break, and stay tuned for the truth underneath all the noise.\n\nWhat to Watch For\nAvoidance: Characters dodge each other, skip events, or change the subject whenever the real issue comes up.\n\nDeflection: Picking smaller, unrelated fights. (“Why are you always late?” instead of “I’m scared you’ll leave me.”)\n\nOvercompensation: Acting too nice, too cold, too busy, too perfect to cover up the mess.\n\nDistraction: Pouring energy into work, hobbies, caretaking—anything to keep from facing the conflict.\n\nPassive aggression: Snide remarks, the silent treatment, doing what’s asked—but badly.\n\nGuilt trips: Making someone else feel bad so you don’t have to talk about what’s actually wrong.\n\nSelf-sabotage: Messing things up “by accident” so the conflict never comes to a head.\n\nBreaking routines: Sudden changes—someone stops calling, skips dinner, starts new habits overnight.\n\nWhy It Matters\nHidden conflict is where stories get real, complicated, and dangerous. It’s not just what’s said, but what’s left unsaid that twists a relationship, keeps a family at war, or turns a workplace toxic. Every scene gets a charge, because everyone is on edge, waiting for the unspoken bomb to go off. The longer the fight stays hidden, the more power it has—when it finally breaks loose, the results are explosive, heartbreaking, or cathartic as hell.\n\nWhere You’ll See It\nPop Culture Examples:\n\nThe Sopranos — Tony and Carmela: Their fights are rarely about what’s on the surface—most arguments are stand-ins for deeper betrayal, resentment, and loneliness.\n\nBreaking Bad — Walt and Skyler: They dance around the truth for seasons—avoiding, lying, distracting, pretending nothing’s wrong even as everything falls apart.\n\nSuccession: Every character’s real fight is buried under sarcasm, jokes, and business talk; nobody says what they mean, but you can cut the tension with a knife.\n\nThe Royal Tenenbaums: The family’s weirdness, silence, and sabotage all mask a deep, shared wound nobody will name.\n\nThe Great Gatsby: The parties and drama are distractions; the real conflict—class, love, loss—simmers beneath the surface.\n\nLady Bird: The fights between Lady Bird and her mom are full of jokes, avoidance, and sudden blow-ups—never directly about the real pain underneath.\n\nTed Lasso (Rebecca and her ex-husband): She hides her anger and heartbreak behind professionalism and little power moves.\n\nThe West Wing — CJ and her dad: The conflict isn’t named—it’s all in what isn’t said, what’s avoided, and the rituals they use to cope.\n\nMoonlight: Chiron rarely speaks about what’s hurting him, but every scene shows what he’s running from.\n\nHow It Changes the Story\nHidden conflict is a pressure cooker. The story builds and builds, simmering with scenes where nothing seems to happen—except for everything underneath. When the truth finally comes out, everything changes: relationships break, heal, or transform. Even if it never surfaces, that unresolved tension shapes every moment, every choice, every regret.\n\nFor Writers\nWrite the silence. Build scenes where the real fight is always lurking just outside the frame. Let your characters distract, joke, freeze, lash out, retreat—anything but say what’s really going on. The more your story lives in the unsaid, the more it feels like real life. And when the truth finally cracks through, let it break something open.\n\n\nStrength Levels: Low — The Gentle Strain\nWhat Low Strength Conflict Is\nLow-strength conflict is the quiet tension that simmers beneath the surface. It’s not a fight, not a crisis—more like a pressure in the air, a vague sense that something’s off, or an unspoken difference that keeps people from fully connecting. Maybe it’s a disagreement left unaddressed, a feeling of not quite fitting in, or a clash of values that never erupts into argument. Most of the time, neither side would call it a conflict at all. It’s the weight of politeness, the itch of unsaid things, the hesitation before reaching out.\n\nIn low-strength mode, conflict doesn’t drive the plot forward—it colors the emotional world. It creates layers, moods, a hint of friction or melancholy, a subtle sense of distance between people. It isn’t nothing; it’s the thread that might snap, the question that might get asked, the silence before the storm.\n\nHow It Shows Up in Characters\nAwkward silences: Conversations stall or shift topic just before things get real.\n\nSubtle avoidance: Characters keep busy, dodge each other, or let messages go unanswered.\n\nMicroaggressions: Small jabs, jokes, or passive comments hint at underlying issues.\n\nWalking on eggshells: Characters act extra careful, checking themselves before they speak.\n\nMinor irritations: Sighing, eye-rolling, snark, or gentle teasing that never turns mean.\n\nWithdrawal: Someone pulls back—physically or emotionally—without explanation.\n\nRoutine over truth: The familiar is chosen over the honest, keeping everything running smoothly but a little off.\n\nStory Effects of Low-Strength Conflict\nSets a Mood: The story feels a little tense, uncertain, or bittersweet. Readers sense something unresolved, even when everyone acts “fine.”\n\nBuilds Relatability: It’s real—most of life is this, not screaming matches. We all know what it’s like to keep the peace while something festers.\n\nForeshadows Trouble or Change: This is often the canary in the coal mine. That subtle strain hints at bigger conflicts that could break through if the right pressure hits.\n\nDeepens Character: People with quiet struggles feel more honest. They aren’t just bouncing off plot points; their inner world matters. Their caution or frustration, even if muted, makes them more believable.\n\nWhat It Feels Like to Write\nYou linger: Scenes last a little longer, with pauses and unsaid things hanging in the air.\n\nDialogue skirts the issue: People hint, joke, or sidestep the real subject.\n\nAction is small-scale: Nobody flips a table—they just forget a birthday, or stand at the edge of a group.\n\nPacing is gentle: There’s room to breathe, to notice how a glance or sigh changes everything.\n\nPop Culture Examples\nPam Beesly (The Office):\nHer engagement to Roy is all low-grade conflict—quiet disappointment, unspoken doubts, halfhearted plans. Most of it shows up in silence, stolen glances, and what she doesn’t say.\n\nCharlotte (Lost in Translation):\nHer marriage feels strained, but there are almost no fights—just silences, distant phone calls, and missed connections. The conflict is all subtext.\n\nMy Neighbor Totoro (Mei & Satsuki’s family):\nThe sisters and their father navigate worry and longing with only minor flare-ups—the real strain is in missing their mother and trying to stay upbeat.\n\nJim Hopper (Stranger Things, early episodes):\nHis frustration with the town and his own grief comes out as mild irritation and avoidance, never open anger—at first.\n\nGilmore Girls (Lorelai and her parents):\nMost conflict is low-key—awkward dinners, comments left hanging, politeness barely masking deep difference.\n\nKiki (Kiki’s Delivery Service):\nKiki feels out of place in her new town. The conflict is all internal—doubt, loneliness, the quiet push to belong.\n\nSteven (Steven Universe, early on):\nHe senses the Gems are hiding things, but his struggle is gentle—hints, questions, soft tensions as he tries to find his place.\n\nWhen to Use Low Strength as a Writer\nWhen you want to build atmosphere and intimacy before things boil over.\n\nWhen your story is about relationships, coming-of-age, or the day-to-day struggles that shape people.\n\nWhen you want to show how conflict isn’t always loud—sometimes it’s the quiet strain that changes everything.\n\nWhen the story is about restraint, not eruption; about holding it together, not breaking apart.\n\nWhat Keeps Conflict Low?\nFear: Rocking the boat might cost too much.\n\nPoliteness: People don’t want to hurt each other, so they hold back.\n\nHabit: They’re used to avoiding problems.\n\nDenial: If you don’t talk about it, maybe it’ll go away.\n\nComplacency: “Good enough” feels safer than being honest.\n\nHow Low Conflict Can Change\nA new pressure—a guest, a secret, a mistake—can raise the stakes from gentle strain to open confrontation.\n\nSometimes it stays low, and the story becomes about living with tension, letting go, or finding quiet acceptance.\n\nSometimes, just one honest conversation is enough to change everything.\n\nLow conflict is the heartbeat under the words.\nWrite it with nuance, patience, and respect for the ways people tiptoe around each other.\nLet it simmer.\nIt’s how most stories start.\n\nHere’s the parallel entry for **Medium Strength Conflict: The Friction Point**—same word count, depth, and format:\n\n---",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Refuse, resist, or retaliate",
+          "Choose against comfort",
+          "Let action expose the collision"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers that escalate, defuse, reveal, or mask conflict without inventing plot specifics.",
+      "axes": [
+        {
+          "key": "character",
+          "label": "Character vs. Character",
+          "description": "Two opposing desires collide in-scene."
+        },
+        {
+          "key": "society",
+          "label": "Character vs. Society",
+          "description": "Individual against culture, law, or crowd pressure."
+        },
+        {
+          "key": "nature",
+          "label": "Character vs. Nature/World",
+          "description": "Environment, fate, time, the impersonal world pushing back."
+        },
+        {
+          "key": "self",
+          "label": "Character vs. Self",
+          "description": "Inner contradiction, fear, guilt, trauma, unresolved want."
+        }
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "We can tell what the collision is about (even if hidden from other characters).",
+        "pressure": "There is tangible pressure or stake in the moment."
+      },
+      "strength_tiers": {
+        "1": "Clear conflict signal appears (any axis).",
+        "2": "Conflict is causally tied to a choice or pushback.",
+        "3": "Conflict alters trajectory or social weather."
+      }
+    },
+    "ui_controls": {
+      "behavior": "show",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "axes": [
+        "character",
+        "society",
+        "nature",
+        "self"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where conflict is legible via this behavior. Don’t label it—let the moment make the clash obvious.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "ec57aaf6-d44f-48e4-95cb-3f5252eab451",
+    "key": "conflict_behavior_hide",
+    "title": "Character conflict — They HIDE what the problem is",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "hide"
+    ],
+    "source_md": "They HIDE What the Problem Is\n\nNot all conflict comes out swinging. Sometimes it’s buried—denied, camouflaged, or kept under lock and key. This is the sneakiest, most human kind of conflict: knowing there’s a problem, but doing anything not to face it, not to let anyone else see it, maybe not even letting yourself know it’s there. The result? A story full of tension, odd silences, weird detours, and pressure that never quite releases. Hidden conflict is where real drama cooks.\n\nWhat Does It Look Like?\nHidden conflict lurks in the gaps—awkward pauses, the joke that lands flat, the way two people never quite look each other in the eye. You see it in characters who dodge questions, change the subject, over-explain simple things, or go out of their way to avoid someone. Maybe they attack a “safe” target instead of the real one, or lose their shit over nothing because they can’t name what’s really wrong. Sometimes they drown in distractions—work, habits, helping others, busy-ness—to keep from thinking about the problem. Maybe they start a pointless argument just to avoid the one that matters.\n\nThis is the fight that happens under the fight. No one ever says what the real issue is, but everyone feels it—the tension, the stakes, the threat that something could snap at any second.\n\nWhy Writers Use It\nHidden conflict is a goldmine for tension and realism. Real people rarely name their fights outright, especially the big, scary ones. We hide, we deflect, we use humor, we get mean, we sabotage, we freeze. Burying the fight keeps the story humming with subtext, suspense, and surprise—it forces the audience to read between the lines, wonder when the dam will break, and stay tuned for the truth underneath all the noise.\n\nWhat to Watch For\nAvoidance: Characters dodge each other, skip events, or change the subject whenever the real issue comes up.\n\nDeflection: Picking smaller, unrelated fights. (“Why are you always late?” instead of “I’m scared you’ll leave me.”)\n\nOvercompensation: Acting too nice, too cold, too busy, too perfect to cover up the mess.\n\nDistraction: Pouring energy into work, hobbies, caretaking—anything to keep from facing the conflict.\n\nPassive aggression: Snide remarks, the silent treatment, doing what’s asked—but badly.\n\nGuilt trips: Making someone else feel bad so you don’t have to talk about what’s actually wrong.\n\nSelf-sabotage: Messing things up “by accident” so the conflict never comes to a head.\n\nBreaking routines: Sudden changes—someone stops calling, skips dinner, starts new habits overnight.\n\nWhy It Matters\nHidden conflict is where stories get real, complicated, and dangerous. It’s not just what’s said, but what’s left unsaid that twists a relationship, keeps a family at war, or turns a workplace toxic. Every scene gets a charge, because everyone is on edge, waiting for the unspoken bomb to go off. The longer the fight stays hidden, the more power it has—when it finally breaks loose, the results are explosive, heartbreaking, or cathartic as hell.\n\nWhere You’ll See It\nPop Culture Examples:\n\nThe Sopranos — Tony and Carmela: Their fights are rarely about what’s on the surface—most arguments are stand-ins for deeper betrayal, resentment, and loneliness.\n\nBreaking Bad — Walt and Skyler: They dance around the truth for seasons—avoiding, lying, distracting, pretending nothing’s wrong even as everything falls apart.\n\nSuccession: Every character’s real fight is buried under sarcasm, jokes, and business talk; nobody says what they mean, but you can cut the tension with a knife.\n\nThe Royal Tenenbaums: The family’s weirdness, silence, and sabotage all mask a deep, shared wound nobody will name.\n\nThe Great Gatsby: The parties and drama are distractions; the real conflict—class, love, loss—simmers beneath the surface.\n\nLady Bird: The fights between Lady Bird and her mom are full of jokes, avoidance, and sudden blow-ups—never directly about the real pain underneath.\n\nTed Lasso (Rebecca and her ex-husband): She hides her anger and heartbreak behind professionalism and little power moves.\n\nThe West Wing — CJ and her dad: The conflict isn’t named—it’s all in what isn’t said, what’s avoided, and the rituals they use to cope.\n\nMoonlight: Chiron rarely speaks about what’s hurting him, but every scene shows what he’s running from.\n\nHow It Changes the Story\nHidden conflict is a pressure cooker. The story builds and builds, simmering with scenes where nothing seems to happen—except for everything underneath. When the truth finally comes out, everything changes: relationships break, heal, or transform. Even if it never surfaces, that unresolved tension shapes every moment, every choice, every regret.\n\nFor Writers\nWrite the silence. Build scenes where the real fight is always lurking just outside the frame. Let your characters distract, joke, freeze, lash out, retreat—anything but say what’s really going on. The more your story lives in the unsaid, the more it feels like real life. And when the truth finally cracks through, let it break something open.\n\n\nStrength Levels: Low — The Gentle Strain\nWhat Low Strength Conflict Is\nLow-strength conflict is the quiet tension that simmers beneath the surface. It’s not a fight, not a crisis—more like a pressure in the air, a vague sense that something’s off, or an unspoken difference that keeps people from fully connecting. Maybe it’s a disagreement left unaddressed, a feeling of not quite fitting in, or a clash of values that never erupts into argument. Most of the time, neither side would call it a conflict at all. It’s the weight of politeness, the itch of unsaid things, the hesitation before reaching out.\n\nIn low-strength mode, conflict doesn’t drive the plot forward—it colors the emotional world. It creates layers, moods, a hint of friction or melancholy, a subtle sense of distance between people. It isn’t nothing; it’s the thread that might snap, the question that might get asked, the silence before the storm.\n\nHow It Shows Up in Characters\nAwkward silences: Conversations stall or shift topic just before things get real.\n\nSubtle avoidance: Characters keep busy, dodge each other, or let messages go unanswered.\n\nMicroaggressions: Small jabs, jokes, or passive comments hint at underlying issues.\n\nWalking on eggshells: Characters act extra careful, checking themselves before they speak.\n\nMinor irritations: Sighing, eye-rolling, snark, or gentle teasing that never turns mean.\n\nWithdrawal: Someone pulls back—physically or emotionally—without explanation.\n\nRoutine over truth: The familiar is chosen over the honest, keeping everything running smoothly but a little off.\n\nStory Effects of Low-Strength Conflict\nSets a Mood: The story feels a little tense, uncertain, or bittersweet. Readers sense something unresolved, even when everyone acts “fine.”\n\nBuilds Relatability: It’s real—most of life is this, not screaming matches. We all know what it’s like to keep the peace while something festers.\n\nForeshadows Trouble or Change: This is often the canary in the coal mine. That subtle strain hints at bigger conflicts that could break through if the right pressure hits.\n\nDeepens Character: People with quiet struggles feel more honest. They aren’t just bouncing off plot points; their inner world matters. Their caution or frustration, even if muted, makes them more believable.\n\nWhat It Feels Like to Write\nYou linger: Scenes last a little longer, with pauses and unsaid things hanging in the air.\n\nDialogue skirts the issue: People hint, joke, or sidestep the real subject.\n\nAction is small-scale: Nobody flips a table—they just forget a birthday, or stand at the edge of a group.\n\nPacing is gentle: There’s room to breathe, to notice how a glance or sigh changes everything.\n\nPop Culture Examples\nPam Beesly (The Office):\nHer engagement to Roy is all low-grade conflict—quiet disappointment, unspoken doubts, halfhearted plans. Most of it shows up in silence, stolen glances, and what she doesn’t say.\n\nCharlotte (Lost in Translation):\nHer marriage feels strained, but there are almost no fights—just silences, distant phone calls, and missed connections. The conflict is all subtext.\n\nMy Neighbor Totoro (Mei & Satsuki’s family):\nThe sisters and their father navigate worry and longing with only minor flare-ups—the real strain is in missing their mother and trying to stay upbeat.\n\nJim Hopper (Stranger Things, early episodes):\nHis frustration with the town and his own grief comes out as mild irritation and avoidance, never open anger—at first.\n\nGilmore Girls (Lorelai and her parents):\nMost conflict is low-key—awkward dinners, comments left hanging, politeness barely masking deep difference.\n\nKiki (Kiki’s Delivery Service):\nKiki feels out of place in her new town. The conflict is all internal—doubt, loneliness, the quiet push to belong.\n\nSteven (Steven Universe, early on):\nHe senses the Gems are hiding things, but his struggle is gentle—hints, questions, soft tensions as he tries to find his place.\n\nWhen to Use Low Strength as a Writer\nWhen you want to build atmosphere and intimacy before things boil over.\n\nWhen your story is about relationships, coming-of-age, or the day-to-day struggles that shape people.\n\nWhen you want to show how conflict isn’t always loud—sometimes it’s the quiet strain that changes everything.\n\nWhen the story is about restraint, not eruption; about holding it together, not breaking apart.\n\nWhat Keeps Conflict Low?\nFear: Rocking the boat might cost too much.\n\nPoliteness: People don’t want to hurt each other, so they hold back.\n\nHabit: They’re used to avoiding problems.\n\nDenial: If you don’t talk about it, maybe it’ll go away.\n\nComplacency: “Good enough” feels safer than being honest.\n\nHow Low Conflict Can Change\nA new pressure—a guest, a secret, a mistake—can raise the stakes from gentle strain to open confrontation.\n\nSometimes it stays low, and the story becomes about living with tension, letting go, or finding quiet acceptance.\n\nSometimes, just one honest conversation is enough to change everything.\n\nLow conflict is the heartbeat under the words.\nWrite it with nuance, patience, and respect for the ways people tiptoe around each other.\nLet it simmer.\nIt’s how most stories start.\n\nHere’s the parallel entry for **Medium Strength Conflict: The Friction Point**—same word count, depth, and format:\n\n---",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Deflect with sarcasm",
+          "Change subject or leave",
+          "Please/appease while seething"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers that escalate, defuse, reveal, or mask conflict without inventing plot specifics.",
+      "axes": [
+        {
+          "key": "character",
+          "label": "Character vs. Character",
+          "description": "Two opposing desires collide in-scene."
+        },
+        {
+          "key": "society",
+          "label": "Character vs. Society",
+          "description": "Individual against culture, law, or crowd pressure."
+        },
+        {
+          "key": "nature",
+          "label": "Character vs. Nature/World",
+          "description": "Environment, fate, time, the impersonal world pushing back."
+        },
+        {
+          "key": "self",
+          "label": "Character vs. Self",
+          "description": "Inner contradiction, fear, guilt, trauma, unresolved want."
+        }
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "We can tell what the collision is about (even if hidden from other characters).",
+        "pressure": "There is tangible pressure or stake in the moment."
+      },
+      "strength_tiers": {
+        "1": "Clear conflict signal appears (any axis).",
+        "2": "Conflict is causally tied to a choice or pushback.",
+        "3": "Conflict alters trajectory or social weather."
+      }
+    },
+    "ui_controls": {
+      "behavior": "hide",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "axes": [
+        "character",
+        "society",
+        "nature",
+        "self"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where conflict is legible via this behavior. Don’t label it—let the moment make the clash obvious.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "ee59af08-d014-40e6-9673-ff12bbf2f1b3",
+    "key": "conflict_strength_low",
+    "title": "Conflict strength — Low",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_behavior_say",
+        "conflict_behavior_show",
+        "conflict_behavior_hide"
+      ]
+    },
+    "strength_controls": [
+      "low"
+    ],
+    "source_md": "",
+    "assessment": {
+      "criteria": {
+        "clarity": "The source of clash is perceptible.",
+        "consequence": "The moment creates risk or cost."
+      },
+      "strength_tiers": {
+        "1": "Potency identified and present.",
+        "2": "Potency drives the next choice or pressure.",
+        "3": "Potency changes relationship field or path."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "low",
+      "axes": [
+        "character",
+        "society",
+        "nature",
+        "self"
+      ]
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the conflict is felt in action, not labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "609c5fee-ec11-4ed6-8d2f-38e435b578c4",
+    "key": "conflict_strength_medium",
+    "title": "Conflict strength — Medium",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_behavior_say",
+        "conflict_behavior_show",
+        "conflict_behavior_hide"
+      ]
+    },
+    "strength_controls": [
+      "medium"
+    ],
+    "source_md": "",
+    "assessment": {
+      "criteria": {
+        "clarity": "The source of clash is perceptible.",
+        "consequence": "The moment creates risk or cost."
+      },
+      "strength_tiers": {
+        "1": "Potency identified and present.",
+        "2": "Potency drives the next choice or pressure.",
+        "3": "Potency changes relationship field or path."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "medium",
+      "axes": [
+        "character",
+        "society",
+        "nature",
+        "self"
+      ]
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the conflict is felt in action, not labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "11027a21-2649-4979-89a1-a38ceec9d368",
+    "key": "conflict_strength_high",
+    "title": "Conflict strength — High",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_behavior_say",
+        "conflict_behavior_show",
+        "conflict_behavior_hide"
+      ]
+    },
+    "strength_controls": [
+      "high"
+    ],
+    "source_md": "",
+    "assessment": {
+      "criteria": {
+        "clarity": "The source of clash is perceptible.",
+        "consequence": "The moment creates risk or cost."
+      },
+      "strength_tiers": {
+        "1": "Potency identified and present.",
+        "2": "Potency drives the next choice or pressure.",
+        "3": "Potency changes relationship field or path."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "high",
+      "axes": [
+        "character",
+        "society",
+        "nature",
+        "self"
+      ]
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the conflict is felt in action, not labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "d45f9457-1018-47c6-a53a-8f9251bd4a25",
+    "key": "conflict_toolkit",
+    "title": "Conflict — tools, questions, and dial examples",
+    "concept": "conflict",
+    "scope": "character",
+    "type": "toolkit",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "conflict_strength_low",
+        "conflict_strength_medium"
+      ]
+    },
+    "tools_md": "",
+    "questions_md": "",
+    "dial_examples_md": "",
+    "quick_reference_md": "",
+    "xrefs": {
+      "world_conflict_parents": [
+        "worldbuilding_conflict_intro",
+        "society_conflict_intro"
+      ],
+      "systemic_conflict_parents": [
+        "power_dynamics_intro",
+        "status_transactions_intro"
+      ],
+      "thematic_conflict_parents": [
+        "truth_vs_lie_intro",
+        "mercy_vs_justice_intro"
+      ],
+      "scene_conflict_parents": [
+        "tension_intro",
+        "action_intro"
+      ]
+    }
+  }
+]
