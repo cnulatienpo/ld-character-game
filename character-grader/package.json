@@ -1,0 +1,21 @@
+{
+  "name": "character-grader",
+  "version": "1.0.0",
+  "description": "Lightweight character writing grader with heuristics and GameMaker bridge.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "bash test/run_tests.sh"
+  },
+  "bin": {
+    "character-grader": "dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.4.0"
+  }
+}
