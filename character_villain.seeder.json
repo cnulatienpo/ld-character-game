@@ -1,0 +1,932 @@
+[
+  {
+    "id": "7b799f83-025e-4ed1-93d3-d398bcdb7c5c",
+    "key": "villain_bundle_header",
+    "title": "The Villain — Bundle Header",
+    "type": "bundle:header",
+    "concept": "villain",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro",
+        "conflict_intro",
+        "stakes_intro",
+        "theme_intro",
+        "voice_intro"
+      ]
+    },
+    "compat_index": {
+      "expects_prior_keys": [
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ],
+      "notes": "This pack references conflict/stakes/theme/voice; surface only when unlocked."
+    }
+  },
+  {
+    "id": "c08a6453-a02a-4bae-a1ef-f6c14a021360",
+    "key": "villain_intro",
+    "title": "The Villain — what it is",
+    "concept": "villain",
+    "type": "lesson:intro",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "plot",
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Defines the villain as resistance: the force that raises cost, reshapes conditions, and endures. Not always a person; can be a system, place, event, or idea. Not synonymous with 'evil.'"
+  },
+  {
+    "id": "6d8b89d4-6a79-4495-b402-93df55a91dbf",
+    "key": "villain_why_matters",
+    "title": "Why the villain matters",
+    "concept": "villain",
+    "type": "lesson:why",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "plot",
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Without an active counterforce, desire has no friction and choices have no weight. Villains create consequence: they force priorities into the open and make values visible."
+  },
+  {
+    "id": "9e218481-405e-45e1-b26d-5cecaab44116",
+    "key": "villain_misunderstood",
+    "title": "How the villain is misunderstood",
+    "concept": "villain",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_why_matters",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "plot",
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Common traps: must be human; must always lose; must be loud; exists only to oppose the hero. Reframe as pressure geometry that can be quiet, systemic, or even beloved."
+  },
+  {
+    "id": "2edae520-2d76-406d-a7be-f2eaf1d25ab4",
+    "key": "villain_powers_everything",
+    "title": "How the villain powers the story",
+    "concept": "villain",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_misunderstood",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "plot",
+        "pacing"
+      ],
+      "needs_terms": [
+        "conflict",
+        "stakes",
+        "theme",
+        "voice"
+      ]
+    },
+    "summary": "Villain energy intersects with conflict, stakes, theme, and voice: it defines what hurts, what changes, and what the story believes. Terms are gated and explained when unlocked.",
+    "crossrefs_gate_later": [
+      "conflict",
+      "stakes",
+      "theme",
+      "voice"
+    ]
+  },
+  {
+    "id": "ee4b8b68-a772-45f9-8b16-9001dfb8a155",
+    "key": "villain_examples_index",
+    "title": "Villain examples (reference)",
+    "concept": "villain",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "examples": [
+      "Darth Vader",
+      "Nurse Ratched",
+      "Thanos",
+      "The Joker (Dark Knight)",
+      "Regina George",
+      "Anton Chigurh",
+      "Sauron",
+      "Killmonger",
+      "Voldemort",
+      "Gus Fring",
+      "GLaDOS",
+      "Agent Smith",
+      "Hans Landa",
+      "The Xenomorph",
+      "The Capitol (Hunger Games)"
+    ],
+    "notes": "Used by behavior and potency panels as quick anchors."
+  },
+  {
+    "id": "d401dae9-1340-4f66-a0de-32cf948d9c5a",
+    "key": "villain_behavior_raise",
+    "title": "How to spot the villain — they raise the stakes",
+    "concept": "villain",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "behavior_controls": [
+      "raise"
+    ],
+    "summary": "Escalation: increase cost, risk, visibility, or scope.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Deadline appears",
+          "Collateral damage grows",
+          "Personal cost increases",
+          "Public exposure rises"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral, context-aware maneuvers to raise resistance without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "pressure": "The moment increases pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of raise.",
+        "2": "Raise links to a decision with visible cost.",
+        "3": "Raise shifts conditions for the next moment/world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "raise",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write any scene fragment where this behavior appears once. No length cap—ramble if it helps. Don’t explain; let pressure show.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A specific decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "e0867b87-e5e2-4be2-b7a1-09df6b93b521",
+    "key": "villain_behavior_force",
+    "title": "How to spot the villain — they force choices",
+    "concept": "villain",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "behavior_controls": [
+      "force"
+    ],
+    "summary": "Corner the protagonist into decisions that reveal values.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Corner into A/B decision",
+          "Remove safe option",
+          "Make inaction harmful",
+          "Trigger loyalty test"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral, context-aware maneuvers to force resistance without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "pressure": "The moment increases pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of force.",
+        "2": "Force links to a decision with visible cost.",
+        "3": "Force shifts conditions for the next moment/world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "force",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write any scene fragment where this behavior appears once. No length cap—ramble if it helps. Don’t explain; let pressure show.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A specific decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "a74464e4-e9c8-4ebb-abe6-70fc222f87b2",
+    "key": "villain_behavior_shape",
+    "title": "How to spot the villain — they shape the world",
+    "concept": "villain",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "behavior_controls": [
+      "shape"
+    ],
+    "summary": "Alter conditions, rules, norms, or tone; warp the environment.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Change rules of the game",
+          "Own the setting/resources",
+          "Rewrite social order",
+          "Corrupt institutions"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral, context-aware maneuvers to shape resistance without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "pressure": "The moment increases pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of shape.",
+        "2": "Shape links to a decision with visible cost.",
+        "3": "Shape shifts conditions for the next moment/world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "shape",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write any scene fragment where this behavior appears once. No length cap—ramble if it helps. Don’t explain; let pressure show.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A specific decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "9e172181-b602-4ea6-b442-06e1fdbbab2a",
+    "key": "villain_behavior_endure",
+    "title": "How to spot the villain — they don’t always lose",
+    "concept": "villain",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_powers_everything",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "behavior_controls": [
+      "endure"
+    ],
+    "summary": "Persistence: survive setbacks, return transformed, or outlast.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Villain retreats then adapts",
+          "Splits into many agents",
+          "Becomes systemic pressure",
+          "Returns via legacy"
+        ]
+      },
+      "suggestions_contextual": "Surface neutral, context-aware maneuvers to endure resistance without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "pressure": "The moment increases pressure on someone’s want."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of endure.",
+        "2": "Endure links to a decision with visible cost.",
+        "3": "Endure shifts conditions for the next moment/world state."
+      }
+    },
+    "ui_controls": {
+      "behavior": "endure",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write any scene fragment where this behavior appears once. No length cap—ramble if it helps. Don’t explain; let pressure show.",
+      "expectations": [
+        "Pressure is legible on the page.",
+        "A specific decision point exists or is imminent."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  },
+  {
+    "id": "d6e5fb5c-377f-4a85-9cd5-326aed73909d",
+    "key": "villain_strength_low",
+    "title": "Villain strength — The gentle resistance",
+    "concept": "villain",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_behavior_raise",
+        "villain_behavior_force",
+        "villain_behavior_shape",
+        "villain_behavior_endure",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "strength_controls": [
+      "low"
+    ],
+    "summary": "Local friction; a hassle, a gatekeeper, a policy, a storm. Foreshadows deeper opposition.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible via consequence, scope, or permanence.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency correctly identified.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "raise",
+        "force",
+        "shape",
+        "endure"
+      ],
+      "strength": "low"
+    },
+    "assignment": {
+      "prompt": "Rewrite a previous fragment at this strength. Use environmental or social details to make the pressure level obvious—no labels.",
+      "expectations": [
+        "Strength reads without naming it.",
+        "The scene’s next moment feels altered."
+      ]
+    }
+  },
+  {
+    "id": "2a70c468-9321-4a09-b273-0cde807a35d3",
+    "key": "villain_strength_medium",
+    "title": "Villain strength — The real obstacle",
+    "concept": "villain",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_behavior_raise",
+        "villain_behavior_force",
+        "villain_behavior_shape",
+        "villain_behavior_endure",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "strength_controls": [
+      "medium"
+    ],
+    "summary": "Values collide; costs rise; relationships strain. The world tilts around the pressure.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible via consequence, scope, or permanence.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency correctly identified.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "raise",
+        "force",
+        "shape",
+        "endure"
+      ],
+      "strength": "medium"
+    },
+    "assignment": {
+      "prompt": "Rewrite a previous fragment at this strength. Use environmental or social details to make the pressure level obvious—no labels.",
+      "expectations": [
+        "Strength reads without naming it.",
+        "The scene’s next moment feels altered."
+      ]
+    }
+  },
+  {
+    "id": "ae32c475-8cd1-4cf0-a91c-065f93dfa423",
+    "key": "villain_strength_high",
+    "title": "Villain strength — The world‑breaking force",
+    "concept": "villain",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_behavior_raise",
+        "villain_behavior_force",
+        "villain_behavior_shape",
+        "villain_behavior_endure",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "strength_controls": [
+      "high"
+    ],
+    "summary": "Survival/identity/ideology at stake. Rules change; losses become irreversible.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible via consequence, scope, or permanence.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency correctly identified.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "raise",
+        "force",
+        "shape",
+        "endure"
+      ],
+      "strength": "high"
+    },
+    "assignment": {
+      "prompt": "Rewrite a previous fragment at this strength. Use environmental or social details to make the pressure level obvious—no labels.",
+      "expectations": [
+        "Strength reads without naming it.",
+        "The scene’s next moment feels altered."
+      ]
+    }
+  },
+  {
+    "id": "d08745e4-8c2a-45be-bb76-80d0063ee8d1",
+    "key": "villain_toolkit",
+    "title": "Villain dials — scale and shape resistance",
+    "concept": "villain",
+    "type": "toolkit",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_strength_low",
+        "villain_strength_medium",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "tools": [
+      {
+        "dial": "Scale resistance",
+        "direction": "+/-",
+        "note": "Widen scope (personal→public) or narrow to intimate."
+      },
+      {
+        "dial": "Shift nature",
+        "direction": "+/-",
+        "note": "Person ↔ system ↔ environment ↔ idea."
+      },
+      {
+        "dial": "Timing",
+        "direction": "+/-",
+        "note": "Early simmer vs late disruption; move the hit."
+      },
+      {
+        "dial": "Intentionality",
+        "direction": "+/-",
+        "note": "Schemer vs force-of-nature inevitability."
+      },
+      {
+        "dial": "Multiplicity",
+        "direction": "+/-",
+        "note": "One shadow vs network of pressures."
+      },
+      {
+        "dial": "Visibility",
+        "direction": "+/-",
+        "note": "Make the pushback overt or latent."
+      }
+    ],
+    "assignment": {
+      "prompt": "Take any villain scene you wrote. Apply one + dial and one − dial to produce two alternate versions (hotter/cooler).",
+      "expectations": [
+        "Two distinct versions exist.",
+        "Pressure quality changes without changing premise."
+      ]
+    }
+  },
+  {
+    "id": "a9d415a8-f29a-4863-a67e-8eb8cdb9e661",
+    "key": "villain_for_writers",
+    "title": "For writers — diagnosing your resistance engine",
+    "concept": "villain",
+    "type": "lesson:reflection",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "villain_toolkit",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low",
+        "motivation_intro"
+      ]
+    },
+    "summary": "Quick self-diagnosis: Is your opposition personal, systemic, environmental, or ideological? What does it cost to ignore it?",
+    "assignment": {
+      "prompt": "Free-write a rant from your villain’s point of view justifying the resistance. Don’t make them correct—make them coherent.",
+      "expectations": [
+        "A coherent worldview emerges.",
+        "It naturally conflicts with someone’s want."
+      ],
+      "length_policy": "No max. Explore freely."
+    }
+  }
+]

@@ -1,0 +1,699 @@
+[
+  {
+    "id": "d28be500-3545-470a-8bae-c1d2a16b2c75",
+    "key": "change_bundle_header",
+    "title": "Character Change — Bundle Header",
+    "type": "bundle:header",
+    "concept": "change",
+    "scope": "character",
+    "cross_reference": [
+      "character",
+      "world",
+      "story",
+      "systemic",
+      "environmental"
+    ],
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "identity_intro",
+        "motivation_intro",
+        "decision_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    }
+  },
+  {
+    "id": "6120d574-4c54-411b-87b1-404f1ae924fe",
+    "key": "change_intro",
+    "title": "Change — what it is",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:intro",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "94809886-a498-48a8-b35e-0658fac511f1",
+    "key": "change_makes",
+    "title": "What makes change",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "43df0704-eb17-427a-8326-bde25e498d35",
+    "key": "change_matters",
+    "title": "Why change matters",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:why",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "5a87a44d-fb40-4898-bcb1-d7f9fdc724b4",
+    "key": "change_fail",
+    "title": "Why stories fail without change",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:why_not",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_matters"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "78cfb824-c551-42b9-832f-aa3458ea4719",
+    "key": "change_misunderstood",
+    "title": "How change is misunderstood",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_matters"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "643f59b8-61ba-4d7e-b76c-bb8ed58dfe52",
+    "key": "change_powers",
+    "title": "How change powers everything (gated refs)",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_misunderstood"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "d55e26cc-d20a-4b25-9446-d3edc8bca01c",
+    "key": "change_faces",
+    "title": "The many faces of change",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_intro"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "00538774-ccd2-4e76-8865-4e256e8d41b9",
+    "key": "change_writers_job",
+    "title": "The writer’s job (change)",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:practice",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_faces"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "d6ddee3e-4bf6-417c-9e77-61760b950138",
+    "key": "change_and_you",
+    "title": "Change and you",
+    "concept": "change",
+    "scope": "character",
+    "type": "lesson:reflection",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_writers_job"
+      ]
+    },
+    "gates": {
+      "holds_back_terms": [
+        "theme",
+        "plot",
+        "scene",
+        "voice",
+        "pacing",
+        "dialogue",
+        "consequence"
+      ],
+      "needs_terms": []
+    },
+    "source_md": ""
+  },
+  {
+    "id": "d5326e61-8654-4a93-a7d4-c816898197ee",
+    "key": "change_examples",
+    "title": "Change — pop culture index",
+    "concept": "change",
+    "scope": "character",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_intro"
+      ]
+    },
+    "source_md": ""
+  },
+  {
+    "id": "6e042372-9c07-4d37-a269-d9a92e703711",
+    "key": "change_behavior_say_diff",
+    "title": "How to spot change — They SAY what’s different",
+    "concept": "change",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "say_diff"
+    ],
+    "source_md": "They SAY What’s Different\n   Sometimes, change is announced out loud. A character reflects, confesses, or proclaims a shift in themselves, in the world, or in someone else. It’s the most explicit form: “I used to be X, now I’m Y.” You don’t have to guess—it’s spelled out.\n\nWhat Does It Look Like?\nDeclarations: “I’m not who I was.”\nApologies: “I was wrong.”\nGoodbyes: “I can’t do this anymore.”\n\nA character might explain what’s changed, or someone else will point it out. These moments reframe the story, mark turning points, and set new terms for what happens next.\n\nWhy Writers Use It\nClarity. Nothing is more efficient than having someone lay it all out. Announcing change can underline stakes, wrap up arcs, or force a confrontation. The world gets redefined by what’s said.\n\nWhat to Listen For\nDirect statements: “I’m leaving.” / “I believe you now.”\nVows: “From now on, things will be different.”\nAdmissions: “I never understood until today.”\n\nWhy It Matters\nWhen change is spoken, it gives the reader a checkpoint: you know what’s new, what’s over, or what’s next. It’s satisfying, risky, and sometimes heartbreaking. What’s said can’t be unsaid.\n\nWhere You’ll See It\nPop Culture Examples:\n\nA Christmas Carol — Scrooge: “I will honor Christmas in my heart, and try to keep it all the year.”\n\nThe Matrix — Neo: “My name...is Neo.”\n\nLegally Blonde — Elle Woods: “I’m never going to be good enough for you, am I?”\n\nBreaking Bad — Walter White: “I am the one who knocks!”\n\nThe Office — Pam: “I’m moving to Philadelphia.”\n\nHow It Changes the Story\nOnce change is spoken, the plot pivots. Every action from that point has a new context, a new energy. Dialogue, relationships, and the world have to adapt—or break.\n\nFor Writers\nDon’t be afraid to let your characters state what’s different. It’s not always subtle, but it can be powerful, and it helps the reader keep track of what matters.\n\n\n2. They SHOW What’s Different\nMost change isn’t announced—it’s revealed by behavior, decisions, habits, or even silence. A character acts differently, lets go of an old pattern, or stumbles into something new. The difference is visible, not just talked about.\n\nWhat Does It Look Like?\nNew habits: Someone stands up for themselves who never did before.\nDifferent choices: They walk away, stay quiet, take a risk they never would’ve.\nNew relationships: Forgiving, breaking up, letting someone in.\nLetting go: Abandoning a grudge, quitting a job, moving on from grief.\n\nChange is visible in the small stuff: who sits where, who calls, who doesn’t. It’s not always dramatic—sometimes it’s just a pause, or a new answer to an old question.\n\nWhy Writers Use It\nBecause people (and readers) trust action more than words. Showing change proves it’s real—words can lie, but behavior rarely does.\n\nWhat to Watch For\nHabits broken, risks taken, routines flipped.\nSomeone stops responding the old way.\nSmall signals—laughing differently, sitting with different people, going to new places.\n\nWhy It Matters\nWhen change is acted out, it’s authentic. It’s the proof, not the promise. Readers feel it, trust it, and invest more. Even when the world looks the same, the changed person is a new lens.\n\nWhere You’ll See It\nPop Culture Examples:\n\nBuffy (Buffy the Vampire Slayer): Finally lets others lead—her leadership shifts.\n\nLuke Skywalker: Refuses revenge in the final fight, choosing peace.\n\nAndy Dufresne (Shawshank): Stops obeying the routine and starts digging.\n\nJoe March (Little Women): Turns down marriage, pursues her own ambition.\n\nMichael Scott (The Office): Quits Dunder Mifflin, chooses a new life.\n\nHow It Changes the Story\nAction locks in change. The story has proof. New behaviors, relationships, and decisions close one door and open another.\n\nFor Writers\nForce your characters to show their shifts. Don’t let them just talk—make it cost something. Make it visible. The more you show, the deeper the reader believes.\n\n3. They HIDE What’s Different\nSome change is hidden—downplayed, denied, or outright buried. A character clings to old habits in public, but cracks show in private. Or they pretend not to care, while everything inside has shifted. This is the change that isn’t ready for daylight.\n\nWhat Does It Look Like?\nSecret rituals: Practicing a new belief or habit in private.\nDenial: Insisting nothing’s different when it clearly is.\nMasking: Acting “normal” to avoid attention.\nCompensation: Overdoing old behaviors to hide the shift.\n\nSometimes, the audience sees the change first. Sometimes, not even the character knows how much they’ve changed until they’re cornered.\n\nWhy Writers Use It\nBecause change is scary. Hiding change creates tension—between what’s real and what’s admitted, between public and private selves. It also lets you play with timing—revealing the shift at just the right moment.\n\nWhat to Watch For\nConflicted actions: Doing the “old thing” with less conviction.\nSlips: Accidental honesty or cracks in the mask.\nDefensiveness: Pushing back too hard against questions.\n\nWhy It Matters\nHidden change is real, but risky. It can explode later—betrayal, confession, meltdown. It’s the seed of the next big shift.\n\nWhere You’ll See It\nPop Culture Examples:\n\nDon Draper (Mad Men): Reverts to old habits, but can’t hide regret.\n\nSpock (Star Trek): Fights emotion, but loyalty and love leak out.\n\nBuffy (Buffy the Vampire Slayer): Hides pain and trauma behind jokes and leadership.\n\nFrodo Baggins (LOTR): Tries to act like the same hobbit, but the ring changed him forever.\n\nMichael Corleone (The Godfather): Claims nothing’s changed, but the shift is obvious to everyone but him.\n\nHow It Changes the Story\nThe more a character hides their change, the bigger the fallout when it’s revealed. Secrets, double lives, and denial all build tension and can drive the climax of a story.\n\nFor Writers\nLet your characters hide, deny, or sabotage their own evolution. The bigger the gap between what’s real and what’s admitted, the more satisfying the payoff.\n\nStrength Levels: Low — The Subtle Shift\nWhat Low Strength Change Is\nLow-strength change is the slow, almost invisible movement that accumulates over time. It’s the stuff you only notice in hindsight—a softening, a hardening, a perspective shift. Nothing earth-shattering; just the quiet realization that things aren’t quite what they used to be.\n\nThis level of change shapes the mood and undercurrent of a story. It can be a growing restlessness, a quiet resignation, or a flicker of hope. Low change doesn’t drive the plot—it colors the world and characters.\n\nHow It Shows Up in Characters\nLingering doubts, fading beliefs\nRoutine becomes uncomfortable\nOld comforts feel less satisfying\nPrivate rituals take on new meaning\nGentle nostalgia for what used to fit\nSmall decisions start to pile up\n\n\nStrength Levels: Low — The Subtle Shift\nWhat Low Strength Change Is\nLow-strength change is the slow, almost invisible movement that accumulates over time. It’s the stuff you only notice in hindsight—a softening, a hardening, a perspective shift. Nothing earth-shattering; just the quiet realization that things aren’t quite what they used to be.\n\nThis level of change shapes the mood and undercurrent of a story. It can be a growing restlessness, a quiet resignation, or a flicker of hope. Low change doesn’t drive the plot—it colors the world and characters.\n\nHow It Shows Up in Characters\n\nLingering doubts, fading beliefs\n\nRoutine becomes uncomfortable\n\nOld comforts feel less satisfying\n\nPrivate rituals take on new meaning\n\nGentle nostalgia for what used to fit\n\nSmall decisions start to pile up\n\nStory Effects of Low-Strength Change\n\nCreates mood: Atmosphere of uncertainty, nostalgia, or possibility.\n\nDeepens character: Characters feel lived-in, not static.\n\nForeshadows upheaval: Tiny shifts build toward bigger changes.\n\nInvites empathy: Everyone knows the feeling of subtle shifts in their own life.\n\nWhat It Feels Like to Write\n\nScenes are quieter, reflective, sometimes slow.\n\nDialogue hints at what’s slipping, not what’s breaking.\n\nCharacters react more than they act.\n\nPop Culture Examples\n\nJim Halpert (The Office): The slow drift from prankster to restless romantic. Change is in the looks, the little sighs, the eventual choices.\n\nAmélie (Amélie): Her shift from fantasy to reality is gradual, driven by small, gentle acts.\n\nChihiro (Spirited Away): Her growth is tentative, revealed by hesitations, questions, and little braveries.\n\nThe Narrator (Lost in Translation): Longing for something more, but rarely acting. Change is a quiet ache, not a revelation.\n\nMarge Gunderson (Fargo, at home): Contentment with subtle longing for connection or quiet. Her change is background music, not a plot twist.\n\nThe Little Prince (The Little Prince): Wandering, asking questions, missing his rose. Change is curiosity, not upheaval.\n\nWhen to Use Low Strength as a Writer\n\nTo set the stage for bigger shifts.\n\nFor slice-of-life, coming-of-age, meditative, or atmospheric stories.\n\nTo deepen the inner life of characters, not just their actions.\n\nTo build empathy and subtlety.\n\nWhat Keeps Change Low?\n\nFear: Change feels risky.\n\nHabit: The character is used to their rut.\n\nDoubt: Not sure change is possible or safe.\n\nObligation: Keeping the peace or status quo for others.\n\nComplacency: Maybe “good enough” is fine… until it isn’t.\n\nHow Low Change Can Build\nA spark, event, or revelation can flip low change into something more.\nSometimes, the story is about acceptance rather than transformation.\nEven a tiny, private shift can matter—if the story gives it room.\nLow change is everywhere. Write it with patience, honesty, and an eye for the almost-unseen. Let it breathe. It’s where nearly every transformation begins.\n\nStrength Levels: Medium — The Noticeable Turn\nWhat Medium Strength Change Is\nMedium-strength change is when things actually start moving. This is the tipping point—when a character or world stops just simmering and finally acts, admits, or adjusts in a visible way. It’s the phase where change leaves the background and begins to steer the story. The dream becomes a plan, the plan becomes a risk, and stakes finally show up.\n\nThis isn’t the wild transformation at the climax, but it’s where momentum picks up. Someone starts making choices, and the world responds. The reader notices. So does everyone in the story.\n\nHow It Shows Up in Characters\n\nMaking new decisions: Taking a stand, quitting a job, leaving a relationship, opening up to someone.\n\nConfessing or confronting: Finally admitting what’s different (to self or others).\n\nTaking risks: Leaving the comfort zone or shaking up routine.\n\nFacing pushback: Change meets resistance—sometimes the first real opposition in the story.\n\nTesting new ground: Trying something new, even if clumsy or halfway.\n\nStory Effects of Medium-Strength Change\n\nCreates visible momentum: The story actually goes somewhere, not just in circles.\n\nRaises stakes: There’s something to win or lose, and the characters know it.\n\nForces conflict: Resistance comes out of the woodwork—other characters, society, even the character’s own habits.\n\nDeepens relationships: Change becomes impossible to ignore; allies and enemies make themselves known.\n\nLinks events: Decisions have consequences; scenes build on each other instead of resetting.\n\nWhat It Feels Like to Write\n\nScenes start to connect: Actions lead to fallout, not just mood.\n\nDialogue sharpens: More direct confrontation, honesty, or argument.\n\nStakes show up in the text: What happens next starts to matter.\n\nPacing picks up: Less drifting, more direction.\n\nPop Culture Examples\n\nKatniss Everdeen (The Hunger Games): When she volunteers for her sister, change jumps from hypothetical to actual. She can’t go back.\n\nElle Woods (Legally Blonde): Applies to Harvard—wants shift from background to driving the plot.\n\nMoana (Moana): Leaves her island; her arc becomes an adventure, not just a longing.\n\nPeter Parker (Spider-Man): Starts using his powers for others; the change is tested by real world problems.\n\nJoe March (Little Women): Goes after her writing career; risks relationships and reputation.\n\nMichael Scott (The Office): Decides to pursue Holly, changing his approach to love and work.\n\nWhen to Use Medium Strength as a Writer\n\nWhen you want real plot, not just vibes.\n\nWhen it’s time for characters to face their fear or desire and make choices.\n\nWhen readers need to see movement—not just introspection.\n\nWhen you want story momentum but aren’t ready for full-blown crisis or transformation.\n\nWhat Keeps Change at Medium?\n\nDoubt: The character acts, but second-guesses or hesitates.\n\nPushback: The world resists, but doesn’t crush them.\n\nSplit loyalties: Change competes with other wants or duties.\n\nTesting: The character is trying change on for size, not all-in yet.\n\nHow Medium Change Can Build\nMedium change is the fuel for escalation:\n\nSuccess or disaster can push things higher, or send someone retreating.\n\nChoices create new problems, forcing bigger leaps next time.\n\nWhen pressure keeps rising, medium change becomes high—sudden, risky, or irreversible.\n\nMedium change is the “act two” energy: everything matters more, but it’s not the end of the world (yet).\n\nHere’s **Strength Levels: High — The Break or Breakthrough** section, ready to copy:\n\n---\n\n**Strength Levels: High — The Break or Breakthrough**\n**What High Strength Change Is**\nHigh-strength change is the big one—an all-in, life-altering transformation or collapse. This is when change becomes the main event, not just a subplot or a vibe. The character, relationship, or world is completely reshaped. There’s no pretending, no going back, no “maybe next time.” The story is now about surviving, accepting, or being destroyed by the change.\n\nAt this level, the character isn’t just reacting—they’re forced to reinvent or face ruin. High strength is a line in the sand, with fallout for everyone involved.\n\n**How It Shows Up in Characters**\n\n* Total transformation: The character becomes someone new—by choice or by force.\n* Burned bridges: Quitting, breaking up, exposing secrets, leaving home for good.\n* Obsession or collapse: The need to change (or resist change) overrides everything else.\n* Sacrifice: Willing to give up safety, reputation, even loved ones for the change.\n* No more hedging: The old life, old self, or old relationship is dead and buried.\n\n**Story Effects of High-Strength Change**\n\n* Drives climax: Everything in the story points to this turning point.\n* Raises the cost: Real risk, pain, or loss—sometimes irreversibly.\n* Forces everyone to respond: Not just the main character, but the whole world of the story.\n* Shifts the meaning: The story isn’t just about what changed, but what it cost and what it means now.\n* Redefines stakes: What happens after can’t just “go back.”\n\n**What It Feels Like to Write**\n\n* Pacing speeds up: Everything feels urgent, like the story is on fire.\n* Dialogue is raw: Confessions, confrontations, betrayals, declarations.\n* Consequences stick: The story can’t reset or gloss over what happened.\n* Energy spikes: Every choice has teeth.\n\n**Pop Culture Examples**\n\n* **Walter White (Breaking Bad):** Goes all-in as Heisenberg, choosing empire over family, safety, or morality.\n* **Gollum (Lord of the Rings):** Change becomes obsession, and he’s destroyed by it.\n* **Carrie (Carrie):** Repressed for years, her transformation is explosive and tragic.\n* **Captain Ahab (Moby Dick):** Change as obsession; burns his whole world down to chase the whale.\n* **The Bride (Kill Bill):** Gives up everything for revenge, then faces what’s left after.\n* **Gatsby (The Great Gatsby):** His whole life is rebuilt for Daisy; it destroys him.\n* **Anakin Skywalker (Star Wars):** The change is so extreme he becomes Darth Vader—no undoing it.\n* **Macbeth (Macbeth):** Chases power at any cost; change becomes madness and ruin.\n* **Tony Montana (Scarface):** The hunger for more is so great he self-destructs.\n\n**When to Use High Strength as a Writer**\n\n* At the climax or turning point of the story.\n* When you want the character to risk it all—no safety net, no reset.\n* In stories about obsession, transformation, tragedy, or epic redemption.\n* Any time you want consequences to actually matter.\n\n**What Pushes Change to High?**\n\n* Loss: Something is gone for good; nothing to lose.\n* Betrayal: Trust is broken, forcing a point of no return.\n* Ultimatum: Forced to choose; the middle ground disappears.\n* Desperation or hope: There’s no alternative but to leap.\n* Accumulated failures or pressure: Slow change erupts all at once.\n\n**How High Change Can Break or Transform**\n\n* It might save the character—or destroy them.\n* The new life can be better, worse, or just different.\n* There’s often grief for what’s lost, even if the change was “good.”\n* The fallout spreads: friends, family, even the story world itself shifts.\n* High change leaves scars, new beginnings, or sometimes both.\n\nHigh strength is what turns a story from interesting to unforgettable.\nUse it when you want to test your characters, shake up your world, or see what really matters once the dust settles.\n\nTools for Actively Controlling Strength Levels\n\nEscalation and De-escalation\nRaise the strength:\nThrow in a catalyst—a new obstacle, a threat, a deadline, a betrayal, an unexpected opportunity. Force your character to choose in a way that costs them.\nExample: A character’s hidden change is revealed in public, so now they have to act; or, the stakes are suddenly personal.\n\nLower the strength:\nGive the character an “out,” or let things settle. Sometimes the world makes the change seem smaller (distraction, comfort, a bigger crisis).\nExample: After a major confrontation, a character is allowed to retreat, or a more pressing problem takes over and the change fades to the background.\n\nChange the Stakes\nMake the consequences of change bigger or smaller.\nExample: Changing a daily habit (low stakes) vs. changing who you are in front of the world (high stakes). If what’s on the line grows, so does the intensity and risk.\n\nPlay With Resistance\nIncrease resistance:\nMake it harder for the character to stay changed—friends, family, society push back, or internal doubts flare up. Resistance turns a subtle shift into a crisis.\n\nRemove resistance:\nIf everyone suddenly supports the change, or the world shrugs, the strength drops. No challenge = no heat.\n\nExpose or Conceal the Change\nMake it public:\nWhen the character admits or demonstrates what’s different to others, it often jumps to a higher level (more risk, more commitment, more fallout).\n\nKeep it secret:\nAs long as change is private, it simmers at low or medium—unless circumstances force it out.\n\nMix Internal and External Pressures\nSometimes, what raises strength is the collision of inner change and outside circumstance.\nExample: A character is fine with a quiet change until someone else tries to expose it or threatens to undo it.\n\nLet Change Shift Over Time\nChange is dynamic:\nIt should build, stall, backslide, or spike. Early scenes can be low, with hints and pauses; as things change, the story rises, peaking when the risk is greatest.\n\nShow setbacks:\nFailed attempts or reversals can increase strength—now the character has more to lose or prove.\n\nUse Symbolic Objects/Actions\nSometimes objects or rituals in a story “measure” strength.\nExample: Throwing away an old keepsake (low), burning down your house (high). Small actions = small change. Big gestures = big change.\n\nPhysical and Emotional Signals\nLow strength: silence, indirect language, minor changes in routine.\nMedium: risk, confession, clear action, tension with others.\nHigh: obsession, confrontation, breakdown, open defiance.\n\nOther Characters Can Push the Dial\nAllies can stoke the fire (“Go for it!”), rivals can block, mentors can warn, family can guilt, etc. Don’t keep the change in a vacuum—let others raise or lower the stakes.\n\nQuestions to Ask Yourself as You Write\nWhat is different now, and how badly does it matter?\nWhat would it take to push the character further—or hold them back?\nWhat stands in the way, and how much does that matter to them?\nIf they stay the same, what does it cost?\nIf they change, what’s lost—and what’s gained?\n\n“Dial” Examples\nLow → Medium:\nA character keeps a secret to themselves → someone finds out, and they have to respond.\n\nMedium → High:\nA character tries a new way of living → something forces them to choose once and for all.\n\nHigh → Low:\nA character changes everything about themselves → realizes the cost is too high, pulls back, or finds peace in their old ways.\n\nStrength is dynamic. You can turn it up or down scene by scene, moment by moment, with what you throw at your character and how you show their reaction. If you ever feel stuck, just ask: “What’s different now—and what would raise or lower the heat?”",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Confession of shift",
+          "Naming a broken rule",
+          "Vow that contradicts the old self"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers to express this behavior without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "Moment is concrete and legible on the page.",
+        "before_after": "There’s a clear implied or shown before/after contrast."
+      },
+      "strength_tiers": {
+        "1": "One clear signal of this behavior appears.",
+        "2": "Signal links to a visible consequence.",
+        "3": "Signal reshapes the next moment or pattern."
+      }
+    },
+    "ui_controls": {
+      "behavior": "say_diff",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where this signal appears once. Don’t name the change — let the behavior prove it.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "4971d1a5-e38c-4fe8-a399-9faf626e44a3",
+    "key": "change_behavior_show_diff",
+    "title": "How to spot change — They SHOW what’s different",
+    "concept": "change",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "show_diff"
+    ],
+    "source_md": "They SHOW What’s Different\nMost change isn’t announced—it’s revealed by behavior, decisions, habits, or even silence. A character acts differently, lets go of an old pattern, or stumbles into something new. The difference is visible, not just talked about.\n\nWhat Does It Look Like?\nNew habits: Someone stands up for themselves who never did before.\nDifferent choices: They walk away, stay quiet, take a risk they never would’ve.\nNew relationships: Forgiving, breaking up, letting someone in.\nLetting go: Abandoning a grudge, quitting a job, moving on from grief.\n\nChange is visible in the small stuff: who sits where, who calls, who doesn’t. It’s not always dramatic—sometimes it’s just a pause, or a new answer to an old question.\n\nWhy Writers Use It\nBecause people (and readers) trust action more than words. Showing change proves it’s real—words can lie, but behavior rarely does.\n\nWhat to Watch For\nHabits broken, risks taken, routines flipped.\nSomeone stops responding the old way.\nSmall signals—laughing differently, sitting with different people, going to new places.\n\nWhy It Matters\nWhen change is acted out, it’s authentic. It’s the proof, not the promise. Readers feel it, trust it, and invest more. Even when the world looks the same, the changed person is a new lens.\n\nWhere You’ll See It\nPop Culture Examples:\n\nBuffy (Buffy the Vampire Slayer): Finally lets others lead—her leadership shifts.\n\nLuke Skywalker: Refuses revenge in the final fight, choosing peace.\n\nAndy Dufresne (Shawshank): Stops obeying the routine and starts digging.\n\nJoe March (Little Women): Turns down marriage, pursues her own ambition.\n\nMichael Scott (The Office): Quits Dunder Mifflin, chooses a new life.\n\nHow It Changes the Story\nAction locks in change. The story has proof. New behaviors, relationships, and decisions close one door and open another.\n\nFor Writers\nForce your characters to show their shifts. Don’t let them just talk—make it cost something. Make it visible. The more you show, the deeper the reader believes.\n\n3. They HIDE What’s Different\nSome change is hidden—downplayed, denied, or outright buried. A character clings to old habits in public, but cracks show in private. Or they pretend not to care, while everything inside has shifted. This is the change that isn’t ready for daylight.\n\nWhat Does It Look Like?\nSecret rituals: Practicing a new belief or habit in private.\nDenial: Insisting nothing’s different when it clearly is.\nMasking: Acting “normal” to avoid attention.\nCompensation: Overdoing old behaviors to hide the shift.\n\nSometimes, the audience sees the change first. Sometimes, not even the character knows how much they’ve changed until they’re cornered.\n\nWhy Writers Use It\nBecause change is scary. Hiding change creates tension—between what’s real and what’s admitted, between public and private selves. It also lets you play with timing—revealing the shift at just the right moment.\n\nWhat to Watch For\nConflicted actions: Doing the “old thing” with less conviction.\nSlips: Accidental honesty or cracks in the mask.\nDefensiveness: Pushing back too hard against questions.\n\nWhy It Matters\nHidden change is real, but risky. It can explode later—betrayal, confession, meltdown. It’s the seed of the next big shift.\n\nWhere You’ll See It\nPop Culture Examples:\n\nDon Draper (Mad Men): Reverts to old habits, but can’t hide regret.\n\nSpock (Star Trek): Fights emotion, but loyalty and love leak out.\n\nBuffy (Buffy the Vampire Slayer): Hides pain and trauma behind jokes and leadership.\n\nFrodo Baggins (LOTR): Tries to act like the same hobbit, but the ring changed him forever.\n\nMichael Corleone (The Godfather): Claims nothing’s changed, but the shift is obvious to everyone but him.\n\nHow It Changes the Story\nThe more a character hides their change, the bigger the fallout when it’s revealed. Secrets, double lives, and denial all build tension and can drive the climax of a story.\n\nFor Writers\nLet your characters hide, deny, or sabotage their own evolution. The bigger the gap between what’s real and what’s admitted, the more satisfying the payoff.\n\nStrength Levels: Low — The Subtle Shift\nWhat Low Strength Change Is\nLow-strength change is the slow, almost invisible movement that accumulates over time. It’s the stuff you only notice in hindsight—a softening, a hardening, a perspective shift. Nothing earth-shattering; just the quiet realization that things aren’t quite what they used to be.\n\nThis level of change shapes the mood and undercurrent of a story. It can be a growing restlessness, a quiet resignation, or a flicker of hope. Low change doesn’t drive the plot—it colors the world and characters.\n\nHow It Shows Up in Characters\nLingering doubts, fading beliefs\nRoutine becomes uncomfortable\nOld comforts feel less satisfying\nPrivate rituals take on new meaning\nGentle nostalgia for what used to fit\nSmall decisions start to pile up\n\n\nStrength Levels: Low — The Subtle Shift\nWhat Low Strength Change Is\nLow-strength change is the slow, almost invisible movement that accumulates over time. It’s the stuff you only notice in hindsight—a softening, a hardening, a perspective shift. Nothing earth-shattering; just the quiet realization that things aren’t quite what they used to be.\n\nThis level of change shapes the mood and undercurrent of a story. It can be a growing restlessness, a quiet resignation, or a flicker of hope. Low change doesn’t drive the plot—it colors the world and characters.\n\nHow It Shows Up in Characters\n\nLingering doubts, fading beliefs\n\nRoutine becomes uncomfortable\n\nOld comforts feel less satisfying\n\nPrivate rituals take on new meaning\n\nGentle nostalgia for what used to fit\n\nSmall decisions start to pile up\n\nStory Effects of Low-Strength Change\n\nCreates mood: Atmosphere of uncertainty, nostalgia, or possibility.\n\nDeepens character: Characters feel lived-in, not static.\n\nForeshadows upheaval: Tiny shifts build toward bigger changes.\n\nInvites empathy: Everyone knows the feeling of subtle shifts in their own life.\n\nWhat It Feels Like to Write\n\nScenes are quieter, reflective, sometimes slow.\n\nDialogue hints at what’s slipping, not what’s breaking.\n\nCharacters react more than they act.\n\nPop Culture Examples\n\nJim Halpert (The Office): The slow drift from prankster to restless romantic. Change is in the looks, the little sighs, the eventual choices.\n\nAmélie (Amélie): Her shift from fantasy to reality is gradual, driven by small, gentle acts.\n\nChihiro (Spirited Away): Her growth is tentative, revealed by hesitations, questions, and little braveries.\n\nThe Narrator (Lost in Translation): Longing for something more, but rarely acting. Change is a quiet ache, not a revelation.\n\nMarge Gunderson (Fargo, at home): Contentment with subtle longing for connection or quiet. Her change is background music, not a plot twist.\n\nThe Little Prince (The Little Prince): Wandering, asking questions, missing his rose. Change is curiosity, not upheaval.\n\nWhen to Use Low Strength as a Writer\n\nTo set the stage for bigger shifts.\n\nFor slice-of-life, coming-of-age, meditative, or atmospheric stories.\n\nTo deepen the inner life of characters, not just their actions.\n\nTo build empathy and subtlety.\n\nWhat Keeps Change Low?\n\nFear: Change feels risky.\n\nHabit: The character is used to their rut.\n\nDoubt: Not sure change is possible or safe.\n\nObligation: Keeping the peace or status quo for others.\n\nComplacency: Maybe “good enough” is fine… until it isn’t.\n\nHow Low Change Can Build\nA spark, event, or revelation can flip low change into something more.\nSometimes, the story is about acceptance rather than transformation.\nEven a tiny, private shift can matter—if the story gives it room.\nLow change is everywhere. Write it with patience, honesty, and an eye for the almost-unseen. Let it breathe. It’s where nearly every transformation begins.\n\nStrength Levels: Medium — The Noticeable Turn\nWhat Medium Strength Change Is\nMedium-strength change is when things actually start moving. This is the tipping point—when a character or world stops just simmering and finally acts, admits, or adjusts in a visible way. It’s the phase where change leaves the background and begins to steer the story. The dream becomes a plan, the plan becomes a risk, and stakes finally show up.\n\nThis isn’t the wild transformation at the climax, but it’s where momentum picks up. Someone starts making choices, and the world responds. The reader notices. So does everyone in the story.\n\nHow It Shows Up in Characters\n\nMaking new decisions: Taking a stand, quitting a job, leaving a relationship, opening up to someone.\n\nConfessing or confronting: Finally admitting what’s different (to self or others).\n\nTaking risks: Leaving the comfort zone or shaking up routine.\n\nFacing pushback: Change meets resistance—sometimes the first real opposition in the story.\n\nTesting new ground: Trying something new, even if clumsy or halfway.\n\nStory Effects of Medium-Strength Change\n\nCreates visible momentum: The story actually goes somewhere, not just in circles.\n\nRaises stakes: There’s something to win or lose, and the characters know it.\n\nForces conflict: Resistance comes out of the woodwork—other characters, society, even the character’s own habits.\n\nDeepens relationships: Change becomes impossible to ignore; allies and enemies make themselves known.\n\nLinks events: Decisions have consequences; scenes build on each other instead of resetting.\n\nWhat It Feels Like to Write\n\nScenes start to connect: Actions lead to fallout, not just mood.\n\nDialogue sharpens: More direct confrontation, honesty, or argument.\n\nStakes show up in the text: What happens next starts to matter.\n\nPacing picks up: Less drifting, more direction.\n\nPop Culture Examples\n\nKatniss Everdeen (The Hunger Games): When she volunteers for her sister, change jumps from hypothetical to actual. She can’t go back.\n\nElle Woods (Legally Blonde): Applies to Harvard—wants shift from background to driving the plot.\n\nMoana (Moana): Leaves her island; her arc becomes an adventure, not just a longing.\n\nPeter Parker (Spider-Man): Starts using his powers for others; the change is tested by real world problems.\n\nJoe March (Little Women): Goes after her writing career; risks relationships and reputation.\n\nMichael Scott (The Office): Decides to pursue Holly, changing his approach to love and work.\n\nWhen to Use Medium Strength as a Writer\n\nWhen you want real plot, not just vibes.\n\nWhen it’s time for characters to face their fear or desire and make choices.\n\nWhen readers need to see movement—not just introspection.\n\nWhen you want story momentum but aren’t ready for full-blown crisis or transformation.\n\nWhat Keeps Change at Medium?\n\nDoubt: The character acts, but second-guesses or hesitates.\n\nPushback: The world resists, but doesn’t crush them.\n\nSplit loyalties: Change competes with other wants or duties.\n\nTesting: The character is trying change on for size, not all-in yet.\n\nHow Medium Change Can Build\nMedium change is the fuel for escalation:\n\nSuccess or disaster can push things higher, or send someone retreating.\n\nChoices create new problems, forcing bigger leaps next time.\n\nWhen pressure keeps rising, medium change becomes high—sudden, risky, or irreversible.\n\nMedium change is the “act two” energy: everything matters more, but it’s not the end of the world (yet).\n\nHere’s **Strength Levels: High — The Break or Breakthrough** section, ready to copy:\n\n---\n\n**Strength Levels: High — The Break or Breakthrough**\n**What High Strength Change Is**\nHigh-strength change is the big one—an all-in, life-altering transformation or collapse. This is when change becomes the main event, not just a subplot or a vibe. The character, relationship, or world is completely reshaped. There’s no pretending, no going back, no “maybe next time.” The story is now about surviving, accepting, or being destroyed by the change.\n\nAt this level, the character isn’t just reacting—they’re forced to reinvent or face ruin. High strength is a line in the sand, with fallout for everyone involved.\n\n**How It Shows Up in Characters**\n\n* Total transformation: The character becomes someone new—by choice or by force.\n* Burned bridges: Quitting, breaking up, exposing secrets, leaving home for good.\n* Obsession or collapse: The need to change (or resist change) overrides everything else.\n* Sacrifice: Willing to give up safety, reputation, even loved ones for the change.\n* No more hedging: The old life, old self, or old relationship is dead and buried.\n\n**Story Effects of High-Strength Change**\n\n* Drives climax: Everything in the story points to this turning point.\n* Raises the cost: Real risk, pain, or loss—sometimes irreversibly.\n* Forces everyone to respond: Not just the main character, but the whole world of the story.\n* Shifts the meaning: The story isn’t just about what changed, but what it cost and what it means now.\n* Redefines stakes: What happens after can’t just “go back.”\n\n**What It Feels Like to Write**\n\n* Pacing speeds up: Everything feels urgent, like the story is on fire.\n* Dialogue is raw: Confessions, confrontations, betrayals, declarations.\n* Consequences stick: The story can’t reset or gloss over what happened.\n* Energy spikes: Every choice has teeth.\n\n**Pop Culture Examples**\n\n* **Walter White (Breaking Bad):** Goes all-in as Heisenberg, choosing empire over family, safety, or morality.\n* **Gollum (Lord of the Rings):** Change becomes obsession, and he’s destroyed by it.\n* **Carrie (Carrie):** Repressed for years, her transformation is explosive and tragic.\n* **Captain Ahab (Moby Dick):** Change as obsession; burns his whole world down to chase the whale.\n* **The Bride (Kill Bill):** Gives up everything for revenge, then faces what’s left after.\n* **Gatsby (The Great Gatsby):** His whole life is rebuilt for Daisy; it destroys him.\n* **Anakin Skywalker (Star Wars):** The change is so extreme he becomes Darth Vader—no undoing it.\n* **Macbeth (Macbeth):** Chases power at any cost; change becomes madness and ruin.\n* **Tony Montana (Scarface):** The hunger for more is so great he self-destructs.\n\n**When to Use High Strength as a Writer**\n\n* At the climax or turning point of the story.\n* When you want the character to risk it all—no safety net, no reset.\n* In stories about obsession, transformation, tragedy, or epic redemption.\n* Any time you want consequences to actually matter.\n\n**What Pushes Change to High?**\n\n* Loss: Something is gone for good; nothing to lose.\n* Betrayal: Trust is broken, forcing a point of no return.\n* Ultimatum: Forced to choose; the middle ground disappears.\n* Desperation or hope: There’s no alternative but to leap.\n* Accumulated failures or pressure: Slow change erupts all at once.\n\n**How High Change Can Break or Transform**\n\n* It might save the character—or destroy them.\n* The new life can be better, worse, or just different.\n* There’s often grief for what’s lost, even if the change was “good.”\n* The fallout spreads: friends, family, even the story world itself shifts.\n* High change leaves scars, new beginnings, or sometimes both.\n\nHigh strength is what turns a story from interesting to unforgettable.\nUse it when you want to test your characters, shake up your world, or see what really matters once the dust settles.\n\nTools for Actively Controlling Strength Levels\n\nEscalation and De-escalation\nRaise the strength:\nThrow in a catalyst—a new obstacle, a threat, a deadline, a betrayal, an unexpected opportunity. Force your character to choose in a way that costs them.\nExample: A character’s hidden change is revealed in public, so now they have to act; or, the stakes are suddenly personal.\n\nLower the strength:\nGive the character an “out,” or let things settle. Sometimes the world makes the change seem smaller (distraction, comfort, a bigger crisis).\nExample: After a major confrontation, a character is allowed to retreat, or a more pressing problem takes over and the change fades to the background.\n\nChange the Stakes\nMake the consequences of change bigger or smaller.\nExample: Changing a daily habit (low stakes) vs. changing who you are in front of the world (high stakes). If what’s on the line grows, so does the intensity and risk.\n\nPlay With Resistance\nIncrease resistance:\nMake it harder for the character to stay changed—friends, family, society push back, or internal doubts flare up. Resistance turns a subtle shift into a crisis.\n\nRemove resistance:\nIf everyone suddenly supports the change, or the world shrugs, the strength drops. No challenge = no heat.\n\nExpose or Conceal the Change\nMake it public:\nWhen the character admits or demonstrates what’s different to others, it often jumps to a higher level (more risk, more commitment, more fallout).\n\nKeep it secret:\nAs long as change is private, it simmers at low or medium—unless circumstances force it out.\n\nMix Internal and External Pressures\nSometimes, what raises strength is the collision of inner change and outside circumstance.\nExample: A character is fine with a quiet change until someone else tries to expose it or threatens to undo it.\n\nLet Change Shift Over Time\nChange is dynamic:\nIt should build, stall, backslide, or spike. Early scenes can be low, with hints and pauses; as things change, the story rises, peaking when the risk is greatest.\n\nShow setbacks:\nFailed attempts or reversals can increase strength—now the character has more to lose or prove.\n\nUse Symbolic Objects/Actions\nSometimes objects or rituals in a story “measure” strength.\nExample: Throwing away an old keepsake (low), burning down your house (high). Small actions = small change. Big gestures = big change.\n\nPhysical and Emotional Signals\nLow strength: silence, indirect language, minor changes in routine.\nMedium: risk, confession, clear action, tension with others.\nHigh: obsession, confrontation, breakdown, open defiance.\n\nOther Characters Can Push the Dial\nAllies can stoke the fire (“Go for it!”), rivals can block, mentors can warn, family can guilt, etc. Don’t keep the change in a vacuum—let others raise or lower the stakes.\n\nQuestions to Ask Yourself as You Write\nWhat is different now, and how badly does it matter?\nWhat would it take to push the character further—or hold them back?\nWhat stands in the way, and how much does that matter to them?\nIf they stay the same, what does it cost?\nIf they change, what’s lost—and what’s gained?\n\n“Dial” Examples\nLow → Medium:\nA character keeps a secret to themselves → someone finds out, and they have to respond.\n\nMedium → High:\nA character tries a new way of living → something forces them to choose once and for all.\n\nHigh → Low:\nA character changes everything about themselves → realizes the cost is too high, pulls back, or finds peace in their old ways.\n\nStrength is dynamic. You can turn it up or down scene by scene, moment by moment, with what you throw at your character and how you show their reaction. If you ever feel stuck, just ask: “What’s different now—and what would raise or lower the heat?”",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "New habit replaces old tell",
+          "Different decision speed",
+          "Changed status move or body logic"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers to express this behavior without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "Moment is concrete and legible on the page.",
+        "before_after": "There’s a clear implied or shown before/after contrast."
+      },
+      "strength_tiers": {
+        "1": "One clear signal of this behavior appears.",
+        "2": "Signal links to a visible consequence.",
+        "3": "Signal reshapes the next moment or pattern."
+      }
+    },
+    "ui_controls": {
+      "behavior": "show_diff",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where this signal appears once. Don’t name the change — let the behavior prove it.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "c0917c05-058b-4cc3-ad46-d945dfb5b3a7",
+    "key": "change_behavior_hide_diff",
+    "title": "How to spot change — They HIDE what’s different",
+    "concept": "change",
+    "scope": "character",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_misunderstood"
+      ]
+    },
+    "behavior_controls": [
+      "hide_diff"
+    ],
+    "source_md": "They HIDE What’s Different\nSome change is hidden—downplayed, denied, or outright buried. A character clings to old habits in public, but cracks show in private. Or they pretend not to care, while everything inside has shifted. This is the change that isn’t ready for daylight.\n\nWhat Does It Look Like?\nSecret rituals: Practicing a new belief or habit in private.\nDenial: Insisting nothing’s different when it clearly is.\nMasking: Acting “normal” to avoid attention.\nCompensation: Overdoing old behaviors to hide the shift.\n\nSometimes, the audience sees the change first. Sometimes, not even the character knows how much they’ve changed until they’re cornered.\n\nWhy Writers Use It\nBecause change is scary. Hiding change creates tension—between what’s real and what’s admitted, between public and private selves. It also lets you play with timing—revealing the shift at just the right moment.\n\nWhat to Watch For\nConflicted actions: Doing the “old thing” with less conviction.\nSlips: Accidental honesty or cracks in the mask.\nDefensiveness: Pushing back too hard against questions.\n\nWhy It Matters\nHidden change is real, but risky. It can explode later—betrayal, confession, meltdown. It’s the seed of the next big shift.\n\nWhere You’ll See It\nPop Culture Examples:\n\nDon Draper (Mad Men): Reverts to old habits, but can’t hide regret.\n\nSpock (Star Trek): Fights emotion, but loyalty and love leak out.\n\nBuffy (Buffy the Vampire Slayer): Hides pain and trauma behind jokes and leadership.\n\nFrodo Baggins (LOTR): Tries to act like the same hobbit, but the ring changed him forever.\n\nMichael Corleone (The Godfather): Claims nothing’s changed, but the shift is obvious to everyone but him.\n\nHow It Changes the Story\nThe more a character hides their change, the bigger the fallout when it’s revealed. Secrets, double lives, and denial all build tension and can drive the climax of a story.\n\nFor Writers\nLet your characters hide, deny, or sabotage their own evolution. The bigger the gap between what’s real and what’s admitted, the more satisfying the payoff.\n\nStrength Levels: Low — The Subtle Shift\nWhat Low Strength Change Is\nLow-strength change is the slow, almost invisible movement that accumulates over time. It’s the stuff you only notice in hindsight—a softening, a hardening, a perspective shift. Nothing earth-shattering; just the quiet realization that things aren’t quite what they used to be.\n\nThis level of change shapes the mood and undercurrent of a story. It can be a growing restlessness, a quiet resignation, or a flicker of hope. Low change doesn’t drive the plot—it colors the world and characters.\n\nHow It Shows Up in Characters\nLingering doubts, fading beliefs\nRoutine becomes uncomfortable\nOld comforts feel less satisfying\nPrivate rituals take on new meaning\nGentle nostalgia for what used to fit\nSmall decisions start to pile up\n\n\nStrength Levels: Low — The Subtle Shift\nWhat Low Strength Change Is\nLow-strength change is the slow, almost invisible movement that accumulates over time. It’s the stuff you only notice in hindsight—a softening, a hardening, a perspective shift. Nothing earth-shattering; just the quiet realization that things aren’t quite what they used to be.\n\nThis level of change shapes the mood and undercurrent of a story. It can be a growing restlessness, a quiet resignation, or a flicker of hope. Low change doesn’t drive the plot—it colors the world and characters.\n\nHow It Shows Up in Characters\n\nLingering doubts, fading beliefs\n\nRoutine becomes uncomfortable\n\nOld comforts feel less satisfying\n\nPrivate rituals take on new meaning\n\nGentle nostalgia for what used to fit\n\nSmall decisions start to pile up\n\nStory Effects of Low-Strength Change\n\nCreates mood: Atmosphere of uncertainty, nostalgia, or possibility.\n\nDeepens character: Characters feel lived-in, not static.\n\nForeshadows upheaval: Tiny shifts build toward bigger changes.\n\nInvites empathy: Everyone knows the feeling of subtle shifts in their own life.\n\nWhat It Feels Like to Write\n\nScenes are quieter, reflective, sometimes slow.\n\nDialogue hints at what’s slipping, not what’s breaking.\n\nCharacters react more than they act.\n\nPop Culture Examples\n\nJim Halpert (The Office): The slow drift from prankster to restless romantic. Change is in the looks, the little sighs, the eventual choices.\n\nAmélie (Amélie): Her shift from fantasy to reality is gradual, driven by small, gentle acts.\n\nChihiro (Spirited Away): Her growth is tentative, revealed by hesitations, questions, and little braveries.\n\nThe Narrator (Lost in Translation): Longing for something more, but rarely acting. Change is a quiet ache, not a revelation.\n\nMarge Gunderson (Fargo, at home): Contentment with subtle longing for connection or quiet. Her change is background music, not a plot twist.\n\nThe Little Prince (The Little Prince): Wandering, asking questions, missing his rose. Change is curiosity, not upheaval.\n\nWhen to Use Low Strength as a Writer\n\nTo set the stage for bigger shifts.\n\nFor slice-of-life, coming-of-age, meditative, or atmospheric stories.\n\nTo deepen the inner life of characters, not just their actions.\n\nTo build empathy and subtlety.\n\nWhat Keeps Change Low?\n\nFear: Change feels risky.\n\nHabit: The character is used to their rut.\n\nDoubt: Not sure change is possible or safe.\n\nObligation: Keeping the peace or status quo for others.\n\nComplacency: Maybe “good enough” is fine… until it isn’t.\n\nHow Low Change Can Build\nA spark, event, or revelation can flip low change into something more.\nSometimes, the story is about acceptance rather than transformation.\nEven a tiny, private shift can matter—if the story gives it room.\nLow change is everywhere. Write it with patience, honesty, and an eye for the almost-unseen. Let it breathe. It’s where nearly every transformation begins.\n\nStrength Levels: Medium — The Noticeable Turn\nWhat Medium Strength Change Is\nMedium-strength change is when things actually start moving. This is the tipping point—when a character or world stops just simmering and finally acts, admits, or adjusts in a visible way. It’s the phase where change leaves the background and begins to steer the story. The dream becomes a plan, the plan becomes a risk, and stakes finally show up.\n\nThis isn’t the wild transformation at the climax, but it’s where momentum picks up. Someone starts making choices, and the world responds. The reader notices. So does everyone in the story.\n\nHow It Shows Up in Characters\n\nMaking new decisions: Taking a stand, quitting a job, leaving a relationship, opening up to someone.\n\nConfessing or confronting: Finally admitting what’s different (to self or others).\n\nTaking risks: Leaving the comfort zone or shaking up routine.\n\nFacing pushback: Change meets resistance—sometimes the first real opposition in the story.\n\nTesting new ground: Trying something new, even if clumsy or halfway.\n\nStory Effects of Medium-Strength Change\n\nCreates visible momentum: The story actually goes somewhere, not just in circles.\n\nRaises stakes: There’s something to win or lose, and the characters know it.\n\nForces conflict: Resistance comes out of the woodwork—other characters, society, even the character’s own habits.\n\nDeepens relationships: Change becomes impossible to ignore; allies and enemies make themselves known.\n\nLinks events: Decisions have consequences; scenes build on each other instead of resetting.\n\nWhat It Feels Like to Write\n\nScenes start to connect: Actions lead to fallout, not just mood.\n\nDialogue sharpens: More direct confrontation, honesty, or argument.\n\nStakes show up in the text: What happens next starts to matter.\n\nPacing picks up: Less drifting, more direction.\n\nPop Culture Examples\n\nKatniss Everdeen (The Hunger Games): When she volunteers for her sister, change jumps from hypothetical to actual. She can’t go back.\n\nElle Woods (Legally Blonde): Applies to Harvard—wants shift from background to driving the plot.\n\nMoana (Moana): Leaves her island; her arc becomes an adventure, not just a longing.\n\nPeter Parker (Spider-Man): Starts using his powers for others; the change is tested by real world problems.\n\nJoe March (Little Women): Goes after her writing career; risks relationships and reputation.\n\nMichael Scott (The Office): Decides to pursue Holly, changing his approach to love and work.\n\nWhen to Use Medium Strength as a Writer\n\nWhen you want real plot, not just vibes.\n\nWhen it’s time for characters to face their fear or desire and make choices.\n\nWhen readers need to see movement—not just introspection.\n\nWhen you want story momentum but aren’t ready for full-blown crisis or transformation.\n\nWhat Keeps Change at Medium?\n\nDoubt: The character acts, but second-guesses or hesitates.\n\nPushback: The world resists, but doesn’t crush them.\n\nSplit loyalties: Change competes with other wants or duties.\n\nTesting: The character is trying change on for size, not all-in yet.\n\nHow Medium Change Can Build\nMedium change is the fuel for escalation:\n\nSuccess or disaster can push things higher, or send someone retreating.\n\nChoices create new problems, forcing bigger leaps next time.\n\nWhen pressure keeps rising, medium change becomes high—sudden, risky, or irreversible.\n\nMedium change is the “act two” energy: everything matters more, but it’s not the end of the world (yet).\n\nHere’s **Strength Levels: High — The Break or Breakthrough** section, ready to copy:\n\n---\n\n**Strength Levels: High — The Break or Breakthrough**\n**What High Strength Change Is**\nHigh-strength change is the big one—an all-in, life-altering transformation or collapse. This is when change becomes the main event, not just a subplot or a vibe. The character, relationship, or world is completely reshaped. There’s no pretending, no going back, no “maybe next time.” The story is now about surviving, accepting, or being destroyed by the change.\n\nAt this level, the character isn’t just reacting—they’re forced to reinvent or face ruin. High strength is a line in the sand, with fallout for everyone involved.\n\n**How It Shows Up in Characters**\n\n* Total transformation: The character becomes someone new—by choice or by force.\n* Burned bridges: Quitting, breaking up, exposing secrets, leaving home for good.\n* Obsession or collapse: The need to change (or resist change) overrides everything else.\n* Sacrifice: Willing to give up safety, reputation, even loved ones for the change.\n* No more hedging: The old life, old self, or old relationship is dead and buried.\n\n**Story Effects of High-Strength Change**\n\n* Drives climax: Everything in the story points to this turning point.\n* Raises the cost: Real risk, pain, or loss—sometimes irreversibly.\n* Forces everyone to respond: Not just the main character, but the whole world of the story.\n* Shifts the meaning: The story isn’t just about what changed, but what it cost and what it means now.\n* Redefines stakes: What happens after can’t just “go back.”\n\n**What It Feels Like to Write**\n\n* Pacing speeds up: Everything feels urgent, like the story is on fire.\n* Dialogue is raw: Confessions, confrontations, betrayals, declarations.\n* Consequences stick: The story can’t reset or gloss over what happened.\n* Energy spikes: Every choice has teeth.\n\n**Pop Culture Examples**\n\n* **Walter White (Breaking Bad):** Goes all-in as Heisenberg, choosing empire over family, safety, or morality.\n* **Gollum (Lord of the Rings):** Change becomes obsession, and he’s destroyed by it.\n* **Carrie (Carrie):** Repressed for years, her transformation is explosive and tragic.\n* **Captain Ahab (Moby Dick):** Change as obsession; burns his whole world down to chase the whale.\n* **The Bride (Kill Bill):** Gives up everything for revenge, then faces what’s left after.\n* **Gatsby (The Great Gatsby):** His whole life is rebuilt for Daisy; it destroys him.\n* **Anakin Skywalker (Star Wars):** The change is so extreme he becomes Darth Vader—no undoing it.\n* **Macbeth (Macbeth):** Chases power at any cost; change becomes madness and ruin.\n* **Tony Montana (Scarface):** The hunger for more is so great he self-destructs.\n\n**When to Use High Strength as a Writer**\n\n* At the climax or turning point of the story.\n* When you want the character to risk it all—no safety net, no reset.\n* In stories about obsession, transformation, tragedy, or epic redemption.\n* Any time you want consequences to actually matter.\n\n**What Pushes Change to High?**\n\n* Loss: Something is gone for good; nothing to lose.\n* Betrayal: Trust is broken, forcing a point of no return.\n* Ultimatum: Forced to choose; the middle ground disappears.\n* Desperation or hope: There’s no alternative but to leap.\n* Accumulated failures or pressure: Slow change erupts all at once.\n\n**How High Change Can Break or Transform**\n\n* It might save the character—or destroy them.\n* The new life can be better, worse, or just different.\n* There’s often grief for what’s lost, even if the change was “good.”\n* The fallout spreads: friends, family, even the story world itself shifts.\n* High change leaves scars, new beginnings, or sometimes both.\n\nHigh strength is what turns a story from interesting to unforgettable.\nUse it when you want to test your characters, shake up your world, or see what really matters once the dust settles.\n\nTools for Actively Controlling Strength Levels\n\nEscalation and De-escalation\nRaise the strength:\nThrow in a catalyst—a new obstacle, a threat, a deadline, a betrayal, an unexpected opportunity. Force your character to choose in a way that costs them.\nExample: A character’s hidden change is revealed in public, so now they have to act; or, the stakes are suddenly personal.\n\nLower the strength:\nGive the character an “out,” or let things settle. Sometimes the world makes the change seem smaller (distraction, comfort, a bigger crisis).\nExample: After a major confrontation, a character is allowed to retreat, or a more pressing problem takes over and the change fades to the background.\n\nChange the Stakes\nMake the consequences of change bigger or smaller.\nExample: Changing a daily habit (low stakes) vs. changing who you are in front of the world (high stakes). If what’s on the line grows, so does the intensity and risk.\n\nPlay With Resistance\nIncrease resistance:\nMake it harder for the character to stay changed—friends, family, society push back, or internal doubts flare up. Resistance turns a subtle shift into a crisis.\n\nRemove resistance:\nIf everyone suddenly supports the change, or the world shrugs, the strength drops. No challenge = no heat.\n\nExpose or Conceal the Change\nMake it public:\nWhen the character admits or demonstrates what’s different to others, it often jumps to a higher level (more risk, more commitment, more fallout).\n\nKeep it secret:\nAs long as change is private, it simmers at low or medium—unless circumstances force it out.\n\nMix Internal and External Pressures\nSometimes, what raises strength is the collision of inner change and outside circumstance.\nExample: A character is fine with a quiet change until someone else tries to expose it or threatens to undo it.\n\nLet Change Shift Over Time\nChange is dynamic:\nIt should build, stall, backslide, or spike. Early scenes can be low, with hints and pauses; as things change, the story rises, peaking when the risk is greatest.\n\nShow setbacks:\nFailed attempts or reversals can increase strength—now the character has more to lose or prove.\n\nUse Symbolic Objects/Actions\nSometimes objects or rituals in a story “measure” strength.\nExample: Throwing away an old keepsake (low), burning down your house (high). Small actions = small change. Big gestures = big change.\n\nPhysical and Emotional Signals\nLow strength: silence, indirect language, minor changes in routine.\nMedium: risk, confession, clear action, tension with others.\nHigh: obsession, confrontation, breakdown, open defiance.\n\nOther Characters Can Push the Dial\nAllies can stoke the fire (“Go for it!”), rivals can block, mentors can warn, family can guilt, etc. Don’t keep the change in a vacuum—let others raise or lower the stakes.\n\nQuestions to Ask Yourself as You Write\nWhat is different now, and how badly does it matter?\nWhat would it take to push the character further—or hold them back?\nWhat stands in the way, and how much does that matter to them?\nIf they stay the same, what does it cost?\nIf they change, what’s lost—and what’s gained?\n\n“Dial” Examples\nLow → Medium:\nA character keeps a secret to themselves → someone finds out, and they have to respond.\n\nMedium → High:\nA character tries a new way of living → something forces them to choose once and for all.\n\nHigh → Low:\nA character changes everything about themselves → realizes the cost is too high, pulls back, or finds peace in their old ways.\n\nStrength is dynamic. You can turn it up or down scene by scene, moment by moment, with what you throw at your character and how you show their reaction. If you ever feel stuck, just ask: “What’s different now—and what would raise or lower the heat?”",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Deflection when asked",
+          "Private ritual replaces public stance",
+          "Silence where speech used to be"
+        ]
+      },
+      "suggestions_contextual": "Offer neutral maneuvers to express this behavior without inventing plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "Moment is concrete and legible on the page.",
+        "before_after": "There’s a clear implied or shown before/after contrast."
+      },
+      "strength_tiers": {
+        "1": "One clear signal of this behavior appears.",
+        "2": "Signal links to a visible consequence.",
+        "3": "Signal reshapes the next moment or pattern."
+      }
+    },
+    "ui_controls": {
+      "behavior": "hide_diff",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "assignment": {
+      "prompt": "Write a fragment where this signal appears once. Don’t name the change — let the behavior prove it.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "d2a6886d-7573-44c8-96a9-6f46f0d8f107",
+    "key": "change_strength_low",
+    "title": "Change strength — Low",
+    "concept": "change",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_behavior_say_diff",
+        "change_behavior_show_diff",
+        "change_behavior_hide_diff"
+      ]
+    },
+    "strength_controls": [
+      "low"
+    ],
+    "source_md": "",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency reads via permanence, scope, or social echo.",
+        "cost": "We can see what the shift risks or spends."
+      },
+      "strength_tiers": {
+        "1": "Correctly identified potency.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say_diff",
+        "show_diff",
+        "hide_diff"
+      ],
+      "strength": "low"
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the level reads without labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "7e192e11-8d98-461d-a7f2-9d05a2d3032e",
+    "key": "change_strength_medium",
+    "title": "Change strength — Medium",
+    "concept": "change",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_behavior_say_diff",
+        "change_behavior_show_diff",
+        "change_behavior_hide_diff"
+      ]
+    },
+    "strength_controls": [
+      "medium"
+    ],
+    "source_md": "",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency reads via permanence, scope, or social echo.",
+        "cost": "We can see what the shift risks or spends."
+      },
+      "strength_tiers": {
+        "1": "Correctly identified potency.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say_diff",
+        "show_diff",
+        "hide_diff"
+      ],
+      "strength": "medium"
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the level reads without labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "05d3a041-65e5-4603-bf2e-6f45965cb13c",
+    "key": "change_strength_high",
+    "title": "Change strength — High",
+    "concept": "change",
+    "scope": "character",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_behavior_say_diff",
+        "change_behavior_show_diff",
+        "change_behavior_hide_diff"
+      ]
+    },
+    "strength_controls": [
+      "high"
+    ],
+    "source_md": "",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency reads via permanence, scope, or social echo.",
+        "cost": "We can see what the shift risks or spends."
+      },
+      "strength_tiers": {
+        "1": "Correctly identified potency.",
+        "2": "Potency shown and it causes a next beat.",
+        "3": "Potency shown, triggers consequence, and reshapes conditions."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say_diff",
+        "show_diff",
+        "hide_diff"
+      ],
+      "strength": "high"
+    },
+    "assignment": {
+      "prompt": "Rewrite an earlier fragment at this potency so the level reads without labels.",
+      "length_policy": "No max."
+    }
+  },
+  {
+    "id": "de7b857f-7b45-4d43-83aa-f3524fcb08b8",
+    "key": "change_toolkit",
+    "title": "Change — tools, questions, and dial examples",
+    "concept": "change",
+    "scope": "character",
+    "type": "toolkit",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 2
+    },
+    "precedence": {
+      "comes_after": [
+        "change_strength_low",
+        "change_strength_medium"
+      ]
+    },
+    "tools_md": "",
+    "questions_md": "",
+    "dial_examples_md": "",
+    "quick_reference_md": "",
+    "xrefs": {
+      "world_change_parents": [
+        "stakes_intro",
+        "conflict_intro",
+        "theme_intro",
+        "scene_intro"
+      ],
+      "systemic_change_parents": [
+        "status_transactions_intro",
+        "energy_friction_intro"
+      ]
+    }
+  }
+]

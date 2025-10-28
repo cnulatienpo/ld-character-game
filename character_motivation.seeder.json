@@ -1,0 +1,698 @@
+{
+  "seeder_name": "Character Motivation — Foundation Pack",
+  "version": "1.0",
+  "generated_at": "2025-10-28T01:09:13.478314Z",
+  "concept": "character_motivation",
+  "dialect_policy": {
+    "level_explainer": {
+      "1": [
+        "moment",
+        "feeling",
+        "choice",
+        "want"
+      ],
+      "2": [
+        "pattern",
+        "pressure",
+        "arc"
+      ],
+      "3": [
+        "scene",
+        "beat",
+        "status transaction"
+      ],
+      "4": [
+        "archetype",
+        "transmutation",
+        "resonance"
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "id": "motivation_intro",
+      "title": "Character Motivation — What It Is",
+      "type": "concept",
+      "concept": "character_motivation",
+      "introduces_any": true,
+      "has_prompts": true,
+      "text": "Motivation is the why behind every choice. It’s the pressure in a character’s chest that turns wanting into doing.\nYou don’t have to like or approve of it; you just have to make it legible. When a reader can *see* what your\ncharacter wants and *feel* why it matters, every scene has a spine.\nThis lesson anchors the word “want” as a working tool. No jargon beyond foundation terms.",
+      "behaviors": [],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "foundation_intro_115",
+          "character_description_intro"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [
+        {
+          "name": "Walter White",
+          "source": "Breaking Bad",
+          "note": "Motivation shifts from providing for family to pride and power."
+        },
+        {
+          "name": "Katniss Everdeen",
+          "source": "The Hunger Games",
+          "note": "Protecting her sister expands into rebellion."
+        },
+        {
+          "name": "Tony Stark",
+          "source": "MCU",
+          "note": "Guilt and responsibility fuel protection and sacrifice."
+        },
+        {
+          "name": "Moana",
+          "source": "Moana",
+          "note": "Call to the ocean becomes duty to her people."
+        },
+        {
+          "name": "Joel",
+          "source": "The Last of Us",
+          "note": "Protective drive reshapes every decision and relationship."
+        }
+      ],
+      "prompt": "Freewrite: describe a time you wanted something and took even a tiny action toward it.\nName the want in one plain sentence. Then rewrite the same moment without naming the want—\nonly show the action that gave it away.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "say": [
+            "I want ___",
+            "I need ___",
+            "I can't let ___ happen."
+          ],
+          "show": [
+            "Break routine",
+            "Take a small risk",
+            "Sacrifice comfort"
+          ],
+          "hide": [
+            "Trim labels",
+            "Cut generic adjectives"
+          ]
+        },
+        "generator": {
+          "say": [
+            "Write one line where your character states a want under pressure."
+          ],
+          "show": [
+            "Replace that line with an action that reveals the same want."
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_and_you",
+      "title": "Motivation & You — Borrow the Voltage",
+      "type": "exercise",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "You already understand motivation because you live with it. Map one of your own wants onto a character.\nThe point isn’t therapy; it’s precision. If you’ve wanted, you can write wanting with authority.",
+      "behaviors": [],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "motivation_intro"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [],
+      "prompt": "List three real wants you’ve had (big or petty). For each, jot one action you took (or avoided).\nPick one pair and hand it to a character. Write five lines that make that want legible without naming it.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "say": [
+            "I want ___",
+            "I need ___",
+            "I can't let ___ happen."
+          ],
+          "show": [
+            "Break routine",
+            "Take a small risk",
+            "Sacrifice comfort"
+          ],
+          "hide": [
+            "Trim labels",
+            "Cut generic adjectives"
+          ]
+        },
+        "generator": {
+          "say": [
+            "Write one line where your character states a want under pressure."
+          ],
+          "show": [
+            "Replace that line with an action that reveals the same want."
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_behavior_say",
+      "title": "How to Spot Motivation: SAY",
+      "type": "behavior",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "SAY = the character names what they want. Use sparingly, earn it with pressure.\nWhen spoken, a want plants a flag the story can measure against.",
+      "behaviors": [
+        "say"
+      ],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "motivation_intro"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [],
+      "prompt": "Write a 6–10 line exchange where a character finally admits what they want.\nCut any lines that explain *why*; keep only the declaration and the pushback it triggers.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "frames": [
+            "vow",
+            "confession",
+            "mission",
+            "threat",
+            "plea"
+          ]
+        },
+        "generator": {
+          "frames": [
+            "Confession under time pressure: 'Before we go— I want ___.'",
+            "Vow after loss: 'I swear I'll ___.'"
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_behavior_show",
+      "title": "How to Spot Motivation: SHOW",
+      "type": "behavior",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "SHOW = the character’s choices reveal the want without naming it. Actions don’t lie.\nTrack repeated risks, sacrifices, and rule‑breaking as your tells.",
+      "behaviors": [
+        "show"
+      ],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "motivation_behavior_say"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [],
+      "prompt": "Rewrite the ‘SAY’ scene so no one names the want. Replace the admission with two choices\nthat make the same want obvious. End with a small consequence.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "tells": [
+            "rule break",
+            "sacrifice",
+            "pattern repeat",
+            "private ritual"
+          ]
+        },
+        "generator": {
+          "tells": [
+            "Have them choose the harder route that gets them closer to ___.",
+            "Insert a tiny sacrifice (time, money, pride) that signals the want."
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_behavior_hide",
+      "title": "How to Spot Motivation: HIDE",
+      "type": "behavior",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "HIDE = the character masks or denies the want. Look for avoidance, overcompensation, and contradiction.\nUse this to build tension that snaps later.",
+      "behaviors": [
+        "hide"
+      ],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "motivation_behavior_show"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [],
+      "prompt": "Write a short beat where a character dodges a direct question about what they want.\nLet body language and misdirection betray them. Add one tiny crack in the mask.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "masks": [
+            "deflect",
+            "joke",
+            "attack",
+            "change topic",
+            "go silent"
+          ]
+        },
+        "generator": {
+          "masks": [
+            "Answer a question with a question.",
+            "Make a joke that almost says the truth."
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_strength_low",
+      "title": "Motivation Potency: LOW — The Quiet Seed",
+      "type": "strength",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "LOW potency = the quiet seed. Want exists but rarely moves the world yet.\nYour job is to make the faint signal legible without forcing it.",
+      "behaviors": [
+        "show",
+        "hide"
+      ],
+      "strength_tier": "low",
+      "precedence": {
+        "comes_after": [
+          "motivation_behavior_hide"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [],
+      "prompt": "Write a slice-of-life moment where a character’s want barely peeks through.\nNo speeches. One gesture, one choice, one consequence.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "dial": [
+          "soften stakes",
+          "offer respite",
+          "keep it private"
+        ]
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_strength_medium",
+      "title": "Motivation Potency: MEDIUM — The Growing Fire",
+      "type": "strength",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "MEDIUM potency = the growing fire. The want drives choices with hesitation and cost.\nThis is where plot starts to feel inevitable *because* of character.",
+      "behaviors": [
+        "say",
+        "show"
+      ],
+      "strength_tier": "medium",
+      "precedence": {
+        "comes_after": [
+          "motivation_strength_low"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 2,
+        "gated_terms": [
+          "pressure"
+        ]
+      },
+      "pop_culture_examples": [],
+      "prompt": "Stage a pressure → decision → consequence chain.\nMake the decision believable *because* of the want you set up earlier.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "dial": [
+          "raise stakes",
+          "tighten clock",
+          "personalize resistance"
+        ]
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_strength_high",
+      "title": "Motivation Potency: HIGH — The All‑Consuming Fire",
+      "type": "strength",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "HIGH potency = the all‑consuming fire. Obsession overrides caution. Consequences reshape relationships,\nidentity, and the world of the story. Use with respect for cost.",
+      "behaviors": [
+        "say",
+        "show"
+      ],
+      "strength_tier": "high",
+      "precedence": {
+        "comes_after": [
+          "motivation_strength_medium"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 2,
+        "gated_terms": [
+          "pressure"
+        ]
+      },
+      "pop_culture_examples": [],
+      "prompt": "Write the moment of no return. One action that burns a bridge because the want is now non‑negotiable.\nDo not explain—let the action prove it.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "dial": [
+          "public vow",
+          "sacrifice safety",
+          "break taboo"
+        ]
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_tools_dial",
+      "title": "Tools — Actively Control Motivation Potency",
+      "type": "tools",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "You can raise or lower motivation heat on demand. Turn the knobs: stakes, resistance, privacy, allies.\nMix internal pressure (fear, guilt, love) with external pressure (deadlines, threats, scarcity).",
+      "behaviors": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "motivation_strength_high"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 2,
+        "gated_terms": [
+          "pattern",
+          "pressure"
+        ]
+      },
+      "pop_culture_examples": [],
+      "prompt": "Take any earlier scene. Produce two variants: one notch hotter, one notch cooler.\nChange only stakes/resistance/privacy. Note how behavior shifts without speeches.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "knobs": [
+            "stakes",
+            "resistance",
+            "privacy",
+            "ally pressure",
+            "symbolic marker"
+          ]
+        },
+        "generator": {
+          "recipes": [
+            "Hotter: add a ticking clock + public exposure.",
+            "Cooler: grant a small win + private space."
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    },
+    {
+      "id": "motivation_examples_prompt",
+      "title": "Examples Hub — Borrow the Pattern",
+      "type": "exercise",
+      "concept": "character_motivation",
+      "introduces_any": false,
+      "has_prompts": true,
+      "text": "Scan these pop examples and steal structure, not sentences. Identify SAY/SHOW/HIDE and guess potency.",
+      "behaviors": [],
+      "strength_tier": null,
+      "precedence": {
+        "comes_after": [
+          "motivation_tools_dial"
+        ]
+      },
+      "language": {
+        "requires": [
+          "reader_foothold"
+        ],
+        "dialect_level": 1,
+        "gated_terms": []
+      },
+      "pop_culture_examples": [
+        {
+          "name": "Walter White",
+          "source": "Breaking Bad",
+          "note": "Motivation shifts from providing for family to pride and power."
+        },
+        {
+          "name": "Katniss Everdeen",
+          "source": "The Hunger Games",
+          "note": "Protecting her sister expands into rebellion."
+        },
+        {
+          "name": "Tony Stark",
+          "source": "MCU",
+          "note": "Guilt and responsibility fuel protection and sacrifice."
+        },
+        {
+          "name": "Moana",
+          "source": "Moana",
+          "note": "Call to the ocean becomes duty to her people."
+        },
+        {
+          "name": "Joel",
+          "source": "The Last of Us",
+          "note": "Protective drive reshapes every decision and relationship."
+        }
+      ],
+      "prompt": "Pick one example. Write a 12–20 line scene that *feels* like that motivation pattern but in your voice,\nyour world. Label where the want is said, shown, or hidden.",
+      "evaluator": {
+        "criteria": {
+          "say": "A single, explicit sentence names the want (no euphemisms).",
+          "show": "At least one observable action or choice points to the same want.",
+          "hide": "No armchair labels (no diagnoses or genre buzzwords)."
+        },
+        "strength_tiers": {
+          "1": "Either said or shown clearly.",
+          "2": "Both present and causally linked (pressure → choice).",
+          "3": "Said/Shown alignment reshapes the moment’s consequence."
+        }
+      },
+      "ui_controls": {
+        "reference": {
+          "say": [
+            "I want ___",
+            "I need ___",
+            "I can't let ___ happen."
+          ],
+          "show": [
+            "Break routine",
+            "Take a small risk",
+            "Sacrifice comfort"
+          ],
+          "hide": [
+            "Trim labels",
+            "Cut generic adjectives"
+          ]
+        },
+        "generator": {
+          "say": [
+            "Write one line where your character states a want under pressure."
+          ],
+          "show": [
+            "Replace that line with an action that reveals the same want."
+          ]
+        }
+      },
+      "beats_influence": [
+        "character",
+        "motivation"
+      ],
+      "created_at": "2025-10-28T01:09:13.478314Z"
+    }
+  ]
+}

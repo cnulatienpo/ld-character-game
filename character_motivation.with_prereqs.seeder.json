@@ -1,0 +1,747 @@
+[
+  {
+    "id": "5b1a2757-737e-4815-ac60-93a124593ce5",
+    "key": "motivation_bundle_header",
+    "title": "Character Motivation — Bundle Header",
+    "type": "bundle:header",
+    "concept": "motivation",
+    "language": {
+      "requires": [
+        "reader_foothold"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "compat_index": {
+      "expects_prior_keys": [
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ],
+      "notes": "If a key is missing in the runtime, this pack still runs; those entries simply won’t unlock until their parents exist."
+    }
+  },
+  {
+    "id": "5d673cfa-5d7c-423c-82fa-d14333314794",
+    "key": "motivation_intro",
+    "title": "Motivation — what it is",
+    "concept": "motivation",
+    "type": "lesson:intro",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "foundation_intro_115",
+        "desire_intro_low",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro"
+      ]
+    },
+    "vocab_unlocks": [
+      "motivation"
+    ],
+    "behavior_controls": [],
+    "strength_controls": [],
+    "gates": {
+      "holds_back_terms": [
+        "plot",
+        "conflict",
+        "stakes",
+        "theme",
+        "voice",
+        "pacing",
+        "scene",
+        "beat"
+      ]
+    },
+    "summary": "Defines motivation as the why behind a character’s choices. Motivation can be quiet or loud, fixed or shifting, noble or messy.",
+    "assignment": {
+      "prompt": "Write an ordinary moment for your character. Don’t label any goals. Let one small choice hint at a private why. Feel free to roam long.",
+      "expectations": [
+        "One concrete choice appears.",
+        "A why is implied or spoken once."
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "signal_of_want": "A concrete choice points to a why.",
+        "coherence": "Moment reads as one lived slice, not a checklist."
+      },
+      "strength_tiers": {
+        "1": "A hint of why exists (said or implied).",
+        "2": "Why is traceable to a choice with cost.",
+        "3": "Why, choice, and small consequence sit in the same scene."
+      }
+    }
+  },
+  {
+    "id": "917a2993-0dd4-4347-ba4b-8664bf498275",
+    "key": "motivation_why_matters",
+    "title": "Why motivation matters",
+    "concept": "motivation",
+    "type": "lesson:why",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "summary": "Understanding the why makes behavior feel earned and human—even when it’s ugly or contradictory.",
+    "assignment": {
+      "prompt": "Rewrite your moment from the intro. Add one new action that only makes sense if a quiet why exists.",
+      "expectations": [
+        "New action aligns with the same why.",
+        "Keep it embodied; avoid abstract explanation."
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "consistency": "New action aligns with the same why."
+      },
+      "strength_tiers": {
+        "1": "Alignment is visible.",
+        "2": "Alignment creates friction.",
+        "3": "Alignment triggers a small consequence."
+      }
+    }
+  },
+  {
+    "id": "88a2aad0-3716-476f-96ac-5eea8618183d",
+    "key": "motivation_how_to_use",
+    "title": "Using motivation (without jargon)",
+    "concept": "motivation",
+    "type": "lesson:how",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_why_matters",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "summary": "Four moves: link to desire, show via choices, let it shift, tie to backstory/personality.",
+    "crossrefs_gate_later": [
+      "desire",
+      "choices",
+      "backstory",
+      "personality"
+    ],
+    "assignment": {
+      "prompt": "Free‑write your character’s ordinary day twice: once before the want stirs, once after. Swap one habit; let that swap carry the why.",
+      "expectations": [
+        "A before/after contrast exists.",
+        "One swapped behavior is enough—keep it specific."
+      ]
+    },
+    "assessment": {
+      "criteria": {
+        "contrast": "Swap makes the why visible."
+      }
+    }
+  },
+  {
+    "id": "6f2d5de2-2c7a-4f4d-9485-40fb62bef975",
+    "key": "motivation_behavior_say",
+    "title": "How to spot motivation — they say their motivation",
+    "concept": "motivation",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_how_to_use",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "behavior_controls": [
+      "say"
+    ],
+    "summary": "Declarations, vows, confessions—use sparingly but clearly.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Declarations (“I will…”)",
+          "Vows and promises",
+          "Confessions in quiet scenes",
+          "Fears framed as purpose"
+        ]
+      },
+      "suggestions_contextual": "When active, surface 6–10 neutral, context‑aware maneuvers to say motivation without naming plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "coherence": "Reads as lived behavior, not abstract summary."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of say.",
+        "2": "Say links to a choice with a small cost.",
+        "3": "Say shifts the social weather or next action."
+      }
+    },
+    "ui_controls": {
+      "behavior": "say",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  },
+  {
+    "id": "3f46deda-c928-4fa5-a1ba-0afc8e422128",
+    "key": "motivation_behavior_show",
+    "title": "How to spot motivation — they show their motivation",
+    "concept": "motivation",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_how_to_use",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "behavior_controls": [
+      "show"
+    ],
+    "summary": "Behavior and repeated pursuit; actions don’t lie.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Persistent pursuit",
+          "Sacrifice or risk",
+          "Non‑verbal tells / rituals",
+          "Contradictory actions vs talk"
+        ]
+      },
+      "suggestions_contextual": "When active, surface 6–10 neutral, context‑aware maneuvers to show motivation without naming plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "coherence": "Reads as lived behavior, not abstract summary."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of show.",
+        "2": "Show links to a choice with a small cost.",
+        "3": "Show shifts the social weather or next action."
+      }
+    },
+    "ui_controls": {
+      "behavior": "show",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  },
+  {
+    "id": "78749d10-5fa7-44c5-85f5-ce26b376d81b",
+    "key": "motivation_behavior_hide",
+    "title": "How to spot motivation — they hide their motivation",
+    "concept": "motivation",
+    "type": "behavior",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_how_to_use",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "behavior_controls": [
+      "hide"
+    ],
+    "summary": "Denial, avoidance, overcompensation; the mask slips under pressure.",
+    "generator_panel": {
+      "reference": {
+        "reminder": [
+          "Denial or deflection",
+          "Projection / self‑sabotage",
+          "Overcompensation",
+          "Sudden outbursts under pressure"
+        ]
+      },
+      "suggestions_contextual": "When active, surface 6–10 neutral, context‑aware maneuvers to hide motivation without naming plot specifics."
+    },
+    "assessment": {
+      "criteria": {
+        "specificity": "A concrete moment embodies the behavior.",
+        "coherence": "Reads as lived behavior, not abstract summary."
+      },
+      "strength_tiers": {
+        "1": "Single, clear instance of hide.",
+        "2": "Hide links to a choice with a small cost.",
+        "3": "Hide shifts the social weather or next action."
+      }
+    },
+    "ui_controls": {
+      "behavior": "hide",
+      "strength": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  },
+  {
+    "id": "2d8ba546-fc61-480d-8aba-05ccf9e84e6e",
+    "key": "motivation_strength_low",
+    "title": "Motivation strength — The quiet seed",
+    "concept": "motivation",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_behavior_say",
+        "motivation_behavior_show",
+        "motivation_behavior_hide",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "strength_controls": [
+      "low"
+    ],
+    "summary": "Hints or private longing; doesn’t yet steer the story; good for texture and foreshadowing.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible via choice and pressure.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency is correctly identified.",
+        "2": "Potency shown and causes a next beat.",
+        "3": "Potency shown, causes consequence, and reshapes the next moment."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "low"
+    }
+  },
+  {
+    "id": "e299142a-ecc4-4a43-80b5-ee3fe1f7881a",
+    "key": "motivation_strength_medium",
+    "title": "Motivation strength — The growing fire",
+    "concept": "motivation",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_behavior_say",
+        "motivation_behavior_show",
+        "motivation_behavior_hide",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "strength_controls": [
+      "medium"
+    ],
+    "summary": "Active pursuit with doubt and cost; choices create visible consequences.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible via choice and pressure.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency is correctly identified.",
+        "2": "Potency shown and causes a next beat.",
+        "3": "Potency shown, causes consequence, and reshapes the next moment."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "medium"
+    }
+  },
+  {
+    "id": "20997adb-ad2f-4ae9-acc4-a179eab9b20b",
+    "key": "motivation_strength_high",
+    "title": "Motivation strength — The all‑consuming fire",
+    "concept": "motivation",
+    "type": "strength",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_behavior_say",
+        "motivation_behavior_show",
+        "motivation_behavior_hide",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "strength_controls": [
+      "high"
+    ],
+    "summary": "Obsession; no plan B; identity and world reorder around the want.",
+    "assessment": {
+      "criteria": {
+        "signal": "Potency is visible via choice and pressure.",
+        "cost": "Something small (low), meaningful (medium), or defining (high) is at stake."
+      },
+      "strength_tiers": {
+        "1": "Potency is correctly identified.",
+        "2": "Potency shown and causes a next beat.",
+        "3": "Potency shown, causes consequence, and reshapes the next moment."
+      }
+    },
+    "ui_controls": {
+      "behavior": [
+        "say",
+        "show",
+        "hide"
+      ],
+      "strength": "high"
+    }
+  },
+  {
+    "id": "f571b058-f43f-4261-a83a-3a694e4d4736",
+    "key": "motivation_tools_controls",
+    "title": "Motivation dials — raise or soften potency",
+    "concept": "motivation",
+    "type": "toolkit",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_strength_low",
+        "motivation_strength_medium",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "tools": [
+      {
+        "dial": "Escalate stakes",
+        "direction": "+",
+        "note": "Add deadline, betrayal, or loss to heat the want."
+      },
+      {
+        "dial": "Temporary relief",
+        "direction": "−",
+        "note": "Give a small win or comfort to cool urgency."
+      },
+      {
+        "dial": "Intensify resistance",
+        "direction": "+",
+        "note": "Make the pushback personal to amplify drive."
+      },
+      {
+        "dial": "Clear the path",
+        "direction": "−",
+        "note": "Reduce barriers; desire cools or redirects."
+      },
+      {
+        "dial": "Public oath",
+        "direction": "+",
+        "note": "Saying it out loud raises risk and weight."
+      },
+      {
+        "dial": "Keep it secret",
+        "direction": "−",
+        "note": "Let the want simmer; use slips and rituals."
+      },
+      {
+        "dial": "Blend pressures",
+        "direction": "+",
+        "note": "Mix inner guilt with outside threat."
+      },
+      {
+        "dial": "Symbolic act",
+        "direction": "+",
+        "note": "Ritual, token, or vow that marks intensity."
+      },
+      {
+        "dial": "Ally influence",
+        "direction": "+/−",
+        "note": "Mentor fuels the fire; friend eases it."
+      }
+    ],
+    "assignment": {
+      "prompt": "Take a paragraph you wrote here. Use one + dial and one − dial to rewrite the same moment twice: once hotter, once softer.",
+      "expectations": [
+        "Two distinct versions exist.",
+        "The heat shift is legible without naming it."
+      ]
+    }
+  },
+  {
+    "id": "b3989388-26f7-4727-949d-d388386d002c",
+    "key": "motivation_examples_index",
+    "title": "Examples index (for reference)",
+    "concept": "motivation",
+    "type": "reference",
+    "language": {
+      "requires": [
+        "reader_foothold",
+        "motivation"
+      ],
+      "dialect_level": 1
+    },
+    "precedence": {
+      "comes_after": [
+        "motivation_intro",
+        "foundation_intro_115",
+        "identity_intro",
+        "body_logic_intro",
+        "description_intro",
+        "truth_intro",
+        "wound_intro",
+        "flat_character_intro",
+        "roles_intro",
+        "role_dynamics_intro",
+        "dynamic_character_intro",
+        "symbolic_character_intro",
+        "drive_intro",
+        "decision_style_intro",
+        "archetypal_character_intro",
+        "desire_intro_low"
+      ]
+    },
+    "notes": "Index of characters frequently used across SAY/SHOW/HIDE and potency panels.",
+    "examples": [
+      "Frodo Baggins",
+      "Walter White",
+      "Elle Woods",
+      "Katniss Everdeen",
+      "Tony Stark",
+      "Moana",
+      "Joel (The Last of Us)",
+      "Don Draper",
+      "Batman",
+      "WALL‑E",
+      "Miles Morales",
+      "Princess Leia"
+    ]
+  }
+]
