@@ -1,0 +1,97 @@
+{
+  "tiles": [
+    {
+      "id": "foundation_intro_115",
+      "concept": "Decision",
+      "behaviors": ["say"],
+      "strength_tiers": ["low"],
+      "language": { "dialect_level": 1 }
+    },
+    {
+      "id": "decision_behavior_show",
+      "concept": "Decision",
+      "behaviors": ["show"],
+      "strength_tiers": ["low", "medium"],
+      "language": { "dialect_level": 2 },
+      "precedence": { "comes_after": ["foundation_intro_115"] }
+    },
+    {
+      "id": "decision_behavior_hide",
+      "concept": "Decision",
+      "behaviors": ["hide"],
+      "strength_tiers": ["medium"],
+      "language": { "dialect_level": 2 },
+      "precedence": { "comes_after": ["decision_behavior_show"] }
+    },
+    {
+      "id": "decision_consequence_chain",
+      "concept": "Decision",
+      "behaviors": ["show", "hide"],
+      "strength_tiers": ["medium", "high"],
+      "language": { "dialect_level": 3 },
+      "precedence": { "comes_after": ["consequence_intro", "decision_behavior_show"] }
+    },
+    {
+      "id": "conflict_pressure_low",
+      "concept": "Conflict",
+      "behaviors": ["show"],
+      "strength_tiers": ["low"],
+      "language": { "dialect_level": 1 }
+    },
+    {
+      "id": "conflict_pressure_chain",
+      "concept": "Conflict",
+      "behaviors": ["show", "say"],
+      "strength_tiers": ["medium"],
+      "language": { "dialect_level": 2 },
+      "precedence": { "comes_after": ["pressure_chain"] }
+    },
+    {
+      "id": "stakes_consequence_intro",
+      "concept": "Stakes",
+      "behaviors": ["say"],
+      "strength_tiers": ["low", "medium"],
+      "language": { "dialect_level": 2 },
+      "precedence": { "comes_after": ["foundation_intro_115"] }
+    },
+    {
+      "id": "stakes_cost_followup",
+      "concept": "Stakes",
+      "behaviors": ["hide"],
+      "strength_tiers": ["medium", "high"],
+      "language": { "dialect_level": 3 },
+      "precedence": { "comes_after": ["cost_followup", "stakes_consequence_intro"] }
+    },
+    {
+      "id": "change_field_high",
+      "concept": "Change",
+      "behaviors": ["show", "hide"],
+      "strength_tiers": ["high"],
+      "language": { "dialect_level": 3 },
+      "precedence": { "comes_after": ["consequence_intro"] }
+    },
+    {
+      "id": "outcome_resolution",
+      "concept": "Outcome",
+      "behaviors": ["say", "show"],
+      "strength_tiers": ["medium", "high"],
+      "language": { "dialect_level": 3 },
+      "precedence": { "comes_after": ["decision_consequence_chain"] }
+    },
+    {
+      "id": "mentor_voice_low",
+      "concept": "Mentor",
+      "behaviors": ["say"],
+      "strength_tiers": ["low"],
+      "language": { "dialect_level": 1 }
+    },
+    {
+      "id": "mentor_field_shift",
+      "concept": "Mentor",
+      "behaviors": ["show", "hide"],
+      "strength_tiers": ["high"],
+      "language": { "dialect_level": 4 },
+      "precedence": { "comes_after": ["mentor_voice_low", "pressure_chain"] }
+    }
+  ]
+}

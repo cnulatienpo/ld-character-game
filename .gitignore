@@ -71,3 +71,6 @@ local_settings.yy
 # Project local saves
 ########################
 character_progress.json
+
+# Allow compiled grader output
+!character-grader/dist/
