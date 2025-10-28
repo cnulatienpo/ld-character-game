@@ -1,0 +1,73 @@
+########################
+# OS junk
+########################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.stackdump
+
+########################
+# Editors/IDEs
+########################
+.vscode/
+.idea/
+*.iml
+
+########################
+# Python
+########################
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+########################
+# Node / JS
+########################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.next/
+coverage/
+*.log
+
+########################
+# GameMaker Studio 2
+########################
+# KEEP: *.yyp (project) and *.yy (resources) — commit these!
+# Ignore build/cache/exports:
+*.yyz           # exported project archives
+*.yymps         # exported packages
+*.temp          # temp files
+*.tmp
+*.log
+cache/
+output/
+build/
+# Some users see per-target caches:
+# .gms/ or .gmx/ (legacy) — ignore if they appear
+.gmx/
+.gmlive/        # if using GMLive
+local_settings.yy
+# OS-specific caches inside project
+*/.sync_cache/
+
+########################
+# Misc
+########################
+*.swp
+*.swo
+*.orig
+*.bak
+
+########################
+# Project local saves
+########################
+character_progress.json
