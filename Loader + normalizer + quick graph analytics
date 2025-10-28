@@ -1,0 +1,151 @@
+import os, re, orjson, json, unicodedata
+from pathlib import Path
+from tqdm import tqdm
+import polars as pl
+import networkx as nx
+
+# ====== CONFIG: set your file paths ======
+BASE = Path("/content/ld_character/out")
+TVTROPES_SLICE = BASE / "tvtropes_char_slice.jsonl"   # raw slice (optional)
+TV_AS_LD       = BASE / "tv_as_ld_char.jsonl"         # mapped to your LD schema
+CHAR_MASTER    = BASE / "char_master.jsonl"           # your seeder-derived character records
+OUTDIR         = BASE / "analytics"
+OUTDIR.mkdir(parents=True, exist_ok=True)
+
+# ====== Helpers ======
+def norm(s:str)->str:
+    s = unicodedata.normalize("NFKD", s).encode("ascii","ignore").decode("ascii")
+    s = re.sub(r"[\W_]+"," ", s).strip().lower()
+    return re.sub(r"\s+"," ", s)
+
+def stream_jsonl(path: Path):
+    with path.open("rb") as f:
+        for line in f:
+            if not line.strip(): 
+                continue
+            try:
+                yield orjson.loads(line)
+            except Exception:
+                # skip malformed lines but keep going
+                continue
+
+def detect_kind(obj: dict) -> str:
+    # LD-style element record?
+    if obj.get("record_type") == "element" and "element_id" in obj:
+        return "ld"
+    # tvtropes raw?
+    if "trope_name" in obj or "categories" in obj:
+        return "tvtropes_raw"
+    return "unknown"
+
+# ====== Load LD records (both mapped TVT + your seeders) ======
+def load_ld_records(*paths):
+    for p in paths:
+        if not p.exists(): 
+            continue
+        for rec in stream_jsonl(p):
+            if detect_kind(rec) == "ld":
+                yield rec
+
+ld_records = list(load_ld_records(TV_AS_LD, CHAR_MASTER))
+print(f"Loaded LD records: {len(ld_records):,}")
+
+# ====== Quick tabular views with Polars (optional) ======
+ld_df = pl.DataFrame(ld_records)
+# Some columns are nested dicts; keep them json for now
+for col in ["metrics","provenance","span","edges","tags"]:
+    if col in ld_df.columns:
+        ld_df = ld_df.with_columns(pl.col(col).cast(pl.Utf8).alias(col))
+
+# Save a Parquet snapshot (fast to reopen later)
+parq = OUTDIR / "ld_records.parquet"
+ld_df.write_parquet(parq)
+print("Saved:", parq)
+
+# ====== Build a character graph ======
+G = nx.DiGraph()
+
+# Nodes:
+# - Archetype labels (char.archetype.label) → node type 'archetype'
+# - Role + Arc (char.role.arc_enum)        → node type 'role'
+# - Characters from social ties/influences (we’ll infer names later if present in metrics)
+for r in ld_records:
+    eid = r.get("element_id","")
+    title = r.get("title","")
+    if eid == "char.archetype.label":
+        arch = r.get("metrics",{}).get("archetype") or norm(title).replace(" ","_")
+        G.add_node(f"arch::{arch}", kind="archetype", title=title)
+    elif eid == "char.role.arc_enum":
+        role = r.get("metrics",{}).get("role") or norm(title).replace(" ","_")
+        G.add_node(f"role::{role}", kind="role", title=title)
+
+# Edges:
+# - Social ties: element_id == char.social.tie  (from → to, weight=strength)
+# - Influence:   element_id == char.influence.edge (from → to, weight)
+def safe_name(x):
+    if not x: return None
+    return f"char::{norm(x).replace(' ','_')}"
+
+edge_ct = 0
+for r in ld_records:
+    eid = r.get("element_id","")
+    m = r.get("metrics",{})
+    if eid == "char.social.tie":
+        src = safe_name(m.get("from"))
+        dst = safe_name(m.get("to"))
+        if src and dst:
+            G.add_node(src, kind="character")
+            G.add_node(dst, kind="character")
+            w = m.get("strength") if isinstance(m.get("strength"), (int,float)) else 1.0
+            G.add_edge(src, dst, kind="social", weight=w, tie=m.get("tie"))
+            edge_ct += 1
+    elif eid == "char.influence.edge":
+        src = safe_name(m.get("from"))
+        dst = safe_name(m.get("to"))
+        if src and dst:
+            G.add_node(src, kind="character")
+            G.add_node(dst, kind="character")
+            w = m.get("weight") if isinstance(m.get("weight"), (int,float)) else 1.0
+            G.add_edge(src, dst, kind="influence", weight=w, mode=m.get("mode"))
+            edge_ct += 1
+
+print(f"Graph: {G.number_of_nodes():,} nodes, {G.number_of_edges():,} edges (added {edge_ct:,} char edges)")
+
+# ====== Simple analytics ======
+# Degree centrality (who controls scenes/relationships?)
+deg = nx.degree_centrality(G)
+bet = nx.betweenness_centrality(G, normalized=True, k=min(1000, max(10, G.number_of_nodes()))) if G.number_of_nodes() > 10 else {n:0.0 for n in G.nodes()}
+# Top 20 by betweenness
+top_bet = sorted(bet.items(), key=lambda x: x[1], reverse=True)[:20]
+
+# Export nodes/edges + centrality
+import csv
+
+nodes_csv = OUTDIR / "char_nodes.csv"
+edges_csv = OUTDIR / "char_edges.csv"
+cent_csv  = OUTDIR / "char_centrality_top20.csv"
+
+with nodes_csv.open("w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["id","kind","title"])
+    for n, data in G.nodes(data=True):
+        w.writerow([n, data.get("kind",""), data.get("title","")])
+
+with edges_csv.open("w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["src","dst","kind","weight","extra"])
+    for u,v,data in G.edges(data=True):
+        w.writerow([u,v,data.get("kind",""), data.get("weight",1.0), json.dumps({k:v for k,v in data.items() if k not in ("kind","weight")}, ensure_ascii=False)])
+
+with cent_csv.open("w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["node","betweenness","degree_centrality"])
+    for n, b in top_bet:
+        w.writerow([n, b, deg.get(n,0.0)])
+
+print("Saved:")
+print(" •", nodes_csv)
+print(" •", edges_csv)
+print(" •", cent_csv)
+
+# (Optional) sanity peek
+print("\nTop betweenness (who mediates the most):")
+for n,b in top_bet[:10]:
+    print(f"{n:40s}  {b:.4f}")
