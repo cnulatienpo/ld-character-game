@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .routes import api as api_router
+from . import telemetry
 
 app = FastAPI(title="LD Character Game - Python Scaffold")
 
@@ -13,6 +14,12 @@ app.add_middleware(
 )
 
 app.include_router(api_router.router, prefix="/api")
+
+
+@app.post("/api/telemetry")
+async def post_telemetry(event: telemetry.TelemetryEvent):
+    telemetry.save(event)
+    return {"ok": True}
 
 
 @app.get("/healthz")
