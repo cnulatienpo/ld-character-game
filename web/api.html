@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Literary Deviousness API — Character MVP</title>
+  <link rel="stylesheet" href="api.css" />
+</head>
+<body>
+  <header class="notice">
+    <div class="notice-content">
+      <label for="base-url">Base API URL</label>
+      <input id="base-url" type="url" placeholder="https://example.com" aria-describedby="base-help" />
+      <button id="test-status" class="btn">Test Status</button>
+      <span id="status-pill" class="pill">Unknown</span>
+      <span id="status-meta" class="status-meta" aria-live="polite"></span>
+    </div>
+    <p id="base-help" class="small">Default points to the Render deployment. Update it to test other environments. Values persist in this browser.</p>
+  </header>
+
+  <main>
+    <section>
+      <h1>Literary Deviousness API — Character MVP</h1>
+      <p>Public REST endpoints that power the Literary Deviousness character experience.</p>
+    </section>
+
+    <section>
+      <h2>Quick Links</h2>
+      <ul class="link-grid">
+        <li><a data-dynamic="docs" href="#" rel="noopener" target="_blank">Swagger UI</a></li>
+        <li><a data-dynamic="openapi" href="#" rel="noopener" target="_blank">OpenAPI JSON</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Endpoints</h2>
+
+      <article class="endpoint" id="status">
+        <h3><code>/status</code> <span class="pill ok">GET</span></h3>
+        <p>Health check for the service. Returns deployment metadata and current server time.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code data-template>GET {{BASE}}/status</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "status": "ok",
+  "version": "2024.04.18",
+  "serverTime": "2024-04-18T14:05:00Z"
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -s {{BASE}}/status | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http {{BASE}}/status</code></pre>
+          </div>
+        </div>
+      </article>
+
+      <article class="endpoint" id="features">
+        <h3><code>/features</code> <span class="pill ok">GET</span></h3>
+        <p>Lists feature flags and configuration toggles exposed to the client.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code data-template>GET {{BASE}}/features</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "features": {
+    "storyMode": true,
+    "attemptLimit": 3
+  }
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -s {{BASE}}/features | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http {{BASE}}/features</code></pre>
+          </div>
+        </div>
+      </article>
+
+      <article class="endpoint" id="attempt">
+        <h3><code>/api/attempt</code> <span class="pill ok">POST</span></h3>
+        <p>Submit a player attempt against the current character prompt. Response includes evaluation feedback.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code>{
+  "userId": "u-111",
+  "itemId": "char.001",
+  "mode": "character",
+  "answer": "She irons receipts."
+}</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "result": "accepted",
+  "score": 0.82,
+  "feedback": "The answer reveals the character's quirk without spoilers.",
+  "remainingAttempts": 2
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -sX POST {{BASE}}/api/attempt \
+  -H 'Content-Type: application/json' \
+  -d '{ "userId":"u-111", "itemId":"char.001", "mode":"character", "answer":"She irons receipts." }' | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http POST {{BASE}}/api/attempt \
+  userId=u-111 \
+  itemId=char.001 \
+  mode=character \
+  answer="She irons receipts."</code></pre>
+          </div>
+        </div>
+      </article>
+
+      <article class="endpoint" id="progress">
+        <h3><code>/api/progress/state</code> <span class="pill ok">GET</span></h3>
+        <p>Retrieve the player's overall progress state for the experience.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code data-template>GET {{BASE}}/api/progress/state?userId=u-111</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "userId": "u-111",
+  "completed": ["char.000"],
+  "current": "char.001",
+  "attempts": 1,
+  "lastUpdated": "2024-04-18T14:05:00Z"
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -s '{{BASE}}/api/progress/state?userId=u-111' | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http '{{BASE}}/api/progress/state?userId==u-111'</code></pre>
+          </div>
+        </div>
+      </article>
+
+      <article class="endpoint" id="next">
+        <h3><code>/api/next</code> <span class="pill ok">GET</span></h3>
+        <p>Return the next character challenge for the player, if any remain.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code data-template>GET {{BASE}}/api/next?userId=u-111</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "userId": "u-111",
+  "item": {
+    "id": "char.002",
+    "prompt": "Guess the character who keeps every ticket stub."
+  }
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -s '{{BASE}}/api/next?userId=u-111' | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http '{{BASE}}/api/next?userId==u-111'</code></pre>
+          </div>
+        </div>
+      </article>
+
+      <article class="endpoint" id="skip">
+        <h3><code>/api/skip</code> <span class="pill ok">POST</span></h3>
+        <p>Skip the current character challenge and move forward. Response returns the next available item.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code>{
+  "userId": "u-111",
+  "itemId": "char.001"
+}</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "userId": "u-111",
+  "skipped": "char.001",
+  "next": "char.002"
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -sX POST {{BASE}}/api/skip \
+  -H 'Content-Type: application/json' \
+  -d '{ "userId":"u-111", "itemId":"char.001" }' | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http POST {{BASE}}/api/skip \
+  userId=u-111 \
+  itemId=char.001</code></pre>
+          </div>
+        </div>
+      </article>
+
+      <article class="endpoint" id="telemetry">
+        <h3><code>/api/telemetry</code> <span class="pill ok">POST</span></h3>
+        <p>Record optional interaction telemetry from clients for aggregated analytics.</p>
+        <div class="grid">
+          <div>
+            <h4>Request</h4>
+            <pre><code>{
+  "userId": "u-111",
+  "event": "hint_viewed",
+  "itemId": "char.001",
+  "metadata": {
+    "hintId": "h-01"
+  }
+}</code></pre>
+          </div>
+          <div>
+            <h4>Response</h4>
+            <pre><code>{
+  "status": "queued"
+}</code></pre>
+          </div>
+        </div>
+        <div class="grid examples">
+          <div>
+            <h4>Run with curl</h4>
+            <pre><code data-template>curl -sX POST {{BASE}}/api/telemetry \
+  -H 'Content-Type: application/json' \
+  -d '{ "userId":"u-111", "event":"hint_viewed", "itemId":"char.001", "metadata": { "hintId": "h-01" } }' | jq</code></pre>
+          </div>
+          <div>
+            <h4>Run with HTTPie</h4>
+            <pre><code data-template>http POST {{BASE}}/api/telemetry \
+  userId=u-111 \
+  event=hint_viewed \
+  itemId=char.001 \
+  metadata:='{"hintId":"h-01"}'</code></pre>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h2>Schemas</h2>
+      <div class="grid">
+        <div>
+          <h3>Attempt Payload</h3>
+          <pre><code>{
+  "userId": "string",
+  "itemId": "string",
+  "mode": "character",
+  "answer": "string"
+}</code></pre>
+        </div>
+        <div>
+          <h3>Progress State</h3>
+          <pre><code>{
+  "userId": "string",
+  "completed": ["string"],
+  "current": "string | null",
+  "attempts": number,
+  "lastUpdated": "ISO-8601 timestamp"
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Notes</h2>
+      <ul>
+        <li>CORS is enabled for trusted browser clients. Unlisted origins should use server-side calls or request access.</li>
+        <li>If rate limiting is enabled, clients should handle HTTP 429 responses with backoff and respect provided retry-after headers.</li>
+        <li>Telemetry events are aggregated for gameplay tuning and never sold or shared with third parties.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a href="index.html">Back to site index</a>
+  </footer>
+
+  <script src="api.js"></script>
+</body>
+</html>
