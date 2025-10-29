@@ -27,6 +27,7 @@ from .models import (
 from .scoring import grade_attempt
 from .scheduler import next_for_user
 from .storage import STORAGE
+from . import telemetry
 
 load_dotenv()
 
@@ -76,6 +77,18 @@ def get_status() -> Dict[str, object]:
         "version": APP_VERSION,
         "now_iso": datetime.utcnow().isoformat() + "Z",
     }
+
+
+@app.post("/api/telemetry", response_class=ORJSONResponse)
+def post_telemetry(ev: telemetry.TelemetryEvent) -> Dict[str, object]:
+    telemetry.append_event(ev)
+    return {"ok": True}
+
+
+@app.get("/api/telemetry/summary", response_class=ORJSONResponse)
+def telemetry_summary(day: str | None = None) -> Dict[str, object]:
+    day_value = day or datetime.utcnow().strftime("%Y-%m-%d")
+    return {"ok": True, "day": day_value, "summary": telemetry.rollup_day(day_value)}
 
 
 @app.get("/features")

@@ -20,3 +20,26 @@
 4. After the first successful workflow run, your site will be at: https://<your-username>.github.io/<repo-name>/
 5. Update your game’s API base URL (in GameMaker): set it to your Render API URL.
 6. Cache gotcha: If updates don’t show, hard-refresh (Ctrl/Cmd+Shift+R).
+
+## 📈 Telemetry
+
+Anonymous telemetry events can be sent to the backend via `POST /api/telemetry`.
+Payloads should match the following model:
+
+```json
+{
+  "userId": "anon-user-123",
+  "event": "session_start", // one of session_start, attempt, session_end, skip, heartbeat
+  "version": "0.1.0",
+  "timestamp": 1700000000,
+  "meta": { "platform": "html5" }
+}
+```
+
+Events are appended to `character_api/data/store/telemetry.jsonl`. To inspect a daily
+summary run:
+
+```bash
+cd character_api
+python -m server.telemetry_summary 2024-10-28  # omit the date for “today”
+```

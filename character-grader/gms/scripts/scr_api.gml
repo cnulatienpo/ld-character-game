@@ -74,3 +74,39 @@ function api_skip(_userId, _itemId, _reason, _on_ok, _on_err) {
     if (ds_exists(body, ds_type_map)) ds_map_destroy(body);
     return async_id;
 }
+
+function api_post_telemetry(_userId, _event, _meta, _on_ok, _on_err) {
+    var url = api__full_url("/api/telemetry");
+    var headers = api_headers();
+    var body = ds_map_create();
+
+    var user_id_val = is_string(_userId) ? _userId : string(_userId);
+    ds_map_add(body, "userId", user_id_val);
+    ds_map_add(body, "event", _event);
+
+    if (variable_global_exists("game_version")) {
+        var version_val = global.game_version;
+        if (is_string(version_val) && string_length(version_val) > 0) {
+            ds_map_add(body, "version", version_val);
+        }
+    }
+
+    var ts = current_time div 1000;
+    if (function_exists("time_epoch")) {
+        ts = time_epoch();
+    }
+    ds_map_add(body, "timestamp", ts);
+
+    var meta_payload = _meta;
+    if (is_undefined(meta_payload)) {
+        meta_payload = {};
+    }
+    if (is_struct(meta_payload) || ds_exists(meta_payload, ds_type_map) || is_array(meta_payload)) {
+        ds_map_add(body, "meta", meta_payload);
+    }
+
+    var async_id = http_json_post(url, body, headers, "telemetry", _on_ok, _on_err);
+    if (ds_exists(headers, ds_type_map)) ds_map_destroy(headers);
+    if (ds_exists(body, ds_type_map)) ds_map_destroy(body);
+    return async_id;
+}

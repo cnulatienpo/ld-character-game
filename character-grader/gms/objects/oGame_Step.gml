@@ -47,3 +47,9 @@ if (collection_complete && array_length(cards) > 0) {
 if (!net_waiting) {
     refresh_preview();
 }
+
+if (!telemetry_session_closed) {
+    if (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace)) {
+        telemetry_session_end();
+    }
+}

@@ -9,6 +9,10 @@ if (!variable_global_exists("user_id")) {
     }
 }
 
+if (!variable_global_exists("game_version") || !is_string(global.game_version) || string_length(global.game_version) <= 0) {
+    global.game_version = "0.1.0";
+}
+
 global.net_online = false;
 http__ensure_request_map();
 
