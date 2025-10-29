@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="m5-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b2636" />
+      <stop offset="100%" stop-color="#0f1724" />
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="244" height="244" rx="32" fill="url(#m5-bg)" stroke="#7cffc4" stroke-width="4" opacity="0.96" />
+  <path d="M72 180h112" stroke="#7cffc4" stroke-width="12" stroke-linecap="round" />
+  <path d="M92 172c12-48 32-72 60-72 18 0 36 10 52 28" fill="none" stroke="#7cffc4" stroke-width="12" stroke-linecap="round" />
+  <circle cx="88" cy="188" r="18" fill="#7cffc4" />
+  <circle cx="168" cy="188" r="18" fill="#7cffc4" />
+  <path d="M120 96l24-32 24 32" fill="none" stroke="#c0ffee" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="128" y="88" font-family="'Segoe UI', system-ui, sans-serif" font-size="28" text-anchor="middle" fill="#c0ffee" font-weight="700">5</text>
+  <text x="128" y="220" font-family="'Segoe UI', system-ui, sans-serif" font-size="24" text-anchor="middle" fill="#7cffc4" letter-spacing="4" font-weight="600">MARATHON</text>
+</svg>
