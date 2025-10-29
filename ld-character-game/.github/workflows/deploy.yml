@@ -1,0 +1,42 @@
+name: Render Auto Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Uvicorn smoke test
+        run: uvicorn --help
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render deploy
+        env:
+          RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
+          RENDER_SERVICE_ID: ${{ secrets.RENDER_SERVICE_ID }}
+        run: |
+          curl -X POST \
+            -H "Accept: application/json" \
+            -H "Authorization: Bearer ${RENDER_API_KEY}" \
+            -d '{"serviceId": "'"${RENDER_SERVICE_ID}"'"}' \
+            https://api.render.com/v1/services/${RENDER_SERVICE_ID}/deploys
+          echo "Render deploy triggered"
