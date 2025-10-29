@@ -50,3 +50,35 @@ The API now applies stricter defaults for CORS and security headers. Configure t
 Structured JSON request logs are emitted automatically; they include request metadata such as path, method, latency, and optional `x-user-id` values. Rate limiting support is available via SlowAPI—install it with `pip install slowapi` and keep `ENV=production` to activate the shared limiter.
 
 A scheduled "Uptime Watchdog" workflow pings `/status` every five minutes. Store your deployed URL in the `API_BASE_URL` repository secret so the workflow can alert you by opening (or updating) an issue when downtime is detected.
+
+## Testing & Release
+
+### Running tests locally
+1. Install dependencies:
+   ```bash
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt -r requirements-dev.txt
+   ```
+2. Execute the API test suite:
+   ```bash
+   pytest -q
+   ```
+
+### Running the k6 smoke test
+Run the lightweight load test against your desired environment:
+```bash
+k6 run -e BASE=https://YOUR-RENDER-URL.onrender.com k6/smoke.js
+```
+Omit the `BASE` variable to target `http://localhost:8000` by default.
+
+### Cutting a release
+1. Create and push a semantic tag (the GitHub Actions workflow listens for `v*.*.*`):
+   ```bash
+   git tag v0.2.0
+   git push origin v0.2.0
+   ```
+2. The release workflow will generate notes (pulling from `web/changelog.json` when available) and upload the lesson JSONL files as assets.
+
+### Continuous integration
+* **Pull requests & pushes** – Run the FastAPI pytest suite on Python 3.11 and trigger the k6 smoke test (the k6 job is allowed to fail on forks or when no external URL is configured).
+* **Tags** – Build release notes and publish a GitHub Release with lesson data attached for reference.
