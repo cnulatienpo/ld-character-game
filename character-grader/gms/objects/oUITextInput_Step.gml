@@ -1,49 +1,64 @@
 /// oUITextInput Step Event
 
-if (!is_string(text_value)) text_value = "";
-if (!is_real(max_chars) || max_chars <= 0) max_chars = 5000;
-
-caret_timer += 1;
-if (caret_timer >= 24) {
-    caret_timer = 0;
-    caret_visible = !caret_visible;
+if (!instance_exists(owner)) {
+    instance_destroy();
+    exit;
 }
 
-var mx = device_mouse_x_to_gui(0);
-var my = device_mouse_y_to_gui(0);
-if (mouse_check_button_pressed(mb_left)) {
-    var inside = false;
-    if (is_struct(draw_rect)) {
-        if (mx >= draw_rect.x && mx <= draw_rect.x + draw_rect.w && my >= draw_rect.y && my <= draw_rect.y + draw_rect.h) {
-            inside = true;
+caret_timer = (caret_timer + 1) mod 60;
+caret_visible = (caret_timer < 30);
+
+if (!variable_instance_exists(owner, "editor_text")) {
+    exit;
+}
+if (!variable_instance_exists(owner, "editor_caret")) {
+    exit;
+}
+
+with (owner) {
+    editor_caret = clamp(editor_caret, 1, string_length(editor_text) + 1);
+}
+
+if (!variable_instance_exists(owner, "editor_focus")) {
+    exit;
+}
+
+if (!owner.editor_focus) {
+    exit;
+}
+
+if (keyboard_check(vk_control) && keyboard_check_pressed(ord("A"))) {
+    with (owner) {
+        editor_caret = string_length(editor_text) + 1;
+    }
+}
+
+if (keyboard_check(vk_control) && keyboard_check_pressed(ord("V"))) {
+    if (function_exists("clipboard_get_text")) {
+        var clip = clipboard_get_text();
+        if (is_string(clip)) {
+            var limit = max_chars;
+            if (variable_instance_exists(owner, "editor_max_chars") && is_real(owner.editor_max_chars)) {
+                limit = owner.editor_max_chars;
+            }
+            clip_limit = limit;
+            with (owner) {
+                var add = clip;
+                var limit_local = other.clip_limit;
+                if (!is_real(limit_local)) {
+                    limit_local = other.max_chars;
+                }
+                if (string_length(editor_text) + string_length(add) > limit_local) {
+                    add = string_copy(add, 1, max(0, limit_local - string_length(editor_text)));
+                }
+                if (string_length(add) > 0) {
+                    var before = string_copy(editor_text, 1, editor_caret - 1);
+                    var after = string_copy(editor_text, editor_caret, string_length(editor_text) - editor_caret + 1);
+                    editor_text = before + add + after;
+                    editor_caret += string_length(add);
+                }
+            }
+            clip_limit = undefined;
         }
     }
-    if (inside && active) {
-        has_focus = true;
-        keyboard_string = text_value;
-    } else {
-        has_focus = false;
-    }
 }
-
-if (!active) {
-    has_focus = false;
-}
-
-if (has_focus && active) {
-    text_value = keyboard_string;
-    if (keyboard_check_pressed(vk_tab)) {
-        text_value += "    ";
-        keyboard_string = text_value;
-    }
-    if (string_length(text_value) > max_chars) {
-        text_value = string_copy(text_value, 1, max_chars);
-        keyboard_string = text_value;
-    }
-    caret_visible = true;
-} else {
-    caret_visible = false;
-}
-
-var wrap = max(32, wrap_width);
-content_height = string_height_ext(text_value, 12, wrap) + ui_pad() * 2;
