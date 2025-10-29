@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Share Literary Deviousness</title>
+  <meta name="description" content="Grab a social preview, copy the share text, and invite friends to play Literary Deviousness." />
+  <meta property="og:title" content="Literary Deviousness — Character MVP">
+  <meta property="og:description" content="A live, evolving writing game. Draft, submit, get feedback.">
+  <meta property="og:image" content="./img/social/og-ld-character.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://<YOUR-GH-USER>.github.io/<REPO>/share.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Literary Deviousness — Character MVP">
+  <meta name="twitter:description" content="Draft → Submit → Get Feedback">
+  <meta name="twitter:image" content="./img/social/og-ld-character.svg">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    main {
+      max-width: 60rem;
+      margin: 0 auto;
+    }
+    .share-panel {
+      background: rgba(15, 15, 25, 0.72);
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      margin-bottom: 2.5rem;
+    }
+    .share-panel h1 {
+      margin-top: 0;
+    }
+    .card-preview {
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 1.25rem;
+      padding: 1.25rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .card-preview img {
+      width: 100%;
+      max-width: 540px;
+      border-radius: 1rem;
+    }
+    textarea {
+      width: 100%;
+      min-height: 120px;
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: rgba(17, 19, 29, 0.6);
+      color: #f7f5ff;
+      padding: 1rem;
+      font-size: 1rem;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      resize: vertical;
+    }
+    .share-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+    .share-actions a {
+      flex: 1 1 180px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero" style="padding-bottom: 1rem;">
+    <div class="hero-body">
+      <h1>Share Literary Deviousness</h1>
+      <p class="tagline">Download the card, copy a friendly blurb, and invite friends to break the characters.</p>
+    </div>
+  </header>
+  <main>
+    <section class="share-panel">
+      <h2>Social preview</h2>
+      <div class="card-preview">
+        <img src="./img/social/og-ld-character.svg" alt="Literary Deviousness social preview" />
+      </div>
+      <p>Right-click or long-press to save the card. It’s optimized for Twitter, LinkedIn, and Discord.</p>
+    </section>
+
+    <section class="share-panel">
+      <h2>Copy &amp; post</h2>
+      <p>Share this blurb anywhere you hang out online:</p>
+      <textarea readonly onclick="this.select()">I’m scheming on Literary Deviousness — a live character-writing game that grades your cleverness in real time. Join me: https://projectsfromtheprojects.com</textarea>
+      <div class="share-actions">
+        <a class="btn primary" href="game/">Play Now</a>
+        <a class="btn" href="api.html">API Docs</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Questions? Ping the team at Projects from the Projects.</p>
+    <nav aria-label="Footer">
+      <a href="index.html">Back to Home</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </footer>
+</body>
+</html>
