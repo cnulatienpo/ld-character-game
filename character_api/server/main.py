@@ -3,16 +3,18 @@ from __future__ import annotations
 
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, Query, status
-from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import ORJSONResponse
 
+from . import telemetry
 from .badges import evaluate_badges, update_streak
 from .features import FEATURES_PAYLOAD
+from .limits import maybe_init_limiter
+from .logging import RequestLoggerMiddleware, init_logging
 from .loaders import LESSONS
 from .models import (
     AttemptRequest,
@@ -24,36 +26,25 @@ from .models import (
     SkipRequest,
     SkipResponse,
 )
-from .scoring import grade_attempt
 from .scheduler import next_for_user
+from .scoring import grade_attempt
+from .security import apply_cors, apply_security_headers
 from .storage import STORAGE
-from . import telemetry
 
 load_dotenv()
 
-APP_VERSION = "0.1.0"
+API_VERSION = os.getenv("API_VERSION", "0.1.0")
+
+init_logging()
 
 
 def get_app() -> FastAPI:
     app = FastAPI(title="Character Game API", default_response_class=ORJSONResponse)
 
-    origins = os.getenv("CORS_ORIGINS", "*")
-    if origins:
-        origin_list = [origin.strip() for origin in origins.split(",") if origin.strip()]
-        if "*" in origin_list:
-            allow_origins = ["*"]
-        else:
-            allow_origins = origin_list
-    else:
-        allow_origins = ["*"]
-
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=allow_origins,
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
+    apply_cors(app)
+    apply_security_headers(app)
+    app.add_middleware(RequestLoggerMiddleware)
+    maybe_init_limiter(app)
 
     return app
 
@@ -74,8 +65,8 @@ def get_status() -> Dict[str, object]:
 
     return {
         "ok": True,
-        "version": APP_VERSION,
-        "now_iso": datetime.utcnow().isoformat() + "Z",
+        "version": API_VERSION,
+        "now_iso": datetime.now(tz=timezone.utc).isoformat(),
     }
 
 

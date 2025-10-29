@@ -43,3 +43,10 @@ summary run:
 cd character_api
 python -m server.telemetry_summary 2024-10-28  # omit the date for “today”
 ```
+
+## Security & Observability
+The API now applies stricter defaults for CORS and security headers. Configure trusted origins by setting the `ALLOWED_ORIGINS` environment variable (comma-separated). In development the API falls back to `*`, while production defaults to your GitHub Pages domain if no origins are provided.
+
+Structured JSON request logs are emitted automatically; they include request metadata such as path, method, latency, and optional `x-user-id` values. Rate limiting support is available via SlowAPI—install it with `pip install slowapi` and keep `ENV=production` to activate the shared limiter.
+
+A scheduled "Uptime Watchdog" workflow pings `/status` every five minutes. Store your deployed URL in the `API_BASE_URL` repository secret so the workflow can alert you by opening (or updating) an issue when downtime is detected.
