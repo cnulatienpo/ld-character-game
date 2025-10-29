@@ -32,6 +32,12 @@ if (collection_complete) {
 
 draw_text(info_x, instructions_y, instructions);
 
+var status_y = instructions_y + 24;
+if (string_length(net_msg) > 0) {
+    var status_label = net_waiting ? "Server (pending): " : "Server: ";
+    draw_text(info_x, status_y, status_label + net_msg);
+}
+
 var preview_y = gui_h - margin - 48;
 var wc = preview_stats.wc;
 var caps_ratio = preview_stats.caps_ratio * 100;
@@ -62,6 +68,19 @@ if (collection_complete) {
     draw_text(summary_x, summary_y, "Character Slice Cleared!");
     draw_text(summary_x, summary_y + 28, "Total XP: " + string(state.xp));
     draw_text(summary_x, summary_y + 56, "Badges: " + string(badge_count));
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+}
+
+if (net_waiting) {
+    draw_set_alpha(0.4);
+    draw_set_color(c_black);
+    draw_rectangle_colour(0, 0, gui_w, gui_h, c_black, c_black, c_black, c_black, false);
+    draw_set_alpha(1);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    var overlay_text = string_length(net_msg) > 0 ? net_msg : "Submitting...";
+    draw_text(gui_w * 0.5, gui_h * 0.5, overlay_text);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
 }
