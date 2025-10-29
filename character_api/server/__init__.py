@@ -1,0 +1,1 @@
+"""Character game backend package."""
