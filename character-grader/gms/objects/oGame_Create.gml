@@ -34,6 +34,33 @@ if (!variable_global_exists("user_id")) {
 
 user_id = global.user_id;
 
+telemetry_session_closed = false;
+
+function on_telemetry_ok(_data) {
+    // Telemetry acknowledgements are ignored in production builds.
+}
+
+function on_telemetry_err(_msg) {
+    // Failures are intentionally ignored to avoid blocking gameplay.
+}
+
+function telemetry_emit(_event, _meta) {
+    if (!function_exists("api_post_telemetry")) {
+        return;
+    }
+    api_post_telemetry(global.user_id, _event, _meta, method(self, on_telemetry_ok), method(self, on_telemetry_err));
+}
+
+function telemetry_session_end() {
+    if (telemetry_session_closed) {
+        return;
+    }
+    telemetry_session_closed = true;
+    telemetry_emit("session_end", undefined);
+}
+
+telemetry_emit("session_start", { platform: "html5" });
+
 var function has_card_passed(_card_id) {
     if (!is_struct(state.cards)) {
         return false;
@@ -337,6 +364,15 @@ function on_progress_err(_message) {
 function on_attempt_ok(_data) {
     net_waiting = false;
     net_badges_latest = [];
+    var telemetry_card_id = "";
+    if (is_struct(current) && variable_struct_exists(current, "id")) {
+        var telem_id_val = current.id;
+        if (is_string(telem_id_val)) {
+            telemetry_card_id = telem_id_val;
+        } else if (is_real(telem_id_val)) {
+            telemetry_card_id = string(telem_id_val);
+        }
+    }
     if (is_struct(_data)) {
         if (variable_struct_exists(_data, "progress") && is_struct(_data.progress)) {
             apply_progress_snapshot(_data.progress);
@@ -346,6 +382,7 @@ function on_attempt_ok(_data) {
         progress_save(state);
         update_pass_count();
         net_last_score = (variable_struct_exists(_data, "score") && is_real(_data.score)) ? _data.score : -1;
+        var telemetry_score = net_last_score;
         if (variable_struct_exists(_data, "badgesAwarded") && is_array(_data.badgesAwarded)) {
             net_badges_latest = _data.badgesAwarded;
         }
@@ -376,6 +413,7 @@ function on_attempt_ok(_data) {
             }
         }
         toast_message(toast_text, passed);
+        telemetry_emit("attempt", { id: telemetry_card_id, score: telemetry_score });
     }
 
     pending_submission_text = "";
