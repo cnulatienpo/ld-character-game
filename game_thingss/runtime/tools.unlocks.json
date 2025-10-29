@@ -1,0 +1,457 @@
+[
+  {
+    "tool_id": "change-toolkit",
+    "topic_id": "change",
+    "metric_id": "change-strength-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "change-toolkit",
+    "topic_id": "change",
+    "metric_id": "change-strength-medium",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "conflict-toolkit",
+    "topic_id": "conflict",
+    "metric_id": "conflict-strength-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "conflict-toolkit",
+    "topic_id": "conflict",
+    "metric_id": "conflict-strength-medium",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "mentor-strength-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "mentor-strength-medium",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "foundation-intro-115",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "identity-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "body-logic-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "description-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "truth-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "wound-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "flat-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "roles-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "role-dynamics-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "dynamic-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "symbolic-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "drive-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "decision-style-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "archetypal-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "desire-intro-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "motivation-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "mentor-toolkit",
+    "topic_id": "mentor",
+    "metric_id": "villain-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "motivation-strength-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "motivation-strength-medium",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "foundation-intro-115",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "identity-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "body-logic-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "description-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "truth-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "wound-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "flat-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "roles-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "role-dynamics-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "dynamic-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "symbolic-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "drive-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "decision-style-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "archetypal-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "motivation-tools-controls",
+    "topic_id": "motivation",
+    "metric_id": "desire-intro-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "practical-tools-for-writers-crafting-dynamic-roles",
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "foundation-intro-115",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "practical-tools-for-writers-crafting-dynamic-roles",
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "character-role-dynamics-8-strength-levels-tuning-the-intensity-o",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "practical-tools-for-writers-crafting-dynamic-roles",
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "foundation-intro-115",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "practical-tools-for-writers-crafting-dynamic-roles",
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "character-role-dynamics-2-17-strength-levels-tuning-the-intensit",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "stakes-toolkit",
+    "topic_id": "stakes",
+    "metric_id": "stakes-strength-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "stakes-toolkit",
+    "topic_id": "stakes",
+    "metric_id": "stakes-strength-medium",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "tools-actively-control-motivation-potency",
+    "topic_id": "character-motivation",
+    "metric_id": "motivation-strength-high",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "villain-strength-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "villain-strength-medium",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "foundation-intro-115",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "identity-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "body-logic-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "description-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "truth-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "wound-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "flat-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "roles-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "role-dynamics-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "dynamic-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "symbolic-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "drive-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "decision-style-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "archetypal-character-intro",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "desire-intro-low",
+    "weight": 1.0,
+    "min": 1
+  },
+  {
+    "tool_id": "villain-toolkit",
+    "topic_id": "villain",
+    "metric_id": "motivation-intro",
+    "weight": 1.0,
+    "min": 1
+  }
+]

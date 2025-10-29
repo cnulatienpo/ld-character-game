@@ -1,0 +1,645 @@
+[
+  {
+    "topic_id": "change",
+    "metric_id": "change-strength-low",
+    "name": "Change Strength Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "change",
+    "metric_id": "change-strength-medium",
+    "name": "Change Strength Medium",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "character-motivation",
+    "metric_id": "motivation-strength-high",
+    "name": "Motivation Potency: HIGH \u2014 The All\u2011Consuming Fire",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    },
+    "notes": "Dialect level <= 2 | Requires terms: reader_foothold"
+  },
+  {
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "character-role-dynamics-2-17-strength-levels-tuning-the-intensit",
+    "name": "Strength Levels: Tuning the Intensity of Role Dynamics",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    },
+    "notes": "Dialect level <= 2 | Requires terms: foundation_intro_115"
+  },
+  {
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "character-role-dynamics-8-strength-levels-tuning-the-intensity-o",
+    "name": "Strength Levels: Tuning the Intensity of Role Dynamics",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    },
+    "notes": "Dialect level <= 2 | Requires terms: foundation_intro_115"
+  },
+  {
+    "topic_id": "character-roles-dynamics",
+    "metric_id": "foundation-intro-115",
+    "name": "Foundation Intro 115",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "conflict",
+    "metric_id": "conflict-strength-low",
+    "name": "Conflict Strength Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "conflict",
+    "metric_id": "conflict-strength-medium",
+    "name": "Conflict Strength Medium",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "archetypal-character-intro",
+    "name": "Archetypal Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "body-logic-intro",
+    "name": "Body Logic Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "decision-style-intro",
+    "name": "Decision Style Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "description-intro",
+    "name": "Description Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "desire-intro-low",
+    "name": "Desire Intro Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "drive-intro",
+    "name": "Drive Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "dynamic-character-intro",
+    "name": "Dynamic Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "flat-character-intro",
+    "name": "Flat Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "foundation-intro-115",
+    "name": "Foundation Intro 115",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "identity-intro",
+    "name": "Identity Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "mentor-strength-low",
+    "name": "Mentor Strength Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "mentor-strength-medium",
+    "name": "Mentor Strength Medium",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "motivation-intro",
+    "name": "Motivation Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "role-dynamics-intro",
+    "name": "Role Dynamics Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "roles-intro",
+    "name": "Roles Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "symbolic-character-intro",
+    "name": "Symbolic Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "truth-intro",
+    "name": "Truth Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "villain-intro",
+    "name": "Villain Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "mentor",
+    "metric_id": "wound-intro",
+    "name": "Wound Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "archetypal-character-intro",
+    "name": "Archetypal Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "body-logic-intro",
+    "name": "Body Logic Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "decision-style-intro",
+    "name": "Decision Style Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "description-intro",
+    "name": "Description Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "desire-intro-low",
+    "name": "Desire Intro Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "drive-intro",
+    "name": "Drive Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "dynamic-character-intro",
+    "name": "Dynamic Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "flat-character-intro",
+    "name": "Flat Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "foundation-intro-115",
+    "name": "Foundation Intro 115",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "identity-intro",
+    "name": "Identity Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "motivation-strength-low",
+    "name": "Motivation Strength Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "motivation-strength-medium",
+    "name": "Motivation Strength Medium",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "role-dynamics-intro",
+    "name": "Role Dynamics Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "roles-intro",
+    "name": "Roles Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "symbolic-character-intro",
+    "name": "Symbolic Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "truth-intro",
+    "name": "Truth Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "motivation",
+    "metric_id": "wound-intro",
+    "name": "Wound Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "stakes",
+    "metric_id": "stakes-strength-low",
+    "name": "Stakes Strength Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "stakes",
+    "metric_id": "stakes-strength-medium",
+    "name": "Stakes Strength Medium",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "archetypal-character-intro",
+    "name": "Archetypal Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "body-logic-intro",
+    "name": "Body Logic Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "decision-style-intro",
+    "name": "Decision Style Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "description-intro",
+    "name": "Description Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "desire-intro-low",
+    "name": "Desire Intro Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "drive-intro",
+    "name": "Drive Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "dynamic-character-intro",
+    "name": "Dynamic Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "flat-character-intro",
+    "name": "Flat Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "foundation-intro-115",
+    "name": "Foundation Intro 115",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "identity-intro",
+    "name": "Identity Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "motivation-intro",
+    "name": "Motivation Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "role-dynamics-intro",
+    "name": "Role Dynamics Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "roles-intro",
+    "name": "Roles Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "symbolic-character-intro",
+    "name": "Symbolic Character Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "truth-intro",
+    "name": "Truth Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "villain-strength-low",
+    "name": "Villain Strength Low",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "villain-strength-medium",
+    "name": "Villain Strength Medium",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  },
+  {
+    "topic_id": "villain",
+    "metric_id": "wound-intro",
+    "name": "Wound Intro",
+    "kind": "gate",
+    "source": "progress",
+    "threshold": {
+      "min": 1
+    }
+  }
+]
