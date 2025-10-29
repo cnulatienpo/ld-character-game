@@ -1,7 +1,6 @@
 """Telemetry event models and persistence utilities."""
 from __future__ import annotations
 
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, Literal
@@ -32,15 +31,6 @@ class TelemetryEvent(BaseModel):
         class Config:
             allow_population_by_field_name = True
             extra = "ignore"
-
-
-@dataclass(slots=True)
-class _RollupCounts:
-    sessions: int = 0
-    attempts: int = 0
-    ends: int = 0
-    skips: int = 0
-    heartbeats: int = 0
 
 
 def append_event(event: TelemetryEvent) -> None:
@@ -85,45 +75,37 @@ def rollup_day(day_iso: str) -> Dict[str, Any]:
     # Validate the input format.
     datetime.strptime(day_iso, "%Y-%m-%d")
 
-    counts = _RollupCounts()
+    sessions = attempts = ends = skips = 0
     unique_users = set()
-    total_events = 0
 
     for event in _iter_events():
         if not _is_same_day(event.get("timestamp"), day_iso):
             continue
-        total_events += 1
+
         event_type = str(event.get("event", "")).strip()
         user_id = event.get("userId") or event.get("user_id")
         if isinstance(user_id, str) and user_id:
             unique_users.add(user_id)
 
         if event_type == "session_start":
-            counts.sessions += 1
+            sessions += 1
         elif event_type == "attempt":
-            counts.attempts += 1
+            attempts += 1
         elif event_type == "session_end":
-            counts.ends += 1
+            ends += 1
         elif event_type == "skip":
-            counts.skips += 1
-        elif event_type == "heartbeat":
-            counts.heartbeats += 1
+            skips += 1
 
-    avg_attempts = 0.0
-    if counts.sessions > 0:
-        avg_attempts = counts.attempts / counts.sessions
+    avg_attempts = attempts / sessions if sessions else 0.0
 
-    summary = {
-        "events": total_events,
-        "sessions": counts.sessions,
-        "attempts": counts.attempts,
-        "ends": counts.ends,
-        "skips": counts.skips,
-        "heartbeats": counts.heartbeats,
+    return {
+        "sessions": sessions,
+        "attempts": attempts,
+        "ends": ends,
+        "skips": skips,
         "uniqueUsers": len(unique_users),
         "avgAttemptsPerSession": round(avg_attempts, 2),
     }
-    return summary
 
 
 __all__ = ["TelemetryEvent", "append_event", "rollup_day", "TELEMETRY_FILE"]

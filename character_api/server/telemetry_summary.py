@@ -15,13 +15,11 @@ def _format_table(day: str, summary: Dict[str, Any]) -> str:
         ("Attempts", summary.get("attempts", 0)),
         ("Session ends", summary.get("ends", 0)),
         ("Skips", summary.get("skips", 0)),
-        ("Heartbeats", summary.get("heartbeats", 0)),
         ("Unique users", summary.get("uniqueUsers", 0)),
         (
             "Avg attempts/session",
             f"{summary.get('avgAttemptsPerSession', 0.0):.2f}",
         ),
-        ("Events", summary.get("events", 0)),
     ]
     col_width = max(len(label) for label, _ in labels)
     lines = [f"Telemetry summary for {day}", "=" * (col_width + 18)]
