@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page not found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0f1419;
+        color: #f7f7f7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+        margin: 0;
+        padding: 2rem;
+      }
+      main {
+        max-width: 28rem;
+      }
+      a {
+        color: #4fc3f7;
+      }
+    </style>
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+          window.location.replace("/");
+        }, 2000);
+      });
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>Lost in space?</h1>
+      <p>The page you requested is somewhere else. Taking you back to the start…</p>
+      <p><a href="/">Return now</a></p>
+    </main>
+  </body>
+</html>
