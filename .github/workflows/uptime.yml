@@ -1,0 +1,99 @@
+name: Uptime Watchdog
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  uptime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Capture timestamp
+        id: time
+        run: echo "now=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+
+      - name: Check API status endpoint
+        id: health
+        env:
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+        run: |
+          if [ -z "$API_BASE_URL" ]; then
+            echo "API_BASE_URL secret is not set" >&2
+            exit 1
+          fi
+          TMP_FILE=$(mktemp)
+          STATUS=$(curl -sS -m 10 -o "$TMP_FILE" -w "%{http_code}" "$API_BASE_URL/status" || echo "000")
+          cp "$TMP_FILE" response.json || true
+          rm -f "$TMP_FILE"
+          if [ ! -s response.json ]; then
+            echo '{}' > response.json
+          fi
+          OK=$(python - <<'PY'
+import json
+from pathlib import Path
+path = Path('response.json')
+if not path.exists():
+    print('false')
+    raise SystemExit
+try:
+    data = json.loads(path.read_text())
+except Exception:
+    print('false')
+    raise SystemExit
+print(str(bool(data.get('ok'))).lower())
+PY
+)
+          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
+          echo "ok=$OK" >> "$GITHUB_OUTPUT"
+
+      - name: Open downtime issue
+        if: steps.health.outputs.status != '200' || steps.health.outputs.ok != 'true'
+        uses: actions/github-script@v7
+        env:
+          status: ${{ steps.health.outputs.status }}
+          ok: ${{ steps.health.outputs.ok }}
+          now: ${{ steps.time.outputs.now }}
+        with:
+          script: |
+            const fs = require('fs');
+            const status = process.env.status || '000';
+            const ok = process.env.ok || 'false';
+            const timestamp = process.env.now || new Date().toISOString();
+            let bodySnippet = 'No response body received.';
+            try {
+              const raw = fs.readFileSync('response.json', 'utf8').trim();
+              if (raw) {
+                bodySnippet = `Response snippet:\n\n${raw.slice(0, 400)}`;
+              }
+            } catch (error) {
+              // ignore missing file errors
+            }
+            const title = `API Uptime: DOWN at ${timestamp}`;
+            const body = `The uptime watchdog detected an outage.\n\n- Status code: ${status}\n- ok flag: ${ok}\n- Checked at: ${timestamp}\n\n${bodySnippet}`;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100,
+            });
+            const existing = issues.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['bug'],
+              });
+            }
