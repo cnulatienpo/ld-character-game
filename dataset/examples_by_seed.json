@@ -1,0 +1,102 @@
+{
+  "desc_what_it_is": [
+    {
+      "text": "AFoolThereWas holds the moment on the threshold, letting the AFoolThereWas's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AFoolThereWas's arc"
+    },
+    {
+      "text": "ANightAtTheRoxbury holds the moment on the threshold, letting the ANightAtTheRoxbury's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "ANightAtTheRoxbury's arc"
+    },
+    {
+      "text": "ATaxiDriver holds the moment on the threshold, letting the ATaxiDriver's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "ATaxiDriver's arc"
+    },
+    {
+      "text": "AccidentalHero holds the moment on the threshold, letting the AccidentalHero's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AccidentalHero's arc"
+    },
+    {
+      "text": "AllSuperheroesMustDie holds the moment on the threshold, letting the AllSuperheroesMustDie's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AllSuperheroesMustDie's arc"
+    },
+    {
+      "text": "AlmostHeroes holds the moment on the threshold, letting the AlmostHeroes's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AlmostHeroes's arc"
+    },
+    {
+      "text": "AnInconvenientTruth holds the moment on the threshold, letting the AnInconvenientTruth's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AnInconvenientTruth's arc"
+    },
+    {
+      "text": "AprilFoolsDay holds the moment on the threshold, letting the AprilFoolsDay's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AprilFoolsDay's arc"
+    },
+    {
+      "text": "Arrival holds the moment on the threshold, letting the Arrival's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "Arrival's arc"
+    },
+    {
+      "text": "AugustUnderground holds the moment on the threshold, letting the AugustUnderground's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "AugustUnderground's arc"
+    },
+    {
+      "text": "BabyDriver holds the moment on the threshold, letting the BabyDriver's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "BabyDriver's arc"
+    },
+    {
+      "text": "Battleground holds the moment on the threshold, letting the Battleground's arc breathe.\nThe beat tilts toward balance, quiet but steady.",
+      "source": "Battleground's arc"
+    }
+  ],
+  "identity_patterns_contradictions": [
+    {
+      "text": "BurialGroundTheNightsOfTerror holds the moment on the threshold, letting the BurialGroundTheNightsOfTerror's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "BurialGroundTheNightsOfTerror's arc"
+    },
+    {
+      "text": "Character holds the moment on the threshold, letting the Character's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "Character's arc"
+    },
+    {
+      "text": "ConfidentiallyYours holds the moment on the threshold, letting the ConfidentiallyYours's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "ConfidentiallyYours's arc"
+    },
+    {
+      "text": "CriminallyInsane holds the moment on the threshold, letting the CriminallyInsane's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "CriminallyInsane's arc"
+    },
+    {
+      "text": "DavidBrentLifeOnTheRoad holds the moment on the threshold, letting the DavidBrentLifeOnTheRoad's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DavidBrentLifeOnTheRoad's arc"
+    },
+    {
+      "text": "DeadEndDriveIn holds the moment on the threshold, letting the DeadEndDriveIn's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DeadEndDriveIn's arc"
+    },
+    {
+      "text": "DecisionBeforeDawn holds the moment on the threshold, letting the DecisionBeforeDawn's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DecisionBeforeDawn's arc"
+    },
+    {
+      "text": "DoingTimeOnMapleDrive holds the moment on the threshold, letting the DoingTimeOnMapleDrive's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DoingTimeOnMapleDrive's arc"
+    },
+    {
+      "text": "Drive holds the moment on the threshold, letting the Drive's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "Drive's arc"
+    },
+    {
+      "text": "DriveAngry holds the moment on the threshold, letting the DriveAngry's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DriveAngry's arc"
+    },
+    {
+      "text": "DriveInMassacre holds the moment on the threshold, letting the DriveInMassacre's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DriveInMassacre's arc"
+    },
+    {
+      "text": "DriveMeCrazy holds the moment on the threshold, letting the DriveMeCrazy's arc breathe.\nThe beat tilts toward risk, quiet but steady.",
+      "source": "DriveMeCrazy's arc"
+    }
+  ]
+}

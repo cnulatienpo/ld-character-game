@@ -1,0 +1,44 @@
+{
+  "rounds": [
+    {
+      "id": "core_set",
+      "pairs": [
+        {
+          "token": "balance",
+          "example": {
+            "id": "painting_balance",
+            "text": "A painting frames two dancers leaning away from each other, their skirts mirroring the negative space.",
+            "explanation": "Balance comes from mirrored weight and the empty center."}
+        },
+        {
+          "token": "rhythm",
+          "example": {
+            "id": "music_rhythm",
+            "text": "A drum loop drops the fourth beat, forcing the listener to nod on the silence.",
+            "explanation": "The missing beat trains the ear to feel the pattern."}
+        },
+        {
+          "token": "tension",
+          "example": {
+            "id": "cooking_tension",
+            "text": "A chef holds the sauté pan mid-air as butter foams, waiting for the garlic to just catch.",
+            "explanation": "Hesitation against heat keeps the stakes tight."}
+        },
+        {
+          "token": "contrast",
+          "example": {
+            "id": "architecture_contrast",
+            "text": "A glass atrium slices through a stone library, flooding a reading table with light.",
+            "explanation": "Old mass meets sharp transparency to frame the theme."}
+        },
+        {
+          "token": "flow",
+          "example": {
+            "id": "prose_flow",
+            "text": "A paragraph glides from sidewalk rain to the smell of cardamom tea in one breath.",
+            "explanation": "Sensory links keep the motion unbroken."}
+        }
+      ]
+    }
+  ]
+}

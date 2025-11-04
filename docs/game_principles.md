@@ -1,0 +1,7 @@
+- First contact: new ideas appear only in seeds, in generous prose.
+- Generosity: quizzes show full paragraphs (2–3+), not scraps.
+- Gradual language: dialect 1 → 4; advanced terms unlock only after lessons introduce them.
+- Never stranded: games never ask for actions or terms the player hasn’t seen in a seed.
+- Plain voice: UI copy uses human language.
+- Data guardrail: each item has requires_vocabulary.
+- Pacing loop: lesson → gentle play → reflection → deeper play.
