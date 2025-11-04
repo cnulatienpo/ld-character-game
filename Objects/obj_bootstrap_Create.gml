@@ -17,3 +17,17 @@
 //     room_goto(room_reading);
 // }
 // ds_list_destroy(reading_array);
+
+// --- Mix & Match demo ---
+// scr_mixmatch_load();
+// room_goto(room_mixmatch);
+
+// --- Pattern & Break demo ---
+// if (scr_pattern_load()) {
+//     room_goto(room_pattern);
+// }
+
+// --- Friction Lab demo ---
+// if (scr_friction_load()) {
+//     room_goto(room_friction);
+// }
