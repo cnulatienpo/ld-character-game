@@ -1,0 +1,8 @@
+{
+  "name": "ld-character-game",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "build:examples": "node scripts/build_examples.js"
+  }
+}
