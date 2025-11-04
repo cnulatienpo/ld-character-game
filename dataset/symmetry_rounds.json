@@ -1,0 +1,16 @@
+{
+  "rounds": [
+    {
+      "id": "sy-001",
+      "mode": "text",
+      "passage": "The gallery atrium stood empty but for the slow whir of the ceiling fans. Sunlight fell in tall blocks across the marble, leaving a pale seam between the benches. She pictured visitors drifting in and out, each step a quiet metronome that kept the building calm.\n\nAlong the far wall, brochures waited in perfect stacks beside a copper planter. A single fern leaned toward the doorway, its fronds mirrored in the glass case opposite it. She tested how the space would feel if that planter slid a little left, if one bench edged forward and broke the line.\n\nBy the service desk, she kept a notebook of every adjustment she had tried. Small shifts in distance changed the atmosphere by degrees. Some arrangements cooled the room into absolute stillness; others tipped just enough to charge the air.",
+      "design_note": "Calm settles at the center; a lean either way stirs energy.",
+      "requires_vocabulary": [
+        "balance",
+        "symmetry",
+        "energy",
+        "calm"
+      ]
+    }
+  ]
+}
