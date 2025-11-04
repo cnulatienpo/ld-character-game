@@ -1,61 +1,47 @@
 /// obj_bootstrap : Create Event
-// Temporary harness to demonstrate quiz and reading room loading. Comment/uncomment the sections
-// you need while testing inside GameMaker Studio 2.
+// Sets up the core globals and kicks off the character learning loop.
 
-// --- Multiple-choice quiz demo ---
-// global.player_vocab = ["balance","weight","rhythm","tension","contrast","pressure"];
-// var quiz_pool = ["dataset/quizzes/spot_the_pressure.jsonl"];
-// scr_quiz_load(quiz_pool, global.player_vocab);
-// if (scr_quiz_next()) {
-//     room_goto(room_quiz);
-// }
+// Ensure the gate object exists so we can route between rooms.
+if (!instance_exists(obj_gate)) {
+    var gate = instance_create_layer(-100, -100, "Instances", obj_gate);
+    gate.visible = false;
+}
 
-// --- Reading room demo ---
-// var reading_array = scr_jsonl_read("dataset/quizzes/friction_check.jsonl");
-// if (ds_list_size(reading_array) > 0) {
-//     global.reading_item = ds_list_find_value(reading_array, 0);
-//     room_goto(room_reading);
-// }
-// ds_list_destroy(reading_array);
+// Basic globals for the player's vocabulary and meta progress.
+global.player_vocab = ["moment","want","feeling","choice","balance","weight","pattern","pressure"];
 
-// --- Mix & Match demo ---
-// scr_mixmatch_load();
-// room_goto(room_mixmatch);
+if (variable_global_exists("completed_seeds")) {
+    if (ds_exists(global.completed_seeds, ds_type_list)) {
+        ds_list_destroy(global.completed_seeds);
+    }
+}
+global.completed_seeds = ds_list_create();
 
-// --- Pattern & Break demo ---
-// if (scr_pattern_load()) {
-//     room_goto(room_pattern);
-// }
+if (variable_global_exists("unlocked_signals")) {
+    if (ds_exists(global.unlocked_signals, ds_type_list)) {
+        ds_list_destroy(global.unlocked_signals);
+    }
+}
+global.unlocked_signals = ds_list_create();
 
-// --- Friction Lab demo ---
-// if (scr_friction_load()) {
-//     room_goto(room_friction);
-// }
+// Load the dataset index with a safe fallback if the file is unavailable.
+var dataset_index = scr_json_read("dataset/index.json");
+if (is_undefined(dataset_index)) {
+    dataset_index = {
+        seeders : ["character_full_master.seeder.json"],
+        quizzes : ["dataset/quizzes/spot_the_pressure.jsonl"],
+    };
+}
+global.dataset_index = dataset_index;
 
-// ORCHESTRA
-// scr_orch_load(); room_goto(room_orchestra);
+// Choose the first lesson seed.
+global.current_seed_id = "desc_what_it_is";
 
-// SYMMETRY LAB
-// scr_sym_load(); room_goto(room_symmetry);
+// Mark the current lesson metadata so UI objects know what to show.
+global.lesson_feedback = "";
+global.grader_feedback = "";
+global.grader_feedback_compact = "";
+global.grader_pending = false;
 
-// CHAIN REACTION
-// var arr = scr_jsonl_read("dataset/chain_reaction.jsonl");
-// if (ds_exists(arr, ds_type_list) && ds_list_size(arr) > 0) {
-//     global.cr_item = ds_list_find_value(arr, 0);
-//     global.cr_layout_start = undefined;
-//     global.cr_layout_end = undefined;
-//     global.cr_layout_options = undefined;
-//     global.cr_feedback_line = "Which middle keeps it moving?";
-//     global.cr_current_idx = 0;
-//     room_goto(room_chain);
-// }
-// if (ds_exists(arr, ds_type_list)) ds_list_destroy(arr);
-
-// WORD GARDEN
-scr_garden_load(); room_goto(room_garden);
-
-// GRAVITY TEST
-// scr_gravity_load(); room_goto(room_gravity);
-
-// THE MUSEUM GAME
-// scr_museum_load(); room_goto(room_museum);
+// Jump straight into the lesson room after setup completes.
+room_goto(room_lesson);
