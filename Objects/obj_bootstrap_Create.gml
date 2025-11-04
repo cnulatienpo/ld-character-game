@@ -32,6 +32,25 @@
 //     room_goto(room_friction);
 // }
 
+// ORCHESTRA
+// scr_orch_load(); room_goto(room_orchestra);
+
+// SYMMETRY LAB
+// scr_sym_load(); room_goto(room_symmetry);
+
+// CHAIN REACTION
+// var arr = scr_jsonl_read("dataset/chain_reaction.jsonl");
+// if (ds_exists(arr, ds_type_list) && ds_list_size(arr) > 0) {
+//     global.cr_item = ds_list_find_value(arr, 0);
+//     global.cr_layout_start = undefined;
+//     global.cr_layout_end = undefined;
+//     global.cr_layout_options = undefined;
+//     global.cr_feedback_line = "Which middle keeps it moving?";
+//     global.cr_current_idx = 0;
+//     room_goto(room_chain);
+// }
+// if (ds_exists(arr, ds_type_list)) ds_list_destroy(arr);
+
 // WORD GARDEN
 scr_garden_load(); room_goto(room_garden);
 
