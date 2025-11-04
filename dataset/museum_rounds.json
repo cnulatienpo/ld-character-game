@@ -1,0 +1,22 @@
+{
+  "rounds": [
+    {
+      "question": "What makes this feel heavier?",
+      "items": [
+        {"media": "photo", "text": "A black-and-white portrait where the subject’s gaze pins the frame."},
+        {"media": "music", "text": "A quiet bar that holds before the chorus lands."},
+        {"media": "writing", "text": "A paragraph that pauses on a hand at the door latch."},
+        {"media": "architecture", "text": "A doorway framed by equal mass on both sides."}
+      ],
+      "choices": [
+        {"id": "balance", "label": "balance"},
+        {"id": "rhythm", "label": "rhythm"},
+        {"id": "tension", "label": "tension"},
+        {"id": "contrast", "label": "contrast"}
+      ],
+      "answers": ["balance", "tension", "tension", "balance"],
+      "design_note": "Different materials, same grammar: balance and tension show up in gaze, pause, and mass.",
+      "requires_vocabulary": ["balance", "tension"]
+    }
+  ]
+}

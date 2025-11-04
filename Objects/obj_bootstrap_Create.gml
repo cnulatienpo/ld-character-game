@@ -31,3 +31,12 @@
 // if (scr_friction_load()) {
 //     room_goto(room_friction);
 // }
+
+// WORD GARDEN
+scr_garden_load(); room_goto(room_garden);
+
+// GRAVITY TEST
+// scr_gravity_load(); room_goto(room_gravity);
+
+// THE MUSEUM GAME
+// scr_museum_load(); room_goto(room_museum);
