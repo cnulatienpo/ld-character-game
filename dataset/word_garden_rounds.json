@@ -1,0 +1,15 @@
+{
+  "rounds": [
+    {
+      "stem": "Arrange these words so the scene breathes. One should carry the most weight; two should support; the rest should stay quiet.",
+      "words": ["door", "breath", "rain", "latch", "light", "coffee", "keys", "silence"],
+      "target": {
+        "tall": ["latch"],
+        "mid": ["breath", "silence"],
+        "low": ["door", "rain", "light", "coffee", "keys"]
+      },
+      "design_note": "Hierarchy = who leads and who supports. Space lets the leader be seen.",
+      "requires_vocabulary": ["hierarchy", "weight", "space"]
+    }
+  ]
+}
