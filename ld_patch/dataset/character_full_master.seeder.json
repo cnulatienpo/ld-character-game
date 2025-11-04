@@ -1,0 +1,26 @@
+[
+  {
+    "id": "desc_what_it_is",
+    "concept": "Description",
+    "original_text": "Description is design, not decoration... (placeholder)",
+    "design_translation": "Think of description as weight and balance...",
+    "examples": [
+      "Tony adjusts his tie; the chair creaks; the room feels smaller.",
+      "Rain glints off metal; the door doesn’t open for her."
+    ],
+    "prompt": "Bring someone into focus by altering the room around them.",
+    "requires_vocabulary": ["balance","weight","attention"]
+  },
+  {
+    "id": "identity_patterns_contradictions",
+    "concept": "Identity",
+    "original_text": "Identity shows up as patterns and contradictions... (placeholder)",
+    "design_translation": "Identity is rhythm: repetition builds a form; the break proves its material.",
+    "examples": [
+      "Leslie Knope’s optimism repeats; her impatience cracks it.",
+      "Frodo advances in silence; despair interrupts, then resolve reforms."
+    ],
+    "prompt": "Show one habit and one break without explaining why.",
+    "requires_vocabulary": ["pattern","break","rhythm"]
+  }
+]
