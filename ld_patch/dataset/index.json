@@ -1,0 +1,12 @@
+{
+  "seeders": ["character_full_master.seeder.json"],
+  "quizzes": [
+    "quizzes/spot_the_pressure.jsonl",
+    "quizzes/tilt_the_room.jsonl",
+    "quizzes/say_show_hide.jsonl",
+    "quizzes/pattern_and_break.jsonl",
+    "quizzes/friction_check.jsonl",
+    "quizzes/outcome_dial.jsonl"
+  ],
+  "aliases": "aliases.json"
+}
