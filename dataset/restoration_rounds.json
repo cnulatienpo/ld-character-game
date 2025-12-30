@@ -1,0 +1,52 @@
+{
+  "rounds": [
+    {
+      "id": "rg-001",
+      "base": "He walked into the room. People were talking. He waited by the door.\n\nNothing in the space told him where to stand, so he held still.",
+      "palette": [
+        {
+          "id": "a",
+          "text": "He set a chipped cup on the table.\n\nThe scrape carried a dry, patient note.",
+          "tags": [
+            "specificity",
+            "weight"
+          ]
+        },
+        {
+          "id": "b",
+          "text": "The light kept blinking over the sink.\n\nEvery pause made the shadows lean.",
+          "tags": [
+            "rhythm",
+            "tension"
+          ]
+        },
+        {
+          "id": "c",
+          "text": "He seemed very nervous.\n\nIt was hard to tell why.",
+          "tags": [
+            "telling_only"
+          ]
+        },
+        {
+          "id": "d",
+          "text": "The door latch clicked and didn’t catch.\n\nAir slipped through the seam and cooled his knuckles.",
+          "tags": [
+            "field_change",
+            "tension"
+          ]
+        }
+      ],
+      "target_tags": [
+        "specificity",
+        "weight",
+        "field_change"
+      ],
+      "design_note": "Concrete detail carries weight; a small shift in the field steadies the scene.",
+      "requires_vocabulary": [
+        "specificity",
+        "weight",
+        "field_change"
+      ]
+    }
+  ]
+}

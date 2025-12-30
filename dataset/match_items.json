@@ -1,0 +1,28 @@
+{
+  "rounds": [
+    {
+      "left": [
+        "balance",
+        "rhythm",
+        "tension",
+        "contrast",
+        "flow"
+      ],
+      "right": [
+        "A facade with equal mass on both sides of the doorway.",
+        "A bass figure that returns every few bars.",
+        "A quiet room with a single held breath before the line lands.",
+        "A bright stripe cutting through a dark field.",
+        "A sentence that glides instead of stops."
+      ],
+      "answer": {
+        "balance": 0,
+        "rhythm": 1,
+        "tension": 2,
+        "contrast": 3,
+        "flow": 4
+      },
+      "design_note": "Match a design idea to a cross-media example. The explanation appears after submit."
+    }
+  ]
+}

@@ -1,184 +1,133 @@
-/// Feedback tray helpers for the Character Game UI.
-
-function tray_state() {
-    if (!variable_global_exists("__ui_tray") || !is_struct(global.__ui_tray)) {
-        tray_init();
-    }
-    return global.__ui_tray;
-}
+# scripts/scr_feedback_tray.gml
+// -----------------------------------------------------------------------------
+// Collapsible feedback tray helpers
+// -----------------------------------------------------------------------------
 
 function tray_init() {
-    var tray = {
-        entries: [],
-        minimized: false,
-        pinned: false,
-        highlight_timer: 0,
-        tab_height: 26,
-        max_entries: 6
+    return {
+        open : true,
+        items : array_create(0),
+        last : undefined
     };
-    global.__ui_tray = tray;
-    return tray;
 }
 
-function tray_push(_result) {
-    var tray = tray_state();
-    if (!is_struct(_result)) {
-        return tray;
+function tray_push(_tray, _res) {
+    array_push(_tray.items, _res);
+    _tray.last = _res;
+    if (array_length(_tray.items) > 10) {
+        array_delete(_tray.items, 0, array_length(_tray.items) - 10);
     }
-    array_push(tray.entries, _result);
-    while (array_length(tray.entries) > tray.max_entries) {
-        array_delete(tray.entries, 0, 1);
-    }
-    tray.highlight_timer = 60;
-    if (!tray.pinned) {
-        tray.minimized = false;
-    }
-    return tray;
 }
 
-function tray_summary_text(_result) {
-    if (!is_struct(_result)) {
-        return "Awaiting feedback";
-    }
-    var parts = [];
-    if (variable_struct_exists(_result, "score") && is_real(_result.score)) {
-        var score_text = "Score " + string_format(_result.score, 0, 2);
-        array_push(parts, score_text);
-    }
-    if (variable_struct_exists(_result, "xpDelta") && is_real(_result.xpDelta)) {
-        var xp_text = "XP +" + string(_result.xpDelta);
-        array_push(parts, xp_text);
-    }
-    if (variable_struct_exists(_result, "notes") && is_string(_result.notes) && string_length(_result.notes) > 0) {
-        var note = _result.notes;
-        if (string_length(note) > 140) {
-            note = string_copy(note, 1, 137) + "...";
+function tray_toggle(_tray) {
+    _tray.open = !_tray.open;
+}
+
+function tray_draw(_x, _y, _w, _tray) {
+    var header_h = 40;
+    var padding = 16;
+    var tray_h = header_h;
+    var body_h = 0;
+
+    var res = _tray.last;
+    if (_tray.open && is_undefined(res) == false) {
+        body_h = padding * 2;
+        var note_val = "";
+        if (is_struct(res) && variable_struct_exists(res, "notes")) {
+            var raw = res.notes;
+            if (is_string(raw)) {
+                note_val = raw;
+            }
         }
-        array_push(parts, note);
-    }
-    var summary = "";
-    for (var i = 0; i < array_length(parts); ++i) {
-        if (i > 0) summary += "  ·  ";
-        summary += parts[i];
-    }
-    if (string_length(summary) <= 0) {
-        summary = "Attempt recorded";
-    }
-    return summary;
-}
-
-function tray_draw(_rect) {
-    var tray = tray_state();
-    if (!is_struct(_rect)) {
-        return;
+        if (string_length(note_val) > 0) {
+            body_h += string_height_ext(note_val, 8, _w - padding * 2);
+        }
+        if (is_struct(res) && variable_struct_exists(res, "badgesAwarded") && is_array(res.badgesAwarded)) {
+            body_h += 48;
+        }
+        body_h += 32; // for xp delta / score bar
     }
 
-    var pad = ui_pad();
-    var theme = ui_theme_state();
-    var header_h = theme.panel_header;
-    var height_full = _rect.h;
-    var height_active = tray.minimized ? tray.tab_height : height_full;
-    if (height_active < tray.tab_height) height_active = tray.tab_height;
+    tray_h += body_h;
 
-    var y1 = _rect.y + height_full - height_active;
-    var y2 = _rect.y + height_full;
-    var x1 = _rect.x;
-    var x2 = _rect.x + _rect.w;
-
-    draw_set_alpha(0.92);
-    draw_set_color(ui_col("tray_bg"));
-    draw_rectangle(x1, y1, x2, y2, false);
+    draw_set_color(make_color_rgb(24, 24, 28));
+    draw_roundrect(_x, _y, _x + _w, _y + tray_h, 12, 12, false);
+    draw_set_color(make_color_rgb(255, 255, 255));
+    draw_set_alpha(0.08);
+    draw_roundrect(_x, _y, _x + _w, _y + tray_h, 12, 12, false);
     draw_set_alpha(1);
-    draw_set_color(ui_col("tray_border"));
-    draw_rectangle(x1, y1, x2, y2, true);
 
-    var tab_w = 140;
-    var tab_h = tray.tab_height;
-    var tab_x = x2 - tab_w - pad * 0.5;
-    var tab_y = y1 - tab_h + 6;
-    if (tab_y < _rect.y) tab_y = y1 - tab_h * 0.5;
+    var title = "Feedback";
+    draw_set_color(make_color_rgb(240, 244, 255));
+    draw_text(_x + padding, _y + header_h * 0.5 - 8, title);
 
-    draw_set_color(ui_col("tray_bg"));
-    draw_rectangle(tab_x, tab_y, tab_x + tab_w, tab_y + tab_h, false);
-    draw_set_color(ui_col("tray_border"));
-    draw_rectangle(tab_x, tab_y, tab_x + tab_w, tab_y + tab_h, true);
+    var toggle_label = _tray.open ? "Hide" : "Show";
+    var toggle_w = string_width(toggle_label) + 24;
+    var toggle_x = _x + _w - padding - toggle_w;
+    var toggle_y = _y + header_h * 0.5 - 12;
+    var toggle_over = ui_mouse_in_rect_gui(toggle_x, toggle_y, toggle_w, 24);
+    draw_set_color(toggle_over ? make_color_rgb(90, 110, 220) : make_color_rgb(60, 70, 90));
+    draw_roundrect(toggle_x, toggle_y, toggle_x + toggle_w, toggle_y + 24, 8, 8, false);
+    draw_set_color(make_color_rgb(220, 224, 240));
+    draw_text(toggle_x + 12, toggle_y + 4, toggle_label);
+    if (toggle_over && mouse_check_button_pressed(mb_left)) {
+        tray_toggle(_tray);
+    }
 
-    draw_set_color(ui_col("panel_header_text"));
-    draw_set_halign(fa_center);
-    draw_set_valign(fa_middle);
-    var tab_label = tray.minimized ? "Show Feedback" : "Hide Feedback";
-    draw_text(tab_x + tab_w * 0.5, tab_y + tab_h * 0.5, tab_label);
-    draw_set_halign(fa_left);
-    draw_set_valign(fa_top);
+    if (!_tray.open || is_undefined(res)) {
+        return { h : tray_h };
+    }
 
-    var mx = device_mouse_x_to_gui(0);
-    var my = device_mouse_y_to_gui(0);
-    if (mouse_check_button_pressed(mb_left)) {
-        if (mx >= tab_x && mx <= tab_x + tab_w && my >= tab_y && my <= tab_y + tab_h) {
-            tray.minimized = !tray.minimized;
+    var body_y = _y + header_h;
+    var score = 0;
+    if (is_struct(res) && variable_struct_exists(res, "score")) {
+        var raw_score = res.score;
+        if (is_real(raw_score)) {
+            score = clamp(raw_score, 0, 1);
         }
     }
+    draw_set_color(make_color_rgb(40, 45, 60));
+    draw_roundrect(_x + padding, body_y + padding, _x + _w - padding, body_y + padding + 16, 6, 6, false);
+    draw_set_color(make_color_rgb(110, 220, 140));
+    draw_roundrect(_x + padding, body_y + padding, _x + padding + ( _w - padding * 2) * score, body_y + padding + 16, 6, 6, false);
+    draw_set_color(make_color_rgb(220, 226, 240));
+    draw_text(_x + padding, body_y + padding + 22, "Score: " + string_format(score * 100, 2, 0) + "%");
 
-    if (tray.minimized) {
-        return;
-    }
-
-    var entries = tray.entries;
-    var latest = undefined;
-    if (is_array(entries) && array_length(entries) > 0) {
-        latest = entries[array_length(entries) - 1];
-    }
-
-    var title_y = y1 + pad * 0.75;
-    draw_set_color(ui_col("panel_header_text"));
-    draw_text(x1 + pad, title_y, "Feedback");
-
-    var summary_y = title_y + 24;
-    draw_set_color(ui_col("text"));
-    var summary = tray_summary_text(latest);
-    draw_text_ext(x1 + pad, summary_y, summary, 12, _rect.w - pad * 2);
-
-    if (is_struct(latest) && variable_struct_exists(latest, "badgesAwarded") && is_array(latest.badgesAwarded)) {
-        var badges = latest.badgesAwarded;
-        if (array_length(badges) > 0) {
-            var badge_y = summary_y + 40;
-            draw_set_color(ui_col("accent"));
-            draw_text(x1 + pad, badge_y, "Badges:");
-            var badge_x = x1 + pad + 80;
-            draw_set_color(ui_col("text"));
-            for (var b = 0; b < array_length(badges); ++b) {
-                var badge = badges[b];
-                draw_text(badge_x, badge_y, string(badge));
-                badge_x += 120;
-            }
+    var notes = "";
+    if (is_struct(res) && variable_struct_exists(res, "notes")) {
+        var raw_notes = res.notes;
+        if (is_string(raw_notes)) {
+            notes = raw_notes;
         }
     }
-
-    if (tray.highlight_timer > 0) {
-        tray.highlight_timer -= 1;
-        var glow = clamp(tray.highlight_timer / 60, 0, 1);
-        draw_set_alpha(glow * 0.4);
-        draw_set_color(ui_col("tray_highlight"));
-        draw_rectangle(x1, y1, x2, y2, false);
-        draw_set_alpha(1);
+    var text_y = body_y + padding + 40;
+    if (string_length(notes) > 0) {
+        draw_text_ext(_x + padding, text_y, notes, 8, _w - padding * 2);
+        text_y += string_height_ext(notes, 8, _w - padding * 2) + padding;
     }
 
-    var pin_size = 20;
-    var pin_x = x1 + _rect.w - pin_size - pad;
-    var pin_y = y1 + pad * 0.5;
-    draw_set_color(tray.pinned ? ui_col("accent") : ui_col("text_muted"));
-    draw_rectangle(pin_x, pin_y, pin_x + pin_size, pin_y + pin_size, false);
-    draw_set_color(ui_col("panel_border"));
-    draw_rectangle(pin_x, pin_y, pin_x + pin_size, pin_y + pin_size, true);
-    draw_set_color(ui_col("panel_header_text"));
-    draw_text(pin_x + pin_size * 0.5, pin_y + pin_size * 0.5, tray.pinned ? "■" : "□");
+    if (is_struct(res) && variable_struct_exists(res, "badgesAwarded") && is_array(res.badgesAwarded) && array_length(res.badgesAwarded) > 0) {
+        draw_set_color(make_color_rgb(255, 215, 120));
+        for (var b = 0; b < array_length(res.badgesAwarded); ++b) {
+            var badge = res.badgesAwarded[b];
+            var by = text_y + b * 28;
+            draw_roundrect(_x + padding, by, _x + padding + 160, by + 24, 8, 8, false);
+            draw_text(_x + padding + 8, by + 4, badge);
+        }
+        text_y += array_length(res.badgesAwarded) * 28 + padding;
+    }
 
-    if (mouse_check_button_pressed(mb_left)) {
-        if (mx >= pin_x && mx <= pin_x + pin_size && my >= pin_y && my <= pin_y + pin_size) {
-            tray.pinned = !tray.pinned;
-            if (tray.pinned) {
-                tray.minimized = false;
-            }
+    var xp = 0;
+    if (is_struct(res) && variable_struct_exists(res, "xpDelta")) {
+        var raw_xp = res.xpDelta;
+        if (is_real(raw_xp)) {
+            xp = raw_xp;
         }
     }
+    if (xp != 0) {
+        draw_set_color(make_color_rgb(130, 200, 255));
+        draw_text(_x + padding, text_y, "+" + string(xp) + " XP");
+    }
+
+    return { h : tray_h };
 }

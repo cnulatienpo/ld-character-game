@@ -1,0 +1,1868 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2025-10-29T03:27:02.809255+00:00",
+  "topics": [
+    {
+      "id": "archetypal-character",
+      "name": "Archetypal Character",
+      "tags": [
+        "archetypal character",
+        "character"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "change",
+      "name": "Change",
+      "tags": [
+        "change",
+        "character"
+      ],
+      "metrics": [
+        {
+          "id": "change-strength-low",
+          "name": "Change Strength Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "change-toolkit",
+              "name": "Change \u2014 tools, questions, and dial examples",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "change-strength-medium",
+          "name": "Change Strength Medium",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "change-toolkit",
+              "name": "Change \u2014 tools, questions, and dial examples",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "character-body-logic",
+      "name": "Character Body Logic",
+      "tags": [
+        "character",
+        "character body logic"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-decision-style",
+      "name": "Character Decision Style",
+      "tags": [
+        "character",
+        "character decision style"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-description",
+      "name": "Character Description",
+      "tags": [
+        "character",
+        "character description"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-drive",
+      "name": "Character Drive",
+      "tags": [
+        "character",
+        "character drive"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-flaw",
+      "name": "Character Flaw",
+      "tags": [
+        "character",
+        "character flaw"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-identity",
+      "name": "Character Identity",
+      "tags": [
+        "character",
+        "character identity"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-master-char-seeders-20251028t182210z",
+      "name": "Character Master Char Seeders 20251028T182210Z",
+      "tags": [
+        "character",
+        "character master char seeders 20251028t182210z"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-master-char-seeders-20251028t182834z",
+      "name": "Character Master Char Seeders 20251028T182834Z",
+      "tags": [
+        "character",
+        "character master char seeders 20251028t182834z"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-master-min",
+      "name": "Character Master Min",
+      "tags": [
+        "character",
+        "character master min"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-master-min-sample",
+      "name": "Character Master Min.Sample",
+      "tags": [
+        "character",
+        "character master min sample"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-motivation",
+      "name": "Character_Motivation",
+      "tags": [
+        "character",
+        "character motivation"
+      ],
+      "metrics": [
+        {
+          "id": "motivation-strength-high",
+          "name": "Motivation Potency: HIGH \u2014 The All\u2011Consuming Fire",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "tools-actively-control-motivation-potency",
+              "name": "Tools \u2014 Actively Control Motivation Potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": "Dialect level <= 2 | Requires terms: reader_foothold"
+        }
+      ]
+    },
+    {
+      "id": "character-roles-dynamics",
+      "name": "Character_Roles_Dynamics",
+      "tags": [
+        "character",
+        "character roles dynamics"
+      ],
+      "metrics": [
+        {
+          "id": "character-role-dynamics-2-17-strength-levels-tuning-the-intensit",
+          "name": "Strength Levels: Tuning the Intensity of Role Dynamics",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "practical-tools-for-writers-crafting-dynamic-roles",
+              "name": "Practical Tools for Writers: Crafting Dynamic Roles",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": "Dialect level <= 2 | Requires terms: foundation_intro_115"
+        },
+        {
+          "id": "character-role-dynamics-8-strength-levels-tuning-the-intensity-o",
+          "name": "Strength Levels: Tuning the Intensity of Role Dynamics",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "practical-tools-for-writers-crafting-dynamic-roles",
+              "name": "Practical Tools for Writers: Crafting Dynamic Roles",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": "Dialect level <= 2 | Requires terms: foundation_intro_115"
+        },
+        {
+          "id": "foundation-intro-115",
+          "name": "Foundation Intro 115",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "practical-tools-for-writers-crafting-dynamic-roles",
+              "name": "Practical Tools for Writers: Crafting Dynamic Roles",
+              "side": "both",
+              "weight": 1.0
+            },
+            {
+              "id": "practical-tools-for-writers-crafting-dynamic-roles",
+              "name": "Practical Tools for Writers: Crafting Dynamic Roles",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "character-truth",
+      "name": "Character Truth",
+      "tags": [
+        "character",
+        "character truth"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "character-wound",
+      "name": "Character Wound",
+      "tags": [
+        "character",
+        "character wound"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "conflict",
+      "name": "Conflict",
+      "tags": [
+        "character",
+        "conflict"
+      ],
+      "metrics": [
+        {
+          "id": "conflict-strength-low",
+          "name": "Conflict Strength Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "conflict-toolkit",
+              "name": "Conflict \u2014 tools, questions, and dial examples",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "conflict-strength-medium",
+          "name": "Conflict Strength Medium",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "conflict-toolkit",
+              "name": "Conflict \u2014 tools, questions, and dial examples",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "name": "Decision",
+      "tags": [
+        "character",
+        "decision"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "dynamic-character",
+      "name": "Dynamic Character",
+      "tags": [
+        "character",
+        "dynamic character"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "flat-character",
+      "name": "Flat Character",
+      "tags": [
+        "character",
+        "flat character"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "mentor",
+      "name": "Mentor",
+      "tags": [
+        "character",
+        "mentor"
+      ],
+      "metrics": [
+        {
+          "id": "archetypal-character-intro",
+          "name": "Archetypal Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "body-logic-intro",
+          "name": "Body Logic Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "decision-style-intro",
+          "name": "Decision Style Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "description-intro",
+          "name": "Description Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "desire-intro-low",
+          "name": "Desire Intro Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "drive-intro",
+          "name": "Drive Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "dynamic-character-intro",
+          "name": "Dynamic Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "flat-character-intro",
+          "name": "Flat Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "foundation-intro-115",
+          "name": "Foundation Intro 115",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "identity-intro",
+          "name": "Identity Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "mentor-strength-low",
+          "name": "Mentor Strength Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "mentor-strength-medium",
+          "name": "Mentor Strength Medium",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "motivation-intro",
+          "name": "Motivation Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "role-dynamics-intro",
+          "name": "Role Dynamics Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "roles-intro",
+          "name": "Roles Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "symbolic-character-intro",
+          "name": "Symbolic Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "truth-intro",
+          "name": "Truth Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "villain-intro",
+          "name": "Villain Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "wound-intro",
+          "name": "Wound Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "mentor-toolkit",
+              "name": "Mentor dials \u2014 scale and shape guidance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "motivation",
+      "name": "Motivation",
+      "tags": [
+        "character",
+        "motivation"
+      ],
+      "metrics": [
+        {
+          "id": "archetypal-character-intro",
+          "name": "Archetypal Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "body-logic-intro",
+          "name": "Body Logic Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "decision-style-intro",
+          "name": "Decision Style Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "description-intro",
+          "name": "Description Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "desire-intro-low",
+          "name": "Desire Intro Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "drive-intro",
+          "name": "Drive Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "dynamic-character-intro",
+          "name": "Dynamic Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "flat-character-intro",
+          "name": "Flat Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "foundation-intro-115",
+          "name": "Foundation Intro 115",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "identity-intro",
+          "name": "Identity Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "motivation-strength-low",
+          "name": "Motivation Strength Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "motivation-strength-medium",
+          "name": "Motivation Strength Medium",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "role-dynamics-intro",
+          "name": "Role Dynamics Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "roles-intro",
+          "name": "Roles Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "symbolic-character-intro",
+          "name": "Symbolic Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "truth-intro",
+          "name": "Truth Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "wound-intro",
+          "name": "Wound Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "motivation-tools-controls",
+              "name": "Motivation dials \u2014 raise or soften potency",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "stakes",
+      "name": "Stakes",
+      "tags": [
+        "character",
+        "stakes"
+      ],
+      "metrics": [
+        {
+          "id": "stakes-strength-low",
+          "name": "Stakes Strength Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "stakes-toolkit",
+              "name": "Stakes \u2014 tools, questions, and dial examples",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "stakes-strength-medium",
+          "name": "Stakes Strength Medium",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "stakes-toolkit",
+              "name": "Stakes \u2014 tools, questions, and dial examples",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "symbolic-character",
+      "name": "Symbolic Character",
+      "tags": [
+        "character",
+        "symbolic character"
+      ],
+      "metrics": []
+    },
+    {
+      "id": "villain",
+      "name": "Villain",
+      "tags": [
+        "character",
+        "villain"
+      ],
+      "metrics": [
+        {
+          "id": "archetypal-character-intro",
+          "name": "Archetypal Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "body-logic-intro",
+          "name": "Body Logic Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "decision-style-intro",
+          "name": "Decision Style Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "description-intro",
+          "name": "Description Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "desire-intro-low",
+          "name": "Desire Intro Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "drive-intro",
+          "name": "Drive Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "dynamic-character-intro",
+          "name": "Dynamic Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "flat-character-intro",
+          "name": "Flat Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "foundation-intro-115",
+          "name": "Foundation Intro 115",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "identity-intro",
+          "name": "Identity Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "motivation-intro",
+          "name": "Motivation Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "role-dynamics-intro",
+          "name": "Role Dynamics Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "roles-intro",
+          "name": "Roles Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "symbolic-character-intro",
+          "name": "Symbolic Character Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "truth-intro",
+          "name": "Truth Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "villain-strength-low",
+          "name": "Villain Strength Low",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "villain-strength-medium",
+          "name": "Villain Strength Medium",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        },
+        {
+          "id": "wound-intro",
+          "name": "Wound Intro",
+          "kind": "gate",
+          "source": "progress",
+          "threshold": {
+            "min": 1
+          },
+          "levels": null,
+          "tools": [
+            {
+              "id": "villain-toolkit",
+              "name": "Villain dials \u2014 scale and shape resistance",
+              "side": "both",
+              "weight": 1.0
+            }
+          ],
+          "notes": null
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "change-toolkit",
+      "name": "Change \u2014 tools, questions, and dial examples",
+      "side": "both",
+      "icon": "change_toolkit",
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "change",
+          "metric": "change-strength-low",
+          "min": 1
+        },
+        {
+          "topic": "change",
+          "metric": "change-strength-medium",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    },
+    {
+      "id": "conflict-toolkit",
+      "name": "Conflict \u2014 tools, questions, and dial examples",
+      "side": "both",
+      "icon": "conflict_toolkit",
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "conflict",
+          "metric": "conflict-strength-low",
+          "min": 1
+        },
+        {
+          "topic": "conflict",
+          "metric": "conflict-strength-medium",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    },
+    {
+      "id": "mentor-toolkit",
+      "name": "Mentor dials \u2014 scale and shape guidance",
+      "side": "both",
+      "icon": "mentor_toolkit",
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "mentor",
+          "metric": "mentor-strength-low",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "mentor-strength-medium",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "foundation-intro-115",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "identity-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "body-logic-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "description-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "truth-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "wound-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "flat-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "roles-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "role-dynamics-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "dynamic-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "symbolic-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "drive-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "decision-style-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "archetypal-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "desire-intro-low",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "motivation-intro",
+          "min": 1
+        },
+        {
+          "topic": "mentor",
+          "metric": "villain-intro",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    },
+    {
+      "id": "motivation-tools-controls",
+      "name": "Motivation dials \u2014 raise or soften potency",
+      "side": "both",
+      "icon": "motivation_tools_controls",
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "motivation",
+          "metric": "motivation-strength-low",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "motivation-strength-medium",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "foundation-intro-115",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "identity-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "body-logic-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "description-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "truth-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "wound-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "flat-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "roles-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "role-dynamics-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "dynamic-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "symbolic-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "drive-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "decision-style-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "archetypal-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "motivation",
+          "metric": "desire-intro-low",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 1 minimum."
+    },
+    {
+      "id": "practical-tools-for-writers-crafting-dynamic-roles",
+      "name": "Practical Tools for Writers: Crafting Dynamic Roles",
+      "side": "both",
+      "icon": null,
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "character-roles-dynamics",
+          "metric": "foundation-intro-115",
+          "min": 1
+        },
+        {
+          "topic": "character-roles-dynamics",
+          "metric": "character-role-dynamics-8-strength-levels-tuning-the-intensity-o",
+          "min": 1
+        },
+        {
+          "topic": "character-roles-dynamics",
+          "metric": "foundation-intro-115",
+          "min": 1
+        },
+        {
+          "topic": "character-roles-dynamics",
+          "metric": "character-role-dynamics-2-17-strength-levels-tuning-the-intensit",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    },
+    {
+      "id": "stakes-toolkit",
+      "name": "Stakes \u2014 tools, questions, and dial examples",
+      "side": "both",
+      "icon": "stakes_toolkit",
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "stakes",
+          "metric": "stakes-strength-low",
+          "min": 1
+        },
+        {
+          "topic": "stakes",
+          "metric": "stakes-strength-medium",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    },
+    {
+      "id": "tools-actively-control-motivation-potency",
+      "name": "Tools \u2014 Actively Control Motivation Potency",
+      "side": "both",
+      "icon": null,
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "character-motivation",
+          "metric": "motivation-strength-high",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    },
+    {
+      "id": "villain-toolkit",
+      "name": "Villain dials \u2014 scale and shape resistance",
+      "side": "both",
+      "icon": "villain_toolkit",
+      "weight": 1.0,
+      "unlocks": [
+        {
+          "topic": "villain",
+          "metric": "villain-strength-low",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "villain-strength-medium",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "foundation-intro-115",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "identity-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "body-logic-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "description-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "truth-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "wound-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "flat-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "roles-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "role-dynamics-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "dynamic-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "symbolic-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "drive-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "decision-style-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "archetypal-character-intro",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "desire-intro-low",
+          "min": 1
+        },
+        {
+          "topic": "villain",
+          "metric": "motivation-intro",
+          "min": 1
+        }
+      ],
+      "notes": "Dialect level 2 minimum."
+    }
+  ]
+}
