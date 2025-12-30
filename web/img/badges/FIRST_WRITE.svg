@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="fw-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5d8bff" />
+      <stop offset="100%" stop-color="#f15aee" />
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="244" height="244" rx="32" fill="url(#fw-bg)" stroke="rgba(255,255,255,0.65)" stroke-width="4" />
+  <circle cx="128" cy="128" r="78" fill="rgba(17,19,29,0.72)" stroke="rgba(255,255,255,0.4)" stroke-width="4" />
+  <path d="M164 84 108 140l-12 36 36-12 56-56-24-24z" fill="#fff" opacity="0.85" />
+  <path d="M152 96 84 164" stroke="#ffd166" stroke-width="10" stroke-linecap="round" opacity="0.8" />
+  <text x="128" y="210" font-family="'Segoe UI', system-ui, sans-serif" font-size="24" text-anchor="middle" fill="#ffffff" font-weight="600" letter-spacing="4">FIRST</text>
+  <text x="128" y="234" font-family="'Segoe UI', system-ui, sans-serif" font-size="20" text-anchor="middle" fill="#e6e3ff" letter-spacing="6" font-weight="500">WRITE</text>
+</svg>

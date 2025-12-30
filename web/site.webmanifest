@@ -1,0 +1,15 @@
+{
+  "name": "Literary Deviousness — Character MVP",
+  "short_name": "LD Character",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f0f13",
+  "theme_color": "#5d8bff",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
