@@ -59,6 +59,19 @@ def error_response(message: str, status_code: int = status.HTTP_400_BAD_REQUEST)
     )
 
 
+@app.get("/")
+def get_root() -> Dict[str, object]:
+    """Return basic API info at the service root."""
+
+    return {
+        "ok": True,
+        "service": "Character Game API",
+        "version": API_VERSION,
+        "status": "/status",
+        "docs": "/docs",
+    }
+
+
 @app.get("/status")
 def get_status() -> Dict[str, object]:
     """Return server status information."""
