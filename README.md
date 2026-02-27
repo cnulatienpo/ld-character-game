@@ -4,8 +4,9 @@
 1. Push this repository to your Git provider.
 2. In Render, click **New → Web Service**.
 3. Select this repository when prompted.
-4. Confirm the build command (`pip install -r requirements.txt`) and start command (`uvicorn server.main:app --host 0.0.0.0 --port 8000`).
-5. After deployment, copy the live service URL into `api_base()` in GameMaker.
+4. Confirm the build command (`pip install -r requirements.txt`) and start command (`cd character_api && uvicorn server.main:app --host 0.0.0.0 --port $PORT`).
+5. Set `PYTHON_VERSION=3.11.11` (or use [runtime.txt](runtime.txt)).
+6. After deployment, copy the live service URL into `api_base()` in GameMaker.
 
 ## 🚀 Publish HTML5 build to GitHub Pages
 1. Export from GameMaker: Target → HTML5 → Create Executable → choose an export folder (e.g., gms_export/HTML5/).
