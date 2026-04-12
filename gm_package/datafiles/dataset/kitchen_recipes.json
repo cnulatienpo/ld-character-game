@@ -1,0 +1,11 @@
+{
+  "rounds": [
+    {
+      "goal": "Make the scene pop without burning it out.",
+      "tips": "A pinch of salt (contrast) wakes it up. Too much acid (tension) overwhelms.",
+      "start": {"salt": 0.2, "acid": 0.2, "sugar": 0.2, "fat": 0.2},
+      "target": {"salt": 0.35, "acid": 0.25, "sugar": 0.2, "fat": 0.2},
+      "explain": "In prose, contrast brightens detail; tension adds pull; harmony smooths; richness gives body."
+    }
+  ]
+}

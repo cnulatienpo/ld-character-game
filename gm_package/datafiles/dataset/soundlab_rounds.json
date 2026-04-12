@@ -1,0 +1,29 @@
+{
+  "rounds": [
+    {
+      "id": "sl-001",
+      "question": "Listen. Which line fits this beat?",
+      "pattern": "short-short-long",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She knocked.\n\nHe opened. The hallway waited."
+        },
+        {
+          "id": "b",
+          "text": "The elevator kept humming in a long, unbroken line.\n\nIt carried every floor without a hitch."
+        },
+        {
+          "id": "c",
+          "text": "He laughed, and the room forgot to breathe for a while.\n\nThe moment lingered without a clear edge."
+        }
+      ],
+      "answer": "a",
+      "design_note": "Short beats hold clipped moves; a lingering stroke needs a longer beat.",
+      "requires_vocabulary": [
+        "rhythm",
+        "beat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "rounds": [
+    {
+      "id": "or-001",
+      "goal": "Dial in a tense but human moment.",
+      "tips": "Ease emotion toward warmth, push stakes slightly, keep pacing steady.",
+      "target": {
+        "emotion": 0.62,
+        "stakes": 0.7,
+        "pacing": 0.52
+      },
+      "preview_passage": "She waited by the door, palms against the cool wood. EMO_TONE The hallway held its breath while voices from the kitchen rose and fell. STAKE_DETAIL\n\nShe pictured the letter on the table, its edges neat against the grain. PACING_BEAT Another thud in the next room mapped the steps she had left.",
+      "design_note": "Tense but human: weight plus warmth plus steady breath.",
+      "requires_vocabulary": [
+        "stakes",
+        "pacing",
+        "emotion",
+        "weight",
+        "breath"
+      ]
+    },
+    {
+      "id": "or-002",
+      "goal": "Keep it bright but grounded.",
+      "tips": "Let emotion glow, relax stakes a notch, lean pacing toward lively beats.",
+      "target": {
+        "emotion": 0.78,
+        "stakes": 0.4,
+        "pacing": 0.68
+      },
+      "preview_passage": "Morning light striped the studio floor. EMO_TONE Brushes knocked softly against the jar while the streetcar sang in the distance. STAKE_DETAIL\n\nShe set the fresh canvas upright and studied the first wash of color. PACING_BEAT The day stretched ahead, brimming with moves she had already rehearsed.",
+      "design_note": "Bright but grounded: warmth, soft stakes, quickened steps.",
+      "requires_vocabulary": [
+        "pacing",
+        "stakes",
+        "emotion",
+        "bright",
+        "grounded"
+      ]
+    }
+  ]
+}

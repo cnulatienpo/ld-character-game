@@ -1,0 +1,17 @@
+{
+  "id": "cr-001",
+  "start": "The rehearsal room still smelled like last night's coffee. Chairs lined the walls in patient rows while cables coiled across the floor like resting snakes. Mara walked the perimeter twice, counting the beats of her steps against the hum of the amplifiers.\n\nShe stopped by the window and watched the city settle into its blue hour. Down on the street, a delivery truck idled and then inched forward, its brake lights flashing in a slow pulse. Her notebook lay open on the piano with a single line circled twice: keep momentum honest.",
+  "options": [
+    "She flipped to a fresh page and wrote the transitions in thick, certain strokes. The new bridge carried the melody without a hitch, each phrase shouldering the next. A soft tap of the metronome kept her breathing aligned with the phrasing.\n\nShe sang through the draft in a whisper, picturing how the band would find those steps. Nothing snagged; every chord left a handhold for the one that followed.",
+    "She pressed a key and let the note bloom before sliding into the next chord. The chorus poured out in a single sweep, rising like a held breath and folding into the downbeat without stutter. She marked the page with an arrow that guided the eye cleanly forward.\n\nHer voice grew steady as she mapped the bridge. Each syllable landed where the last one pointed, the rhythm giving the scene a steady current.",
+    "She sat back and stared at the scribbled arrows already on the page. The gap between verse and chorus still felt jagged, as if a measure had been misplaced. She sketched two alternate chords but crossed them out before they dried.\n\nWhen she tried the bridge aloud, her timing wavered. The line broke in the middle, dropping the momentum like a stone in water."
+  ],
+  "end": "The door opened and the drummer stepped inside, flipping the light switch with his elbow. Mara smiled without looking up and counted them in, the melody already spinning forward.\n\nAs the first run-through took flight, the bridge held fast. Every measure clicked into the next, the song carrying its own weight until the final cymbal shimmered out.",
+  "answer_idx": 1,
+  "design_note": "This keeps momentum; the other options either stall or jump.",
+  "requires_vocabulary": [
+    "flow",
+    "momentum",
+    "transition"
+  ]
+}

@@ -1,0 +1,3908 @@
+{
+  "$GMProject": "v1",
+  "%Name": "ld_character_game",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "",
+      "%Name": "audiogroup_default",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "configs": {
+    "children": [
+      {
+        "name": "Default"
+      }
+    ],
+    "name": "Default"
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "name": "Default",
+      "path": "folders/Default.yy"
+    },
+    {
+      "name": "Scripts",
+      "path": "folders/Scripts.yy"
+    }
+  ],
+  "IncludedFiles": [
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_question_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_question_Draw.gml",
+      "name": "obj_sl_question_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_high_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_high_Create.gml",
+      "name": "obj_strength_high_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_continue_Draw.gml",
+      "name": "obj_db_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_check_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_check_Create.gml",
+      "name": "obj_garden_check_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_question2_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_question2_Create.gml",
+      "name": "obj_fc_question2_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_check_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_check_Step.gml",
+      "name": "obj_garden_check_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_question_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_question_LeftPressed.gml",
+      "name": "obj_fc_question_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_submit_Step.gml",
+      "name": "obj_mm_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_continue_LeftPressed.gml",
+      "name": "obj_kitch_button_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gate_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gate_Create.gml",
+      "name": "obj_gate_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_check_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_check_Create.gml",
+      "name": "obj_orch_button_check_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_slider_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_slider_Create.gml",
+      "name": "obj_orch_slider_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_high_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_high_Step.gml",
+      "name": "obj_strength_high_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_feedback_Draw.gml",
+      "name": "obj_rg_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_choice_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_choice_Draw.gml",
+      "name": "obj_rg_choice_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_check_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_check_Create.gml",
+      "name": "obj_museum_check_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_feedback_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_feedback_Step.gml",
+      "name": "obj_fc_feedback_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_feedback_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_feedback_Create.gml",
+      "name": "obj_quiz_feedback_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_continue_LeftPressed.gml",
+      "name": "obj_chain_button_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_submit_Draw.gml",
+      "name": "obj_mm_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_controller_Create.gml",
+      "name": "obj_sym_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_button_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_button_continue_LeftPressed.gml",
+      "name": "obj_sym_button_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_continue_Create.gml",
+      "name": "obj_museum_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_button_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_button_continue_Step.gml",
+      "name": "obj_sym_button_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_continue_Create.gml",
+      "name": "obj_gt_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_submit_Draw.gml",
+      "name": "obj_pb_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_left_token_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_left_token_Draw.gml",
+      "name": "obj_mm_left_token_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_slider_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_slider_Draw.gml",
+      "name": "obj_orch_slider_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_word_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_word_Create.gml",
+      "name": "obj_garden_word_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_passage_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_passage_Create.gml",
+      "name": "obj_db_echo_passage_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_submit_Draw.gml",
+      "name": "obj_db_symmetry_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_hide_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_hide_LeftPressed.gml",
+      "name": "obj_behavior_hide_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_submit_LeftPressed.gml",
+      "name": "obj_db_balance_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_prev_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_prev_Step.gml",
+      "name": "obj_chain_button_prev_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_feedback_Draw.gml",
+      "name": "obj_pb_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_question_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_question_Create.gml",
+      "name": "obj_fc_question_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_continue_Create.gml",
+      "name": "obj_kitch_button_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_submit_Step.gml",
+      "name": "obj_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_choose_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_choose_Draw.gml",
+      "name": "obj_gt_choose_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_question2_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_question2_Draw.gml",
+      "name": "obj_fc_question2_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_taste_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_taste_Create.gml",
+      "name": "obj_kitch_button_taste_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_continue_Step.gml",
+      "name": "obj_db_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_submit_Create.gml",
+      "name": "obj_pb_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_passage_Draw.gml",
+      "name": "obj_db_symmetry_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_ending_panel_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_ending_panel_Draw.gml",
+      "name": "obj_gt_ending_panel_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_continue_LeftPressed.gml",
+      "name": "obj_museum_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_panel_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_panel_Step.gml",
+      "name": "obj_museum_panel_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_controller_Create.gml",
+      "name": "obj_museum_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_soundlab_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_soundlab_controller_Step.gml",
+      "name": "obj_soundlab_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_controller_Create.gml",
+      "name": "obj_db_balance_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_check_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_check_Create.gml",
+      "name": "obj_db_echo_check_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_toggle_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_toggle_Create.gml",
+      "name": "obj_pb_toggle_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_center_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_center_feedback_Draw.gml",
+      "name": "obj_db_center_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_passage_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_passage_Create.gml",
+      "name": "obj_gt_passage_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_feedback_Draw.gml",
+      "name": "obj_db_balance_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_check_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_check_Draw.gml",
+      "name": "obj_garden_check_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_continue_LeftPressed.gml",
+      "name": "obj_reading_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_continue_LeftPressed.gml",
+      "name": "obj_db_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_submit_Create.gml",
+      "name": "obj_fc_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_controller_Create.gml",
+      "name": "obj_orch_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_writebox_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_writebox_Create.gml",
+      "name": "obj_sl_writebox_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_feedback_panel_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_feedback_panel_Step.gml",
+      "name": "obj_feedback_panel_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_continue_LeftPressed.gml",
+      "name": "obj_orch_button_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_passage_MouseWheelUp.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_passage_MouseWheelUp.gml",
+      "name": "obj_reading_passage_MouseWheelUp.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_next_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_next_Step.gml",
+      "name": "obj_chain_button_next_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_submit_Step.gml",
+      "name": "obj_db_symmetry_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_feedback_panel_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_feedback_panel_Draw.gml",
+      "name": "obj_feedback_panel_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_center_canvas_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_center_canvas_LeftPressed.gml",
+      "name": "obj_db_center_canvas_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_writebox_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_writebox_Step.gml",
+      "name": "obj_writebox_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_say_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_say_Step.gml",
+      "name": "obj_behavior_say_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_textscroll_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_textscroll_Create.gml",
+      "name": "obj_textscroll_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_textscroll_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_textscroll_Step.gml",
+      "name": "obj_textscroll_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_submit_Step.gml",
+      "name": "obj_pb_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_choice_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_choice_LeftPressed.gml",
+      "name": "obj_sl_choice_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_continue_Step.gml",
+      "name": "obj_garden_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_passage_Draw.gml",
+      "name": "obj_reading_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_submit_LeftPressed.gml",
+      "name": "obj_fc_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_controller_Create.gml",
+      "name": "obj_db_echo_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_submit_Step.gml",
+      "name": "obj_db_balance_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_taste_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_taste_Step.gml",
+      "name": "obj_kitch_button_taste_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_fold_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_fold_Step.gml",
+      "name": "obj_db_symmetry_fold_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_continue_Draw.gml",
+      "name": "obj_garden_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_show_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_show_Draw.gml",
+      "name": "obj_behavior_show_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_controller_Step.gml",
+      "name": "obj_orch_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_submit_Create.gml",
+      "name": "obj_mm_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_passage_Draw.gml",
+      "name": "obj_db_echo_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_submit_LeftPressed.gml",
+      "name": "obj_db_symmetry_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_prev_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_prev_Draw.gml",
+      "name": "obj_chain_button_prev_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_check_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_check_Draw.gml",
+      "name": "obj_orch_button_check_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_submit_LeftPressed.gml",
+      "name": "obj_mm_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_submit_Draw.gml",
+      "name": "obj_db_balance_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_choose_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_choose_LeftPressed.gml",
+      "name": "obj_gt_choose_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_check_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_check_Draw.gml",
+      "name": "obj_museum_check_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_write_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_write_feedback_Draw.gml",
+      "name": "obj_sl_write_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_feedback_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_feedback_LeftPressed.gml",
+      "name": "obj_fc_feedback_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_controller_Step.gml",
+      "name": "obj_sym_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_med_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_med_LeftPressed.gml",
+      "name": "obj_strength_med_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_continue_Step.gml",
+      "name": "obj_chain_button_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_choice_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_choice_Draw.gml",
+      "name": "obj_quiz_choice_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_fold_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_fold_Step.gml",
+      "name": "obj_sym_fold_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_writebox_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_writebox_Draw.gml",
+      "name": "obj_writebox_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_controller_Create.gml",
+      "name": "obj_garden_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_left_token_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_left_token_Step.gml",
+      "name": "obj_mm_left_token_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_right_slot_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_right_slot_Draw.gml",
+      "name": "obj_mm_right_slot_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_continue_Create.gml",
+      "name": "obj_arch_button_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_submit_LeftPressed.gml",
+      "name": "obj_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_choice_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_choice_Step.gml",
+      "name": "obj_rg_choice_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_slider_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_slider_Draw.gml",
+      "name": "obj_gt_slider_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_prev_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_prev_LeftPressed.gml",
+      "name": "obj_chain_button_prev_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_show_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_show_Create.gml",
+      "name": "obj_behavior_show_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_submit_Step.gml",
+      "name": "obj_fc_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_check_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_check_Draw.gml",
+      "name": "obj_arch_button_check_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_controller_Step.gml",
+      "name": "obj_chain_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_check_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_check_Step.gml",
+      "name": "obj_arch_button_check_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_submit_Step.gml",
+      "name": "obj_chain_button_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_passage_Draw.gml",
+      "name": "obj_quiz_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_controller_Create.gml",
+      "name": "obj_mm_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_restoration_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_restoration_controller_Create.gml",
+      "name": "obj_restoration_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_center_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_center_controller_Create.gml",
+      "name": "obj_db_center_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_next_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_next_Draw.gml",
+      "name": "obj_chain_button_next_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_submit_Create.gml",
+      "name": "obj_reading_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_translation_panel_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_translation_panel_Create.gml",
+      "name": "obj_translation_panel_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_continue_button_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_continue_button_Create.gml",
+      "name": "obj_continue_button_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_feedback_Draw.gml",
+      "name": "obj_db_symmetry_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_continue_Create.gml",
+      "name": "obj_reading_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_hide_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_hide_Draw.gml",
+      "name": "obj_behavior_hide_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_slider_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_slider_Step.gml",
+      "name": "obj_gt_slider_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_passage_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_passage_LeftPressed.gml",
+      "name": "obj_db_echo_passage_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_passage_Draw.gml",
+      "name": "obj_gt_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_continue_LeftPressed.gml",
+      "name": "obj_sl_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_choose_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_choose_Step.gml",
+      "name": "obj_gt_choose_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_choice_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_choice_Create.gml",
+      "name": "obj_quiz_choice_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_passage_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_passage_Create.gml",
+      "name": "obj_pb_passage_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_word_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_word_Step.gml",
+      "name": "obj_garden_word_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_prev_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_prev_Create.gml",
+      "name": "obj_chain_button_prev_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_write_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_write_submit_LeftPressed.gml",
+      "name": "obj_sl_write_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_continue_Draw.gml",
+      "name": "obj_sl_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_pulse_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_pulse_Draw.gml",
+      "name": "obj_sl_pulse_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_write_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_write_submit_Draw.gml",
+      "name": "obj_sl_write_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_continue_Draw.gml",
+      "name": "obj_kitch_button_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_bootstrap_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_bootstrap_Create.gml",
+      "name": "obj_bootstrap_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_pulse_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_pulse_Create.gml",
+      "name": "obj_sl_pulse_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_hide_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_hide_Create.gml",
+      "name": "obj_behavior_hide_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_continue_LeftPressed.gml",
+      "name": "obj_garden_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_passage_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_passage_Create.gml",
+      "name": "obj_fc_passage_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_slider_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_slider_Step.gml",
+      "name": "obj_db_balance_slider_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_check_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_check_Create.gml",
+      "name": "obj_arch_button_check_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_passage_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_passage_Create.gml",
+      "name": "obj_reading_passage_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_continue_LeftPressed.gml",
+      "name": "obj_gt_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_passage_MouseWheelUp.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_passage_MouseWheelUp.gml",
+      "name": "obj_quiz_passage_MouseWheelUp.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_slider_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_slider_Step.gml",
+      "name": "obj_kitch_slider_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_med_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_med_Create.gml",
+      "name": "obj_strength_med_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitchen_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitchen_controller_Draw.gml",
+      "name": "obj_kitchen_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_canvas_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_canvas_Draw.gml",
+      "name": "obj_db_balance_canvas_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_continue_Draw.gml",
+      "name": "obj_arch_button_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_submit_Create.gml",
+      "name": "obj_db_balance_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_continue_button_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_continue_button_LeftPressed.gml",
+      "name": "obj_continue_button_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_submit_LeftPressed.gml",
+      "name": "obj_pb_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_controller_Draw.gml",
+      "name": "obj_sym_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_controller_Step.gml",
+      "name": "obj_quiz_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_submit_Draw.gml",
+      "name": "obj_reading_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_passage_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_passage_LeftPressed.gml",
+      "name": "obj_pb_passage_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_low_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_low_Step.gml",
+      "name": "obj_strength_low_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_fold_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_fold_Create.gml",
+      "name": "obj_db_symmetry_fold_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_feedback_Draw.gml",
+      "name": "obj_mm_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_continue_Step.gml",
+      "name": "obj_sl_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_choice_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_choice_Step.gml",
+      "name": "obj_sl_choice_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_controller_Create.gml",
+      "name": "obj_reading_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_say_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_say_Draw.gml",
+      "name": "obj_behavior_say_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_passage_Draw.gml",
+      "name": "obj_fc_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_button_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_button_continue_Draw.gml",
+      "name": "obj_sym_button_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_choice_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_choice_Step.gml",
+      "name": "obj_quiz_choice_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_center_canvas_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_center_canvas_Draw.gml",
+      "name": "obj_db_center_canvas_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_submit_Draw.gml",
+      "name": "obj_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_choice_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_choice_Create.gml",
+      "name": "obj_sl_choice_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_slider_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_slider_Draw.gml",
+      "name": "obj_kitch_slider_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_choose_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_choose_Create.gml",
+      "name": "obj_gt_choose_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_question_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_question_Draw.gml",
+      "name": "obj_fc_question_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_soundlab_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_soundlab_controller_Create.gml",
+      "name": "obj_soundlab_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_continue_Step.gml",
+      "name": "obj_gt_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_submit_LeftPressed.gml",
+      "name": "obj_chain_button_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_continue_Create.gml",
+      "name": "obj_sl_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_panel_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_panel_Draw.gml",
+      "name": "obj_museum_panel_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_continue_Step.gml",
+      "name": "obj_orch_button_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_submit_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_submit_LeftPressed.gml",
+      "name": "obj_reading_submit_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_next_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_next_LeftPressed.gml",
+      "name": "obj_chain_button_next_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_toggle_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_toggle_Draw.gml",
+      "name": "obj_pb_toggle_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitchen_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitchen_controller_Create.gml",
+      "name": "obj_kitchen_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_passage_Draw.gml",
+      "name": "obj_rg_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_feedback_Draw.gml",
+      "name": "obj_sl_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_choice_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_choice_Create.gml",
+      "name": "obj_rg_choice_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_controller_Create.gml",
+      "name": "obj_quiz_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_high_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_high_LeftPressed.gml",
+      "name": "obj_strength_high_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_continue_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_continue_LeftPressed.gml",
+      "name": "obj_arch_button_continue_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_continue_Draw.gml",
+      "name": "obj_gt_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_med_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_med_Step.gml",
+      "name": "obj_strength_med_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_feedback_Draw.gml",
+      "name": "obj_quiz_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_check_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_check_Draw.gml",
+      "name": "obj_rg_check_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_continue_Create.gml",
+      "name": "obj_orch_button_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_controller_Draw.gml",
+      "name": "obj_orch_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_passage_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_passage_Draw.gml",
+      "name": "obj_pb_passage_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_low_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_low_Create.gml",
+      "name": "obj_strength_low_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_continue_Step.gml",
+      "name": "obj_arch_button_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_question2_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_question2_LeftPressed.gml",
+      "name": "obj_fc_question2_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_check_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_check_Step.gml",
+      "name": "obj_db_echo_check_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_hide_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_hide_Step.gml",
+      "name": "obj_behavior_hide_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_controller_Draw.gml",
+      "name": "obj_chain_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_taste_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_taste_LeftPressed.gml",
+      "name": "obj_kitch_button_taste_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitchen_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitchen_controller_Step.gml",
+      "name": "obj_kitchen_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_continue_Draw.gml",
+      "name": "obj_orch_button_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_choice_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_choice_Draw.gml",
+      "name": "obj_sl_choice_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_right_slot_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_right_slot_Create.gml",
+      "name": "obj_mm_right_slot_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_lesson_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_lesson_controller_Create.gml",
+      "name": "obj_lesson_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_passage_MouseWheelDown.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_passage_MouseWheelDown.gml",
+      "name": "obj_quiz_passage_MouseWheelDown.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_check_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_check_Create.gml",
+      "name": "obj_rg_check_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_question_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_question_Draw.gml",
+      "name": "obj_reading_question_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_controller_Create.gml",
+      "name": "obj_chain_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_check_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_check_LeftPressed.gml",
+      "name": "obj_garden_check_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_say_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_say_Create.gml",
+      "name": "obj_behavior_say_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_submit_Create.gml",
+      "name": "obj_db_symmetry_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_slider_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_slider_Create.gml",
+      "name": "obj_kitch_slider_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_symmetry_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_symmetry_controller_Create.gml",
+      "name": "obj_db_symmetry_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_writebox_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_writebox_LeftPressed.gml",
+      "name": "obj_sl_writebox_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_submit_Draw.gml",
+      "name": "obj_fc_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_writebox_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_writebox_Draw.gml",
+      "name": "obj_sl_writebox_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_passage_MouseWheelDown.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_passage_MouseWheelDown.gml",
+      "name": "obj_reading_passage_MouseWheelDown.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_continue_Create.gml",
+      "name": "obj_garden_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_block_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_block_Step.gml",
+      "name": "obj_arch_block_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_slider_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_slider_Step.gml",
+      "name": "obj_orch_slider_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_ending_panel_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_ending_panel_Step.gml",
+      "name": "obj_gt_ending_panel_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_mm_left_token_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_mm_left_token_Create.gml",
+      "name": "obj_mm_left_token_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_submit_Create.gml",
+      "name": "obj_chain_button_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_translation_panel_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_translation_panel_Draw.gml",
+      "name": "obj_translation_panel_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_low_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_low_LeftPressed.gml",
+      "name": "obj_strength_low_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_choice_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_choice_LeftPressed.gml",
+      "name": "obj_quiz_choice_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_word_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_word_Draw.gml",
+      "name": "obj_garden_word_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_translation_panel_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_translation_panel_Step.gml",
+      "name": "obj_translation_panel_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_continue_Draw.gml",
+      "name": "obj_chain_button_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_next_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_next_Create.gml",
+      "name": "obj_chain_button_next_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_submit_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_submit_Draw.gml",
+      "name": "obj_chain_button_submit_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_passage_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_passage_Step.gml",
+      "name": "obj_quiz_passage_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_stem_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_stem_Draw.gml",
+      "name": "obj_quiz_stem_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_med_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_med_Draw.gml",
+      "name": "obj_strength_med_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_taste_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_taste_Draw.gml",
+      "name": "obj_kitch_button_taste_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_kitch_button_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_kitch_button_continue_Step.gml",
+      "name": "obj_kitch_button_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_pulse_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_pulse_Step.gml",
+      "name": "obj_sl_pulse_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_writebox_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_writebox_Create.gml",
+      "name": "obj_writebox_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_check_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_check_LeftPressed.gml",
+      "name": "obj_orch_button_check_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_check_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_check_LeftPressed.gml",
+      "name": "obj_db_echo_check_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_fold_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_fold_Create.gml",
+      "name": "obj_sym_fold_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_continue_button_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_continue_button_Step.gml",
+      "name": "obj_continue_button_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_submit_Create.gml",
+      "name": "obj_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_panel_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_panel_Create.gml",
+      "name": "obj_museum_panel_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_feedback_Draw.gml",
+      "name": "obj_db_echo_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_slider_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_slider_Create.gml",
+      "name": "obj_db_balance_slider_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_low_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_low_Draw.gml",
+      "name": "obj_strength_low_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_controller_Draw.gml",
+      "name": "obj_gt_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_orch_button_check_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_orch_button_check_Step.gml",
+      "name": "obj_orch_button_check_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_write_submit_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_write_submit_Step.gml",
+      "name": "obj_sl_write_submit_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_pb_toggle_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_pb_toggle_LeftPressed.gml",
+      "name": "obj_pb_toggle_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_controller_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_controller_Step.gml",
+      "name": "obj_arch_controller_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_feedback_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_feedback_Draw.gml",
+      "name": "obj_fc_feedback_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_choice_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_choice_LeftPressed.gml",
+      "name": "obj_rg_choice_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_continue_button_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_continue_button_Draw.gml",
+      "name": "obj_continue_button_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_continue_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_continue_Step.gml",
+      "name": "obj_museum_continue_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_textscroll_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_textscroll_Draw.gml",
+      "name": "obj_textscroll_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_check_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_check_LeftPressed.gml",
+      "name": "obj_museum_check_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_controller_Draw.gml",
+      "name": "obj_museum_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_writebox_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_writebox_Step.gml",
+      "name": "obj_sl_writebox_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_fc_feedback_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_fc_feedback_Create.gml",
+      "name": "obj_fc_feedback_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_show_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_show_Step.gml",
+      "name": "obj_behavior_show_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_chain_button_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_chain_button_continue_Create.gml",
+      "name": "obj_chain_button_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_button_check_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_button_check_LeftPressed.gml",
+      "name": "obj_arch_button_check_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_garden_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_garden_controller_Draw.gml",
+      "name": "obj_garden_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_block_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_block_Create.gml",
+      "name": "obj_arch_block_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_continue_Draw.gml",
+      "name": "obj_reading_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_reading_passage_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_reading_passage_Step.gml",
+      "name": "obj_reading_passage_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_check_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_check_Step.gml",
+      "name": "obj_museum_check_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_controller_Create.gml",
+      "name": "obj_arch_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_museum_continue_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_museum_continue_Draw.gml",
+      "name": "obj_museum_continue_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_say_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_say_LeftPressed.gml",
+      "name": "obj_behavior_say_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_continue_Create.gml",
+      "name": "obj_db_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_controller_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_controller_Draw.gml",
+      "name": "obj_arch_controller_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_button_continue_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_button_continue_Create.gml",
+      "name": "obj_sym_button_continue_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_check_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_check_LeftPressed.gml",
+      "name": "obj_rg_check_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_strength_high_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_strength_high_Draw.gml",
+      "name": "obj_strength_high_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_balance_slider_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_balance_slider_Draw.gml",
+      "name": "obj_db_balance_slider_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_db_echo_check_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_db_echo_check_Draw.gml",
+      "name": "obj_db_echo_check_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_feedback_panel_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_feedback_panel_Create.gml",
+      "name": "obj_feedback_panel_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_ending_panel_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_ending_panel_Create.gml",
+      "name": "obj_gt_ending_panel_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_arch_block_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_arch_block_Draw.gml",
+      "name": "obj_arch_block_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sl_write_submit_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sl_write_submit_Create.gml",
+      "name": "obj_sl_write_submit_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_slider_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_slider_Create.gml",
+      "name": "obj_gt_slider_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_rg_check_Step.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_rg_check_Step.gml",
+      "name": "obj_rg_check_Step.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_gt_controller_Create.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_gt_controller_Create.gml",
+      "name": "obj_gt_controller_Create.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_behavior_show_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_behavior_show_LeftPressed.gml",
+      "name": "obj_behavior_show_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_sym_fold_Draw.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_sym_fold_Draw.gml",
+      "name": "obj_sym_fold_Draw.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "obj_quiz_feedback_LeftPressed.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Objects/obj_quiz_feedback_LeftPressed.gml",
+      "name": "obj_quiz_feedback_LeftPressed.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_restoration_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_restoration_creation_code.gml",
+      "name": "room_restoration_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_museum_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_museum_creation_code.gml",
+      "name": "room_museum_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_book_center_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_book_center_creation_code.gml",
+      "name": "room_book_center_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_orchestra_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_orchestra_creation_code.gml",
+      "name": "room_orchestra_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_book_echo_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_book_echo_creation_code.gml",
+      "name": "room_book_echo_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_quiz_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_quiz_creation_code.gml",
+      "name": "room_quiz_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_kitchen_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_kitchen_creation_code.gml",
+      "name": "room_kitchen_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_soundlab_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_soundlab_creation_code.gml",
+      "name": "room_soundlab_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_garden_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_garden_creation_code.gml",
+      "name": "room_garden_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_book_symmetry_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_book_symmetry_creation_code.gml",
+      "name": "room_book_symmetry_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_reading_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_reading_creation_code.gml",
+      "name": "room_reading_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_lesson_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_lesson_creation_code.gml",
+      "name": "room_lesson_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_symmetry_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_symmetry_creation_code.gml",
+      "name": "room_symmetry_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_chain_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_chain_creation_code.gml",
+      "name": "room_chain_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_friction_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_friction_creation_code.gml",
+      "name": "room_friction_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_arch_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_arch_creation_code.gml",
+      "name": "room_arch_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_pattern_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_pattern_creation_code.gml",
+      "name": "room_pattern_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_bootstrap_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_bootstrap_creation_code.gml",
+      "name": "room_bootstrap_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_mixmatch_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_mixmatch_creation_code.gml",
+      "name": "room_mixmatch_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_book_balance_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_book_balance_creation_code.gml",
+      "name": "room_book_balance_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "room_gravity_creation_code.gml",
+      "CopyToMask": -1,
+      "filePath": "datafiles/Rooms/room_gravity_creation_code.gml",
+      "name": "room_gravity_creation_code.gml",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "chain_reaction.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/chain_reaction.jsonl",
+      "name": "chain_reaction.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "soundlab_rounds.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/soundlab_rounds.json",
+      "name": "soundlab_rounds.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "restoration_rounds.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/restoration_rounds.json",
+      "name": "restoration_rounds.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "symmetry_rounds.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/symmetry_rounds.json",
+      "name": "symmetry_rounds.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "tvtropes_char_slice.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/tvtropes_char_slice.jsonl",
+      "name": "tvtropes_char_slice.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "orchestra_rounds.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/orchestra_rounds.json",
+      "name": "orchestra_rounds.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "sources.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/sources.json",
+      "name": "sources.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "examples_by_seed.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/examples_by_seed.json",
+      "name": "examples_by_seed.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "index.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/index.json",
+      "name": "index.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "match_items.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/match_items.json",
+      "name": "match_items.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "word_garden_rounds.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/word_garden_rounds.json",
+      "name": "word_garden_rounds.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "character_full_master.seeder.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/character_full_master.seeder.json",
+      "name": "character_full_master.seeder.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "kitchen_recipes.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/kitchen_recipes.json",
+      "name": "kitchen_recipes.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "museum_rounds.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/museum_rounds.json",
+      "name": "museum_rounds.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "tvtropes_character_slice.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/tvtropes_character_slice.jsonl",
+      "name": "tvtropes_character_slice.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "aliases.json",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/aliases.json",
+      "name": "aliases.json",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "tv_as_ld_char.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/tv_as_ld_char.jsonl",
+      "name": "tv_as_ld_char.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "outcome_pairs.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/outcome_pairs.jsonl",
+      "name": "outcome_pairs.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "spot_the_pressure.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/quizzes/spot_the_pressure.jsonl",
+      "name": "spot_the_pressure.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "pattern_and_break.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/quizzes/pattern_and_break.jsonl",
+      "name": "pattern_and_break.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "outcome_dial.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/quizzes/outcome_dial.jsonl",
+      "name": "outcome_dial.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "say_show_hide.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/quizzes/say_show_hide.jsonl",
+      "name": "say_show_hide.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "tilt_the_room.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/quizzes/tilt_the_room.jsonl",
+      "name": "tilt_the_room.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    },
+    {
+      "$GMIncludedFile": "",
+      "%Name": "friction_check.jsonl",
+      "CopyToMask": -1,
+      "filePath": "datafiles/dataset/quizzes/friction_check.jsonl",
+      "name": "friction_check.jsonl",
+      "resourceType": "GMIncludedFile",
+      "resourceVersion": "2.0",
+      "tags": []
+    }
+  ],
+  "MetaData": {
+    "IDEVersion": "2024.8.1.218",
+    "PackageType": "yyp",
+    "PackageName": "com.ld.character",
+    "PackageDisplayName": "ld_character_game",
+    "AppID": "986d0f6d-0202-41a4-aecf-dce7f1bc2e27",
+    "UseAudioGroupDefault": true
+  },
+  "name": "ld_character_game",
+  "resources": [
+    {
+      "id": {
+        "name": "scr_api",
+        "path": "scripts/scr_api/scr_api.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_arcadeNextRound",
+        "path": "scripts/scr_arcadeNextRound/scr_arcadeNextRound.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_arch_check",
+        "path": "scripts/scr_arch_check/scr_arch_check.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_arch_load",
+        "path": "scripts/scr_arch_load/scr_arch_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_book_balance_score",
+        "path": "scripts/scr_book_balance_score/scr_book_balance_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_book_center_load",
+        "path": "scripts/scr_book_center_load/scr_book_center_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_book_center_score",
+        "path": "scripts/scr_book_center_score/scr_book_center_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_book_echo_check",
+        "path": "scripts/scr_book_echo_check/scr_book_echo_check.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_book_echo_load",
+        "path": "scripts/scr_book_echo_load/scr_book_echo_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_book_symmetry_score",
+        "path": "scripts/scr_book_symmetry_score/scr_book_symmetry_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_buildLabelIndexes",
+        "path": "scripts/scr_buildLabelIndexes/scr_buildLabelIndexes.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_chain_load",
+        "path": "scripts/scr_chain_load/scr_chain_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_chain_submit",
+        "path": "scripts/scr_chain_submit/scr_chain_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_character_grader_native",
+        "path": "scripts/scr_character_grader_native/scr_character_grader_native.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_character_grader_native_selftest",
+        "path": "scripts/scr_character_grader_native_selftest/scr_character_grader_native_selftest.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_detectSignals",
+        "path": "scripts/scr_detectSignals/scr_detectSignals.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_draw_longtext",
+        "path": "scripts/scr_draw_longtext/scr_draw_longtext.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_evaluateText",
+        "path": "scripts/scr_evaluateText/scr_evaluateText.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_friction_load",
+        "path": "scripts/scr_friction_load/scr_friction_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_friction_submit",
+        "path": "scripts/scr_friction_submit/scr_friction_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_garden_load",
+        "path": "scripts/scr_garden_load/scr_garden_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_garden_score",
+        "path": "scripts/scr_garden_score/scr_garden_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_garden_set_tier",
+        "path": "scripts/scr_garden_set_tier/scr_garden_set_tier.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_gate_next",
+        "path": "scripts/scr_gate_next/scr_gate_next.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_gateNext",
+        "path": "scripts/scr_gateNext/scr_gateNext.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_generateFeedback",
+        "path": "scripts/scr_generateFeedback/scr_generateFeedback.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_gravity_load",
+        "path": "scripts/scr_gravity_load/scr_gravity_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_gravity_submit",
+        "path": "scripts/scr_gravity_submit/scr_gravity_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_highlight_ranges_add",
+        "path": "scripts/scr_highlight_ranges_add/scr_highlight_ranges_add.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_highlight_ranges_draw",
+        "path": "scripts/scr_highlight_ranges_draw/scr_highlight_ranges_draw.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_highlight_ranges_init",
+        "path": "scripts/scr_highlight_ranges_init/scr_highlight_ranges_init.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_http",
+        "path": "scripts/scr_http/scr_http.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_json_read",
+        "path": "scripts/scr_json_read/scr_json_read.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_jsonl_read",
+        "path": "scripts/scr_jsonl_read/scr_jsonl_read.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_kitchen_load",
+        "path": "scripts/scr_kitchen_load/scr_kitchen_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_kitchen_score",
+        "path": "scripts/scr_kitchen_score/scr_kitchen_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_loadLesson",
+        "path": "scripts/scr_loadLesson/scr_loadLesson.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_longtext_layout_create",
+        "path": "scripts/scr_longtext_layout_create/scr_longtext_layout_create.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_mixmatch_load",
+        "path": "scripts/scr_mixmatch_load/scr_mixmatch_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_mixmatch_submit",
+        "path": "scripts/scr_mixmatch_submit/scr_mixmatch_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_mixmatchCheck",
+        "path": "scripts/scr_mixmatchCheck/scr_mixmatchCheck.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_museum_load",
+        "path": "scripts/scr_museum_load/scr_museum_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_museum_submit",
+        "path": "scripts/scr_museum_submit/scr_museum_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_net_config",
+        "path": "scripts/scr_net_config/scr_net_config.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_orch_apply_to_text",
+        "path": "scripts/scr_orch_apply_to_text/scr_orch_apply_to_text.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_orch_load",
+        "path": "scripts/scr_orch_load/scr_orch_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_orch_score",
+        "path": "scripts/scr_orch_score/scr_orch_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_pattern_load",
+        "path": "scripts/scr_pattern_load/scr_pattern_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_pattern_submit",
+        "path": "scripts/scr_pattern_submit/scr_pattern_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_quiz_load",
+        "path": "scripts/scr_quiz_load/scr_quiz_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_quiz_next",
+        "path": "scripts/scr_quiz_next/scr_quiz_next.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_quiz_submit",
+        "path": "scripts/scr_quiz_submit/scr_quiz_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_quiz_text_wrap",
+        "path": "scripts/scr_quiz_text_wrap/scr_quiz_text_wrap.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_readingroom_load",
+        "path": "scripts/scr_readingroom_load/scr_readingroom_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_readingroom_submit",
+        "path": "scripts/scr_readingroom_submit/scr_readingroom_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_restoration_apply",
+        "path": "scripts/scr_restoration_apply/scr_restoration_apply.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_restoration_load",
+        "path": "scripts/scr_restoration_load/scr_restoration_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_restoration_score",
+        "path": "scripts/scr_restoration_score/scr_restoration_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_showFeedback",
+        "path": "scripts/scr_showFeedback/scr_showFeedback.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_signal_pipeline",
+        "path": "scripts/scr_signal_pipeline/scr_signal_pipeline.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_soundlab_load",
+        "path": "scripts/scr_soundlab_load/scr_soundlab_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_soundlab_play",
+        "path": "scripts/scr_soundlab_play/scr_soundlab_play.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_soundlab_score_line",
+        "path": "scripts/scr_soundlab_score_line/scr_soundlab_score_line.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_soundlab_submit",
+        "path": "scripts/scr_soundlab_submit/scr_soundlab_submit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_submitText",
+        "path": "scripts/scr_submitText/scr_submitText.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_sym_load",
+        "path": "scripts/scr_sym_load/scr_sym_load.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_sym_score",
+        "path": "scripts/scr_sym_score/scr_sym_score.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_toggleTranslation",
+        "path": "scripts/scr_toggleTranslation/scr_toggleTranslation.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_vocab_allows",
+        "path": "scripts/scr_vocab_allows/scr_vocab_allows.yy"
+      }
+    }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [],
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "isScaled": true,
+      "loadType": 0,
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
+}
