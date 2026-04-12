@@ -1,0 +1,20 @@
+{
+  "$GMMainOptions": "",
+  "%Name": "Main",
+  "option_author": "",
+  "option_collision_compatibility": false,
+  "option_copy_on_write_enabled": true,
+  "option_draw_colour": 4294967295,
+  "option_gameguid": "59477bde-9c08-4c13-8791-fee3742bcb34",
+  "option_gameid": 0,
+  "option_mips_for_3d_textures": false,
+  "option_sci_usesci": false,
+  "option_spine_licence": false,
+  "option_steam_app_id": "0",
+  "option_template_description": "",
+  "option_template_icon": "",
+  "option_template_image": "",
+  "option_window_colour": 255,
+  "resourceType": "GMMainOptions",
+  "resourceVersion": "2.0"
+}
