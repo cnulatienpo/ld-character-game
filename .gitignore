@@ -18,11 +18,28 @@ Icon?
 # Python
 ########################
 .venv/
+venv/
+env/
+ENV/
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.egg-info/
+*.egg
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+site/
+pip-wheel-metadata/
+.ipynb_checkpoints/
 dist/
 build/
 
@@ -33,10 +50,23 @@ node_modules/
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+.pnpm-store/
 .cache/
 .next/
+.turbo/
+.eslintcache
+*.tsbuildinfo
 coverage/
 *.log
+
+########################
+# Env / secrets (local)
+########################
+.env
+.env.*
+!.env.example
+!.env.*.example
+.envrc
 
 ########################
 # GameMaker Studio 2
@@ -66,6 +96,8 @@ local_settings.yy
 *.swo
 *.orig
 *.bak
+*.pid
+*.pid.lock
 ld_patch.zip
 
 ########################

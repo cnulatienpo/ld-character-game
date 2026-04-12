@@ -18,6 +18,11 @@
 /// Customize the working directory as needed.
 
 function character_grade(_text, _concept, _behavior, _target_strength, _dialect_level, _unlocked_json_path) {
+    // Prefer native GML grader when available.
+    if (function_exists("character_grade_native")) {
+        return character_grade_native(_text, _concept, _behavior, _target_strength, _dialect_level, _unlocked_json_path);
+    }
+
     var working_dir = "character-grader";
     var input_path = working_dir + "/grader_in.json";
     var output_path = working_dir + "/grader_out.json";

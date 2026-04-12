@@ -42,6 +42,22 @@ global.lesson_feedback = "";
 global.grader_feedback = "";
 global.grader_feedback_compact = "";
 global.grader_pending = false;
+global.grader_unlocks_debug = "";
+global.feedback_ready = false;
+global.feedback_summary = "";
+global.feedback_scores = undefined;
+global.grader_scores = undefined;
+global.grader_full_report = undefined;
+
+// Native grader defaults.
+global.player_dialect_level = 1;
+global.behavior_choice = "say";
+global.strength_choice = "medium";
+
+// Optional runtime API override. Leave blank to use script default.
+if (!variable_global_exists("api_base_url")) {
+    global.api_base_url = "";
+}
 
 // Jump straight into the lesson room after setup completes.
 room_goto(room_lesson);
