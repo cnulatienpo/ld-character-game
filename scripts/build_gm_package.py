@@ -166,6 +166,7 @@ def build_project(script_resources: list[dict], included_files: list[dict]) -> N
         {
             "$GMMainOptions": "",
             "%Name": "Main",
+            "name": "Main",
             "option_author": "",
             "option_collision_compatibility": False,
             "option_copy_on_write_enabled": True,
@@ -193,6 +194,7 @@ def build_project(script_resources: list[dict], included_files: list[dict]) -> N
                 "$GMAudioGroup": "",
                 "%Name": "audiogroup_default",
                 "name": "audiogroup_default",
+                "targets": -1,
                 "resourceType": "GMAudioGroup",
                 "resourceVersion": "2.0",
             }

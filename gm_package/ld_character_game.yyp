@@ -6,6 +6,7 @@
       "$GMAudioGroup": "",
       "%Name": "audiogroup_default",
       "name": "audiogroup_default",
+      "targets": -1,
       "resourceType": "GMAudioGroup",
       "resourceVersion": "2.0"
     }

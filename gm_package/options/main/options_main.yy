@@ -1,6 +1,7 @@
 {
   "$GMMainOptions": "",
   "%Name": "Main",
+  "name": "Main",
   "option_author": "",
   "option_collision_compatibility": false,
   "option_copy_on_write_enabled": true,
