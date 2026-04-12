@@ -3,8 +3,10 @@
   "%Name": "ld_character_game",
   "AudioGroups": [
     {
-      "$GMAudioGroup": "",
+      "$GMAudioGroup": "v1",
       "%Name": "audiogroup_default",
+      "children": [],
+      "exportDir": "",
       "name": "audiogroup_default",
       "targets": -1,
       "resourceType": "GMAudioGroup",
@@ -12,11 +14,7 @@
     }
   ],
   "configs": {
-    "children": [
-      {
-        "name": "Default"
-      }
-    ],
+    "children": [],
     "name": "Default"
   },
   "defaultScriptType": 1,
@@ -30,6 +28,7 @@
       "path": "folders/Scripts.yy"
     }
   ],
+  "ForcedPrefabProjectReferences": [],
   "IncludedFiles": [
     {
       "$GMIncludedFile": "",
@@ -3462,13 +3461,10 @@
       "tags": []
     }
   ],
+  "isEcma": false,
+  "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2024.8.1.218",
-    "PackageType": "yyp",
-    "PackageName": "com.ld.character",
-    "PackageDisplayName": "ld_character_game",
-    "AppID": "7b1f8456-7549-480a-bf91-8c5bae4dc526",
-    "UseAudioGroupDefault": true
+    "IDEVersion": "2024.14.4.222"
   },
   "name": "ld_character_game",
   "resources": [
@@ -3890,6 +3886,7 @@
   "resourceType": "GMProject",
   "resourceVersion": "2.0",
   "RoomOrderNodes": [],
+  "templateType": "game",
   "TextureGroups": [
     {
       "$GMTextureGroup": "",
@@ -3897,8 +3894,11 @@
       "autocrop": true,
       "border": 2,
       "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
       "isScaled": true,
-      "loadType": 0,
+      "loadType": "default",
       "mipsToGenerate": 0,
       "name": "Default",
       "resourceType": "GMTextureGroup",

@@ -1,0 +1,2 @@
+global.submitted_text = "";
+
