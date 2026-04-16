@@ -1,0 +1,2175 @@
+{
+  "subject": "Archetypal Character",
+  "axis": "a",
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "2a.1",
+      "section": "examples",
+      "prompts": [
+        "List every character you’ve ever seen that felt like a type: hero, villain, mentor, trickster, etc. Do not stop at obvious ones—keep going.",
+        "Write out as many characters as you can and label what role they play without explaining why.",
+        "Write a long list of characters who feel similar even if they’re from completely different stories."
+      ]
+    },
+    {
+      "id": "2a.2",
+      "section": "examples",
+      "prompts": [
+        "Pick one archetype (hero, mentor, trickster, etc.) and list every version of it you’ve seen.",
+        "Write about characters who feel like the same type but behave differently.",
+        "List characters who change roles during a story. Do not explain—just list."
+      ]
+    },
+    {
+      "id": "2a.3",
+      "section": "examples",
+      "prompts": [
+        "Write a list of characters who push the story forward just by existing.",
+        "Write about characters who always cause problems or change things when they show up.",
+        "List characters who feel like they belong to a pattern, not just a single story."
+      ]
+    },
+    {
+      "id": "2a.4",
+      "section": "examples",
+      "prompts": [
+        "Write about characters who guide others without being the main focus.",
+        "List characters who feel like they represent something bigger than themselves.",
+        "Write a list of characters who feel predictable in a good way."
+      ]
+    },
+    {
+      "id": "2a.5",
+      "section": "examples",
+      "prompts": [
+        "Write a list of characters who feel familiar the moment you see them.",
+        "Write about characters you instantly understand without needing explanation.",
+        "List characters who feel like they could exist in any story."
+      ]
+    },
+    {
+      "id": "2a.6",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write everything you notice about how archetypal characters behave. Not what they are—what they do.",
+        "List physical, behavioral, and situational patterns that repeat across similar characters.",
+        "Write how different archetypes tend to act in scenes: how they enter, react, leave, or interrupt."
+      ]
+    },
+    {
+      "id": "2a.7",
+      "section": "examples",
+      "prompts": [
+        "Pick one archetype and write a quick version of it in three completely different settings.",
+        "Write three characters that feel like the same role but look completely different.",
+        "Write a list of archetypes you see in real life, not just fiction."
+      ]
+    },
+    {
+      "id": "2a.8",
+      "section": "unknown_or_missing_section",
+      "prompts": [
+        "Write everything you think archetypal characters are doing underneath the surface of a story.",
+        "Write about how certain characters always seem to control the direction of a scene.",
+        "Write a list of roles people fall into naturally in groups or situations."
+      ]
+    }
+  ]
+}
+{
+  "subject": "Character Decision Style",
+  "axis": "a",
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "3a.1",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you can about how you make decisions. Start small. Texts, food, leaving, staying. Do not stop when it feels repetitive.",
+        "List every way people hesitate, rush, avoid, or commit. Keep going past obvious answers.",
+        "Write moments where a decision happened before anything was said. Only describe behavior."
+      ]
+    },
+    {
+      "id": "3a.2",
+      "section": "examples",
+      "prompts": [
+        "Write a list of people you know and how they make decisions. No explanation—just behavior.",
+        "List characters whose decisions always follow a pattern.",
+        "Write out different ways people respond when they don’t know what to do."
+      ]
+    },
+    {
+      "id": "3a.3",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write about a moment where someone’s decision style changed the outcome of a situation.",
+        "Write about how hesitation or impulsiveness changes what happens next.",
+        "Write about how people reveal themselves when forced to choose."
+      ]
+    },
+    {
+      "id": "3a.4",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where someone avoids making a decision.",
+        "Write a character who decides too quickly and what that looks like.",
+        "Write a list of different decision styles you’ve seen in real life."
+      ]
+    },
+    {
+      "id": "3a.5",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write about what happens when someone refuses to choose.",
+        "Write about how repeated decisions build a pattern over time.",
+        "Write about how a single decision can reveal everything about a person."
+      ]
+    },
+    {
+      "id": "3a.6",
+      "section": "examples",
+      "prompts": [
+        "Write a scene where someone keeps delaying a decision.",
+        "Write a character who always chooses the safest option.",
+        "Write a moment where someone changes their mind mid-action."
+      ]
+    },
+    {
+      "id": "3a.7",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write about how decision habits create tension.",
+        "Write about how people repeat the same choices even when it hurts them.",
+        "Write about what breaks a decision pattern."
+      ]
+    },
+    {
+      "id": "3a.8",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where someone is forced to choose quickly.",
+        "Write a character who overthinks everything.",
+        "Write a sequence of decisions that slowly build pressure."
+      ]
+    },
+    {
+      "id": "3a.9",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write about how decision style affects relationships.",
+        "Write about how choices reveal fear or confidence.",
+        "Write about how different people react to the same choice."
+      ]
+    },
+    {
+      "id": "3a.10",
+      "section": "examples",
+      "prompts": [
+        "Write a character making a decision they regret immediately.",
+        "Write a moment where someone chooses nothing and lets events decide.",
+        "Write a list of decision mistakes you’ve seen people make."
+      ]
+    },
+    {
+      "id": "3a.11",
+      "section": "examples",
+      "prompts": [
+        "Write a character who always follows someone else’s lead.",
+        "Write a moment where someone makes a decision without thinking.",
+        "Write a list of ways people justify their choices after the fact."
+      ]
+    },
+    {
+      "id": "3a.12",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where someone knows the right choice but avoids it.",
+        "Write a character who always picks the hardest option.",
+        "Write a list of decision patterns you see in yourself."
+      ]
+    },
+    {
+      "id": "3a.13",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where someone is pressured into a decision.",
+        "Write a character who changes their decisions depending on who’s watching.",
+        "Write a list of ways people react after making a bad choice."
+      ]
+    },
+    {
+      "id": "3a.14",
+      "section": "tools_for_controlling_decision_style",
+      "prompts": [
+        "Write the same moment with three different decision styles: hesitation, impulsive, avoidance.",
+        "Write a scene where two characters face the same choice but act completely differently.",
+        "Write a moment where a character breaks their usual decision pattern."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "3a.15",
+      "subject": "Character Decision Style",
+      "section": "questions_to_ask_yourself_while_writing",
+      "prompts": [
+        "Write a long list of questions you could ask about how someone makes a decision. Keep going past the obvious. No answers—just questions.",
+        "Write questions that force you to notice behavior at the moment of choice: before, during, after. Fill a page with them.",
+        "Write the same question in as many different ways as possible until it gets sharper and more specific."
+      ]
+    },
+    {
+      "id": "3a.16",
+      "subject": "Character Decision Style",
+      "section": "examples",
+      "prompts": [
+        "Write a sequence of decisions one person makes over a short period. No explanation—just what they do.",
+        "Write three different people facing the same choice and show how each one handles it.",
+        "Write a moment where a decision is obvious but the character still avoids it."
+      ]
+    },
+
+    {
+      "id": "4a.1",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think character description is. Start simple, then push into what makes it feel real.",
+        "List every way you’ve seen characters physically described. Keep going until it feels repetitive, then keep going.",
+        "Write how description shows up in real life when you notice someone for the first time."
+      ]
+    },
+    {
+      "id": "4a.2",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write about a time a physical detail changed how you saw someone instantly.",
+        "Write about what gets lost when description is generic or flat.",
+        "Write how physical details can shape how you feel about a person without explanation."
+      ]
+    },
+    {
+      "id": "4a.3",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "examples",
+      "prompts": [
+        "Write a character using only physical description. No personality words.",
+        "Write a list of physical details that suggest something deeper without saying it.",
+        "Write a moment where description alone creates a feeling."
+      ]
+    },
+    {
+      "id": "4a.4",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "examples",
+      "prompts": [
+        "Write three different versions of the same character using different physical details.",
+        "Write a character using only movement and posture.",
+        "Write a description that slowly changes how the reader sees the character."
+      ]
+    },
+    {
+      "id": "4a.5",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose clothes say more than their actions.",
+        "Write a list of physical contradictions in a character.",
+        "Write a moment where description creates tension."
+      ]
+    },
+    {
+      "id": "4a.6",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "examples",
+      "prompts": [
+        "Write a character described in the most basic way possible.",
+        "Write a character described with too much detail—push it until it breaks.",
+        "Write a list of small physical details that feel more real than big ones."
+      ]
+    },
+    {
+      "id": "4a.7",
+      "subject": "Character Description (Body Logic Strength)",
+      "section": "strength_levels_low",
+      "prompts": [
+        "Write a character using only minimal, neutral description. Do not imply anything beyond what is visible.",
+        "Write a scene where the character is present but the description stays light and open.",
+        "Write a list of basic physical details that show someone without shaping how we feel about them."
+      ]
+    }
+  ]
+}
+{
+  "subject": "Character Description (Strength Levels)",
+  "axis": "a",
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "4a.8",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write a long list of simple, neutral physical details about people. No meaning, no interpretation—just what is visible.",
+        "Describe people you’ve seen today using only basic features and posture. Keep going until you run out.",
+        "Write physical descriptions that feel flat and open. Do not push the reader toward any feeling."
+      ]
+    },
+    {
+      "id": "4a.9",
+      "section": "examples",
+      "prompts": [
+        "Write three characters using only minimal description.",
+        "Write a list of descriptions that show a person but do not define them.",
+        "Write a scene where characters are present but barely described."
+      ]
+    },
+    {
+      "id": "4a.10",
+      "section": "examples",
+      "prompts": [
+        "Write the same character described in the simplest possible way.",
+        "Write descriptions that feel invisible—present but not noticeable.",
+        "Write a list of descriptions that do not create any strong reaction."
+      ]
+    },
+    {
+      "id": "4a.11",
+      "section": "strength_levels_medium",
+      "prompts": [
+        "Write a character where physical details start to suggest personality.",
+        "Write descriptions that guide the reader slightly toward a feeling without forcing it.",
+        "Write a list of details that begin to shape how someone is interpreted."
+      ]
+    },
+    {
+      "id": "4a.12",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write descriptions where each detail adds meaning, not just appearance.",
+        "Describe a character so the reader starts forming an opinion without being told directly.",
+        "Write a list of physical behaviors that hint at emotion or history."
+      ]
+    },
+    {
+      "id": "4a.13",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose body and movement suggest who they are.",
+        "Write a description that creates a clear impression without explaining it.",
+        "Write a scene where description quietly shapes the reader’s understanding."
+      ]
+    },
+    {
+      "id": "4a.14",
+      "section": "strength_levels_high",
+      "prompts": [
+        "Write a character where the description strongly controls how the reader feels.",
+        "Write a description that makes the reader react immediately—positive or negative.",
+        "Write a list of details that carry heavy meaning or symbolism."
+      ]
+    },
+    {
+      "id": "4a.15",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Describe a character in a way that leaves no ambiguity about how to read them.",
+        "Write a description that feels intense, loaded, and impossible to ignore.",
+        "Write physical details that clearly signal danger, power, or vulnerability."
+      ]
+    },
+    {
+      "id": "4a.16",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose appearance alone creates tension.",
+        "Write a description that dominates the scene and shapes everything around it.",
+        "Write a moment where description overrides everything else happening."
+      ]
+    },
+    {
+      "id": "4a.17",
+      "section": "tools_for_moving_between_levels",
+      "prompts": [
+        "Write the same character three times: low, medium, and high description strength.",
+        "Write a scene where description starts light and becomes intense over time.",
+        "Write a moment where you deliberately shift how strongly the reader is being guided."
+      ]
+    }
+  ]
+}
+{
+  "subject": "Character Flaw",
+  "axis": "a",
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "5a.1",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think a flaw is. Start with yourself, then other people, then characters. Keep going until it feels uncomfortable.",
+        "List as many flaws as you can think of. Not big ones—small, everyday ones. Push past the obvious.",
+        "Write moments where someone’s flaw showed up without them meaning it to."
+      ]
+    },
+    {
+      "id": "5a.2",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write how flaws show up physically or behaviorally. Not labels—what people do.",
+        "List behaviors that repeat even when they shouldn’t. Keep going until patterns start showing.",
+        "Write how a flaw looks in action, not explanation."
+      ]
+    },
+    {
+      "id": "5a.3",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose flaw shows up in everything they do.",
+        "Write a list of characters and the flaw you associate with them.",
+        "Write a moment where a flaw causes a problem without being named."
+      ]
+    },
+    {
+      "id": "5a.4",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write about a time a flaw made a situation worse.",
+        "Write how flaws create tension even in simple situations.",
+        "Write about how flaws make people predictable."
+      ]
+    },
+    {
+      "id": "5a.5",
+      "section": "examples",
+      "prompts": [
+        "Write a character repeating the same mistake.",
+        "Write a flaw that shows up in different situations but looks slightly different each time.",
+        "Write a moment where someone almost overcomes a flaw but doesn’t."
+      ]
+    },
+    {
+      "id": "5a.6",
+      "section": "spot_flaw_say",
+      "prompts": [
+        "Write a list of ways people directly admit their flaws out loud.",
+        "Write moments where someone says something that reveals more than they intended.",
+        "Write dialogue where a flaw is clearly stated without explanation."
+      ]
+    },
+    {
+      "id": "5a.7",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means for a flaw to be visible without being said.",
+        "List ways a flaw exists even when no one talks about it.",
+        "Write moments where the flaw is obvious but never spoken."
+      ]
+    },
+    {
+      "id": "5a.8",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that reveal a flaw without any dialogue.",
+        "List repeated actions that point to the same weakness.",
+        "Write how someone moves, reacts, or avoids things because of a flaw."
+      ]
+    },
+    {
+      "id": "5a.9",
+      "section": "spot_flaw_show",
+      "prompts": [
+        "Write a scene where the flaw is clear but never named.",
+        "Write a character making the same bad choice again without explanation.",
+        "Write a moment where the reader understands the flaw before the character does."
+      ]
+    },
+    {
+      "id": "5a.10",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think happens when a flaw controls behavior.",
+        "List ways flaws quietly shape decisions.",
+        "Write how a flaw exists even when nothing dramatic is happening."
+      ]
+    },
+    {
+      "id": "5a.11",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write small, everyday actions that reveal a flaw.",
+        "List subtle behaviors that hint at deeper problems.",
+        "Write a moment where a flaw appears in a calm, ordinary situation."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "5a.12",
+      "subject": "Character Flaw",
+      "section": "spot_flaw_consequences",
+      "prompts": [
+        "Write a moment where a character’s flaw causes a problem. Do not name the flaw—only show the result.",
+        "List consequences that happen when someone repeats the same mistake.",
+        "Write a chain of events where each outcome points back to the same flaw."
+      ]
+    },
+    {
+      "id": "5a.13",
+      "subject": "Character Flaw",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means for a flaw to create consequences.",
+        "List ways flaws don’t stay internal—they spill outward.",
+        "Write moments where a flaw becomes impossible to ignore."
+      ]
+    },
+    {
+      "id": "5a.14",
+      "subject": "Character Flaw",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write visible outcomes of flaws—arguments, failures, distance, tension.",
+        "List ways a flaw changes what happens next in a situation.",
+        "Write a moment where the consequence reveals the flaw clearly."
+      ]
+    },
+    {
+      "id": "5a.15",
+      "subject": "Character Flaw",
+      "section": "spot_flaw_reactions",
+      "prompts": [
+        "Write a scene where other people react to a flaw without naming it.",
+        "List ways people respond to someone’s repeated behavior.",
+        "Write a moment where someone gets frustrated with another person’s flaw."
+      ]
+    },
+    {
+      "id": "5a.16",
+      "subject": "Character Flaw",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means for a flaw to exist through other people’s reactions.",
+        "List ways flaws are easier to see from the outside.",
+        "Write moments where someone sees a flaw before the character does."
+      ]
+    },
+    {
+      "id": "5a.17",
+      "subject": "Character Flaw",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write reactions: eye rolls, silence, distance, arguments—anything that shows a flaw indirectly.",
+        "List behaviors people use when they’re tired of someone’s pattern.",
+        "Write a moment where a flaw is revealed only through someone else’s response."
+      ]
+    },
+
+    {
+      "id": "6a.1",
+      "subject": "Character Motivation",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think motivation is. Start with yourself. Then other people. Then characters.",
+        "List reasons people do things—big and small. Keep going past the obvious.",
+        "Write moments where someone acts for a reason that isn’t spoken."
+      ]
+    },
+    {
+      "id": "6a.2",
+      "subject": "Character Motivation",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write how motivation shows up through action, not explanation.",
+        "List behaviors that clearly point to a goal or desire.",
+        "Write a moment where what someone wants is obvious from what they do."
+      ]
+    },
+    {
+      "id": "6a.3",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character doing something for a clear reason.",
+        "Write a list of characters and what drives them.",
+        "Write a moment where someone acts with purpose."
+      ]
+    },
+    {
+      "id": "6a.4",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character doing something for a hidden reason.",
+        "Write a moment where the action and the motivation don’t match.",
+        "Write a list of conflicting motivations."
+      ]
+    },
+    {
+      "id": "6a.5",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character changing their behavior because of a goal.",
+        "Write a moment where someone pushes forward despite resistance.",
+        "Write a list of things people want but don’t say."
+      ]
+    },
+    {
+      "id": "6a.6",
+      "subject": "Character Motivation",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think happens when motivation is strong.",
+        "List ways motivation drives action repeatedly.",
+        "Write moments where motivation overrides everything else."
+      ]
+    },
+    {
+      "id": "6a.7",
+      "subject": "Character Motivation",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write visible signs of strong motivation.",
+        "List actions that clearly show someone wants something badly.",
+        "Write a moment where motivation shapes every choice."
+      ]
+    },
+    {
+      "id": "6a.8",
+      "subject": "Character Motivation",
+      "section": "spot_motivation_say",
+      "prompts": [
+        "Write dialogue where a character clearly states what they want.",
+        "List ways people directly say their goals.",
+        "Write a moment where motivation is obvious because it’s spoken."
+      ]
+    },
+    {
+      "id": "6a.9",
+      "subject": "Character Motivation",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write actions that support what someone says they want.",
+        "List behaviors that match stated motivation.",
+        "Write a moment where words and actions align."
+      ]
+    },
+    {
+      "id": "6a.10",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character chasing a goal directly.",
+        "Write a moment where someone explains why they’re acting.",
+        "Write a list of clear, stated motivations."
+      ]
+    },
+    {
+      "id": "6a.11",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose words and actions don’t match.",
+        "Write a moment where someone lies about what they want.",
+        "Write a list of false motivations."
+      ]
+    },
+    {
+      "id": "6a.12",
+      "subject": "Character Motivation",
+      "section": "spot_motivation_show",
+      "prompts": [
+        "Write a scene where motivation is clear but never spoken.",
+        "Write a character acting toward a goal without saying it.",
+        "Write a moment where the reader understands the desire before it’s stated."
+      ]
+    },
+    {
+      "id": "6a.13",
+      "subject": "Character Motivation",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write actions that reveal motivation indirectly.",
+        "List behaviors that point to a hidden goal.",
+        "Write a moment where repeated action reveals what someone wants."
+      ]
+    },
+    {
+      "id": "6a.14",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character pursuing something without explaining why.",
+        "Write a moment where motivation becomes clear through repetition.",
+        "Write a sequence of actions that slowly reveal a goal."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "6a.14",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character doing something over and over without saying why.",
+        "Write a sequence where actions slowly reveal what someone wants.",
+        "Write a list of repeated behaviors that point to the same goal."
+      ]
+    },
+    {
+      "id": "6a.15",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character acting in a way that doesn’t match what they say they want.",
+        "Write a moment where someone hides their true goal behind another action.",
+        "Write a list of actions that suggest a hidden reason."
+      ]
+    },
+    {
+      "id": "6a.16",
+      "subject": "Character Motivation",
+      "section": "spot_motivation_hide",
+      "prompts": [
+        "Write a scene where motivation is completely hidden but still felt.",
+        "Write a character doing something that doesn’t make sense at first.",
+        "Write a moment where the reader senses a goal before understanding it."
+      ]
+    },
+    {
+      "id": "6a.17",
+      "subject": "Character Motivation",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that disguise what someone really wants.",
+        "List ways people avoid revealing their true goals.",
+        "Write a moment where someone redirects attention away from what they want."
+      ]
+    },
+    {
+      "id": "6a.18",
+      "subject": "Character Motivation",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose real motivation is never stated.",
+        "Write a sequence where the truth comes out slowly through action.",
+        "Write a list of hidden motivations you’ve seen in real life."
+      ]
+    },
+
+    {
+      "id": "7a.1",
+      "subject": "Character Wound",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think a wound is. Start with yourself, then others, then characters.",
+        "List emotional or past experiences that still affect behavior.",
+        "Write moments where something from the past still controls the present."
+      ]
+    },
+    {
+      "id": "7a.2",
+      "subject": "Character Wound",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write how wounds show up in behavior, not explanation.",
+        "List reactions that feel too strong for the situation.",
+        "Write a moment where someone reacts because of something deeper."
+      ]
+    },
+    {
+      "id": "7a.3",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character reacting to something small like it’s big.",
+        "Write a moment where the past leaks into the present.",
+        "Write a list of behaviors that don’t match the situation."
+      ]
+    },
+    {
+      "id": "7a.4",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character avoiding something for no obvious reason.",
+        "Write a moment where someone overreacts.",
+        "Write a list of repeated emotional patterns."
+      ]
+    },
+    {
+      "id": "7a.5",
+      "subject": "Character Wound",
+      "section": "you_know_what_its_like",
+      "prompts": [
+        "Write everything you’ve experienced that still affects how you act.",
+        "Write moments where your reaction didn’t match the situation.",
+        "Write a list of things you avoid without fully knowing why."
+      ]
+    },
+    {
+      "id": "7a.6",
+      "subject": "Character Wound",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that repeat because something hasn’t been resolved.",
+        "List emotional triggers you’ve seen in people.",
+        "Write a moment where a reaction feels automatic."
+      ]
+    },
+    {
+      "id": "7a.7",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character reacting before thinking.",
+        "Write a moment where someone shuts down instead of responding.",
+        "Write a list of protective behaviors."
+      ]
+    },
+    {
+      "id": "7a.8",
+      "subject": "Character Wound",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when characters have no deeper reason for their behavior.",
+        "Write about stories where reactions feel empty or fake.",
+        "Write what’s missing when nothing connects to the past."
+      ]
+    },
+    {
+      "id": "7a.9",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character acting without any deeper cause.",
+        "Write a moment that feels hollow because nothing drives it.",
+        "Write a list of flat reactions."
+      ]
+    },
+    {
+      "id": "7a.10",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character with a hidden emotional trigger.",
+        "Write a moment where something small sets someone off.",
+        "Write a list of subtle emotional reactions."
+      ]
+    },
+    {
+      "id": "7a.11",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character protecting themselves without realizing it.",
+        "Write a moment where someone avoids vulnerability.",
+        "Write a list of defensive behaviors."
+      ]
+    },
+    {
+      "id": "7a.12",
+      "subject": "Character Wound",
+      "section": "examples",
+      "prompts": [
+        "Write a character repeating the same emotional pattern.",
+        "Write a moment where the past clearly shapes the present.",
+        "Write a list of emotional loops."
+      ]
+    },
+
+    {
+      "id": "8a.1",
+      "subject": "Character Change",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think change is. Start with yourself, then others, then characters.",
+        "List moments where someone changed even slightly.",
+        "Write about times where change almost happened but didn’t."
+      ]
+    },
+    {
+      "id": "8a.2",
+      "subject": "Character Change",
+      "section": "examples",
+      "prompts": [
+        "Write a character changing one small behavior.",
+        "Write a moment where someone realizes something.",
+        "Write a list of small shifts in behavior."
+      ]
+    },
+    {
+      "id": "8a.3",
+      "subject": "Character Change",
+      "section": "examples",
+      "prompts": [
+        "Write a character trying to change but failing.",
+        "Write a moment where change is resisted.",
+        "Write a list of patterns that are hard to break."
+      ]
+    },
+    {
+      "id": "8a.4",
+      "subject": "Character Change",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when nothing changes in a story.",
+        "Write about characters who stay the same no matter what.",
+        "Write what feels missing when there is no shift over time."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "8a.5",
+      "subject": "Character Change",
+      "section": "examples",
+      "prompts": [
+        "Write a character changing one small habit.",
+        "Write a moment where someone almost changes but stops.",
+        "Write a list of tiny shifts that add up over time."
+      ]
+    },
+    {
+      "id": "8a.6",
+      "subject": "Character Change",
+      "section": "examples",
+      "prompts": [
+        "Write a character changing in one situation but not another.",
+        "Write a moment where change happens without being noticed.",
+        "Write a list of behaviors that slowly evolve."
+      ]
+    },
+
+    {
+      "id": "9a.1",
+      "subject": "Conflict",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where two people want different things.",
+        "Write a scene where tension exists without argument.",
+        "Write a list of situations where conflict naturally happens."
+      ]
+    },
+    {
+      "id": "9a.2",
+      "subject": "Conflict",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write what happens when no one disagrees in a scene.",
+        "Write why tension makes a moment more interesting.",
+        "Write how conflict changes behavior."
+      ]
+    },
+    {
+      "id": "9a.3",
+      "subject": "Conflict",
+      "section": "examples",
+      "prompts": [
+        "Write a scene where one person pushes and the other resists.",
+        "Write a moment where conflict is subtle.",
+        "Write a list of different kinds of conflict."
+      ]
+    },
+    {
+      "id": "9a.4",
+      "subject": "Conflict",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write how conflict reveals what people want.",
+        "Write how pressure changes decisions.",
+        "Write what conflict exposes in behavior."
+      ]
+    },
+    {
+      "id": "9a.5",
+      "subject": "Conflict",
+      "section": "examples",
+      "prompts": [
+        "Write a character in conflict with themselves.",
+        "Write a moment where someone avoids conflict.",
+        "Write a list of internal conflicts."
+      ]
+    },
+    {
+      "id": "9a.6",
+      "subject": "Conflict",
+      "section": "why_it_matters",
+      "prompts": [
+        "Write what happens when conflict is unresolved.",
+        "Write how conflict builds over time.",
+        "Write how conflict creates change."
+      ]
+    },
+    {
+      "id": "9a.7",
+      "subject": "Conflict",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where conflict escalates.",
+        "Write a scene where conflict is hidden.",
+        "Write a list of escalating tensions."
+      ]
+    },
+    {
+      "id": "9a.8",
+      "subject": "Conflict",
+      "section": "tools_say_show_hide",
+      "prompts": [
+        "Write the same conflict three ways: said directly, shown through action, hidden.",
+        "Write a scene where one character speaks the conflict and the other hides it.",
+        "Write a moment where conflict is felt but never stated."
+      ]
+    },
+
+    {
+      "id": "10a.1",
+      "subject": "Identity",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think identity is. Start with yourself, then others.",
+        "List patterns that make someone feel like the same person over time.",
+        "Write moments where identity shows through behavior."
+      ]
+    },
+    {
+      "id": "10a.2",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write repeated behaviors that define a person.",
+        "List contradictions that still feel consistent.",
+        "Write a moment where identity is obvious without being named."
+      ]
+    },
+    {
+      "id": "10a.3",
+      "subject": "Identity",
+      "section": "spot_patterns_contradictions",
+      "prompts": [
+        "Write a character who acts the same across different situations.",
+        "Write a list of consistent patterns in behavior.",
+        "Write a character who contradicts themselves but still feels real."
+      ]
+    },
+    {
+      "id": "10a.4",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that repeat no matter the situation.",
+        "List habits that define someone.",
+        "Write a moment where identity shows through routine."
+      ]
+    },
+    {
+      "id": "10a.5",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write contradictions that still feel like the same person.",
+        "List ways people behave differently but stay consistent.",
+        "Write a moment where identity holds despite change."
+      ]
+    },
+    {
+      "id": "10a.6",
+      "subject": "Identity",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think makes someone recognizable as themselves.",
+        "List traits that persist over time.",
+        "Write moments where identity is tested."
+      ]
+    },
+    {
+      "id": "10a.7",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that signal identity instantly.",
+        "List ways identity shows without explanation.",
+        "Write a moment where someone is unmistakably themselves."
+      ]
+    },
+    {
+      "id": "10a.8",
+      "subject": "Identity",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose identity is clear in every action.",
+        "Write a moment where identity shapes a decision.",
+        "Write a list of recognizable character patterns."
+      ]
+    },
+    {
+      "id": "10a.9",
+      "subject": "Identity",
+      "section": "spot_self_recognition",
+      "prompts": [
+        "Write a moment where a character realizes something about themselves.",
+        "Write a moment where someone denies who they are.",
+        "Write a list of self-recognition or denial moments."
+      ]
+    },
+    {
+      "id": "10a.10",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that show awareness of self.",
+        "List ways people avoid seeing themselves clearly.",
+        "Write a moment where identity is confronted."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "10a.11",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that repeat no matter who someone is around.",
+        "List ways identity stays stable across situations.",
+        "Write a moment where someone acts exactly like themselves without trying."
+      ]
+    },
+    {
+      "id": "10a.12",
+      "subject": "Identity",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose identity is obvious through repetition.",
+        "Write a list of actions that define someone.",
+        "Write a moment where identity shows without explanation."
+      ]
+    },
+    {
+      "id": "10a.13",
+      "subject": "Identity",
+      "section": "spot_external_labels",
+      "prompts": [
+        "Write a moment where someone is labeled by others.",
+        "Write a list of labels people get assigned.",
+        "Write how someone reacts to being called something."
+      ]
+    },
+    {
+      "id": "10a.14",
+      "subject": "Identity",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means to be defined by others.",
+        "List ways identity is shaped by expectations.",
+        "Write moments where someone accepts or rejects a label."
+      ]
+    },
+    {
+      "id": "10a.15",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that change depending on how someone is seen.",
+        "List ways people perform or resist expectations.",
+        "Write a moment where someone reacts to being misunderstood."
+      ]
+    },
+    {
+      "id": "10a.16",
+      "subject": "Identity",
+      "section": "spot_rituals",
+      "prompts": [
+        "Write actions someone repeats that feel meaningful.",
+        "List rituals people do that define them.",
+        "Write a moment where a repeated action reveals identity."
+      ]
+    },
+    {
+      "id": "10a.17",
+      "subject": "Identity",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think rituals say about a person.",
+        "List actions that feel symbolic instead of practical.",
+        "Write moments where repetition creates meaning."
+      ]
+    },
+    {
+      "id": "10a.18",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that feel like habits but mean more.",
+        "List repeated actions that suggest identity.",
+        "Write a moment where a ritual carries emotional weight."
+      ]
+    },
+    {
+      "id": "10a.19",
+      "subject": "Identity",
+      "section": "examples",
+      "prompts": [
+        "Write a character defined by something they always do.",
+        "Write a moment where a repeated action reveals personality.",
+        "Write a list of symbolic habits."
+      ]
+    },
+    {
+      "id": "10a.20",
+      "subject": "Identity",
+      "section": "spot_reactions",
+      "prompts": [
+        "Write a moment where someone reacts strongly to something small.",
+        "Write how a character reacts under pressure.",
+        "Write a list of reactions that reveal identity."
+      ]
+    },
+    {
+      "id": "10a.21",
+      "subject": "Identity",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think reactions reveal about a person.",
+        "List ways identity shows under stress.",
+        "Write moments where reactions feel automatic."
+      ]
+    },
+    {
+      "id": "10a.22",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write physical and emotional reactions that define someone.",
+        "List ways people react differently to the same event.",
+        "Write a moment where reaction reveals identity instantly."
+      ]
+    },
+    {
+      "id": "10a.23",
+      "subject": "Identity",
+      "section": "spot_language",
+      "prompts": [
+        "Write how someone speaks in a way that defines them.",
+        "List phrases, tones, or habits of speech that reveal identity.",
+        "Write a moment where language shows who someone is."
+      ]
+    },
+    {
+      "id": "10a.24",
+      "subject": "Identity",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think language reveals about identity.",
+        "List ways people think or speak that feel consistent.",
+        "Write moments where voice reveals character."
+      ]
+    },
+    {
+      "id": "10a.25",
+      "subject": "Identity",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write dialogue patterns that feel unique to one person.",
+        "List ways internal voice shapes identity.",
+        "Write a moment where language reveals something hidden."
+      ]
+    },
+    {
+      "id": "10a.26",
+      "subject": "Identity",
+      "section": "examples",
+      "prompts": [
+        "Write a character whose identity is clear through how they speak.",
+        "Write a moment where voice contradicts action.",
+        "Write a list of distinct speaking styles."
+      ]
+    },
+
+    {
+      "id": "11a.1",
+      "subject": "Character Dynamics",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think happens between people in a scene.",
+        "List ways people affect each other.",
+        "Write moments where one person changes another."
+      ]
+    },
+    {
+      "id": "11a.2",
+      "subject": "Character Dynamics",
+      "section": "you_know_what_its_like",
+      "prompts": [
+        "Write everything you’ve experienced in interactions with others.",
+        "Write moments where someone changed your behavior instantly.",
+        "Write a list of ways people influence each other."
+      ]
+    },
+    {
+      "id": "11a.3",
+      "subject": "Character Dynamics",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when characters don’t affect each other.",
+        "Write about scenes where interactions feel empty.",
+        "Write what’s missing when relationships don’t change anything."
+      ]
+    },
+    {
+      "id": "11a.4",
+      "subject": "Character Dynamics",
+      "section": "examples",
+      "prompts": [
+        "Write a scene where one character shifts another’s behavior.",
+        "Write a moment where tension comes from interaction.",
+        "Write a list of relationship dynamics."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "11a.5",
+      "subject": "Character Dynamics",
+      "section": "spot_symbolic_character",
+      "prompts": [
+        "Write moments where one person represents something bigger in a group.",
+        "List characters who feel like they carry meaning beyond themselves.",
+        "Write a scene where one character shapes the tone of everyone else."
+      ]
+    },
+
+    {
+      "id": "12a.1",
+      "subject": "Narrative Devices",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where something in the scene represents more than itself.",
+        "Write a list of objects, places, or people that feel symbolic.",
+        "Write a scene where meaning comes from something indirect."
+      ]
+    },
+
+    {
+      "id": "13a.1",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think writing looks like on the page.",
+        "List how sentences move, break, pause, or continue.",
+        "Write different ways language can feel without changing meaning."
+      ]
+    },
+    {
+      "id": "13a.2",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write sentences that feel fast, then slow, then broken.",
+        "List ways structure changes how something feels.",
+        "Write a moment where pacing comes from sentence shape."
+      ]
+    },
+    {
+      "id": "13a.3",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write the same sentence in three different ways.",
+        "Write a paragraph that feels rushed.",
+        "Write a paragraph that feels slow and heavy."
+      ]
+    },
+    {
+      "id": "13a.4",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write sentences that feel controlled versus chaotic.",
+        "List ways punctuation changes rhythm.",
+        "Write a moment where structure carries meaning."
+      ]
+    },
+    {
+      "id": "13a.5",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph with very short sentences.",
+        "Write a paragraph with long flowing sentences.",
+        "Write a mix that changes over time."
+      ]
+    },
+    {
+      "id": "13a.6",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph where punctuation creates tension.",
+        "Write sentences that feel like hesitation.",
+        "Write sentences that feel like certainty."
+      ]
+    },
+    {
+      "id": "13a.7",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a moment where structure mimics emotion.",
+        "Write a paragraph that feels unstable.",
+        "Write a list of different sentence rhythms."
+      ]
+    },
+    {
+      "id": "13a.8",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph that speeds up over time.",
+        "Write a paragraph that slows down.",
+        "Write a paragraph that breaks apart."
+      ]
+    },
+    {
+      "id": "13a.9",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write sentences that feel neutral.",
+        "Write sentences that feel emotional.",
+        "Write sentences that feel distant."
+      ]
+    },
+    {
+      "id": "13a.10",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "you_know_what_its_like",
+      "prompts": [
+        "Write how writing feels when you’re tired, rushed, or focused.",
+        "Write moments where your writing changes without you noticing.",
+        "Write a list of ways your writing style shifts."
+      ]
+    },
+    {
+      "id": "13a.11",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph that reflects your current mood.",
+        "Write a paragraph that hides your mood.",
+        "Write a paragraph that exaggerates your mood."
+      ]
+    },
+    {
+      "id": "13a.12",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph that feels controlled.",
+        "Write a paragraph that feels messy.",
+        "Write a paragraph that shifts between the two."
+      ]
+    },
+    {
+      "id": "13a.13",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when all sentences feel the same.",
+        "Write a paragraph with no variation in rhythm.",
+        "Write what feels missing when structure doesn’t change."
+      ]
+    },
+    {
+      "id": "13a.14",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a flat paragraph with no variation.",
+        "Write the same paragraph with variation.",
+        "Compare the difference through writing, not explanation."
+      ]
+    },
+    {
+      "id": "13a.15",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph where sentence length controls pacing.",
+        "Write a paragraph where punctuation creates pauses.",
+        "Write a paragraph that feels like motion."
+      ]
+    },
+    {
+      "id": "13a.16",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph that builds tension through structure.",
+        "Write a paragraph that releases tension.",
+        "Write a paragraph that oscillates between both."
+      ]
+    },
+    {
+      "id": "13a.17",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write sentences that feel fragmented.",
+        "Write sentences that feel complete.",
+        "Write a mix that changes tone."
+      ]
+    },
+    {
+      "id": "13a.18",
+      "subject": "Grammar / Sentence Behavior",
+      "section": "examples",
+      "prompts": [
+        "Write a paragraph where structure mirrors action.",
+        "Write a paragraph where structure contradicts action.",
+        "Write a paragraph where structure is the main focus."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "14a.1",
+      "subject": "Character Drive",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means for someone to push forward.",
+        "List ways people act when they really want something.",
+        "Write moments where someone refuses to stop."
+      ]
+    },
+    {
+      "id": "14a.2",
+      "subject": "Character Drive",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that show persistence.",
+        "List actions that repeat despite resistance.",
+        "Write a moment where someone keeps going no matter what."
+      ]
+    },
+    {
+      "id": "14a.3",
+      "subject": "Character Drive",
+      "section": "examples",
+      "prompts": [
+        "Write a character pushing toward a goal.",
+        "Write a moment where someone won’t let something go.",
+        "Write a list of driven behaviors."
+      ]
+    },
+    {
+      "id": "14a.4",
+      "subject": "Character Drive",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write actions that feel relentless.",
+        "List ways people show determination physically.",
+        "Write a moment where drive overrides everything else."
+      ]
+    },
+    {
+      "id": "14a.5",
+      "subject": "Character Drive",
+      "section": "examples",
+      "prompts": [
+        "Write a character repeating effort over and over.",
+        "Write a moment where someone refuses to quit.",
+        "Write a list of stubborn actions."
+      ]
+    },
+
+    {
+      "id": "14a.6",
+      "subject": "Character Drive",
+      "section": "spot_declare",
+      "prompts": [
+        "Write dialogue where someone clearly states what they’re going after.",
+        "List ways people declare intent out loud.",
+        "Write a moment where drive is obvious because it’s spoken."
+      ]
+    },
+    {
+      "id": "14a.7",
+      "subject": "Character Drive",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means to declare intent.",
+        "List moments where saying something changes everything.",
+        "Write how speaking a goal creates pressure."
+      ]
+    },
+    {
+      "id": "14a.8",
+      "subject": "Character Drive",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that support what someone says they’ll do.",
+        "List ways people commit publicly.",
+        "Write a moment where words lock someone into action."
+      ]
+    },
+
+    {
+      "id": "14a.9",
+      "subject": "Character Drive",
+      "section": "spot_demonstrate",
+      "prompts": [
+        "Write a scene where drive is shown through action only.",
+        "Write a character proving what they want without saying it.",
+        "Write a moment where effort reveals intent."
+      ]
+    },
+    {
+      "id": "14a.10",
+      "subject": "Character Drive",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means to show drive instead of say it.",
+        "List actions that speak louder than words.",
+        "Write moments where effort defines intention."
+      ]
+    },
+    {
+      "id": "14a.11",
+      "subject": "Character Drive",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write repeated actions that clearly show commitment.",
+        "List behaviors that prove someone means it.",
+        "Write a moment where effort becomes undeniable."
+      ]
+    },
+
+    {
+      "id": "14a.12",
+      "subject": "Character Drive",
+      "section": "spot_doubt",
+      "prompts": [
+        "Write a moment where someone hesitates despite wanting something.",
+        "Write a character losing confidence mid-action.",
+        "Write a list of behaviors that show uncertainty."
+      ]
+    },
+    {
+      "id": "14a.13",
+      "subject": "Character Drive",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think doubt does to drive.",
+        "List ways hesitation weakens action.",
+        "Write moments where someone almost stops."
+      ]
+    },
+    {
+      "id": "14a.14",
+      "subject": "Character Drive",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write actions that start strong and weaken.",
+        "List physical signs of doubt.",
+        "Write a moment where someone pulls back."
+      ]
+    },
+
+    {
+      "id": "14a.15",
+      "subject": "Character Drive",
+      "section": "spot_defy",
+      "prompts": [
+        "Write a moment where someone pushes forward despite resistance.",
+        "Write a character ignoring pressure to stop.",
+        "Write a list of actions that go against obstacles."
+      ]
+    },
+    {
+      "id": "14a.16",
+      "subject": "Character Drive",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means to defy something.",
+        "List moments where resistance creates stronger drive.",
+        "Write how pushing back changes behavior."
+      ]
+    },
+    {
+      "id": "14a.17",
+      "subject": "Character Drive",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write actions that resist pressure directly.",
+        "List ways people fight against limits.",
+        "Write a moment where someone refuses to bend."
+      ]
+    },
+    {
+      "id": "14a.18",
+      "subject": "Character Drive",
+      "section": "examples",
+      "prompts": [
+        "Write a character moving forward through all four states: declare, demonstrate, doubt, defy.",
+        "Write a sequence where drive rises, falls, and rises again.",
+        "Write a list of escalating effort."
+      ]
+    },
+
+    {
+      "id": "15a.1",
+      "subject": "Theme / Meaning",
+      "section": "you_know_what_its_like",
+      "prompts": [
+        "Write everything you care about strongly enough to say out loud.",
+        "Write moments where something felt meaningful to you.",
+        "Write a list of things you believe or react to."
+      ]
+    },
+    {
+      "id": "15a.2",
+      "subject": "Theme / Meaning",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when a story has nothing to say.",
+        "Write about moments that feel empty or pointless.",
+        "Write what’s missing when nothing matters."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "15a.3",
+      "subject": "Theme / Meaning",
+      "section": "examples",
+      "prompts": [
+        "Write a moment that clearly reflects something you believe.",
+        "Write a scene where meaning comes through action, not explanation.",
+        "Write a list of moments that feel important without knowing why."
+      ]
+    },
+    {
+      "id": "15a.4",
+      "subject": "Theme / Meaning",
+      "section": "spot_dynamic_character",
+      "prompts": [
+        "Write a character who changes in a way that reflects something bigger.",
+        "Write a moment where behavior shifts because something matters.",
+        "Write a list of characters who evolve over time."
+      ]
+    },
+
+    {
+      "id": "16a.1",
+      "subject": "Flat Character",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think a flat character is.",
+        "List characters who never change.",
+        "Write moments where behavior stays the same no matter what."
+      ]
+    },
+    {
+      "id": "16a.2",
+      "subject": "Flat Character",
+      "section": "you_know_what_its_like",
+      "prompts": [
+        "Write about people who always act the same.",
+        "Write moments where nothing affects someone.",
+        "Write a list of predictable behaviors."
+      ]
+    },
+    {
+      "id": "16a.3",
+      "subject": "Flat Character",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when nothing changes in a character.",
+        "Write about scenes where behavior feels stuck.",
+        "Write what’s missing when there is no shift."
+      ]
+    },
+    {
+      "id": "16a.4",
+      "subject": "Flat Character",
+      "section": "examples",
+      "prompts": [
+        "Write a character who reacts the same in every situation.",
+        "Write a moment where nothing affects someone.",
+        "Write a list of static behaviors."
+      ]
+    },
+    {
+      "id": "16a.5",
+      "subject": "Flat Character",
+      "section": "spot_flat_character",
+      "prompts": [
+        "Write a character whose behavior never evolves.",
+        "Write a moment where someone ignores everything happening around them.",
+        "Write a list of characters who feel unchanged."
+      ]
+    },
+    {
+      "id": "16a.6",
+      "subject": "Flat Character",
+      "section": "spot_flat_character_expanded",
+      "prompts": [
+        "Write a sequence where events happen but the character doesn’t respond meaningfully.",
+        "Write a moment where growth should happen but doesn’t.",
+        "Write a list of missed opportunities for change."
+      ]
+    },
+
+    {
+      "id": "17a.1",
+      "subject": "Mentor",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think a mentor does.",
+        "List people who guide others.",
+        "Write moments where someone shows another person the way."
+      ]
+    },
+    {
+      "id": "17a.2",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that feel like guidance.",
+        "List ways someone helps without taking over.",
+        "Write a moment where someone points someone else forward."
+      ]
+    },
+    {
+      "id": "17a.3",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write actions that create growth in someone else.",
+        "List ways people influence change indirectly.",
+        "Write a moment where someone teaches without explaining."
+      ]
+    },
+    {
+      "id": "17a.4",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that challenge someone to grow.",
+        "List ways someone pushes another person.",
+        "Write a moment where guidance feels uncomfortable."
+      ]
+    },
+    {
+      "id": "17a.5",
+      "subject": "Mentor",
+      "section": "you_know_what_its_like",
+      "prompts": [
+        "Write about someone who changed how you think.",
+        "Write moments where someone helped you see something differently.",
+        "Write a list of people who shaped you."
+      ]
+    },
+    {
+      "id": "17a.6",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write subtle ways someone guides another person.",
+        "List actions that feel like direction without control.",
+        "Write a moment where influence is quiet but strong."
+      ]
+    },
+    {
+      "id": "17a.7",
+      "subject": "Mentor",
+      "section": "why_stories_fail",
+      "prompts": [
+        "Write what happens when no one helps the character grow.",
+        "Write about stories where guidance is missing.",
+        "Write what’s lost when no one challenges the main character."
+      ]
+    },
+    {
+      "id": "17a.8",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a mentor helping someone take action.",
+        "Write a moment where guidance changes behavior.",
+        "Write a list of mentoring actions."
+      ]
+    },
+    {
+      "id": "17a.9",
+      "subject": "Mentor",
+      "section": "spot_point_way",
+      "prompts": [
+        "Write a moment where someone clearly shows another person what to do.",
+        "Write a character pointing out a path.",
+        "Write a list of guiding moments."
+      ]
+    },
+    {
+      "id": "17a.10",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that clarify direction.",
+        "List ways people reveal solutions.",
+        "Write a moment where the path becomes clear."
+      ]
+    },
+    {
+      "id": "17a.11",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a mentor giving direction through action.",
+        "Write a moment where someone learns by watching.",
+        "Write a list of teaching moments."
+      ]
+    },
+    {
+      "id": "17a.12",
+      "subject": "Mentor",
+      "section": "spot_force_growth",
+      "prompts": [
+        "Write a moment where someone forces another person to grow.",
+        "Write a character pushing someone beyond comfort.",
+        "Write a list of situations where growth is unavoidable."
+      ]
+    }
+  ]
+}
+{
+  "pass": 1,
+  "chunks": [
+    {
+      "id": "17a.13",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors where someone subtly guides another person.",
+        "List ways someone influences without controlling.",
+        "Write a moment where direction is given indirectly."
+      ]
+    },
+    {
+      "id": "17a.14",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a mentor helping someone make a decision.",
+        "Write a moment where guidance shifts behavior.",
+        "Write a list of small mentoring actions."
+      ]
+    },
+    {
+      "id": "17a.15",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a mentor stepping in at the right moment.",
+        "Write a moment where advice changes direction.",
+        "Write a list of moments where someone intervenes."
+      ]
+    },
+    {
+      "id": "17a.16",
+      "subject": "Mentor",
+      "section": "spot_clarify_stakes",
+      "prompts": [
+        "Write a moment where someone makes the stakes clear.",
+        "Write a character explaining what’s at risk.",
+        "Write a list of moments where consequences become obvious."
+      ]
+    },
+    {
+      "id": "17a.17",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that make stakes feel real.",
+        "List ways someone increases pressure through clarity.",
+        "Write a moment where everything suddenly matters more."
+      ]
+    },
+    {
+      "id": "17a.18",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a mentor forcing someone to see consequences.",
+        "Write a moment where truth is made unavoidable.",
+        "Write a list of moments that raise stakes."
+      ]
+    },
+    {
+      "id": "17a.19",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a character realizing what’s really at risk.",
+        "Write a moment where pressure becomes undeniable.",
+        "Write a list of escalating stakes."
+      ]
+    },
+    {
+      "id": "17a.20",
+      "subject": "Mentor",
+      "section": "spot_they_dont_stay",
+      "prompts": [
+        "Write a moment where the mentor leaves.",
+        "Write a character losing guidance.",
+        "Write a list of moments where support disappears."
+      ]
+    },
+    {
+      "id": "17a.21",
+      "subject": "Mentor",
+      "section": "what_it_looks_like",
+      "prompts": [
+        "Write behaviors that show someone stepping away.",
+        "List ways guidance fades or ends.",
+        "Write a moment where someone is left alone to act."
+      ]
+    },
+    {
+      "id": "17a.22",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a character forced to act without help.",
+        "Write a moment where responsibility shifts.",
+        "Write a list of moments where someone stands alone."
+      ]
+    },
+    {
+      "id": "17a.23",
+      "subject": "Mentor",
+      "section": "examples",
+      "prompts": [
+        "Write a character continuing after losing guidance.",
+        "Write a moment where growth happens without support.",
+        "Write a list of independent actions."
+      ]
+    },
+
+    {
+      "id": "18a.1",
+      "subject": "Archetypal Force",
+      "section": "what_it_is",
+      "prompts": [
+        "Write everything you think it means for a character to act like a force in a scene.",
+        "List ways a character can shape everything around them.",
+        "Write moments where one presence changes everything."
+      ]
+    },
+    {
+      "id": "18a.2",
+      "subject": "Archetypal Force",
+      "section": "what_defines",
+      "prompts": [
+        "Write what makes a character feel larger than the scene.",
+        "List traits that give someone influence over others.",
+        "Write moments where a character defines the tone of a situation."
+      ]
+    },
+    {
+      "id": "18a.3",
+      "subject": "Archetypal Force",
+      "section": "strength_low",
+      "prompts": [
+        "Write a character who lightly influences a scene.",
+        "Write a moment where presence is subtle but noticeable.",
+        "Write a list of low-pressure influences."
+      ]
+    },
+    {
+      "id": "18a.4",
+      "subject": "Archetypal Force",
+      "section": "strength_medium",
+      "prompts": [
+        "Write a character actively shaping what happens.",
+        "Write a moment where influence is clear but not overwhelming.",
+        "Write a list of controlled impact."
+      ]
+    },
+    {
+      "id": "18a.5",
+      "subject": "Archetypal Force",
+      "section": "strength_high",
+      "prompts": [
+        "Write a character dominating a scene completely.",
+        "Write a moment where everything bends around one presence.",
+        "Write a list of overwhelming influence."
+      ]
+    },
+    {
+      "id": "18a.6",
+      "subject": "Archetypal Force",
+      "section": "tools_control_force",
+      "prompts": [
+        "Write the same scene with low, medium, and high influence.",
+        "Write a moment where a character’s presence increases over time.",
+        "Write a scene where influence shifts between characters."
+      ]
+    },
+    {
+      "id": "18a.7",
+      "subject": "Archetypal Force",
+      "section": "questions_tune_force",
+      "prompts": [
+        "Write questions you could ask to adjust how much a character affects a scene.",
+        "List ways to increase or decrease influence.",
+        "Write moments where changing one character changes everything."
+      ]
+    }
+  ]
+}
+{
+  "chunk_id": "1a.1",
+  "base_prompts": [...],
+  "stack_rules": [
+    {
+      "requires": ["2a"],
+      "add": "Include at least one archetypal role."
+    },
+    {
+      "requires": ["3a"],
+      "add": "Show how a decision pattern appears physically."
+    },
+    {
+      "requires": ["5a"],
+      "add": "Let a flaw appear through behavior."
+    }
+  ]
+}
