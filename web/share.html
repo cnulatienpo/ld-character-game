@@ -88,7 +88,11 @@
     <section class="share-panel">
       <h2>Copy &amp; post</h2>
       <p>Share this blurb anywhere you hang out online:</p>
-      <textarea readonly onclick="this.select()">I’m scheming on Literary Deviousness — a live character-writing game that grades your cleverness in real time. Join me: https://projectsfromtheprojects.com</textarea>
+      <textarea id="input" onclick="this.select()">I’m scheming on Literary Deviousness — a live character-writing game that grades your cleverness in real time. Join me: https://projectsfromtheprojects.com</textarea>
+      <div style="display:flex; gap:0.75rem; margin-top:0.75rem;">
+        <button id="save-btn" class="btn" type="button">Save</button>
+        <button id="load-btn" class="btn" type="button">Load</button>
+      </div>
       <div class="share-actions">
         <a class="btn primary" href="game/">Play Now</a>
         <a class="btn" href="api.html">API Docs</a>
@@ -103,5 +107,25 @@
       <a href="privacy.html">Privacy</a>
     </nav>
   </footer>
+
+  <script>
+    const inputEl = document.getElementById("input");
+    const saveBtn = document.getElementById("save-btn");
+    const loadBtn = document.getElementById("load-btn");
+
+    saveBtn.addEventListener("click", () => {
+      localStorage.setItem("ld_simple_save", inputEl.value);
+    });
+
+    loadBtn.addEventListener("click", () => {
+      const savedText = localStorage.getItem("ld_simple_save");
+      if (savedText !== null) {
+        inputEl.value = savedText;
+      }
+      if (typeof render === "function") {
+        render();
+      }
+    });
+  </script>
 </body>
 </html>
