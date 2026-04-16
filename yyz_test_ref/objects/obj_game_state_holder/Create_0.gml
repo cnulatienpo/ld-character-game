@@ -1,2 +1,0 @@
-global.submitted_text = "";
-
