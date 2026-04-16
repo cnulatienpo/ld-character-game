@@ -1,0 +1,80 @@
+{
+  "version": "2.1",
+  "mode": "behavior-first",
+
+  "pass_conditions": {
+    "min_words": 30,
+    "min_lines": 3,
+    "require_any": [
+      "has_action",
+      "has_reaction",
+      "has_repetition"
+    ]
+  },
+
+  "signals": {
+    "has_action": {
+      "patterns": [
+        "\\b\\w+ed\\b",
+        "\\b\\w+ing\\b"
+      ]
+    },
+    "has_reaction": {
+      "patterns": [
+        "then",
+        "again",
+        "stops",
+        "pauses",
+        "looks",
+        "turns",
+        "waits"
+      ]
+    },
+    "has_repetition": {
+      "patterns": [
+        "again",
+        "still",
+        "keeps",
+        "again and again",
+        "over and over"
+      ]
+    },
+    "has_sequence": {
+      "patterns": [
+        "then",
+        "after",
+        "before",
+        "next",
+        "finally"
+      ]
+    },
+    "has_other_person": {
+      "patterns": [
+        "he",
+        "she",
+        "they",
+        "him",
+        "her",
+        "them"
+      ]
+    }
+  },
+
+  "strength_tiers": {
+    "low": {
+      "requires": ["has_action"]
+    },
+    "medium": {
+      "requires": ["has_action", "has_reaction"]
+    },
+    "high": {
+      "requires": ["has_action", "has_reaction", "has_repetition"]
+    }
+  },
+
+  "evaluation": {
+    "pass_logic": "volume_and_any_signal",
+    "strength_logic": "tier_match",
+    "allow_partial": true
+  }
+}
